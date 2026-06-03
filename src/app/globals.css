@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: oklch(0.17 0.02 247);
+  --night-2: oklch(0.13 0.02 247);
+  --sand: oklch(0.91 0.02 82);
+  --ink: oklch(0.91 0.01 250);
+  --muted: oklch(0.71 0.02 70);
+  --muted-bright: oklch(0.82 0.02 65);
+  --clay: oklch(0.66 0.09 46);
+}
+
+@theme inline {
+  --font-display: var(--font-display);
+  --font-sans: var(--font-body);
+  --color-background: var(--canvas);
+  --color-foreground: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, rgba(154, 108, 84, 0.18), transparent 28%),
+    linear-gradient(180deg, rgba(6, 9, 15, 1), rgba(14, 18, 28, 1));
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.section-space {
+  padding-block: clamp(4.5rem, 8vw, 7rem);
+}
+
+.eyebrow {
+  color: var(--clay);
+  font-size: 0.74rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  max-width: 14ch;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(2.3rem, 6vw, 4.9rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+  color: var(--sand);
+}
+
+.section-copy {
+  max-width: 60ch;
+  color: var(--muted-bright);
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.35rem;
+  padding: 0.85rem 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease;
+}
+
+.button-primary {
+  background: var(--clay);
+  color: var(--sand);
+}
+
+.button-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--sand);
+}
+
+.button-primary:hover,
+.button-secondary:hover {
+  transform: translateY(-1px);
+}
+
+.field {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--sand);
+  padding: 0.95rem 1rem;
+  outline: none;
+}
+
+.field::placeholder {
+  color: var(--muted);
+}
