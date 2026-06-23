@@ -1,0 +1,56 @@
+name: Weekly Apollo Partner Refresh
+
+on:
+  schedule:
+    # 6:00 AM Pacific on Mondays during PDT (13:00 UTC)
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+
+jobs:
+  refresh-partners:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh partner inventory from Apollo
+        shell: bash
+        env:
+          BASE_URL: ${{ secrets.ECONSTRUCT_BASE_URL }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          set -euo pipefail
+
+          BASE_URL="${BASE_URL:-https://econstructhomes.com}"
+          if [[ -z "${CRON_SECRET:-}" ]]; then
+            echo "CRON_SECRET secret is missing"
+            exit 1
+          fi
+
+          auth_header=$(printf '%s%s%s' 'Authorization:' ' Bearer ' "$CRON_SECRET")
+
+          post() {
+            local path="$1"
+            echo "==> POST ${path}"
+            curl -fsS -X POST -H "$auth_header" "${BASE_URL}${path}"
+            echo
+          }
+
+          partner_types=(
+            "Realtor / Real Estate Agent"
+            "Real Estate Attorney"
+            "Architect"
+            "Interior Designer"
+            "Insurance Agent / Adjuster"
+            "Expediter / Permit Runner"
+            "CPA / Wealth Advisor"
+            "Escrow Officer"
+            "Structural / Geotech Engineer"
+            "Fire / Water Restoration"
+          )
+
+          for partner_type in "${partner_types[@]}"; do
+            encoded_partner_type=$(PARTNER_TYPE="$partner_type" python -c 'import os, urllib.parse; print(urllib.parse.quote(os.environ["PARTNER_TYPE"], safe=""))')
+            echo "==> POST /api/agents/partner-refresh?partner_type=${partner_type}"
+            curl -fsS -X POST -H "$auth_header" "${BASE_URL}/api/agents/partner-refresh?partner_type=${encoded_partner_type}"
+            echo
+          done
+
+          echo "partner-enroll is handled separately by agent-crons.yml"

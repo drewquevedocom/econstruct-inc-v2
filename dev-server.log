@@ -1,0 +1,116 @@
+
+> econstruct@0.1.0 dev
+> next dev --turbo --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+✓ Ready in 10.5s
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+ GET / 200 in 4.1s (next.js: 2.5s, proxy.ts: 150ms, application-code: 1421ms)
+ GET / 200 in 310ms (next.js: 7ms, proxy.ts: 6ms, application-code: 297ms)
+ GET / 200 in 511ms (next.js: 26ms, proxy.ts: 21ms, application-code: 464ms)
+✓ Compiled in 553ms
+ GET / 200 in 562ms (next.js: 221ms, proxy.ts: 67ms, application-code: 274ms)
+✓ Compiled in 401ms
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 946ms (next.js: 428ms, proxy.ts: 47ms, application-code: 471ms)
+ GET / 200 in 380ms (next.js: 17ms, proxy.ts: 10ms, application-code: 352ms)
+ GET / 200 in 380ms (next.js: 172ms, proxy.ts: 10ms, application-code: 198ms)
+ GET / 200 in 1989ms (next.js: 572ms, proxy.ts: 80ms, application-code: 1337ms)
+ GET / 200 in 1122ms (next.js: 19ms, proxy.ts: 46ms, application-code: 1056ms)
+✓ Compiled in 187ms
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 581ms (next.js: 17ms, proxy.ts: 19ms, application-code: 545ms)
+ GET / 200 in 581ms (next.js: 181ms, proxy.ts: 18ms, application-code: 381ms)
+ GET / 200 in 581ms (next.js: 331ms, proxy.ts: 18ms, application-code: 232ms)
+ GET / 200 in 1487ms (next.js: 658ms, proxy.ts: 21ms, application-code: 808ms)
+ GET / 200 in 2.0s (next.js: 216ms, proxy.ts: 52ms, application-code: 1742ms)
+ GET / 200 in 1715ms (next.js: 75ms, proxy.ts: 14ms, application-code: 1626ms)
+✓ Compiled in 356ms
+ GET / 200 in 412ms (next.js: 201ms, proxy.ts: 32ms, application-code: 180ms)
+✓ Compiled in 161ms
+ GET / 200 in 344ms (next.js: 146ms, proxy.ts: 43ms, application-code: 155ms)
+✓ Compiled in 245ms
+⨯ ReferenceError: KeyRound is not defined
+    at module evaluation (src\components\home\ServicesIndustri.tsx:23:3)
+  21 |   ShoppingBag,
+  22 |   Building2,
+> 23 |   KeyRound,
+     |   ^
+  24 |   Home,
+  25 |   PencilRuler,
+  26 | }; {
+  digest: '3876210478'
+}
+ GET / 200 in 162ms (next.js: 14ms, proxy.ts: 9ms, application-code: 139ms)
+ GET / 200 in 1160ms (next.js: 280ms, proxy.ts: 21ms, application-code: 859ms)
+ GET / 500 in 1181ms (next.js: 128ms, proxy.ts: 21ms, application-code: 1033ms)
+✓ Compiled in 413ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload when ./src/components/home/ServicesIndustri.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: KeyRound is not defined
+    at module evaluation (src\components\home\ServicesIndustri.tsx:24:3)
+  22 |   ShoppingBag,
+  23 |   Building2,
+> 24 |   KeyRound,
+     |   ^
+  25 |   Home,
+  26 |   PencilRuler,
+  27 | }; {
+  digest: '3876210478'
+}
+ GET / 500 in 964ms (next.js: 145ms, proxy.ts: 3ms, application-code: 816ms)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: KeyRound is not defined
+    at module evaluation (src\components\home\ServicesIndustri.tsx:24:3)
+  22 |   ShoppingBag,
+  23 |   Building2,
+> 24 |   KeyRound,
+     |   ^
+  25 |   Home,
+  26 |   PencilRuler,
+  27 | }; {
+  digest: '3876210478'
+}
+✓ Compiled in 167ms
+ GET / 500 in 507ms (next.js: 6ms, proxy.ts: 6ms, application-code: 496ms)
+✓ Compiled in 114ms
+⨯ ReferenceError: KeyRound is not defined
+    at module evaluation (src\components\home\ServicesIndustri.tsx:24:3)
+  22 |   ShoppingBag,
+  23 |   Building2,
+> 24 |   KeyRound,
+     |   ^
+  25 |   Home,
+  26 |   PencilRuler,
+  27 | }; {
+  digest: '3876210478'
+}
+ GET / 500 in 819ms (next.js: 139ms, proxy.ts: 18ms, application-code: 662ms)
+⨯ ReferenceError: KeyRound is not defined
+    at module evaluation (src\components\home\ServicesIndustri.tsx:24:3)
+  22 |   ShoppingBag,
+  23 |   Building2,
+> 24 |   KeyRound,
+     |   ^
+  25 |   Home,
+  26 |   PencilRuler,
+  27 | }; {
+  digest: '1297317174'
+}
+[browser] Uncaught ReferenceError: KeyRound is not defined
+    at module evaluation (file://C:/Users/drewq/OneDrive/Documentos/DREW/drewquevedo/dq_agentiq/econstruct_inc_v2/.next/dev/static/chunks/src_0s.b9gj._.js:1150:5)
+    at Home (src\app\(marketing)\page.tsx:50:7)
+  48 |       <QuoteStrip />
+  49 |       <SolutionAbout />
+> 50 |       <ServicesIndustri />
+     |       ^
+  51 |       <StatsFunFacts />
+  52 |       <IndustriesRelationships />
+  53 |       <CaseStudies />
+✓ Compiled in 525ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 500 in 1401ms (next.js: 486ms, proxy.ts: 4ms, application-code: 912ms)

@@ -1,0 +1,449 @@
+export interface PromptProjectPage {
+  slug: string;
+  title: string;
+  shortTitle: string;
+  description: string;
+  image: string;
+  gallery: { src: string; alt: string; caption: string }[];
+  serviceSlug: string;
+  location: string;
+  neighborhood: string;
+  scope: string;
+  timeline: string;
+  squareFootage: string;
+  completionDate: string;
+  category: string;
+  highlights: string[];
+  heroTitle: string;
+  heroSubtitle: string;
+  challenge: string[];
+  approach: string[];
+  build: string[];
+  result: string[];
+  takeaways: string[];
+  testimonial?: { quote: string; name: string };
+  youtubeUrl?: string;
+}
+
+export const promptProjects: PromptProjectPage[] = [
+  {
+    slug: "calabasas-mediterranean-new-home-build",
+    shortTitle: "Calabasas Mediterranean Estate",
+    title: "Calabasas Mediterranean Estate — New Custom Home Build by econstruct",
+    description:
+      "A ground-up California Mediterranean custom home built in Calabasas, CA. 6,500 sq ft estate featuring stucco facade, clay tile roof, courtyard entry, chef's kitchen, indoor-outdoor great room, primary suite retreat, and resort-style backyard with pool, spa, and outdoor kitchen. Delivered by econstruct, a licensed Calabasas luxury home builder serving the West San Fernando Valley.",
+    image: "/projects/calabas_1.jpeg",
+    gallery: [
+      { src: "/projects/calabas_1.jpeg", alt: "Calabasas Mediterranean estate front exterior with stucco facade clay tile roof and grand entry — new custom home build by econstruct", caption: "Front elevation — California Mediterranean facade with hand-troweled stucco, clay tile roof, and a grand arched entry that anchors the curb appeal." },
+      { src: "/projects/calabas_2.jpeg", alt: "Calabasas custom home courtyard entry with arched openings and Mediterranean stonework", caption: "Courtyard entry — arched openings, custom stonework, and a tranquil approach that sets the tone for the rest of the estate." },
+      { src: "/projects/calabas_3.jpeg", alt: "Calabasas new construction great room with vaulted ceilings disappearing glass walls and indoor-outdoor flow", caption: "Great room — vaulted ceilings, disappearing glass walls, and a true indoor-outdoor flow that opens to the pool and rear yard." },
+      { src: "/projects/calabas_4.jpeg", alt: "Calabasas luxury home chef kitchen with oversized island butler pantry and high-end appliances", caption: "Chef's kitchen — oversized island, dual dishwashers, butler's pantry, and a full Wolf and Sub-Zero appliance package." },
+      { src: "/projects/calabas_5.jpeg", alt: "Calabasas custom home primary suite with vaulted ceilings spa bath and private terrace", caption: "Primary suite — vaulted ceilings, a private terrace overlooking the backyard, and a spa-grade bath retreat." },
+      { src: "/projects/calabas_6.jpeg", alt: "Calabasas new home backyard with resort-style pool spa outdoor kitchen and covered patio", caption: "Backyard — resort-style pool and spa, full outdoor kitchen, and a covered patio designed for Calabasas year-round entertaining." },
+    ],
+    serviceSlug: "custom-home-construction-los-angeles",
+    location: "Calabasas, CA",
+    neighborhood: "Calabasas",
+    scope: "Ground-Up New Construction",
+    timeline: "17 months",
+    squareFootage: "6,500 sq ft",
+    completionDate: "2024",
+    category: "Custom Home Build",
+    highlights: [
+      "6,500 sq ft California Mediterranean custom estate",
+      "5 bedrooms, 6 bathrooms with private primary suite retreat",
+      "Chef's kitchen with butler's pantry and Wolf/Sub-Zero appliance package",
+      "Disappearing glass walls connecting great room to pool deck",
+      "Resort-style backyard with pool, spa, outdoor kitchen, and covered patio",
+      "Hand-troweled stucco facade with authentic clay tile roof",
+      "Smart home automation: lighting, climate, audio, security, shades",
+    ],
+    heroTitle: "Calabasas Mediterranean Estate — Ground-Up Custom Home Build",
+    heroSubtitle: "A 6,500 sq ft California Mediterranean estate in Calabasas, designed and built by econstruct for clients who wanted a turnkey luxury home with authentic architectural character and modern indoor-outdoor living.",
+    challenge: [
+      "The clients had been searching the West San Fernando Valley for over a year and could not find an existing home in Calabasas that met their standards for craftsmanship, layout, and indoor-outdoor flow. They came to econstruct ready to build from the ground up but needed a partner who could manage architecture, permitting, and construction under one roof.",
+      "The brief was demanding: a 6,500 sq ft California Mediterranean estate with authentic architectural character, a true indoor-outdoor great room, a primary suite retreat, a chef's kitchen with full appliance package, and a resort-style backyard — all delivered within an aggressive 17-month timeline that left no room for change orders or trade coordination missteps.",
+    ],
+    approach: [
+      "econstruct managed the project end to end as the general contractor — from coordinating the architectural and engineering team through final landscaping. The clients had a single point of contact and a single accountable party for every milestone.",
+      "Our preconstruction strategy partner ran the permit and plan-check process in parallel with foundation prep, compressing what would normally be a 9-12 month design-permit cycle into roughly 7 months. This is the same model we use on every Calabasas, Hidden Hills, and Pacific Palisades custom build.",
+      "Material selections were made early and locked in: hand-troweled stucco, authentic clay tile roof, walnut hardwood flooring, marble and quartzite stone packages, Wolf and Sub-Zero kitchen appliances, and a Crestron home automation system. Locking the spec early eliminated change orders mid-build.",
+    ],
+    build: [
+      "Foundation and framing were completed in 4 months, including site prep, slab work, and rough utilities. Disciplined sequencing kept the schedule moving even through California's winter weather windows.",
+      "Mechanical, electrical, and plumbing rough-ins were sequenced to allow the framing inspection and drywall to start while the smart home wiring (Crestron, Lutron, Sonos, security) was pulled. This kind of trade coordination is where most luxury custom home projects lose months — disciplined sequencing kept us on track.",
+      "Finish work — flooring, cabinetry, stonework, tile, plaster, and millwork — was executed by our long-standing subcontractor network. Every Calabasas estate we deliver runs through the same vetted trades, which is why the finish quality stays consistent project after project.",
+      "Landscape, pool, hardscape, and outdoor kitchen construction ran in parallel with interior finishes during the final 3 months. The clients moved into a fully finished home with both indoor and outdoor living spaces ready on day one.",
+    ],
+    result: [
+      "A 6,500 sq ft California Mediterranean custom home delivered in 17 months — on schedule, on budget, and ready for the family to move in.",
+      "The completed estate has become a flagship project on the econstruct Calabasas portfolio. The combination of authentic Mediterranean architecture, modern open-plan interiors, and a true indoor-outdoor great room is exactly what high-end Calabasas buyers and builders look for.",
+      "The clients now have a forever home that reflects their lifestyle, holds long-term value in one of the most desirable Calabasas neighborhoods, and was built with the kind of craftsmanship that does not require corrective work years down the line.",
+    ],
+    takeaways: [
+      "Calabasas custom home builds reward early decision-making — locking the architectural style, material spec, and smart-home plan before breaking ground prevents the change orders that blow up most luxury projects.",
+      "Calabasas, Hidden Hills, and West San Fernando Valley permitting can add months to a typical timeline. Working with a contractor who runs preconstruction strategy in parallel with the permit process is the difference between a 17-month build and a 24-month build.",
+      "Indoor-outdoor flow is the single most-requested feature on Calabasas new construction. Designing for it from day one — disappearing glass walls, covered patio, outdoor kitchen, pool sightlines from the great room — is what separates a custom home from a tract build.",
+      "If you're considering a ground-up custom home build in Calabasas, Hidden Hills, Westlake Village, or anywhere in the West San Fernando Valley, econstruct can run the full process from preconstruction strategy through final landscaping. Schedule a consultation to walk through your lot, your design ideas, and your timeline.",
+    ],
+  },
+  {
+    slug: "san-vincente-adu",
+    shortTitle: "San Vincente ADU",
+    title: "San Vincente ADU - Completed Residential ADU Project",
+    description:
+      "A newly completed San Vincente ADU project showcasing clean lines, premium finishes, and a polished indoor-outdoor feel. Built to deliver comfort, style, and long-term value.",
+    image: "/projects/05_web.jpg",
+    gallery: [
+      { src: "/projects/05_web.jpg", alt: "San Vincente ADU completed exterior view showing the detached unit and landscaped approach", caption: "Completed exterior - the detached ADU reads as a polished standalone residence with clean lines and a refined entry sequence." },
+      { src: "/projects/01_web.jpg", alt: "San Vincente ADU exterior detail with contemporary architecture and finished hardscape", caption: "Exterior detail - the finished hardscape and architectural lines give the ADU a clean, high-end residential presence." },
+      { src: "/projects/03_web.jpg", alt: "San Vincente ADU outdoor elevation showing the completed structure and surrounding yard", caption: "Side elevation - the completed build balances privacy, light, and durable exterior finishes for long-term performance." },
+      { src: "/projects/04_web.jpg", alt: "San Vincente ADU completed outdoor view with modern facade and entry path", caption: "Front approach - the entry path and facade composition create a simple, modern arrival experience." },
+      { src: "/projects/06_web.jpg", alt: "San Vincente ADU interior living space with open layout and premium finishes", caption: "Living area - the interior was finished to feel bright, open, and fully integrated for everyday use." },
+      { src: "/projects/07_web.jpg", alt: "San Vincente ADU living room and kitchen connection with clean contemporary styling", caption: "Open-plan interior - clear sightlines between living and kitchen zones make the ADU feel larger than its footprint." },
+      { src: "/projects/13_web.jpg", alt: "San Vincente ADU kitchen with streamlined cabinetry and modern finish selections", caption: "Kitchen view - streamlined cabinetry and durable finish selections keep the space both functional and visually clean." },
+      { src: "/projects/14_web.jpg", alt: "San Vincente ADU kitchen detail with countertops cabinetry and integrated appliances", caption: "Kitchen detail - integrated appliances and coordinated surfaces elevate the ADU beyond a basic accessory unit." },
+      { src: "/projects/17_web.jpg", alt: "San Vincente ADU dining or transition space with finished flooring and natural light", caption: "Interior transition - flooring, lighting, and circulation were coordinated to keep the compact plan feeling seamless." },
+      { src: "/projects/19_web.jpg", alt: "San Vincente ADU bedroom or private interior space with refined finishes", caption: "Private room - finish consistency continues into the more intimate spaces, reinforcing the project's premium execution." },
+      { src: "/projects/21_web.jpg", alt: "San Vincente ADU bathroom with modern vanity tile and fixture package", caption: "Bathroom view - modern fixtures and clean detailing give the bath a tailored, residential feel." },
+      { src: "/projects/22_web.jpg", alt: "San Vincente ADU bathroom detail with shower tile and contemporary hardware", caption: "Bathroom detail - the material palette was selected for durability, easy maintenance, and a polished final result." },
+      { src: "/projects/25_web.jpg", alt: "San Vincente ADU interior finish detail with cabinetry lighting and clean lines", caption: "Finish detail - crisp lines and controlled material choices keep the project cohesive from room to room." },
+      { src: "/projects/26_web.jpg", alt: "San Vincente ADU interior perspective showing the completed circulation and layout", caption: "Interior perspective - the layout was executed to maximize usability without sacrificing visual clarity." },
+      { src: "/projects/27_web.jpg", alt: "San Vincente ADU completed room view with modern trim flooring and natural light", caption: "Completed room - natural light and disciplined finish work help the interior read as calm and complete." },
+      { src: "/projects/30_web.jpg", alt: "San Vincente ADU exterior or patio area showing the finished connection to outdoor space", caption: "Outdoor connection - the final build maintains a strong relationship between interior living and exterior use." },
+      { src: "/projects/31_web.jpg", alt: "San Vincente ADU completed exterior angle with entry landscaping and architectural detail", caption: "Exterior angle - landscaping and facade detailing give the unit a fully resolved residential character." },
+      { src: "/projects/34_web.jpg", alt: "San Vincente ADU final exterior view highlighting the completed detached structure", caption: "Final exterior view - the ADU presents as a complete, high-quality standalone build rather than a secondary afterthought." },
+      { src: "/projects/37_web.jpg", alt: "San Vincente ADU interior styling detail with finished surfaces and lighting", caption: "Interior styling detail - every visible surface was coordinated to keep the finish level consistent throughout." },
+      { src: "/projects/38_web.jpg", alt: "San Vincente ADU completed design detail showing craftsmanship and material coordination", caption: "Craft detail - the project's strength comes from disciplined execution across trim, surfaces, fixtures, and transitions." },
+      { src: "/projects/39_web.jpg", alt: "San Vincente ADU completed final photo showing the overall quality of the finished build", caption: "Final reveal - the completed ADU delivers the polished, durable, and livable result the project was designed to achieve." },
+    ],
+    serviceSlug: "home-additions-los-angeles",
+    location: "Los Angeles, CA",
+    neighborhood: "San Vincente",
+    scope: "Detached ADU Construction",
+    timeline: "Completed",
+    squareFootage: "Custom ADU",
+    completionDate: "2026",
+    category: "Home Remodel",
+    highlights: [
+      "Newly completed ADU with premium fit and finish",
+      "Clean architectural lines and modern detailing",
+      "High-quality interior execution throughout",
+      "Beautiful final presentation across all spaces",
+      "Designed for long-term usability and value",
+    ],
+    heroTitle: "San Vincente ADU - Newly Completed Project",
+    heroSubtitle: "A beautiful newly completed ADU project in Los Angeles, delivered with clean execution and premium finishes.",
+    challenge: [
+      "The goal was to deliver a highly polished ADU with a strong visual identity and practical day-to-day livability.",
+      "With limited public project details, the team prioritized craftsmanship quality, consistency, and a complete final presentation.",
+    ],
+    approach: [
+      "eConstruct managed the project with a detail-first build approach, aligning materials, finishes, and layout decisions to maintain a cohesive result.",
+      "Execution focused on clean lines, durable selections, and smooth transitions between interior zones.",
+    ],
+    build: [
+      "Construction moved from structure through finishes with strict quality control at each stage to maintain premium standards.",
+      "The completed project reflects careful coordination across all trades and a final level of polish throughout the home.",
+    ],
+    result: [
+      "San Vincente ADU is now complete and stands as a beautiful showcase project on the eConstruct portfolio.",
+      "The finished build presents as both visually elevated and highly functional for residential use.",
+    ],
+    takeaways: [
+      "A detail-driven build process is what creates a premium ADU outcome.",
+      "Consistent material and finish decisions keep the final result cohesive.",
+      "High-quality execution at every stage improves long-term value and performance.",
+    ],
+  },
+  {
+    slug: "newcomb-road-full-home-transformation",
+    shortTitle: "Newcomb Road",
+    title: "Newcomb Road — Complete Home Transformation",
+    description:
+      "A full interior and exterior overhaul that turned an outdated residence into a contemporary family home — new kitchen, master bath, hardwood floors, opened floor plan, repainted façade, and custom concrete patio.",
+    image: "/projects/newcomb-road-hero.jpg",
+    gallery: [
+      { src: "/projects/newcomb-road-hero.jpg", alt: "Newcomb Road exterior after remodel — white stucco home surrounded by mature trees with new staircase", caption: "Exterior — fresh white stucco façade, new exterior staircase, wooded setting" },
+      { src: "/projects/Untitled-design-2023-10-19T154306.166.webp", alt: "Newcomb Road exterior deck with wood railings and mature trees", caption: "Rear deck — custom wood railings and landscaped surroundings" },
+      { src: "/projects/Untitled-design-2023-10-19T154528.592.webp", alt: "Newcomb Road hillside exterior view with natural landscaping", caption: "Exterior hillside view — refreshed façade and natural setting" },
+      { src: "/projects/Untitled-design-2023-10-19T154958.982.webp", alt: "Newcomb Road kitchen with large island and pendant lighting", caption: "Kitchen island — pendant lighting, seating, and premium finishes" },
+      { src: "/projects/Untitled-design-2023-10-19T155017.194.webp", alt: "Newcomb Road kitchen appliances and cabinetry detail", caption: "Kitchen appliances — high-end integrated appliances and white cabinetry" },
+      { src: "/projects/Untitled-design-2023-10-19T155044.095.webp", alt: "Newcomb Road kitchen under-cabinet lighting and countertop detail", caption: "Kitchen detail — under-cabinet lighting and marble countertops" },
+      { src: "/projects/Untitled-design-2023-10-19T155100.028.webp", alt: "Newcomb Road living room with vaulted ceilings and hardwood floors", caption: "Living room — vaulted ceilings, hardwood floors, open floor plan" },
+      { src: "/projects/Untitled-design-2023-10-19T155139.368.webp", alt: "Newcomb Road living room fireplace and contemporary interior", caption: "Living room fireplace — contemporary surround and recessed lighting" },
+      { src: "/projects/Untitled-design-2023-10-23T105802.767.webp", alt: "Newcomb Road garage and exterior front view", caption: "Exterior — painted façade and concrete driveway" },
+      { src: "/projects/Untitled-design-2023-10-23T105827.240.webp", alt: "Newcomb Road exterior staircase and landscaping", caption: "Exterior staircase — custom concrete steps and landscaped entry" },
+    ],
+    serviceSlug: "luxury-home-builder-los-angeles",
+    location: "Los Angeles, CA",
+    neighborhood: "Los Angeles",
+    scope: "Full Interior & Exterior Remodel",
+    timeline: "8 months",
+    squareFootage: "2,400 sq ft",
+    completionDate: "2023",
+    category: "Home Remodel",
+    highlights: [
+      "Kitchen with marble countertops & large island",
+      "Master bath with freestanding tub & frameless glass shower",
+      "Hardwood floors throughout",
+      "Custom built-ins & opened floor plan",
+      "New concrete patio & custom wood fence",
+    ],
+    heroTitle: "Newcomb Road — Complete Inside and Out Home Transformation",
+    heroSubtitle: "A full-scope Los Angeles home remodel delivering contemporary design inside and out.",
+    challenge: [
+      "The home had an outdated layout that felt disconnected room to room, a cramped kitchen that limited functionality, and an exterior that no longer reflected the owners' vision.",
+      "The scope required full interior demolition and reconstruction alongside exterior improvements — all while keeping the project on schedule and within budget.",
+    ],
+    approach: [
+      "econstruct approached the project as a full design-build engagement — opening the floor plan first, then rebuilding each space around the improved flow.",
+      "Material selections were made early so lead times didn't affect schedule. Frank's team coordinated trades to overlap efficiently and avoid the typical finish-phase slowdowns.",
+    ],
+    build: [
+      "The kitchen was rebuilt with white contemporary cabinetry, marble countertops, high-end appliances, and a large island that anchors the now-open living area.",
+      "The master bath received a freestanding soaking tub, frameless glass shower, and a double vanity. Hardwood floors were installed throughout and all rooms were repainted.",
+      "Exterior work included a modern gray repaint, new poured concrete patio, and a custom wood privacy fence.",
+    ],
+    result: [
+      "The completed project delivered a home that looks and performs like a new build — premium finishes, a logical open floor plan, and a refreshed exterior that stands out on the street.",
+      "The owners reported the project came in on schedule and that the communication throughout made the experience stress-free.",
+    ],
+    takeaways: [
+      "Coordinating interior and exterior scopes under one contractor eliminates scheduling conflicts.",
+      "Opening the floor plan before selecting finishes ensures the design works spatially first.",
+      "Premium material selections elevate a remodel to near-custom-home quality.",
+    ],
+  },
+  {
+    slug: "saddlebow-50-bell-canyon-hillside-lift",
+    shortTitle: "50 Saddlebow — Hillside Lift",
+    title: "50 Saddlebow Rd — Custom Hillside Lift System, Bell Canyon",
+    description:
+      "A one-of-a-kind engineering solution for a Bell Canyon hillside estate: a custom lift system engineered to connect the main residence to a lower canyon terrace, unlocking potential for an ADU, pool, or tennis court.",
+    image: "/projects/saddlebow-50-hero.jpg",
+    gallery: [
+      { src: "/projects/saddlebow-50-hero.jpg", alt: "50 Saddlebow Bell Canyon completed hillside lift system aerial view", caption: "Completed system — lift cab and landing platform connecting the main residence to the lower canyon terrace" },
+      { src: "/projects/Saddlebow2.webp", alt: "econstruct crew forming and pouring reinforced concrete base for the hillside lift at 50 Saddlebow Bell Canyon", caption: "Concrete base construction — forming the reinforced landing pad at the hillside base" },
+      { src: "/projects/Saddlebow3.webp", alt: "econstruct worker overseeing concrete pour into hillside forms at Bell Canyon", caption: "Concrete pour — econstruct crew placing the canyon-base landing foundation" },
+      { src: "/projects/Saddlebow4.webp", alt: "Two workers installing the lift drive mechanism and motor assembly at 50 Saddlebow", caption: "Lift mechanism installation — precision fit of the drive system and motor assembly" },
+      { src: "/projects/Saddlebow6.webp", alt: "Aerial view of completed hillside lift system with white railings and concrete platform at 50 Saddlebow Bell Canyon", caption: "Aerial view — completed lift with white safety railings and concrete landing integrated into the hillside" },
+      { src: "/projects/Saddlebow9.webp", alt: "Aerial overhead view of lift cab and intermediate landing platform at 50 Saddlebow Bell Canyon", caption: "Overhead view — lift cab and intermediate landing connecting canyon terrace to the main residence" },
+    ],
+    youtubeUrl: "https://www.youtube.com/watch?v=mzZI4WeI2pA",
+    serviceSlug: "home-additions-los-angeles",
+    location: "Bell Canyon, CA",
+    neighborhood: "Bell Canyon",
+    scope: "Custom Engineered Hillside Lift System",
+    timeline: "6 months",
+    squareFootage: "Site infrastructure project",
+    completionDate: "2023",
+    category: "Custom Engineering",
+    highlights: [
+      "950 lb capacity lift — engineered for daily residential use",
+      "Reinforced concrete landing poured at canyon base",
+      "Lift cab finished to match home's modern exterior",
+      "County-code redundant fail-safe systems",
+      "Unlocks site potential: ADU, pool, tennis court",
+    ],
+    heroTitle: "50 Saddlebow Rd — The Residential Lift Project: Modern Accessibility",
+    heroSubtitle: "A bespoke engineering solution connecting a Bell Canyon estate to its untapped lower terrain.",
+    challenge: [
+      "The property had a significant grade change from the main residence down to a flat canyon terrace — a beautiful and buildable area that was effectively inaccessible on foot.",
+      "The homeowners wanted a solution that was safe, code-compliant, visually integrated with the architecture, and practical enough for daily use.",
+    ],
+    approach: [
+      "econstruct engineered a custom hillside lift delivery system — excavating and forming a reinforced concrete landing at the base, then designing a compact lift cab with doors and finishes matched to the home's existing exterior palette.",
+      "The upper landing was set flush with the home's exterior floor level for seamless access. Multiple redundant fail-safe systems were designed and installed per Los Angeles County codes.",
+    ],
+    build: [
+      "The system features a 950 lb maximum capacity, making it practical for furniture, landscaping materials, and daily use. The cab was custom-fabricated with matching materials.",
+      "The concrete landing at the base was engineered for the load and the hillside soil conditions specific to the Bell Canyon site.",
+    ],
+    result: [
+      "The lower terrace is now fully accessible and development-ready — sized to accommodate an ADU, swimming pool with pool house, or tennis court.",
+      "The lift became a unique feature of the property that significantly increased its functional square footage and long-term value.",
+    ],
+    takeaways: [
+      "Hillside properties often have untapped buildable area that custom engineering can unlock.",
+      "A properly designed lift system integrates architecturally and adds lasting property value.",
+      "Early county code consultation eliminates redesign risk on complex site work.",
+    ],
+  },
+  {
+    slug: "marine-avenue-condo-lawndale-coastal-remodel",
+    shortTitle: "Marine Ave Condo",
+    title: "Marine Avenue Condo — Coastal California Living, Lawndale",
+    description:
+      "A 3-bed, 3-bath Lawndale condo blocks from the beach — fully reconfigured floor plan, expanded kitchen with peninsula, spa-inspired bathrooms, and a private balcony rebuilt with firepit and new railings.",
+    image: "/projects/marine-ave-hero.jpg",
+    gallery: [
+      { src: "/projects/marine-ave-hero.jpg", alt: "Marine Avenue condo Lawndale completed interior remodel kitchen and living area", caption: "Reconfigured open-plan interior — porcelain plank tile, quartz countertops, contemporary fixtures" },
+      { src: "/projects/20220123_121812-29.webp", alt: "Marine Avenue condo interior detail showing the renovated kitchen and adjacent living space", caption: "Kitchen and living area — updated finishes and a brighter open layout" },
+      { src: "/projects/20220123_121937-29.webp", alt: "Marine Avenue condo renovated interior with modern coastal finishes", caption: "Interior finish detail — coastal palette and clean contemporary surfaces" },
+      { src: "/projects/20220123_121946-29.webp", alt: "Marine Avenue condo interior showing cabinetry and countertop details", caption: "Cabinetry detail — streamlined storage and durable countertop finishes" },
+      { src: "/projects/20220123_121954-29.webp", alt: "Marine Avenue condo living area with updated flooring and lighting", caption: "Living space — updated flooring and refined lighting throughout" },
+      { src: "/projects/20220123_122005-29.webp", alt: "Marine Avenue condo kitchen and transition space after remodel", caption: "Kitchen transition — improved flow between cooking and living zones" },
+      { src: "/projects/20220123_122041-29.webp", alt: "Marine Avenue condo bathroom or interior finish showing spa-inspired materials", caption: "Bathroom or detail finish — materials selected for a calm, spa-like feel" },
+      { src: "/projects/20220123_122345-29.webp", alt: "Marine Avenue condo balcony or outdoor living area with updated railing and seating", caption: "Outdoor living — private balcony refreshed for coastal use" },
+      { src: "/projects/20220123_122417-29.webp", alt: "Marine Avenue condo balcony detail with railings and exterior lighting", caption: "Balcony detail — new railings and exterior lighting" },
+      { src: "/projects/20220123_122438-29.webp", alt: "Marine Avenue condo remodeled interior with open sightlines", caption: "Open sightlines — the remodeled plan reads larger and more connected" },
+      { src: "/projects/20220123_122634-29.webp", alt: "Marine Avenue condo finished interior showing modern coastal remodel details", caption: "Finished interior — modern coastal styling with a clean, bright feel" },
+      { src: "/projects/20220123_122645-29.webp", alt: "Marine Avenue condo renovated space with contemporary finishes and lighting", caption: "Contemporary finishes — consistent materials across the unit" },
+      { src: "/projects/20220123_122731-29-1.webp", alt: "Marine Avenue condo final project photo showing the completed remodel", caption: "Final reveal — the completed remodel and its polished coastal character" },
+    ],
+    serviceSlug: "luxury-home-builder-los-angeles",
+    location: "Lawndale, CA",
+    neighborhood: "Lawndale / South Bay",
+    scope: "Full Interior & Exterior Condo Remodel",
+    timeline: "5 months",
+    squareFootage: "1,800 sq ft",
+    completionDate: "2011",
+    category: "Condo Remodel",
+    highlights: [
+      "Full floor plan reconfiguration — walls removed, doorways enlarged",
+      "Kitchen with peninsula, bar-height seating & pocket doors",
+      "Porcelain plank tile & quartz countertops throughout",
+      "Spa-inspired bathrooms with frosted glass doors",
+      "Private balcony rebuilt with firepit & new railings",
+    ],
+    heroTitle: "Marine Avenue Condo — Reimagining a Lawndale Condo for California Coastal Living",
+    heroSubtitle: "A complete condo transformation steps from the beach — delivered on schedule and on budget.",
+    challenge: [
+      "The condo had a segmented, outdated layout that disconnected the kitchen from the living areas and failed to take advantage of its proximity to the beach.",
+      "The owners wanted a dramatic transformation on a firm budget and timeline — requiring tight trade sequencing and early procurement.",
+    ],
+    approach: [
+      "econstruct restructured the floor plan first — removing walls, enlarging doorways, and creating a new kitchen-to-dining connection with pocket doors that open the space fully.",
+      "A bonus room was added and the balcony was treated as a full outdoor living extension rather than an afterthought.",
+    ],
+    build: [
+      "The kitchen was expanded with a peninsula and bar-height seating. Porcelain plank tile and quartz countertops were used throughout. Frosted glass doors and spa-inspired finishes completed the bathrooms.",
+      "The private balcony was rebuilt from the deck up — new flooring, custom railings, updated lighting, and a firepit sectional seating area that extends the livable square footage outdoors.",
+    ],
+    result: [
+      "The finished condo feels significantly larger than its square footage — a result of intelligent space planning, light finishes, and the indoor-outdoor connection the balcony now provides.",
+      "Delivered on schedule and within the agreed budget.",
+    ],
+    takeaways: [
+      "Floor plan reconfiguration delivers more value per dollar than finish upgrades alone.",
+      "Treating an outdoor balcony as livable space multiplies the feel of the home.",
+      "Pocket doors are a high-impact, low-footprint way to connect spaces without permanent openings.",
+    ],
+  },
+  {
+    slug: "devista-hollywood-hills-luxury-remodel",
+    shortTitle: "Devista — Hollywood Hills",
+    title: "Devista — Hollywood Hills Luxury Remodel & Expansion",
+    description:
+      "A 1980s Hollywood Hills residence fully reimagined for modern family living — chef's kitchen, sliding glass walls opening to a new pool patio, freestanding spa, built-in BBQ, and integrated smart home technology.",
+    image: "/projects/devista-hero.jpg",
+    gallery: [
+      { src: "/projects/devista-hero.jpg", alt: "Devista Hollywood Hills luxury home remodel exterior with pool and modern additions", caption: "Completed exterior — sliding glass walls, pool, freestanding spa, and built-in BBQ kitchen" },
+    ],
+    serviceSlug: "luxury-home-builder-los-angeles",
+    location: "Hollywood Hills, Los Angeles, CA",
+    neighborhood: "Hollywood Hills",
+    scope: "Full Interior & Exterior Luxury Remodel",
+    timeline: "11 months",
+    squareFootage: "3,800 sq ft",
+    completionDate: "2017",
+    category: "Luxury Remodel",
+    highlights: [
+      "Galley kitchen transformed into open chef's kitchen with quartz island",
+      "New sliding glass walls opening to outdoor patio & pool",
+      "Pool resurfaced + freestanding spa added",
+      "Built-in outdoor BBQ kitchen",
+      "Integrated smart home technology throughout",
+    ],
+    heroTitle: "Devista Project — Revitalizing a Hollywood Hills Home for Modern Family Living",
+    heroSubtitle: "A comprehensive Hollywood Hills luxury remodel that transformed a 1980s residence into a contemporary entertainer's estate.",
+    challenge: [
+      "The 1980s residence had a dated galley kitchen, a backyard with an aging pool and no outdoor living infrastructure, and an interior that felt disconnected from the California outdoor lifestyle.",
+      "The owners wanted a modern family home that could also serve as an entertainment venue — requiring both interior and exterior transformation at the highest finish level.",
+    ],
+    approach: [
+      "econstruct's in-house design team worked directly with the owners to define the indoor-outdoor living vision before any demolition began. The kitchen and backyard were planned as one connected space.",
+      "Smart home technology was planned from the start rather than retrofitted — integrated throughout the home's lighting, climate, security, and AV systems.",
+    ],
+    build: [
+      "The galley kitchen was fully demolished and rebuilt as a spacious chef's kitchen with a large quartz island, high-end appliances, and a visual connection to the family room.",
+      "New sliding glass walls were installed to dissolve the interior-exterior boundary. The pool was resurfaced and a freestanding spa was added alongside a built-in BBQ kitchen and patio.",
+      "Custom built-ins, designer paint, and statement fixtures were selected by the econstruct design team to complete the interior.",
+    ],
+    result: [
+      "The Hollywood Hills estate now functions as a seamless indoor-outdoor luxury home — a transformation that significantly elevated the property's market value and livability.",
+      "The project has since become one of econstruct's reference case studies for full-scope Hollywood Hills luxury remodels.",
+    ],
+    takeaways: [
+      "Planning kitchen and outdoor living as one project delivers a cohesive result that piecemeal additions cannot.",
+      "Smart home integration planned from day one costs less and performs better than retrofit systems.",
+      "A resurfaced pool and added spa deliver outsized ROI in the Hollywood Hills market.",
+    ],
+    testimonial: {
+      quote: "Frank's team took our 1980s house and turned it into the home we always envisioned. The process was smooth, the quality is extraordinary, and the outdoor space is now the heart of the home.",
+      name: "Hollywood Hills homeowner",
+    },
+  },
+  {
+    slug: "saddlebow-54-bell-canyon-luxury-remodel",
+    shortTitle: "54 Saddlebow — Bell Canyon",
+    title: "54 Saddlebow Rd — Luxury Open-Concept Remodel, Bell Canyon",
+    description:
+      "A late-1970s Bell Canyon estate rebuilt for contemporary living — walls removed, chef's kitchen with smart home integration, outdoor fireplace lounge, drought-tolerant landscaping, and premium finishes throughout.",
+    image: "/projects/saddlebow-54-hero.jpg",
+    gallery: [
+      { src: "/projects/saddlebow-54-hero.jpg", alt: "54 Saddlebow Bell Canyon luxury remodel exterior hillside estate", caption: "Completed exterior — hillside luxury estate with contemporary landscaping" },
+      { src: "/projects/saddlebow-54-2.jpg", alt: "54 Saddlebow Bell Canyon interior living area remodel", caption: "Open-concept living — reconfigured floor plan with premium finishes" },
+      { src: "/projects/saddlebow-54-3.jpg", alt: "54 Saddlebow Bell Canyon kitchen remodel with island", caption: "Chef's kitchen — large island, premium appliances, touchpad cabinetry" },
+      { src: "/projects/saddlebow-54-5.jpg", alt: "54 Saddlebow Bell Canyon bathroom remodel", caption: "Luxury bathroom — spa-level finishes" },
+      { src: "/projects/saddlebow-54-8.jpg", alt: "54 Saddlebow Bell Canyon outdoor fireplace lounge", caption: "Outdoor fireplace lounge — designed for California hillside living" },
+    ],
+    serviceSlug: "luxury-home-builder-los-angeles",
+    location: "Bell Canyon, CA",
+    neighborhood: "Bell Canyon",
+    scope: "Full Interior & Exterior Luxury Remodel",
+    timeline: "10 months",
+    squareFootage: "3,200 sq ft",
+    completionDate: "2014",
+    category: "Luxury Remodel",
+    highlights: [
+      "Full open-concept floor plan — walls removed throughout",
+      "Chef's kitchen with large island & touchpad cabinetry",
+      "Integrated smart home tech & AV system",
+      "Outdoor fireplace lounge",
+      "Drought-tolerant landscaping",
+    ],
+    heroTitle: "54 Saddlebow Rd — Luxury Home Remodeling, Bell Canyon",
+    heroSubtitle: "A full-scope Bell Canyon luxury remodel delivering open-concept modern living with smart home integration.",
+    challenge: [
+      "The late-1970s home had a compartmentalized layout, a cramped kitchen, dated finishes, and an outdoor space that wasn't taking advantage of the hillside setting.",
+      "Bell Canyon's gated community location required careful coordination with HOA, county, and local permit requirements.",
+    ],
+    approach: [
+      "econstruct planned the full demolition and reconstruction sequence before breaking ground — removing walls in the right order to protect the structural envelope while opening the floor plan as dramatically as the owners wanted.",
+      "Smart home technology and integrated AV were specified at the design phase so all rough-in work could be completed during framing.",
+    ],
+    build: [
+      "The kitchen was expanded into a sleek chef's space with a large island, premium appliances, touchpad cabinetry, and smart home integration. The open floor plan connects kitchen, dining, and living seamlessly.",
+      "An outdoor fireplace lounge was constructed to create a true indoor-outdoor living environment. Drought-tolerant landscaping was installed throughout the hillside yard.",
+    ],
+    result: [
+      "The completed project delivered one of Bell Canyon's standout luxury residences — a home that performs as well as it looks, with smart systems, premium materials, and a floor plan built for how the family actually lives.",
+      "Delivered on time despite the full scope of work, a result of econstruct's meticulous project management.",
+    ],
+    takeaways: [
+      "Gated community remodels require permit and HOA coordination experience — this is a core econstruct competency.",
+      "Specifying smart home systems at the design phase eliminates costly retrofit work later.",
+      "Outdoor fireplace lounges deliver year-round ROI in the Southern California climate.",
+    ],
+    testimonial: {
+      quote: "econstruct managed every detail with precision. The result is a home that looks brand new and feels like it was designed specifically for our family. We couldn't be happier.",
+      name: "Bell Canyon homeowner",
+    },
+  },
+];
+
+export function getPromptProjectBySlug(slug: string): PromptProjectPage | undefined {
+  return promptProjects.find((p) => p.slug === slug);
+}

@@ -1,0 +1,273 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFFFFF;
+  --secondary-background: #F8F6F2;
+  --brand-dark: #1C1C1E;
+  --accent-gold: #B8963E;
+  --body-text: #6B6B6B;
+  --badge-navy: #1A2744;
+  --font-playfair: Georgia, "Times New Roman", serif;
+  --font-jakarta: "Arial", sans-serif;
+
+  /* eConstruct Inc. — Indutri brand palette (commercial) */
+  --brand-red: #E1142C;
+  --brand-red-dark: #B10E22;
+  --brand-gold: #F5B731;
+  --brand-navy: #14182A;
+  --brand-ink: #0C0F1A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-secondary: var(--secondary-background);
+  --color-brand-dark: var(--brand-dark);
+  --color-accent-gold: var(--accent-gold);
+  --color-body-text: var(--body-text);
+  --color-badge-navy: var(--badge-navy);
+
+  --color-brand-red: var(--brand-red);
+  --color-brand-red-dark: var(--brand-red-dark);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-ink: var(--brand-ink);
+
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-jakarta);
+  --font-display: var(--font-poppins), "Arial", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--body-text);
+  font-family: var(--font-body), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading defaults wrapped in @layer base so Tailwind's @layer utilities
+ * (where text-white, text-accent-gold etc. live) wins by cascade layer
+ * priority. Without the layer wrapper, this rule lives in the unlayered
+ * cascade and beats layered utilities — text-white silently fails on
+ * every dark-bg card. */
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), serif;
+    color: var(--brand-dark);
+  }
+}
+
+.blog-prose {
+  max-width: 100%;
+}
+
+.blog-prose h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+.blog-prose h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  line-height: 1.2;
+}
+
+.blog-prose p,
+.blog-prose li {
+  color: var(--body-text);
+  font-size: 1.05rem;
+  line-height: 1.95;
+}
+
+.blog-prose p + p,
+.blog-prose ul + p,
+.blog-prose ol + p {
+  margin-top: 1.15rem;
+}
+
+.blog-prose ul,
+.blog-prose ol {
+  margin-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.blog-prose li + li {
+  margin-top: 0.6rem;
+}
+
+.blog-prose a {
+  color: var(--brand-dark);
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent-gold) 55%, transparent);
+  text-underline-offset: 4px;
+  transition: color 150ms ease;
+}
+
+.blog-prose a:hover {
+  color: var(--accent-gold);
+}
+
+.blog-prose strong {
+  color: var(--brand-dark);
+}
+
+.blog-figure {
+  margin: 2rem 0;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1.5rem;
+  background: #fff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+}
+
+.blog-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-figure figcaption {
+  padding: 1rem 1.25rem 1.2rem;
+  color: color-mix(in srgb, var(--body-text) 92%, #fff);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.blog-stat-callout {
+  margin: 2rem 0;
+  border-left: 4px solid var(--accent-gold);
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, rgba(200, 16, 46, 0.06), rgba(184, 150, 62, 0.08));
+  padding: 1.5rem 1.5rem 1.5rem 1.25rem;
+}
+
+.blog-stat-callout p {
+  margin: 0;
+  color: var(--brand-dark);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.hero-display {
+  text-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.hero-blueprint-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+  background-position: center;
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent 92%);
+}
+
+@keyframes logo-burst-glow {
+  0% {
+    opacity: 0;
+    transform: scale(0.72);
+  }
+
+  18% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.48);
+  }
+}
+
+.logo-burst-glow {
+  animation: logo-burst-glow 1.7s ease-out 1;
+}
+
+.logo-e-border-rest {
+  color: #ffffff;
+  filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.9));
+}
+
+@keyframes pill-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes service-pill-fade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes alice-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ============================================================
+ * eConstruct Inc. — Indutri homepage utilities
+ * ============================================================ */
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Animated scroll cue under the hero */
+@keyframes scroll-cue-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.65; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+
+.scroll-cue-bounce {
+  animation: scroll-cue-bounce 1.8s ease-in-out infinite;
+}
+
+/* Slow Ken-Burns drift for the hero video */
+@keyframes hero-kenburns {
+  from { transform: scale(1.06); }
+  to { transform: scale(1.16); }
+}
+
+.hero-kenburns {
+  animation: hero-kenburns 22s ease-in-out infinite alternate;
+}
+
+/* Indutri-style angled red corner accent used on cards/badges */
+.indutri-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%, 0 86%);
+}
+
+/* Faint blueprint grid backdrop for dark bands */
+.brand-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 46px 46px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-cue-bounce,
+  .hero-kenburns {
+    animation: none !important;
+  }
+}

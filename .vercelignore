@@ -1,0 +1,5 @@
+# Raw video master — kept locally, served via the compressed hero-v2.mp4 instead
+public/hero_vid.mp4
+
+# Local dev artifacts
+dev-server.log
