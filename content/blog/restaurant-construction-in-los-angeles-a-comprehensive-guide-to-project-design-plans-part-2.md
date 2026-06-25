@@ -2,7 +2,7 @@
 title: "Restaurant Construction in Los Angeles: A Comprehensive Guide to Design and Plans"
 slug: "restaurant-construction-in-los-angeles-a-comprehensive-guide-to-project-design-plans-part-2"
 description: "Introduction Embarking on a restaurant construction project in Los Angeles requires meticulous planning and the expertise of skilled professionals. This."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

@@ -2,7 +2,7 @@
 title: "Smart Home Automation for Luxury Rebuilds: Control4 vs Crestron vs Savant"
 slug: "luxury-home-automation-control4-crestron-savant"
 description: "A practical comparison of Control4, Crestron, and Savant for luxury rebuilds, including how to think about cost, wiring, user experience, and long-term support in 2026."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "smart home systems"
   - "Control4"

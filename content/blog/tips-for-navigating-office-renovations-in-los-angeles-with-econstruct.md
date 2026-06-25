@@ -2,7 +2,7 @@
 title: "Navigating Office Renovations: Tips from econstruct, a Leading TI Contractor in Los Angeles Introduction"
 slug: "tips-for-navigating-office-renovations-in-los-angeles-with-econstruct"
 description: "Embarking on an office renovation project in Los Angeles presents a unique set of challenges and opportunities. Whether you’re aiming to revitalize an."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

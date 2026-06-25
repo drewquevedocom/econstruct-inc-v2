@@ -2,7 +2,7 @@
 title: "Luxury Home Builders in Beverly Hills: What to Expect When Building Your Dream Estate"
 slug: "luxury-home-builders-beverly-hills"
 description: "Looking for luxury home builders in Beverly Hills? econstruct delivers bespoke estate construction with precision and passion. Schedule your free consultation today."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Beverly Hills"
   - "Luxury Home Builder"

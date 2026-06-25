@@ -2,7 +2,7 @@
 title: "Chapter 7A WUI Compliance: A Homeowner's Plain-English Guide"
 slug: "chapter-7a-wui-compliance-homeowner-guide"
 description: "Chapter 7A WUI code is mandatory for all LA fire-zone rebuilds. Here's what it actually requires - in plain English, no contractor jargon."
-category: "Industry Insights"
+category: "General Contracting"
 tags:
   - "Chapter 7A"
   - "WUI compliance"

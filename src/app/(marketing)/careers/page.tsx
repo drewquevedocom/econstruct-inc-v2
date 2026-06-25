@@ -4,9 +4,8 @@ import {
   TrendingUp,
   Users,
   Banknote,
-  MapPin,
-  Clock,
   Mail,
+  Briefcase,
 } from "lucide-react";
 import { generatePageMetadata } from "@/lib/metadata";
 import PageHero from "@/components/ui/PageHero";
@@ -19,7 +18,7 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "Careers at econstruct — Join Our Team",
   description:
-    "Build your career with econstruct. We're hiring project managers, carpenters, estimators, and construction professionals across Los Angeles.",
+    "Build your career with econstruct. We build restaurants, retail stores, and commercial spaces across Los Angeles. New positions coming soon.",
   path: "/careers",
 });
 
@@ -34,7 +33,7 @@ const cultureValues = [
     icon: TrendingUp,
     title: "Growth Opportunities",
     description:
-      "With a $526M pipeline and growing, there's room to advance. We invest in our people with training, mentorship, and clear paths for career development.",
+      "With a growing commercial pipeline, there's room to advance. We invest in our people with training, mentorship, and clear paths for career development.",
   },
   {
     icon: Users,
@@ -50,43 +49,12 @@ const cultureValues = [
   },
 ];
 
-const positions = [
-  {
-    title: "Project Manager",
-    type: "Full-time",
-    location: "Los Angeles, CA",
-    description:
-      "Oversee luxury residential projects from pre-construction through completion. Manage budgets, schedules, subcontractors, and client communication.",
-  },
-  {
-    title: "Lead Carpenter",
-    type: "Full-time",
-    location: "Los Angeles, CA",
-    description:
-      "Lead framing, finish carpentry, and custom millwork on high-end residential builds. Must have experience with complex architectural details.",
-  },
-  {
-    title: "Estimator",
-    type: "Full-time",
-    location: "Los Angeles, CA",
-    description:
-      "Prepare detailed cost estimates for custom homes, fire rebuilds, and modernization projects. Proficiency in plan reading and construction takeoffs required.",
-  },
-  {
-    title: "Site Superintendent",
-    type: "Full-time",
-    location: "Los Angeles, CA",
-    description:
-      "Manage daily field operations, coordinate subcontractor scheduling, enforce safety standards, and ensure construction quality meets econstruct standards.",
-  },
-];
-
 export default function CareersPage() {
   return (
     <>
       <PageHero
         title="Build Your Career with econstruct"
-        subtitle="Join a team that builds Los Angeles' finest homes. We're looking for people who take pride in their craft."
+        subtitle="Join a team that builds Los Angeles' finest restaurants, retail stores, and commercial spaces."
         breadcrumbs={[{ label: "Careers" }]}
       />
 
@@ -96,7 +64,7 @@ export default function CareersPage() {
           <SectionHeader
             badge={["Culture"]}
             title="Why Work With Us"
-            subtitle="We build premium homes — and premium careers. Here's what sets econstruct apart as an employer."
+            subtitle="We build commercial spaces across LA — and we build strong careers. Here's what sets econstruct apart as an employer."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -122,49 +90,35 @@ export default function CareersPage() {
         </Container>
       </section>
 
-      {/* Open Positions */}
+      {/* Jobs Coming Soon */}
       <section className="py-24 md:py-32 bg-[#F8F6F2]">
         <Container>
-          <SectionHeader
-            badge={["Open Positions"]}
-            title="Join the Team"
-            subtitle="We're always looking for talented craftsmen, project managers, and construction professionals."
-          />
-
-          <div className="flex flex-col gap-6">
-            {positions.map((position, i) => (
-              <AnimatedSection key={position.title} delay={i * 0.1}>
-                <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 flex flex-col md:flex-row md:items-center gap-6">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-brand-dark mb-2">
-                      {position.title}
-                    </h3>
-                    <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-3">
-                      <span className="inline-flex items-center gap-1.5">
-                        <Clock size={14} className="text-accent-gold" />
-                        {position.type}
-                      </span>
-                      <span className="inline-flex items-center gap-1.5">
-                        <MapPin size={14} className="text-accent-gold" />
-                        {position.location}
-                      </span>
-                    </div>
-                    <p className="text-gray-500 leading-relaxed">
-                      {position.description}
-                    </p>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <Button
-                      href={`mailto:careers@econstructhomes.com?subject=Application: ${position.title}`}
-                      variant="secondary"
-                    >
-                      Apply Now
-                    </Button>
-                  </div>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
+          <AnimatedSection>
+            <div className="text-center max-w-2xl mx-auto">
+              <div className="w-20 h-20 bg-accent-gold/10 rounded-full flex items-center justify-center mx-auto mb-8">
+                <Briefcase size={36} className="text-accent-gold" />
+              </div>
+              <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold mb-4">
+                Open Positions
+              </p>
+              <h2 className="text-4xl font-bold tracking-tight text-brand-dark mb-6">
+                Jobs Coming Soon
+              </h2>
+              <p className="text-lg text-gray-500 leading-relaxed mb-8">
+                We are actively growing our team. New positions for project managers, superintendents, estimators, and skilled tradespeople will be posted here soon.
+              </p>
+              <p className="text-base text-gray-400 leading-relaxed">
+                In the meantime, send your resume to{" "}
+                <a
+                  href="mailto:info@econstructinc.com"
+                  className="text-accent-gold font-semibold hover:underline"
+                >
+                  info@econstructinc.com
+                </a>{" "}
+                and we will keep you in mind when the right role opens up.
+              </p>
+            </div>
+          </AnimatedSection>
         </Container>
       </section>
 
@@ -183,7 +137,7 @@ export default function CareersPage() {
               />
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Button
-                  href="mailto:careers@econstructhomes.com"
+                  href="mailto:info@econstructinc.com?subject=Career Inquiry"
                   variant="primary"
                   size="lg"
                 >
@@ -194,7 +148,7 @@ export default function CareersPage() {
                 </Button>
               </div>
               <p className="text-gray-400 text-sm mt-6">
-                careers@econstructhomes.com
+                info@econstructinc.com
               </p>
             </div>
           </AnimatedSection>

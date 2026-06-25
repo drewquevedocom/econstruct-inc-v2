@@ -2,7 +2,7 @@
 title: "Top 5 Mistakes to Avoid When Hiring a Residential Contractor in Los Angeles"
 slug: "top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles"
 description: "Embarking on a home renovation or new construction project in Los Angeles is an exciting endeavor, but it’s not without its challenges & heartaches. One."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

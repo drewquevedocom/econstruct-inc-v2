@@ -2,7 +2,7 @@
 title: "Hidden Hills Custom Home Builders: Equestrian Estates, Privacy & Luxury Construction"
 slug: "custom-home-builders-hidden-hills"
 description: "Looking for custom home builders in Hidden Hills? econstruct specializes in equestrian estates and gated community luxury builds. Request your free consultation today."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Hidden Hills"
   - "Luxury Home Builder"

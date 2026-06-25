@@ -2,7 +2,7 @@
 title: "econstruct Named a Top Restaurant Contractor in Santa Monica for 2024"
 slug: "econstruct-named-a-top-restaurant-contractor-in-santa-monica-for-2024"
 description: "We’re thrilled to announce that econstruct has been recognized as one of “The Best Restaurant Contractors in Santa Monica, California, in 2024” by Los."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

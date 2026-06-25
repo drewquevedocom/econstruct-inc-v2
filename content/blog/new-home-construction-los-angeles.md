@@ -2,7 +2,7 @@
 title: "New Home Construction Los Angeles: Your Dream Home Awaits"
 slug: "new-home-construction-los-angeles"
 description: "Dreaming of a home that’s uniquely yours, perfectly tailored to your lifestyle and nestled in the heart of vibrant Los Angeles? Look no further. New home."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

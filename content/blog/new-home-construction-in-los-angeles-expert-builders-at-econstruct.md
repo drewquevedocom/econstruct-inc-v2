@@ -2,7 +2,7 @@
 title: "Ask econstruct: Your Burning Questions About New Home Construction in Los Angeles Answered"
 slug: "new-home-construction-in-los-angeles-expert-builders-at-econstruct"
 description: "Embarking on the journey of building a new home in Los Angeles is an exciting prospect. But with so many moving parts and unique considerations in the LA."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

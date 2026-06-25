@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Insights from the LA Rebuild Frontline | econstruct",
+    title: "Restaurant, Commercial & Construction Insights | econstruct LA",
     description:
       "Expert rebuild, modernization, and custom home guidance from active Los Angeles job sites.",
     images: ["/blog/blog_08_vet_contractor_og.png"],
@@ -56,8 +56,8 @@ export default function BlogIndexPage() {
       />
 
       <PageHero
-        title="Insights from the LA Rebuild Frontline"
-        subtitle="Guidance for fire survivors, high-net-worth homeowners, and investors navigating permitting, budgeting, WUI compliance, and premium construction in Los Angeles."
+        title="Construction Insights"
+        subtitle="Expert guidance on restaurant build-outs, retail TI, office construction, fire rebuilds, and commercial projects across Los Angeles from econstruct's project team."
         breadcrumbs={[{ label: "Blog" }]}
         backgroundImage="/hollywood_hills.png"
       />
@@ -118,11 +118,11 @@ export default function BlogIndexPage() {
                   Newsletter
                 </p>
                 <h3 className="mt-3 text-3xl font-bold tracking-tight text-white">
-                  Get the LA Rebuild Newsletter
+                  Get the econstruct Newsletter
                 </h3>
                 <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/72">
-                  Monthly insight from active job sites, permit counters, and reconstruction budgets.
-                  For now, use our contact page and we will add you manually.
+                  Monthly insight on restaurant construction, commercial TI, permits, and LA build costs from active econstruct job sites.
+                  Use our contact page and we will add you to the list.
                 </p>
               </div>
               <div className="rounded-[1.5rem] border border-white/10 bg-white/6 p-6">

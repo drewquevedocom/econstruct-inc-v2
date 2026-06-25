@@ -2,7 +2,7 @@
 title: "Building Your Dream Home in Los Angeles? Our New Infographic Is Your Ultimate Guide"
 slug: "residential-contractor-in-los-angeles-expert-home-builders-at-econstruct"
 description: "Embarking on a new home construction project in Los Angeles can be exhilarating and daunting in equal measure. There are so many decisions to make,."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

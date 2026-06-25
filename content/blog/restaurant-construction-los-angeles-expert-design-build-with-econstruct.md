@@ -2,7 +2,7 @@
 title: "Restaurant Construction Los Angeles: Finalizing Your Project Design Plans with econstruct – Part 3"
 slug: "restaurant-construction-los-angeles-expert-design-build-with-econstruct"
 description: "Welcome to the final installment of our three-part series on Project Design Plans. Having explored the initial stages in our previous posts, we now delve."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

@@ -2,7 +2,7 @@
 title: "Navigating the World of General Contracting: An Essential Guide on Hiring the Right Professional for Your Restaurant and High-end Residential Project"
 slug: "navigating-the-world-of-general-contracting-a-comprehensive-guide-to-hiring-the-right-professional"
 description: "Understand the essentials to hire a competent, knowledgeable General Contractor for your restaurant or high-end residential project. Discover the skill."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

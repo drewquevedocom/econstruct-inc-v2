@@ -2,7 +2,7 @@
 title: "Newcomb Road Remodel: A Residential Construction Service Success Story"
 slug: "newcomb-road-remodel-a-residential-construction-service-success-story"
 description: "The Newcomb Road residence, while charming, was showing its age. The exterior lacked curb appeal, and the interior felt cramped and outdated. The."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

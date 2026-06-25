@@ -2,7 +2,7 @@
 title: "Santa Monica Hillside Construction: Why Geotechnical Engineering Comes First"
 slug: "santa-monica-hillside-construction-geotechnical"
 description: "A Santa Monica hillside project lives or dies on the soils report. Learn why geotechnical engineering should come before architecture, pricing, and foundation decisions."
-category: "Custom Homes"
+category: "ADU & New Construction"
 tags:
   - "Santa Monica"
   - "hillside construction"

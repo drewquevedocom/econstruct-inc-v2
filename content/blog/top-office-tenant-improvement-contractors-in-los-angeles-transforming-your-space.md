@@ -2,7 +2,7 @@
 title: "Top Office Tenant Improvement Contractors in Los Angeles: Transforming Your Space"
 slug: "top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space"
 description: "Choosing the wrong Office Tenant Improvement Contractor in Los Angeles can turn your office upgrade dreams into a never-ending saga of unreliable."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

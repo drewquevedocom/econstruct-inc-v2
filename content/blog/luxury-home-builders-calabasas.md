@@ -2,7 +2,7 @@
 title: "Luxury Home Builders in Calabasas: Custom Estates, HOA Compliance & Gated Community Builds"
 slug: "luxury-home-builders-calabasas"
 description: "Planning a custom home in Calabasas? econstruct navigates HOA compliance and gated community requirements to deliver stunning luxury estates. Free consultation available."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Calabasas"
   - "Luxury Home Builder"

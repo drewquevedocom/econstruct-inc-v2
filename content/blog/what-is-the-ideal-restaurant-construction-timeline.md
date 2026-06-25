@@ -2,7 +2,7 @@
 title: "What Is the Ideal Restaurant Construction LA Timeline?"
 slug: "what-is-the-ideal-restaurant-construction-timeline"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

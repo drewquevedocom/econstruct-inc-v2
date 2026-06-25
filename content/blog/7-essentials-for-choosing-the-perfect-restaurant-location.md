@@ -2,7 +2,7 @@
 title: "Restaurant Construction Essentials: Choosing the Perfect Location"
 slug: "7-essentials-for-choosing-the-perfect-restaurant-location"
 description: "When embarking on a restaurant construction journey, the mantra “location, location, location” couldn’t be more apt. At econstruct, we understand the."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

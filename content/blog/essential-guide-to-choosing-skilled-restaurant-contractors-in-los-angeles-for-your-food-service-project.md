@@ -2,7 +2,7 @@
 title: "Essential Guide to Choosing Skilled Restaurant Contractors in Los Angeles for Your Food Service Project"
 slug: "essential-guide-to-choosing-skilled-restaurant-contractors-in-los-angeles-for-your-food-service-project"
 description: "In the bustling food service sector, the role of aesthetics, efficiency, and functionality cannot be overstated. This makes selecting a proficient."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

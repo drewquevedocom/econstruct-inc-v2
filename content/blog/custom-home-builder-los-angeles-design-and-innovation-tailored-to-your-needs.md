@@ -2,7 +2,7 @@
 title: "Custom Home Builder Los Angeles: Where Design Innovation Meets Your Needs"
 slug: "custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs"
 description: "Los Angeles is a city of dreams, a place where the bold and the visionary come to make their mark on the world. Your home should be an extension of that."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

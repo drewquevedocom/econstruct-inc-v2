@@ -2,7 +2,7 @@
 title: "Top Residential Contractors in Los Angeles: The Ultimate List"
 slug: "top-10-residential-contractors-in-los-angeles-for-2024-your-ultimate-guide"
 description: "Finding the right contractor is crucial if you’re looking to build or renovate your dream home. Los Angeles, a city known for its stunning architecture."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

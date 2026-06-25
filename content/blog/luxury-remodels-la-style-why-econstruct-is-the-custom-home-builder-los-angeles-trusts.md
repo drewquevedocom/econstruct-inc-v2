@@ -2,7 +2,7 @@
 title: "Luxury Remodels, LA Style: Why econstruct is the Custom Home Builder Los Angeles Trusts"
 slug: "luxury-remodels-la-style-why-econstruct-is-the-custom-home-builder-los-angeles-trusts"
 description: "Dreaming of a home that exudes elegance and reflects your unique style? Say goodbye to cookie-cutter remodels and embrace the transformative power of a."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

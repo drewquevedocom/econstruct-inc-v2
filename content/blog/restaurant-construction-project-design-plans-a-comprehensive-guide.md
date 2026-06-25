@@ -2,7 +2,7 @@
 title: "Restaurant Construction: Project Design Plans – Part 1"
 slug: "restaurant-construction-project-design-plans-a-comprehensive-guide"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

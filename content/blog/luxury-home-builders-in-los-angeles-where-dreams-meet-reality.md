@@ -2,7 +2,7 @@
 title: "Luxury Home Builders in Los Angeles: Where Dreams Meet Reality"
 slug: "luxury-home-builders-in-los-angeles-where-dreams-meet-reality"
 description: "Are you dreaming of a home that reflects your unique style and elevates your daily life? Building a custom luxury home is a journey towards creating the."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

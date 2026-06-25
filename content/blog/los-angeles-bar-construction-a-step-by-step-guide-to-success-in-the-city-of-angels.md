@@ -2,7 +2,7 @@
 title: "Navigating Los Angeles Bar Construction: A Contractor’s Step-by-Step Guide"
 slug: "los-angeles-bar-construction-a-step-by-step-guide-to-success-in-the-city-of-angels"
 description: "Los Angeles, a city synonymous with glamour and style, demands an exceptional approach when it comes to bar construction. This guide delves into the."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

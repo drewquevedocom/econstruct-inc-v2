@@ -2,7 +2,7 @@
 title: "Ultimate Guide to Hiring a Top-notch Restaurant Architect in Los Angeles"
 slug: "hire-a-top-notch-restaurant-architect-in-los-angeles-the-ultimate-guide"
 description: "In the fast-paced world of food service, hiring an adept architect becomes the cornerstone of success for any construction project. Ensuring seamless."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

@@ -2,7 +2,7 @@
 title: "Bridging the Gap: The Impact of a Strong Architect/Designer and Contractor Partnership"
 slug: "architect-designer-contractor-collaboration-the-key-to-successful-construction-projects"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "General Contracting"
 tags:
   - "general contractor Los Angeles"
   - "construction tips"

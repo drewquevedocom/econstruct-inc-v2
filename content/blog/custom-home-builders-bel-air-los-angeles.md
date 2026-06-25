@@ -2,7 +2,7 @@
 title: "Custom Home Construction in Bel Air: Hillside Estates, Privacy & Prestige"
 slug: "custom-home-builders-bel-air-los-angeles"
 description: "Building a custom home in Bel Air? econstruct specializes in hillside estate construction with meticulous craftsmanship and local permit expertise. Get your free consultation."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Bel Air"
   - "Luxury Home Builder"

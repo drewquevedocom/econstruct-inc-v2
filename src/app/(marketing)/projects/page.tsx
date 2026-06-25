@@ -12,24 +12,24 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Projects | econstruct Portfolio",
+  title: "Our Work | Restaurant, Retail & Commercial Construction Projects | econstruct",
   description:
-    "Explore 19 migrated econstruct portfolio projects across residential, restaurant, retail, and commercial construction.",
+    "Browse econstruct's completed restaurant, retail, and commercial construction projects across Los Angeles. From Hal's Bar to Jersey Mike's — see the work.",
   alternates: {
     canonical: `${SITE_URL}/projects`,
   },
   openGraph: {
-    title: "Projects | econstruct Portfolio",
+    title: "Restaurant, Retail & Commercial Projects | econstruct Los Angeles",
     description:
-      "Legacy econstruct portfolio projects migrated into the new website format, including residential, restaurant, retail, and commercial work.",
+      "econstruct's project portfolio spans restaurants, bars, retail stores, and multi-location commercial build-outs across Los Angeles.",
     url: `${SITE_URL}/projects`,
-    images: [{ url: "/projects/devista-hero.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/projects/Hals_pv_12-scaled.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects | econstruct Portfolio",
-    description: "19 legacy econstruct projects migrated into the new site.",
-    images: ["/projects/devista-hero.jpg"],
+    title: "Commercial Construction Projects | econstruct LA",
+    description: "Restaurant, retail, and commercial build-outs by econstruct across Los Angeles.",
+    images: ["/projects/Hals_pv_12-scaled.jpg"],
   },
 };
 
@@ -48,7 +48,6 @@ const categoryColors = {
 } as const;
 
 const featuredProject =
-  projects.find((project) => project.slug === "mulholland-drive-residence") ??
   projects.find((project) => project.featured) ??
   projects[0];
 
@@ -64,7 +63,7 @@ export default function ProjectsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "econstruct Portfolio Projects",
-    description: "Migrated econstruct portfolio projects spanning residential and commercial construction.",
+    description: "econstruct commercial construction projects spanning restaurants, retail, and tenant improvements across Los Angeles.",
     itemListElement: projects.map((project, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -81,13 +80,13 @@ export default function ProjectsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
       <PageHero
-        title="Legacy Portfolio, Rebuilt for the New Site"
-        subtitle="All 19 projects from the previous econstruct portfolio have been migrated into the new format across residential, restaurant, retail, and commercial work."
+        title="Our Work"
+        subtitle="Restaurant build-outs, retail fit-outs, commercial TI, and multi-location projects completed across Los Angeles by econstruct."
         breadcrumbs={[{ label: "Projects" }]}
         backgroundImage={featuredProject.heroImage}
         stats={[
-          { value: "19", label: "Migrated Projects" },
-          { value: "4", label: "Project Sectors" },
+          { value: "19+", label: "Completed Projects" },
+          { value: "3", label: "Project Sectors" },
           { value: "CA #964015", label: "Licensed GC" },
         ]}
       />
@@ -169,11 +168,11 @@ export default function ProjectsPage() {
                 All Projects
               </p>
               <h2 className="font-heading text-[2.2rem] leading-tight tracking-tight text-brand-dark md:text-[2.8rem]">
-                Complete Migrated Portfolio
+                All Projects
               </h2>
             </div>
             <p className="max-w-md text-[0.9rem] leading-[1.7] text-black/50">
-              Each card below is now mapped to the legacy portfolio project data and images rather than the temporary residential prompt set.
+              Restaurant build-outs, retail fit-outs, office TI, and commercial remodels completed across Los Angeles.
             </p>
           </div>
 

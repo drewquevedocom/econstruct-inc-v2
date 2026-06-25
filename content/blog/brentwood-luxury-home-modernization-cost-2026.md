@@ -2,7 +2,7 @@
 title: "Brentwood Luxury Home Modernization: What $1M Actually Buys in 2026"
 slug: "brentwood-luxury-home-modernization-cost-2026"
 description: "What does a $1M luxury modernization actually include in Brentwood, CA in 2026? Real numbers, real scope, and where the money goes."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "Brentwood"
   - "luxury modernization"

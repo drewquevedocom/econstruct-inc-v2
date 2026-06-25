@@ -2,7 +2,7 @@
 title: "Elevating Your Hillside Home: Finding the Perfect Hillside Residential Lift Contractor in Los Angeles"
 slug: "elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles"
 description: "Los Angeles boasts stunning hillside properties offering breathtaking views, but these unique landscapes often come with accessibility challenges.."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Los Angeles contractor"
   - "luxury construction LA"

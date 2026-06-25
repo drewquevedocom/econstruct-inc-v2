@@ -2,7 +2,7 @@
 title: "How to Build an ADU in Los Angeles: Your Comprehensive Guide"
 slug: "build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct"
 description: "How to Build an ADU in Los Angeles Accessory Dwelling Units, or ADUs, are the savvy resolution for Los Angeles residents seeking more space, rental."
-category: "ADUs & Additions"
+category: "ADU & New Construction"
 tags:
   - "ADU Los Angeles"
   - "accessory dwelling unit"

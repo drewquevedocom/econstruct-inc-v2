@@ -2,7 +2,7 @@
 title: "Eco-Smart Upgrades: Building A Greener Future with New Home Construction in Los Angeles"
 slug: "eco-smart-home-upgrades-build-a-greener-future-with-econstruct"
 description: "California leads the way in eco-conscious living, and your Los Angeles home should reflect that! Old, inefficient houses waste resources and money.."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

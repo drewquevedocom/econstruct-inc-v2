@@ -2,7 +2,7 @@
 title: "Launching Your Dream Restaurant: Insights from econstruct, Top Restaurant Contractor in Los Angeles"
 slug: "top-restaurant-contractor-in-los-angeles-launch-your-dream-restaurant-with-econstruct"
 description: "Navigating the complexities of building layouts and utility planning is a daunting task, fraught with potential pitfalls and stringent regulations.."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

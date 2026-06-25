@@ -2,7 +2,7 @@
 title: "Residential Construction Los Angeles: Transforming Outdated Homes into Modern Masterpieces"
 slug: "residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces"
 description: "Los Angeles is a city of dreams, where classic architecture meets modern innovation. But even the most charming homes can feel outdated or cramped over."
-category: "Industry Insights"
+category: "General Contracting"
 tags:
   - "general contractor Los Angeles"
   - "construction tips"

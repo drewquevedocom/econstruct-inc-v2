@@ -2,7 +2,7 @@
 title: "Building Efficient Restaurant Kitchens in Los Angeles: Innovations in Restaurant Construction"
 slug: "restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction"
 description: "Optimizing Your Restaurant’s Heart: The Kitchen At econstruct, We understand that the kitchen is the heart of any restaurant. Its construction and design."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

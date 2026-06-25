@@ -2,7 +2,7 @@
 title: "Residential Contractors in Los Angeles: Your Partners in Building Dream Homes"
 slug: "los-angeles-residential-contractors-econstruct-builds-dreams"
 description: "Los Angeles, a city of dreams, iconic architecture, and a unique blend of urban and suburban living, is the perfect backdrop for your dream home. Whether."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Los Angeles contractor"
   - "luxury construction LA"

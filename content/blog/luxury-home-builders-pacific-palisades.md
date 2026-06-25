@@ -2,7 +2,7 @@
 title: "Rebuilding in Pacific Palisades: Your Complete Guide to Luxury Home Construction After the Fires"
 slug: "luxury-home-builders-pacific-palisades"
 description: "Rebuilding your Pacific Palisades home after the fires? econstruct specializes in luxury custom construction and fire rebuild projects. Get expert guidance — free consultation."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Pacific Palisades"
   - "Luxury Home Builder"

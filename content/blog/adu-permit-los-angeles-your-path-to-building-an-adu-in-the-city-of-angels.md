@@ -2,7 +2,7 @@
 title: "ADU Permit Los Angeles: Your Path to Building an ADU in the City of Angels"
 slug: "adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels"
 description: "ADU Permit Los Angeles Have you ever looked at your Los Angeles property and wondered, “Can I build an ADU here?” Maybe you’re envisioning a backyard."
-category: "ADUs & Additions"
+category: "ADU & New Construction"
 tags:
   - "ADU Los Angeles"
   - "accessory dwelling unit"

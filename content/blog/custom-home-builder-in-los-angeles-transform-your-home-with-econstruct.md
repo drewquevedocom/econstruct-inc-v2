@@ -2,7 +2,7 @@
 title: "Step-by-Step Guide to Remodeling Your Home with econstruct, Your Custom Home Builder in Los Angeles"
 slug: "custom-home-builder-in-los-angeles-transform-your-home-with-econstruct"
 description: "Custom Home Builder in Los Angeles: Step-by-Step Home Remodeling Guide Remodeling your home is an exciting journey, transforming your space into a."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

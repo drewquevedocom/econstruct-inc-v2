@@ -2,7 +2,7 @@
 title: "Your Dream Home Starts Here: Site Planning with Top Residential Contractors in Los Angeles"
 slug: "your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles"
 description: "Los Angeles, with its diverse neighborhoods, iconic architecture, and unique blend of urban and suburban living, is a city where your dream home truly."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

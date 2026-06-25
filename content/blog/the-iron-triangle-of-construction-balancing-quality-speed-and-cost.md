@@ -2,7 +2,7 @@
 title: "The Iron Triangle in Construction: Quality, Speed, Cost"
 slug: "the-iron-triangle-of-construction-balancing-quality-speed-and-cost"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "General Contracting"
 tags:
   - "general contractor Los Angeles"
   - "construction tips"

@@ -2,7 +2,7 @@
 title: "Los Angeles Office Trends:  Partner with Top Office Building TI Contractors Los Angeles to Design the Workplace of the Future"
 slug: "partner-with-top-office-building-ti-contractors-los-angeles-to-design-the-workplace-of-the-future"
 description: "Los Angeles never stands still, and your office shouldn’t either! Outdated spaces drag down productivity, dampen morale, and can make attracting top."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

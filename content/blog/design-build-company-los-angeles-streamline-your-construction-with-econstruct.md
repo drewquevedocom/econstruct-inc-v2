@@ -2,7 +2,7 @@
 title: "Design Build Company Los Angeles, Part 1: History Of Design Build"
 slug: "design-build-company-los-angeles-streamline-your-construction-with-econstruct"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Luxury Modernization"
+category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
   - "residential contractor LA"

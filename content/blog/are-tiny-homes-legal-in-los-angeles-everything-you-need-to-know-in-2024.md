@@ -2,7 +2,7 @@
 title: "Are Tiny Homes Legal in Los Angeles? Everything You Need to Know in 2024"
 slug: "are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024"
 description: "The tiny house movement has captured the hearts and minds of many Angelenos seeking affordable, sustainable, and minimalist living. But are these."
-category: "ADUs & Additions"
+category: "ADU & New Construction"
 tags:
   - "ADU Los Angeles"
   - "accessory dwelling unit"

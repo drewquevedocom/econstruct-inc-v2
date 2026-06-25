@@ -2,7 +2,7 @@
 title: "Restaurant Construction Los Angeles: Case Study 800° Degrees Pizzeria"
 slug: "restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct"
 description: "In the bustling heart of Hollywood, a unique collaboration between econstruct and Chef Anthony Carron has set a new standard for restaurant construction."
-category: "Restaurant & Commercial"
+category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
   - "commercial contractor LA"

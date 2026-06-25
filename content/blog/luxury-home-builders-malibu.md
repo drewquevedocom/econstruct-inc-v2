@@ -2,7 +2,7 @@
 title: "Building Your Malibu Coastal Estate: Coastal Commission, Permits & Luxury Construction Done Right"
 slug: "luxury-home-builders-malibu"
 description: "Dreaming of a Malibu coastal estate? econstruct navigates Coastal Commission permits and delivers exceptional luxury construction. Schedule your free consultation today."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Malibu"
   - "Luxury Home Builder"

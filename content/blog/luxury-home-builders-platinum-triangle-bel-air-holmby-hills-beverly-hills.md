@@ -2,7 +2,7 @@
 title: "The Platinum Triangle: Building Ultra-Luxury Estates in Bel Air, Holmby Hills & Beverly Hills"
 slug: "luxury-home-builders-platinum-triangle-bel-air-holmby-hills-beverly-hills"
 description: "Building in the Platinum Triangle? econstruct crafts ultra-luxury estates in Bel Air, Holmby Hills, and Beverly Hills with unmatched precision. Free consultation available."
-category: "Local Guides"
+category: "Los Angeles Projects"
 tags:
   - "Beverly Hills"
   - "Luxury Home Builder"
