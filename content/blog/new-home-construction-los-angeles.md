@@ -2,10 +2,10 @@
 title: "New Home Construction Los Angeles: Your Dream Home Awaits"
 slug: "new-home-construction-los-angeles"
 description: "Dreaming of a home that’s uniquely yours, perfectly tailored to your lifestyle and nestled in the heart of vibrant Los Angeles? Look no further. New home con..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-06-03"
-updatedAt: "2024-07-24"
+publishedAt: "2026-01-17"
+updatedAt: "2026-01-17"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

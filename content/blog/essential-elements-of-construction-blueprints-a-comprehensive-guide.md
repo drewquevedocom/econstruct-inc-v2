@@ -2,10 +2,10 @@
 title: "The Critical Elements Of Construction Blueprints Los Angeles"
 slug: "essential-elements-of-construction-blueprints-a-comprehensive-guide"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Thought Leadership"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2023-08-24"
-updatedAt: "2024-05-17"
+publishedAt: "2025-07-26"
+updatedAt: "2025-07-26"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

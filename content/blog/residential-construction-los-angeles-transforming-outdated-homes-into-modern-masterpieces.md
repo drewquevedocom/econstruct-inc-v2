@@ -4,8 +4,8 @@ slug: "residential-construction-los-angeles-transforming-outdated-homes-into-mod
 description: "Los Angeles is a city of dreams, where classic architecture meets modern innovation. But even the most charming homes can feel outdated or cramped over time...."
 category: "Industry Insights"
 tags: []
-publishedAt: "2024-06-18"
-updatedAt: "2024-07-24"
+publishedAt: "2026-02-14"
+updatedAt: "2026-02-14"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

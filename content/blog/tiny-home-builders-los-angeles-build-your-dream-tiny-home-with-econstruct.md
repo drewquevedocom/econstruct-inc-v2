@@ -2,10 +2,10 @@
 title: "Escape Soaring LA Housing Costs with Tiny Home Builders Los Angeles: Your Step-by-Step Guide"
 slug: "tiny-home-builders-los-angeles-build-your-dream-tiny-home-with-econstruct"
 description: "Los Angeles is notorious for its sky-high housing costs. But what if there was a way to own your own home in LA without breaking the bank? Enter the tiny hom..."
-category: "Industry Insights"
+category: "ADUs & Additions"
 tags: []
-publishedAt: "2024-07-16"
-updatedAt: "2024-07-16"
+publishedAt: "2026-04-25"
+updatedAt: "2026-04-25"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

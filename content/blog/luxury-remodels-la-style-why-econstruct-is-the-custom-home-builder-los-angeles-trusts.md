@@ -2,10 +2,10 @@
 title: "Luxury Remodels, LA Style: Why econstruct is the Custom Home Builder Los Angeles Trusts"
 slug: "luxury-remodels-la-style-why-econstruct-is-the-custom-home-builder-los-angeles-trusts"
 description: "Dreaming of a home that exudes elegance and reflects your unique style? Say goodbye to cookie-cutter remodels and embrace the transformative power of a custo..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-03-19"
-updatedAt: "2024-05-03"
+publishedAt: "2025-12-17"
+updatedAt: "2025-12-17"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

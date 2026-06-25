@@ -2,10 +2,10 @@
 title: "Newcomb Road Remodel: A Residential Construction Service Success Story"
 slug: "newcomb-road-remodel-a-residential-construction-service-success-story"
 description: "The Newcomb Road residence, while charming, was showing its age. The exterior lacked curb appeal, and the interior felt cramped and outdated. The homeowners,..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-08-06"
-updatedAt: "2024-08-06"
+publishedAt: "2026-01-24"
+updatedAt: "2026-01-24"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

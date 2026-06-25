@@ -2,10 +2,10 @@
 title: "Design Build Company Los Angeles, Part 1: History Of Design Build"
 slug: "design-build-company-los-angeles-streamline-your-construction-with-econstruct"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2015-07-15"
-updatedAt: "2024-07-24"
+publishedAt: "2025-05-27"
+updatedAt: "2025-05-27"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

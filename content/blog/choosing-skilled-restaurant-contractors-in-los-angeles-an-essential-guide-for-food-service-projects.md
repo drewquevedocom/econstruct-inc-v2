@@ -2,10 +2,10 @@
 title: "Essential Guide to Choosing Skilled Restaurant Contractors in Los Angeles for Your Food Service Project"
 slug: "choosing-skilled-restaurant-contractors-in-los-angeles-an-essential-guide-for-food-service-projects"
 description: "In the bustling food service sector, the role of aesthetics, efficiency, and functionality cannot be overstated. This makes selecting a proficient architect..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2023-07-10"
-updatedAt: "2024-05-17"
+publishedAt: "2025-04-09"
+updatedAt: "2025-04-09"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

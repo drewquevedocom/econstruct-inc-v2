@@ -2,10 +2,10 @@
 title: "Navigating Los Angeles Bar Construction: A Contractor’s Step-by-Step Guide"
 slug: "los-angeles-bar-construction-a-step-by-step-guide-to-success-in-the-city-of-angels"
 description: "Los Angeles, a city synonymous with glamour and style, demands an exceptional approach when it comes to bar construction. This guide delves into the meticulo..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2023-12-11"
-updatedAt: "2024-05-03"
+publishedAt: "2025-11-11"
+updatedAt: "2025-11-11"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

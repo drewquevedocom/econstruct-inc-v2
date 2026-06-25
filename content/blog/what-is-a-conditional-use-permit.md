@@ -2,10 +2,10 @@
 title: "What Is A Conditional Use Permit (Cup)?"
 slug: "what-is-a-conditional-use-permit"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2023-08-11"
-updatedAt: "2024-05-17"
+publishedAt: "2026-06-06"
+updatedAt: "2026-06-06"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

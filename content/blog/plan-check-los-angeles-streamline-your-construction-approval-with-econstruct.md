@@ -2,10 +2,10 @@
 title: "Plan Check Los Angeles: Navigate the Approval Process with Ease"
 slug: "plan-check-los-angeles-streamline-your-construction-approval-with-econstruct"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2023-07-21"
-updatedAt: "2024-07-24"
+publishedAt: "2026-02-07"
+updatedAt: "2026-02-07"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

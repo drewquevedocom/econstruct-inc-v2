@@ -2,10 +2,10 @@
 title: "Restaurant Construction in Los Angeles: A Comprehensive Guide to Design and Plans"
 slug: "restaurant-construction-in-los-angeles-a-comprehensive-guide-to-project-design-plans-part-2"
 description: "Introduction Embarking on a restaurant construction project in Los Angeles requires meticulous planning and the expertise of skilled professionals. This guid..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2015-03-06"
-updatedAt: "2024-05-17"
+publishedAt: "2026-02-28"
+updatedAt: "2026-02-28"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

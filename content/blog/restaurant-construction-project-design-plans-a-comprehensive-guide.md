@@ -2,10 +2,10 @@
 title: "Restaurant Construction: Project Design Plans – Part 1"
 slug: "restaurant-construction-project-design-plans-a-comprehensive-guide"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2023-04-07"
-updatedAt: "2024-05-17"
+publishedAt: "2026-04-04"
+updatedAt: "2026-04-04"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

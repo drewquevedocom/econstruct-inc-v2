@@ -4,8 +4,8 @@ slug: "architect-designer-contractor-collaboration-the-key-to-successful-constru
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
 category: "Industry Insights"
 tags: []
-publishedAt: "2023-08-02"
-updatedAt: "2024-05-17"
+publishedAt: "2025-02-08"
+updatedAt: "2025-02-08"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

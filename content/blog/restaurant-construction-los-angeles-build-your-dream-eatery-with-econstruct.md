@@ -2,10 +2,10 @@
 title: "Restaurant Construction Essentials: Choosing the Perfect Location in Los Angeles"
 slug: "restaurant-construction-los-angeles-build-your-dream-eatery-with-econstruct"
 description: "When embarking on a restaurant construction journey, the mantra “location, location, location” couldn’t be more apt. At econstruct, we understand the complex..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2015-03-15"
-updatedAt: "2024-07-24"
+publishedAt: "2026-03-21"
+updatedAt: "2026-03-21"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

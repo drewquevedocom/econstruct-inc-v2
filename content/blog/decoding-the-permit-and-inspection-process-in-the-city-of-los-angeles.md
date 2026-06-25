@@ -2,10 +2,10 @@
 title: "Decoding The Permit And Inspection Process In The City Of Los Angeles"
 slug: "decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2023-07-30"
-updatedAt: "2024-05-17"
+publishedAt: "2025-05-15"
+updatedAt: "2025-05-15"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

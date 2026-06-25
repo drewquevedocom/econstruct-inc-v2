@@ -2,10 +2,10 @@
 title: "How Much Does It Cost to Build an ADU in Los Angeles? Your Burning Questions Answered"
 slug: "build-an-adu-in-los-angeles-2024-cost-breakdown-expert-guide"
 description: "Are you considering building an Accessory Dwelling Unit (ADU) in Los Angeles? It’s a great way to add extra living space, generate rental income, or house fa..."
-category: "Industry Insights"
+category: "ADUs & Additions"
 tags: []
-publishedAt: "2024-07-23"
-updatedAt: "2024-07-23"
+publishedAt: "2025-03-16"
+updatedAt: "2025-03-16"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

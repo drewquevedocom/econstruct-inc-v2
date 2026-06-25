@@ -2,10 +2,10 @@
 title: "Elevating Your Hillside Home: Finding the Perfect Hillside Residential Lift Contractor in Los Angeles"
 slug: "elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles"
 description: "Los Angeles boasts stunning hillside properties offering breathtaking views, but these unique landscapes often come with accessibility challenges. Whether yo..."
-category: "Industry Insights"
+category: "Local Guides"
 tags: []
-publishedAt: "2024-06-06"
-updatedAt: "2024-06-11"
+publishedAt: "2025-07-14"
+updatedAt: "2025-07-14"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

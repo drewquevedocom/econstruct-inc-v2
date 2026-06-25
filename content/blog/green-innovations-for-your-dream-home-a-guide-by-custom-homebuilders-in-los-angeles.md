@@ -2,10 +2,10 @@
 title: "Green Innovations for Your Dream Home: A Guide by Custom Homebuilders in Los Angeles"
 slug: "green-innovations-for-your-dream-home-a-guide-by-custom-homebuilders-in-los-angeles"
 description: "In Los Angeles, econstruct leads the movement towards sustainability in home construction. This guide highlights how econstruct, a premier custom homebuilder..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2016-03-06"
-updatedAt: "2024-05-17"
+publishedAt: "2025-08-31"
+updatedAt: "2025-08-31"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

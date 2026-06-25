@@ -2,10 +2,10 @@
 title: "Steps to Vetting & Hiring a well-qualified Food Service Architect: Food Specialty Construction Los Angeles"
 slug: "food-specialty-construction-los-angeles-expert-builders-for-your-restaurant"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2023-07-10"
-updatedAt: "2024-07-24"
+publishedAt: "2025-08-19"
+updatedAt: "2025-08-19"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

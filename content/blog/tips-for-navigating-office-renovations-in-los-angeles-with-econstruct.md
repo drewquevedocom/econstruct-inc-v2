@@ -2,10 +2,10 @@
 title: "Navigating Office Renovations: Tips from econstruct, a Leading TI Contractor in Los Angeles Introduction"
 slug: "tips-for-navigating-office-renovations-in-los-angeles-with-econstruct"
 description: "Embarking on an office renovation project in Los Angeles presents a unique set of challenges and opportunities. Whether you’re aiming to revitalize an outdat..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2024-02-13"
-updatedAt: "2024-05-17"
+publishedAt: "2026-05-02"
+updatedAt: "2026-05-02"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

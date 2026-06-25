@@ -2,10 +2,10 @@
 title: "Top Office Tenant Improvement Contractors in Los Angeles: Transforming Your Space"
 slug: "top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space"
 description: "Choosing the wrong Office Tenant Improvement Contractor in Los Angeles can turn your office upgrade dreams into a never-ending saga of unreliable contractors..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2024-03-11"
-updatedAt: "2024-05-17"
+publishedAt: "2026-05-23"
+updatedAt: "2026-05-23"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

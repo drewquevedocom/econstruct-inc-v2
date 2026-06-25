@@ -2,10 +2,10 @@
 title: "ADU Permit Los Angeles: Your Path to Building an ADU in the City of Angels"
 slug: "adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels"
 description: "ADU Permit Los Angeles Have you ever looked at your Los Angeles property and wondered, “Can I build an ADU here?” Maybe you’re envisioning a backyard oasis f..."
-category: "Industry Insights"
+category: "ADUs & Additions"
 tags: []
-publishedAt: "2024-06-03"
-updatedAt: "2024-08-08"
+publishedAt: "2025-01-27"
+updatedAt: "2025-01-27"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

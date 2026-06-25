@@ -2,10 +2,10 @@
 title: "Launching Your Dream Restaurant: Insights from Top Restaurant Contractor in Los Angeles"
 slug: "launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles"
 description: "Embarking on the creation of your dream restaurant is an exhilarating venture. With your investors ready, your business plan set, and the ideal location chos..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2024-02-01"
-updatedAt: "2024-05-17"
+publishedAt: "2025-10-30"
+updatedAt: "2025-10-30"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

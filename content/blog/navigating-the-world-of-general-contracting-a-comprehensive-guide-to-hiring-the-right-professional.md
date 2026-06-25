@@ -2,10 +2,10 @@
 title: "Navigating the World of General Contracting: An Essential Guide on Hiring the Right Professional for Your Restaurant and High-end Residential Project"
 slug: "navigating-the-world-of-general-contracting-a-comprehensive-guide-to-hiring-the-right-professional"
 description: "Understand the essentials to hire a competent, knowledgeable General Contractor for your restaurant or high-end residential project. Discover the skill level..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2023-06-11"
-updatedAt: "2024-05-03"
+publishedAt: "2025-12-29"
+updatedAt: "2025-12-29"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

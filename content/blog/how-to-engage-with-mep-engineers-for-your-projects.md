@@ -2,10 +2,10 @@
 title: "How To Engage with MEP Engineers For Your Projects"
 slug: "how-to-engage-with-mep-engineers-for-your-projects"
 description: "Mechanical, electrical, and plumbing (MEP) engineers are responsible for the design of the systems that keep buildings running. They play a critical role in..."
-category: "Industry Insights"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2023-06-21"
-updatedAt: "2024-05-17"
+publishedAt: "2025-10-06"
+updatedAt: "2025-10-06"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

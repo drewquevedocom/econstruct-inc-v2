@@ -2,10 +2,10 @@
 title: "Homeowner’s Guide to Asbestos and Renovations by Residential Contractors in Los Angeles"
 slug: "homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-category: "Industry Insights"
+category: "Permits & Compliance"
 tags: []
-publishedAt: "2016-03-06"
-updatedAt: "2024-05-03"
+publishedAt: "2025-09-24"
+updatedAt: "2025-09-24"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

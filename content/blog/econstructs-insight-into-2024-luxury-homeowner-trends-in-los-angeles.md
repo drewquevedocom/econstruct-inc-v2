@@ -2,10 +2,10 @@
 title: "econstruct’s Insight into 2024 Luxury Homeowner Trends in Los Angeles"
 slug: "econstructs-insight-into-2024-luxury-homeowner-trends-in-los-angeles"
 description: "As a pioneering name in luxury construction, econstruct is at the forefront of transforming homes into epitomes of luxury, integrating cutting-edge trends th..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-02-23"
-updatedAt: "2024-05-17"
+publishedAt: "2025-07-02"
+updatedAt: "2025-07-02"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

@@ -2,10 +2,10 @@
 title: "Top Residential Contractors in Los Angeles: The Ultimate List"
 slug: "top-10-residential-contractors-in-los-angeles-for-2024-your-ultimate-guide"
 description: "Finding the right contractor is crucial if you’re looking to build or renovate your dream home. Los Angeles, a city known for its stunning architecture and d..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-07-18"
-updatedAt: "2024-07-18"
+publishedAt: "2026-05-09"
+updatedAt: "2026-05-09"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

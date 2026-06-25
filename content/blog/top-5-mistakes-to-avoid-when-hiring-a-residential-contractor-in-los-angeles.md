@@ -2,10 +2,10 @@
 title: "Top 5 Mistakes to Avoid When Hiring a Residential Contractor in Los Angeles"
 slug: "top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles"
 description: "Embarking on a home renovation or new construction project in Los Angeles is an exciting endeavor, but it’s not without its challenges & heartaches. One of t..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-06-18"
-updatedAt: "2024-06-18"
+publishedAt: "2026-05-16"
+updatedAt: "2026-05-16"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

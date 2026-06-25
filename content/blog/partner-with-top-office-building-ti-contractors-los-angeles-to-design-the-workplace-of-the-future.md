@@ -2,10 +2,10 @@
 title: "Los Angeles Office Trends:  Partner with Top Office Building TI Contractors Los Angeles to Design the Workplace of the Future"
 slug: "partner-with-top-office-building-ti-contractors-los-angeles-to-design-the-workplace-of-the-future"
 description: "Los Angeles never stands still, and your office shouldn’t either! Outdated spaces drag down productivity, dampen morale, and can make attracting top talent a..."
-category: "Industry Insights"
+category: "Restaurant & Commercial"
 tags: []
-publishedAt: "2024-03-19"
-updatedAt: "2024-05-17"
+publishedAt: "2026-01-31"
+updatedAt: "2026-01-31"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

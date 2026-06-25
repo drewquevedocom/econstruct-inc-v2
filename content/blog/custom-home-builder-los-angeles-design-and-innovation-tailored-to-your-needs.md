@@ -2,10 +2,10 @@
 title: "Custom Home Builder Los Angeles: Where Design Innovation Meets Your Needs"
 slug: "custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs"
 description: "Los Angeles is a city of dreams, a place where the bold and the visionary come to make their mark on the world. Your home should be an extension of that same..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-05-01"
-updatedAt: "2024-07-29"
+publishedAt: "2025-05-03"
+updatedAt: "2025-05-03"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

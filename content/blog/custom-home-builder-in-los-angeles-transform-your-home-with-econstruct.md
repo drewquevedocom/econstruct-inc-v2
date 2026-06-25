@@ -2,10 +2,10 @@
 title: "Step-by-Step Guide to Remodeling Your Home with econstruct, Your Custom Home Builder in Los Angeles"
 slug: "custom-home-builder-in-los-angeles-transform-your-home-with-econstruct"
 description: "Custom Home Builder in Los Angeles: Step-by-Step Home Remodeling Guide Remodeling your home is an exciting journey, transforming your space into a reflection..."
-category: "Industry Insights"
+category: "Luxury Modernization"
 tags: []
-publishedAt: "2024-01-29"
-updatedAt: "2024-07-24"
+publishedAt: "2025-04-21"
+updatedAt: "2025-04-21"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"

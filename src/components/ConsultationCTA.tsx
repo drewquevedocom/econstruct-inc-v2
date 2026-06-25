@@ -4,11 +4,17 @@ import { useState, type FormEvent, type MouseEvent } from "react";
 import { ArrowRight, ArrowLeft, CheckCircle2, Loader2 } from "lucide-react";
 
 const projectTypes = [
-  "Fire Rebuild",
-  "Luxury Home Build or Major Remodel",
-  "Custom Home Construction",
+  // Commercial
+  "Restaurant or Bar Construction",
+  "Retail or Storefront Build-Out",
+  "Office or Tenant Improvement (TI)",
+  "Food Distribution or Cold Storage",
+  "Multi-Location Commercial Build",
+  // Residential
+  "Fire Rebuild (Palisades / Altadena)",
+  "Luxury Home Remodel",
+  "Custom Home or New Construction",
   "Home Addition or ADU",
-  "Home Automation",
   "Not Sure Yet",
 ];
 
