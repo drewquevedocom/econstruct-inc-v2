@@ -8,24 +8,29 @@ interface BlogFiltersProps {
 const filters = [
   { label: "All", href: "/blog", slug: "all" },
   {
-    label: "Fire Rebuilds",
-    href: "/blog/category/fire-rebuilds",
-    slug: "fire-rebuilds",
+    label: "Restaurant & Bar",
+    href: "/blog/category/restaurant-and-bar",
+    slug: "restaurant-and-bar",
   },
   {
-    label: "Luxury Modernization",
-    href: "/blog/category/luxury-modernization",
-    slug: "luxury-modernization",
+    label: "General Contracting",
+    href: "/blog/category/general-contracting",
+    slug: "general-contracting",
   },
   {
-    label: "Custom Homes",
-    href: "/blog/category/custom-homes",
-    slug: "custom-homes",
+    label: "Remodeling & Renovation",
+    href: "/blog/category/remodeling-and-renovation",
+    slug: "remodeling-and-renovation",
   },
   {
-    label: "Industry Insights",
-    href: "/blog/category/industry-insights",
-    slug: "industry-insights",
+    label: "Los Angeles Projects",
+    href: "/blog/category/los-angeles-projects",
+    slug: "los-angeles-projects",
+  },
+  {
+    label: "Permits & Compliance",
+    href: "/blog/category/permits-and-compliance",
+    slug: "permits-and-compliance",
   },
 ];
 

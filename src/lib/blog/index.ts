@@ -151,12 +151,14 @@ export function getBlogIndexPages(count: number) { return Math.max(1, Math.ceil(
 export function paginatePosts<T>(posts: T[], page: number) { return posts.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE); }
 export function getBlogArchiveSummary(slug?: string) {
   const summaries: Record<string, string> = {
-    "fire-rebuilds": "Field-tested guidance for homeowners rebuilding after wildfire loss across Los Angeles County.",
-    "luxury-modernization": "Budget, scope, and systems insight for premium renovations in LA's most demanding neighborhoods.",
-    "custom-homes": "Practical guidance for ground-up custom homes, hillside construction, and design-build coordination.",
-    "industry-insights": "Code, permitting, and market intelligence for owners making high-stakes construction decisions.",
-    "local-guides": "Neighborhood-specific planning guidance for Pacific Palisades, Brentwood, Santa Monica, Altadena, and beyond."
+    "restaurant-and-bar": "Restaurant build-outs, bar renovations, and commercial kitchen construction across Los Angeles.",
+    "general-contracting": "Code, permitting, and project management insight for commercial construction in Los Angeles.",
+    "remodeling-and-renovation": "Tenant improvements, office remodels, and commercial renovation guidance from econstruct's project team.",
+    "los-angeles-projects": "Neighborhood-specific commercial construction guides for LA business owners and investors.",
+    "permits-and-compliance": "Permit timelines, LADBS requirements, and compliance guidance for LA commercial projects.",
+    "adu-and-new-construction": "ADU construction, new builds, and ground-up commercial development across Los Angeles.",
+    "fire-rebuilds": "Fire rebuild guidance for Palisades and Altadena business and property owners.",
   };
-  return slug ? (summaries[slug] || "Expert construction insight for Los Angeles homeowners, rebuild clients, and investors.") : "Practical rebuild, modernization, and custom home insight from active Los Angeles construction work.";
+  return slug ? (summaries[slug] || "Expert commercial construction insight from econstruct's active Los Angeles job sites.") : "Restaurant build-outs, retail TI, office construction, fire rebuilds, and commercial project insight from econstruct's team.";
 }
 export function getAllBlogAuthors() { return blogAuthors; }
