@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { wordpressBlogRedirects } from "./src/lib/blog/wordpress-redirects";
 
 const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR || ".next",
@@ -63,6 +64,7 @@ const nextConfig: NextConfig = {
         destination: "/private-lot-walk",
         permanent: false,
       },
+      ...wordpressBlogRedirects,
       {
         source: "/luxury-home-builders-beverly-hills",
         destination: "/blog/luxury-home-builders-beverly-hills",
