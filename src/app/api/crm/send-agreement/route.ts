@@ -13,7 +13,7 @@ function generateToken(): string {
   return crypto.randomBytes(24).toString("base64url");
 }
 
-// CRM-internal endpoint â€” validates via Supabase session cookie (same auth as the CRM pages).
+// CRM-internal endpoint -- validates via Supabase session cookie (same auth as the CRM pages).
 // No CRON_SECRET needed; only works when logged into the CRM.
 export async function POST(req: NextRequest) {
   let body: { partner_lead_id?: string };
@@ -59,12 +59,12 @@ export async function POST(req: NextRequest) {
 
   const html = `<div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.65;color:#222;max-width:560px;">
 <p>Hi ${firstName},</p>
-<p>Excited to have you in our network. Here's the deal in plain English â€” no lawyer-speak.</p>
+<p>Excited to have you in our network. Here's the deal in plain English -- no lawyer-speak.</p>
 <table cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0;border-collapse:collapse;background:#FAF9F6;border-radius:10px;">
 <tr><td style="padding:14px 18px;">
 <p style="margin:0 0 8px 0;"><strong>What you do:</strong> Send qualified leads our way when your client needs a GC for a luxury rebuild, new build, ADU, or post-fire reconstruction in LA County.</p>
 <p style="margin:8px 0;"><strong>What we do:</strong> Close the contract, deliver the project, and pay you a flat <strong style="color:#B8963E;">$5,000 referral fee</strong> within 30 days of the GC contract signing.</p>
-<p style="margin:8px 0;"><strong>No exclusivity. No minimums. No monthly fees.</strong> Leave anytime â€” no notice required.</p>
+<p style="margin:8px 0;"><strong>No exclusivity. No minimums. No monthly fees.</strong> Leave anytime -- no notice required.</p>
 </td></tr>
 </table>
 <p>Your referral code:</p>
@@ -73,7 +73,7 @@ export async function POST(req: NextRequest) {
 <p style="margin:6px 0 0 0;font-size:24px;font-weight:900;letter-spacing:0.06em;font-family:'SF Mono',Menlo,Consolas,monospace;">${referralCode}</p>
 </div>
 <p style="margin:20px 0;">
-<a href="${agreeUrl}" style="display:inline-block;padding:14px 28px;background:#B8963E;color:#fff;text-decoration:none;font-weight:bold;font-size:15px;border-radius:8px;">I AGREE â€” COUNT ME IN</a>
+<a href="${agreeUrl}" style="display:inline-block;padding:14px 28px;background:#B8963E;color:#fff;text-decoration:none;font-weight:bold;font-size:15px;border-radius:8px;">I AGREE -- COUNT ME IN</a>
 </p>
 <p style="font-size:12px;color:#666;">Or paste this link: <a href="${agreeUrl}" style="color:#B8963E;word-break:break-all;">${agreeUrl}</a></p>
 <table cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;border-top:2px solid #B8963E;padding-top:14px;font-size:13px;line-height:1.5;color:#222;">
@@ -91,7 +91,7 @@ export async function POST(req: NextRequest) {
       from,
       to: partner.contact_email,
       reply_to: "frank@econstructinc.com",
-      subject: `Welcome to econstruct, ${firstName} â€” quick partnership agreement`,
+      subject: `Welcome to econstruct, ${firstName} -- quick partnership agreement`,
       html,
     }),
   });

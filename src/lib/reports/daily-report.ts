@@ -1,4 +1,4 @@
-﻿import { createServiceClient } from "@/lib/supabase/server";
+import { createServiceClient } from "@/lib/supabase/server";
 
 export type DailyReportData = {
   date: string;
@@ -79,7 +79,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   const todayPT = ymdInPT(now);
   const yesterdayCutoff = new Date(now.getTime() - 24 * 3600 * 1000).toISOString();
 
-  // â”€â”€ HERO: cold emails sent today (partner + new-customer enrollments) â”€â”€
+  // â"€â"€ HERO: cold emails sent today (partner + new-customer enrollments) â"€â"€
   // partner_leads.last_contact_date is set by partner-enroll the moment a
   // partner is pushed into an Instantly campaign. The new-customer count comes
   // from campaign_enrolled lead activities so Frank sees both tracks.
@@ -108,7 +108,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   }
   const coldEmailsSentToday = partnerColdEmailsSentToday + customerColdEmailsSentToday;
 
-  // â”€â”€ Yesterday's movement â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // â"€â"€ Yesterday's movement â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
   const [
     enrolledRes,
     repliesRes,
@@ -163,7 +163,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   ]);
 
   const runs = runsRes.data ?? [];
-  // Stale-timeout cleanups aren't real failures â€” they're rows left in 'running'
+  // Stale-timeout cleanups aren't real failures -- they're rows left in 'running'
   // by Worker-timeout-truncated executions. Filter them so Frank only sees real errors.
   // Match both the current STALE_TIMEOUT prefix and the legacy "stale running timeout"
   // string so historical rows from older code are also classified as noise.
@@ -176,7 +176,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   const failedRuns = runs.filter((r) => r.status === "failed" && !isStaleTimeout(r.errors));
   const staleRuns = runs.filter((r) => r.status === "failed" && isStaleTimeout(r.errors));
 
-  // â”€â”€ Cumulative snapshot â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // â"€â"€ Cumulative snapshot â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€
   const [
     totalLeadsRes,
     totalPermitsRes,
@@ -270,7 +270,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
     },
     topActivity: (activityRes.data ?? []).slice(0, 10).map((a) => ({
       when: a.created_at,
-      type: String(a.type ?? "â€”"),
+      type: String(a.type ?? "--"),
       channel: a.channel as string | null,
       detail: a.metadata ? JSON.stringify(a.metadata).slice(0, 120) : undefined,
     })),
@@ -311,13 +311,13 @@ function recommendation(report: DailyReportData): { tone: "good" | "watch" | "ac
     return {
       tone: "act",
       title: `${y.agentRunsFailed} agent run${y.agentRunsFailed === 1 ? "" : "s"} failed in the last 24h.`,
-      body: "Check the failures section below. The system held off on sending to avoid bad data â€” once the failure is resolved, partners will auto-enroll on the next cron.",
+      body: "Check the failures section below. The system held off on sending to avoid bad data -- once the failure is resolved, partners will auto-enroll on the next cron.",
     };
   }
   if (h.coldEmailsSentToday === 0 && s.partnersNewLead > 0) {
     return {
       tone: "act",
-      title: `${s.partnersNewLead} partners ready to send â€” but no enrollments today.`,
+      title: `${s.partnersNewLead} partners ready to send -- but no enrollments today.`,
       body: "Likely the Instantly campaign is paused or a secret isn't deployed. Resume campaigns in Instantly and trigger the partner-enroll agent.",
     };
   }
@@ -344,7 +344,7 @@ function recommendation(report: DailyReportData): { tone: "good" | "watch" | "ac
   }
   return {
     tone: "watch",
-    title: "Quiet day â€” no sends, no replies.",
+    title: "Quiet day -- no sends, no replies.",
     body: "Systems healthy. Add more leads or resume campaign to keep volume flowing.",
   };
 }
@@ -355,14 +355,14 @@ export function renderDailyReportHtml(report: DailyReportData): string {
   const recBg = rec.tone === "good" ? "#E6F5EF" : rec.tone === "watch" ? "#FAF1D5" : "#FBE7E6";
 
   const movementRows = [
-    { label: "Cold emails sent", value: report.yesterday.coldEmailsEnrolled, icon: "ðŸ“¨" },
-    { label: "Partner cold emails sent", value: report.hero.partnerColdEmailsSentToday, icon: "ðŸ¤" },
-    { label: "New customer cold emails sent", value: report.hero.customerColdEmailsSentToday, icon: "ðŸ " },
-    { label: "Replies received", value: report.yesterday.repliesReceived, icon: "ðŸ’¬" },
-    { label: "Interested replies (hot)", value: report.yesterday.interestedReplies, icon: "ðŸ”¥" },
-    { label: "New partner leads loaded", value: report.yesterday.newPartnerLeads, icon: "ðŸ¤" },
-    { label: "New permits scraped", value: report.yesterday.newPermits, icon: "ðŸ—ï¸" },
-    { label: "Owners enriched (ATTOM)", value: report.yesterday.ownersEnriched, icon: "ðŸ§­" },
+    { label: "Cold emails sent", value: report.yesterday.coldEmailsEnrolled, icon: "--" },
+    { label: "Partner cold emails sent", value: report.hero.partnerColdEmailsSentToday, icon: "--" },
+    { label: "New customer cold emails sent", value: report.hero.customerColdEmailsSentToday, icon: "--" },
+    { label: "Replies received", value: report.yesterday.repliesReceived, icon: "--" },
+    { label: "Interested replies (hot)", value: report.yesterday.interestedReplies, icon: "--" },
+    { label: "New partner leads loaded", value: report.yesterday.newPartnerLeads, icon: "--" },
+    { label: "New permits scraped", value: report.yesterday.newPermits, icon: "--" },
+    { label: "Owners enriched (ATTOM)", value: report.yesterday.ownersEnriched, icon: "--" },
   ];
 
   const snapshotRows = [
@@ -534,7 +534,7 @@ export async function sendDailyReport(
   const payload: Record<string, unknown> = {
     from: process.env.DAILY_REPORT_FROM || "econstruct CRM <onboarding@resend.dev>",
     to: toRecipients,
-    subject: `econstruct CRM â€” Daily Report â€” ${subjectDate}`,
+    subject: `econstruct CRM -- Daily Report -- ${subjectDate}`,
     html,
   };
   if (ccRecipients.length) payload.cc = ccRecipients;

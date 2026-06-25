@@ -147,7 +147,7 @@ export default function ContactPage() {
                     </h3>
                   </div>
                   <p className="text-gray-500 text-sm leading-relaxed">
-                    {COMPANY.license.display} â€” Fully licensed, bonded, and
+                    {COMPANY.license.display} -- Fully licensed, bonded, and
                     insured General Contractor in the State of California.
                   </p>
                 </div>

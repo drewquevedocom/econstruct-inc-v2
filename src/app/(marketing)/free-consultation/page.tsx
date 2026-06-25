@@ -28,7 +28,7 @@ export default function FreeConsultationPage() {
 
       <PageHero
         title="Free Consultation"
-        subtitle=”Restaurant, retail, TI, fire rebuild, custom home, or luxury remodel. Tell us your project and we will outline the right next step.”
+        subtitle="Restaurant, retail, TI, fire rebuild, custom home, or luxury remodel. Tell us your project and we will outline the right next step."
         breadcrumbs={[{ label: "Free Consultation" }]}
       />
 

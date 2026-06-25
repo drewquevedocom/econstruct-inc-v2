@@ -45,7 +45,7 @@ export const COMPANY = {
 } as const;
 
 /**
- * econstruct Inc. (commercial brand â€” econstructinc.com) contact + headline
+ * econstruct Inc. (commercial brand -- econstructinc.com) contact + headline
  * stats. Kept separate from COMPANY so existing residential pages are untouched.
  */
 export const ECONSTRUCT_INC = {

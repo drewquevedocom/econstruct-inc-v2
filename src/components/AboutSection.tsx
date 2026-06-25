@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Building2, Layers, HardHat, Box } from "lucide-react";
@@ -73,7 +73,7 @@ export default function AboutSection() {
             transition={{ delay: 0.2 }}
             className="text-brand-dark font-medium text-lg md:text-xl max-w-2xl leading-relaxed"
           >
-            We are a top tier builder and developer fully invested in our customers’ success and improving the communities we serve.
+            We are a top tier builder and developer fully invested in our customers' success and improving the communities we serve.
           </motion.p>
         </div>
 

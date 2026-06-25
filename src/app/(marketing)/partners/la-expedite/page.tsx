@@ -22,17 +22,17 @@ import Logo from "@/components/Logo";
 const PAGE_URL = "https://econstructinc.com/partners/la-expedite";
 
 export const metadata: Metadata = {
-  title: "Fire Rebuild Specialists â€” econstruct Ã— LA Expedite",
+  title: "Fire Rebuild Specialists -- econstruct Ã— LA Expedite",
   description:
     "Palisades fire rebuilds delivered by econstruct in partnership with LA Expedite. Streamlined preconstruction, permitting, design, and construction under one roof. Free fire-rebuild consultation.",
   alternates: { canonical: PAGE_URL },
-  // Landing page for paid traffic / QR code â€” keep it out of the organic index
+  // Landing page for paid traffic / QR code -- keep it out of the organic index
   // so it doesn't compete with the homepage and main service pages for the same keywords.
   robots: { index: false, follow: true },
   openGraph: {
-    title: "Fire Rebuild Specialists â€” econstruct Ã— LA Expedite",
+    title: "Fire Rebuild Specialists -- econstruct Ã— LA Expedite",
     description:
-      "Palisades fire rebuilds. Preconstruction strategy, permitting, design, and build â€” all under one roof.",
+      "Palisades fire rebuilds. Preconstruction strategy, permitting, design, and build -- all under one roof.",
     url: PAGE_URL,
     type: "website",
   },
@@ -55,7 +55,7 @@ const whyChoose = [
     n: "03",
     icon: ShieldCheck,
     title: "Insurance Coordination",
-    body: "We work directly with your insurance adjuster alongside the rebuild â€” maximizing your settlement and minimizing your out-of-pocket costs.",
+    body: "We work directly with your insurance adjuster alongside the rebuild -- maximizing your settlement and minimizing your out-of-pocket costs.",
   },
 ];
 
@@ -85,12 +85,12 @@ const services = [
 export default function LAExpeditePartnerPage() {
   return (
     <main className="bg-white">
-      {/* â”€â”€â”€ Hero â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Hero â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="relative overflow-hidden bg-brand-dark text-white">
         <div className="absolute inset-0 z-0">
           <Image
             src="/01-palisades-modern-glass-v1.png"
-            alt="Modern Palisades home with glass walls â€” fire rebuild by econstruct"
+            alt="Modern Palisades home with glass walls -- fire rebuild by econstruct"
             fill
             priority
             className="object-cover opacity-50"
@@ -137,7 +137,7 @@ export default function LAExpeditePartnerPage() {
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/85 md:text-xl">
                 Partnered with <strong className="text-accent-gold">LA Expedite</strong> to
                 streamline preconstruction, permitting, design, and construction for the
-                families rebuilding after the LA fires â€” all under one roof.
+                families rebuilding after the LA fires -- all under one roof.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -187,7 +187,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ About econstruct â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ About econstruct â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="bg-secondary py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.32em] text-accent-gold">
@@ -200,7 +200,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ Why Choose econstruct â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Why Choose econstruct â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="bg-white py-16 md:py-24">
         <div className="mx-auto max-w-6xl px-4">
           <p className="mb-3 text-center text-xs font-bold uppercase tracking-[0.32em] text-accent-gold">
@@ -228,7 +228,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ Partnership block â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Partnership block â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-6xl px-4">
           <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1fr,1.2fr]">
@@ -238,7 +238,7 @@ export default function LAExpeditePartnerPage() {
                 <div className="text-3xl font-light text-gray-300">Ã—</div>
                 <Image
                   src="/la-expedite-logo.webp"
-                  alt="LA Expedite â€” Architecture and Planning"
+                  alt="LA Expedite -- Architecture and Planning"
                   width={170}
                   height={70}
                   className="h-14 w-auto object-contain"
@@ -253,12 +253,12 @@ export default function LAExpeditePartnerPage() {
                 The Partnership
               </p>
               <h2 className="font-heading text-3xl font-extrabold leading-tight text-brand-dark md:text-4xl">
-                Preconstruction strategy and permitting â€” without the guesswork.
+                Preconstruction strategy and permitting -- without the guesswork.
               </h2>
               <p className="mt-5 text-base leading-relaxed text-body-text md:text-lg">
                 LA Expedite leads architecture, permitting, and consultant coordination
                 so your rebuild moves through approvals with clarity and speed.
-                econstruct then takes the wheel, breaks ground, and delivers the build â€”
+                econstruct then takes the wheel, breaks ground, and delivers the build --
                 one team, one accountable point of contact, one timeline.
               </p>
               <ul className="mt-6 space-y-3 text-base text-body-text">
@@ -279,7 +279,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ Services strip â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Services strip â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="bg-white py-16 md:py-20">
         <div className="mx-auto max-w-6xl px-4">
           <p className="mb-3 text-center text-xs font-bold uppercase tracking-[0.32em] text-accent-gold">
@@ -306,7 +306,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ Quote form â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Quote form â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section id="get-quote" className="bg-brand-dark py-16 md:py-24">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-4 lg:grid-cols-[1fr,1.2fr]">
           <div>
@@ -318,7 +318,7 @@ export default function LAExpeditePartnerPage() {
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/85">
               Fire rebuild questions, insurance coordination, permit timelines, scope
-              estimates â€” share what you&apos;re working with and we&apos;ll walk you through the
+              estimates -- share what you&apos;re working with and we&apos;ll walk you through the
               path forward together.
             </p>
 
@@ -343,7 +343,7 @@ export default function LAExpeditePartnerPage() {
                 <ShieldCheck className="mt-0.5 h-5 w-5 text-accent-gold" />
                 <div className="text-sm">
                   <p className="font-bold text-white">Licensed & Insured</p>
-                  <p>{COMPANY.license.display} â€” Fully bonded and insured GC in California.</p>
+                  <p>{COMPANY.license.display} -- Fully bonded and insured GC in California.</p>
                 </div>
               </div>
             </div>
@@ -357,7 +357,7 @@ export default function LAExpeditePartnerPage() {
         </div>
       </section>
 
-      {/* â”€â”€â”€ Visit our office â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
+      {/* â"€â"€â"€ Visit our office â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€â"€ */}
       <section className="bg-secondary py-12">
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 text-center md:grid-cols-3">
           <div>

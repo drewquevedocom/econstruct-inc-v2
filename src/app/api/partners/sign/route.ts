@@ -1,4 +1,4 @@
-﻿import { NextRequest, NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { createServiceClient } from "@/lib/supabase/server";
 
 export const maxDuration = 30;
@@ -33,7 +33,7 @@ async function notifyPartnerPromotion(params: {
               ${params.partnerType ? `<tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Type</td><td style="padding:8px 12px;">${params.partnerType}</td></tr>` : ""}
               ${params.contactEmail ? `<tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Email</td><td style="padding:8px 12px;"><a href="mailto:${params.contactEmail}" style="color:#B8963E;">${params.contactEmail}</a></td></tr>` : ""}
               <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Referral Code</td><td style="padding:8px 12px;font-family:monospace;font-weight:bold;">${params.referralCode}</td></tr>
-              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">âœ“ Status â†’ Active Partner Â· Welcome + monthly check-in tasks auto-created Â· Promoted to Active Partners panel</td></tr>
+              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">âœ" Status â†' Active Partner Â· Welcome + monthly check-in tasks auto-created Â· Promoted to Active Partners panel</td></tr>
             </table>
             <p style="color:#666;font-size:13px;">Pull them up at <a href="https://econstructinc.com/crm/partners" style="color:#B8963E;">/crm/partners</a>.</p>
           </div>`,
@@ -74,10 +74,10 @@ async function sendWelcomeEmail(params: {
 </ol>
 
 <h3 style="margin:24px 0 6px 0;color:#1C1C1E;">When you get paid</h3>
-<p>Flat <strong style="color:#B8963E;">$5,000</strong> within 30 days of the signed GC contract. Wire or check â€” your call. I'll send a 1099 at year-end.</p>
+<p>Flat <strong style="color:#B8963E;">$5,000</strong> within 30 days of the signed GC contract. Wire or check -- your call. I'll send a 1099 at year-end.</p>
 
 <h3 style="margin:24px 0 6px 0;color:#1C1C1E;">Questions or want to talk strategy</h3>
-<p>Just reply to this email â€” it goes straight to my inbox. Or text me anytime.</p>
+<p>Just reply to this email -- it goes straight to my inbox. Or text me anytime.</p>
 
 <table cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;border-top:2px solid #B8963E;padding-top:14px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:1.5;color:#222;">
 <tr><td><strong>Frank Neimroozi</strong></td></tr>
@@ -95,7 +95,7 @@ async function sendWelcomeEmail(params: {
         from,
         to: params.toEmail,
         reply_to: "frank@econstructinc.com",
-        subject: `You're in, ${firstName} â€” your referral code + how to send your first lead`,
+        subject: `You're in, ${firstName} -- your referral code + how to send your first lead`,
         html,
       }),
     });
@@ -157,12 +157,12 @@ export async function POST(req: NextRequest) {
 
   await supabase.from("partner_tasks").insert({
     partner_lead_id: partner.id,
-    title: `Welcome ${partner.partner_name} â€” send referral playbook, save number to phone`,
+    title: `Welcome ${partner.partner_name} -- send referral playbook, save number to phone`,
     due_date: addDays(2),
   });
   await supabase.from("partner_tasks").insert({
     partner_lead_id: partner.id,
-    title: `Monthly check-in with ${partner.partner_name} â€” any referrals this month?`,
+    title: `Monthly check-in with ${partner.partner_name} -- any referrals this month?`,
     due_date: addDays(30),
     is_recurring: true,
     recurrence: "monthly",

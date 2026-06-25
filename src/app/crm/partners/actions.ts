@@ -1,4 +1,4 @@
-﻿"use server";
+"use server";
 
 import { revalidatePath } from "next/cache";
 import { createServiceClient } from "@/lib/supabase/server";
@@ -31,7 +31,7 @@ function addDays(days: number) {
   return date.toISOString().slice(0, 10);
 }
 
-// Fires when a partner is promoted to Active Partner â€” celebrates the win
+// Fires when a partner is promoted to Active Partner -- celebrates the win
 // to Drew + Frank inboxes via the Instantly /emails/test path.
 async function notifyPartnerPromotion(params: {
   partnerName: string;
@@ -61,7 +61,7 @@ async function notifyPartnerPromotion(params: {
             <table style="width:100%;border-collapse:collapse;margin:16px 0;background:#FAF9F6;border-radius:8px;">
               ${params.partnerType ? `<tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Type</td><td style="padding:8px 12px;">${params.partnerType}</td></tr>` : ""}
               ${params.contactEmail ? `<tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Email</td><td style="padding:8px 12px;"><a href="mailto:${params.contactEmail}" style="color:#B8963E;">${params.contactEmail}</a></td></tr>` : ""}
-              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">âœ“ Status â†’ Active Partner Â· 30-day check-in task auto-created Â· Promoted to Active Partners panel</td></tr>
+              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">âœ" Status â†' Active Partner Â· 30-day check-in task auto-created Â· Promoted to Active Partners panel</td></tr>
             </table>
             <p style="color:#666;font-size:13px;">Pull them up in the dedicated Active Partners panel at <a href="https://econstructinc.com/crm/partners" style="color:#B8963E;">/crm/partners</a>.</p>
           </div>`,
@@ -177,7 +177,7 @@ export async function updatePartnerStatus(partnerLeadId: string, status: string)
   if (status === "Contacted") {
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: "Check in â€” did they respond to the cold email?",
+      title: "Check in -- did they respond to the cold email?",
       due_date: addDays(5),
     });
   }
@@ -193,7 +193,7 @@ export async function updatePartnerStatus(partnerLeadId: string, status: string)
   if (status === "Agreement Sent") {
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `Follow up â€” ${priorRow?.partner_name || "partner"} hasn't signed yet`,
+      title: `Follow up -- ${priorRow?.partner_name || "partner"} hasn't signed yet`,
       due_date: addDays(7),
     });
   }
@@ -201,12 +201,12 @@ export async function updatePartnerStatus(partnerLeadId: string, status: string)
   if (status === "Active Partner") {
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `Welcome ${priorRow?.partner_name || "new partner"} â€” send referral playbook + save number`,
+      title: `Welcome ${priorRow?.partner_name || "new partner"} -- send referral playbook + save number`,
       due_date: addDays(2),
     });
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `Monthly check-in with ${priorRow?.partner_name || "partner"} â€” any referrals this month?`,
+      title: `Monthly check-in with ${priorRow?.partner_name || "partner"} -- any referrals this month?`,
       due_date: addDays(30),
       is_recurring: true,
       recurrence: "monthly",
@@ -216,7 +216,7 @@ export async function updatePartnerStatus(partnerLeadId: string, status: string)
   if (status === "Inactive") {
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `${priorRow?.partner_name || "Partner"} marked Inactive â€” re-engage in 90 days?`,
+      title: `${priorRow?.partner_name || "Partner"} marked Inactive -- re-engage in 90 days?`,
       due_date: addDays(90),
     });
   }
@@ -284,12 +284,12 @@ export async function updateAgreementStatus(partnerLeadId: string, agreementStat
   if (agreementStatus === "Signed" || agreementStatus === "Active") {
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `Welcome ${lead.partner_name} â€” send referral playbook + monthly check-in`,
+      title: `Welcome ${lead.partner_name} -- send referral playbook + monthly check-in`,
       due_date: addDays(2),
     });
     await supabase.from("partner_tasks").insert({
       partner_lead_id: partnerLeadId,
-      title: `Monthly check-in with ${lead.partner_name} â€” any referrals this month?`,
+      title: `Monthly check-in with ${lead.partner_name} -- any referrals this month?`,
       due_date: addDays(30),
       is_recurring: true,
       recurrence: "monthly",
