@@ -1,20 +1,12 @@
 import type { Metadata } from "next";
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import BlogPostContent from "@/components/blog/BlogPostContent";
-import {
-  getBlogPostBySlug,
-} from "@/lib/blog";
-import {
-  getLegacyBlogPostCanonicalUrl,
-  getLegacyBlogPostPath,
-} from "@/lib/blog/paths";
-import { wordpressBlogRedirects } from "@/lib/blog/wordpress-redirects";
+import { getAllBlogPosts, getBlogPostBySlug } from "@/lib/blog";
+import { getLegacyBlogPostCanonicalUrl } from "@/lib/blog/paths";
 
-export const dynamic = "force-dynamic";
-
-const legacyBlogSlugs = new Set(
-  wordpressBlogRedirects.map(({ source }) => source.replace(/^\/+/, "")),
-);
+export function generateStaticParams() {
+  return getAllBlogPosts().map((post) => ({ slug: post.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -22,11 +14,6 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-
-  if (legacyBlogSlugs.has(slug)) {
-    permanentRedirect(getLegacyBlogPostPath(slug));
-  }
-
   const post = getBlogPostBySlug(slug);
 
   if (!post) {
@@ -36,17 +23,13 @@ export async function generateMetadata({
     };
   }
 
-  const url = `https://www.econstructinc.com/${post.slug}/`;
+  const url = getLegacyBlogPostCanonicalUrl(post.slug);
 
   return {
     title: post.title,
     description: post.description,
     alternates: {
       canonical: url,
-    },
-    robots: {
-      index: false,
-      follow: true,
     },
     openGraph: {
       title: post.title,
@@ -82,11 +65,6 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-
-  if (legacyBlogSlugs.has(slug)) {
-    permanentRedirect(getLegacyBlogPostPath(slug));
-  }
-
   const post = getBlogPostBySlug(slug);
 
   if (!post) {

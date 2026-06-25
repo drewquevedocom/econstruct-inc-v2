@@ -1,7 +1,7 @@
 export function getLegacyBlogPostPath(slug: string) {
-  return `/${slug}`;
+  return `/blog/${slug}`;
 }
 
 export function getLegacyBlogPostCanonicalUrl(slug: string) {
-  return `https://www.econstructinc.com/${slug}/`;
+  return `https://www.econstructinc.com/blog/${slug}/`;
 }

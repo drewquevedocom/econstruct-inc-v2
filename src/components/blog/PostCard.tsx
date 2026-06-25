@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock3 } from "lucide-react";
 import type { BlogPostSummary } from "@/lib/blog";
-import { getLegacyBlogPostPath } from "@/lib/blog/paths";
 
 interface PostCardProps {
   post: BlogPostSummary;
@@ -10,8 +9,8 @@ interface PostCardProps {
   hrefBase?: string;
 }
 
-export default function PostCard({ post, featured = false, hrefBase = "" }: PostCardProps) {
-  const href = hrefBase ? `${hrefBase}/${post.slug}` : getLegacyBlogPostPath(post.slug);
+export default function PostCard({ post, featured = false, hrefBase = "/blog" }: PostCardProps) {
+  const href = `${hrefBase}/${post.slug}`;
   if (featured) {
     return (
       <Link
