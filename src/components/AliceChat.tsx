@@ -9,7 +9,7 @@ interface Message {
 }
 
 const GREETING =
-  "Hi, I'm Alice — eConstruct's AI concierge. I can answer questions about our services, fire rebuild process, or help you schedule a free consultation. How can I help?";
+  "Hi, I'm Alice — econstruct's AI concierge. I can answer questions about our services, fire rebuild process, or help you schedule a free consultation. How can I help?";
 
 export default function AliceChat() {
   const [open, setOpen] = useState(false);

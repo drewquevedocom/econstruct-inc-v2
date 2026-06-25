@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
@@ -37,8 +37,8 @@ export const metadata: Metadata = generatePageMetadata({
 
 export default function ServiceAreasPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Service Areas", url: "https://econstructhomes.com/service-areas" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Service Areas", url: "https://econstructinc.com/service-areas" },
   ]);
 
   return (

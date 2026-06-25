@@ -19,7 +19,7 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "Careers at econstruct — Join Our Team",
   description:
-    "Build your career with eConstruct Homes. We're hiring project managers, carpenters, estimators, and construction professionals across Los Angeles.",
+    "Build your career with econstruct. We're hiring project managers, carpenters, estimators, and construction professionals across Los Angeles.",
   path: "/careers",
 });
 

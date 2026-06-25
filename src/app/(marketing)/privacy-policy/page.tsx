@@ -5,9 +5,9 @@ import PageHero from "@/components/ui/PageHero";
 import Container from "@/components/ui/Container";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Privacy Policy — eConstruct Homes",
+  title: "Privacy Policy — econstruct",
   description:
-    "Learn how eConstruct Homes collects, uses, and protects your personal information. Read our full privacy policy.",
+    "Learn how econstruct collects, uses, and protects your personal information. Read our full privacy policy.",
   path: "/privacy-policy",
 });
 

@@ -1,8 +1,8 @@
-export const SITE_URL = "https://econstructhomes.com";
+﻿export const SITE_URL = "https://econstructinc.com";
 
 export const COMPANY = {
-  name: "eConstruct Homes",
-  shortName: "eConstruct Homes",
+  name: "econstruct",
+  shortName: "econstruct",
   tagline: "Los Angeles Luxury Home Builder and General Contractor",
   phone: {
     primary: "310-740-9999",
@@ -45,7 +45,7 @@ export const COMPANY = {
 } as const;
 
 /**
- * eConstruct Inc. (commercial brand — econstructinc.com) contact + headline
+ * econstruct Inc. (commercial brand â€” econstructinc.com) contact + headline
  * stats. Kept separate from COMPANY so existing residential pages are untouched.
  */
 export const ECONSTRUCT_INC = {

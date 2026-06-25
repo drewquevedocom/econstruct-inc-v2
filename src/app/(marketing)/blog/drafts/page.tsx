@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import PostCard from "@/components/blog/PostCard";
@@ -26,9 +26,9 @@ export default function DraftBlogReviewPage() {
   const pagedPosts = paginatePosts(remainingPosts, 1);
   const totalPages = getBlogIndexPages(draftPosts.length);
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Blog", url: "https://econstructhomes.com/blog" },
-    { name: "Temporary Blogs", url: "https://econstructhomes.com/blog/temporary-blogs" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Blog", url: "https://econstructinc.com/blog" },
+    { name: "Temporary Blogs", url: "https://econstructinc.com/blog/temporary-blogs" },
   ]);
 
   return (

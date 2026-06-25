@@ -1,5 +1,5 @@
 /**
- * Curated homepage content for the eConstruct Inc. (Indutri-style) homepage.
+ * Curated homepage content for the econstruct Inc. (Indutri-style) homepage.
  * Commercial-forward, homes included. Service/case imagery reuses real
  * econstructinc.com assets via projects.ts and /public.
  */

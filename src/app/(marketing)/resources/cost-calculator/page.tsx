@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import PageHero from "@/components/ui/PageHero";
@@ -10,14 +10,14 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "Construction Cost Calculator | Estimate Your LA Home Build",
   description:
-    "Get a free preliminary cost estimate for your Los Angeles luxury home build, fire rebuild, modernization, or ADU. Interactive calculator with real market pricing from eConstruct Homes.",
+    "Get a free preliminary cost estimate for your Los Angeles luxury home build, fire rebuild, modernization, or ADU. Interactive calculator with real market pricing from econstruct.",
   path: "/resources/cost-calculator",
 });
 
 const breadcrumbSchema = generateBreadcrumbSchema([
-  { name: "Home", url: "https://econstructhomes.com" },
-  { name: "Resources", url: "https://econstructhomes.com/resources" },
-  { name: "Cost Calculator", url: "https://econstructhomes.com/resources/cost-calculator" },
+  { name: "Home", url: "https://econstructinc.com" },
+  { name: "Resources", url: "https://econstructinc.com/resources" },
+  { name: "Cost Calculator", url: "https://econstructinc.com/resources/cost-calculator" },
 ]);
 
 export default function CostCalculatorPage() {

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Suspense } from "react";
 import {
   Phone,
@@ -16,9 +16,9 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 import GenericContactForm from "@/components/contact/GenericContactForm";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Contact eConstruct Homes",
+  title: "Contact econstruct",
   description:
-    "Contact eConstruct Homes with a general inquiry, vendor question, or project message. Call 310-740-9999 for direct support.",
+    "Contact econstruct with a general inquiry, vendor question, or project message. Call 310-740-9999 for direct support.",
   path: "/contact",
 });
 
@@ -46,8 +46,8 @@ const contactInfo = [
 
 export default function ContactPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Contact", url: "https://econstructhomes.com/contact" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Contact", url: "https://econstructinc.com/contact" },
   ]);
 
   return (
@@ -147,7 +147,7 @@ export default function ContactPage() {
                     </h3>
                   </div>
                   <p className="text-gray-500 text-sm leading-relaxed">
-                    {COMPANY.license.display} — Fully licensed, bonded, and
+                    {COMPANY.license.display} â€” Fully licensed, bonded, and
                     insured General Contractor in the State of California.
                   </p>
                 </div>

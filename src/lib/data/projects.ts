@@ -29,18 +29,18 @@ export const projects: Project[] = [
     description:
       "Complete interior and exterior remodel of a beloved Venice-area restaurant established in 1987. The renovation transformed the space into a contemporary destination while preserving its welcoming character, including stripping the interior to studs, upgrading all systems, custom live-edge wood millwork, and a redesigned kitchen with state-of-the-art equipment.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_12-scaled.jpg",
+      "/projects/Hals_pv_12-scaled.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_12-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/DSC02984-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/DSC02973-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/DSC02969-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_9-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_7-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_6-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_5-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_4-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_2-scaled.jpg",
+      "/projects/Hals_pv_12-scaled.jpg",
+      "/projects/DSC02984-scaled.jpg",
+      "/projects/DSC02973-scaled.jpg",
+      "/projects/DSC02969-scaled.jpg",
+      "/projects/Hals_pv_9-scaled.jpg",
+      "/projects/Hals_pv_7-scaled.jpg",
+      "/projects/Hals_pv_6-scaled.jpg",
+      "/projects/Hals_pv_5-scaled.jpg",
+      "/projects/Hals_pv_4-scaled.jpg",
+      "/projects/Hals_pv_2-scaled.jpg",
     ],
     specs: { scope: "Full Remodel" },
     featured: true,
@@ -53,17 +53,17 @@ export const projects: Project[] = [
     description:
       "An upscale cocktail lounge blending modern elegance with old Hollywood glamour. Features an expansive blue onyx bar as centerpiece, custom leather and velvet booth seating, live-edge wood tables fabricated by econstruct artisans, and an open-concept kitchen with a state-of-the-art bar program.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson11.jpg",
+      "/projects/hutchinson11.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson11.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson9.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson8.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson7.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson6.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson5.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson4.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson3.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson_1.jpg",
+      "/projects/hutchinson11.jpg",
+      "/projects/hutchinson9.jpg",
+      "/projects/hutchinson8.jpg",
+      "/projects/hutchinson7.jpg",
+      "/projects/hutchinson6.jpg",
+      "/projects/hutchinson5.jpg",
+      "/projects/hutchinson4.jpg",
+      "/projects/hutchinson3.jpg",
+      "/projects/hutchinson_1.jpg",
     ],
     specs: { scope: "Interior Remodel" },
     featured: true,
@@ -76,9 +76,9 @@ export const projects: Project[] = [
     description:
       "Collaboration with acclaimed chef Anthony Carron to construct an innovative woodfired restaurant featuring dual wood-burning ovens, charcoal grill, and rotisserie. Custom Douglas fir wood accents, reclaimed whiskey barrel oak counters and bar tops, and a state-of-the-art ventilation hood system throughout.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_12-scaled.jpg",
+      "/projects/Hals_pv_12-scaled.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Hals_pv_12-scaled.jpg",
+      "/projects/Hals_pv_12-scaled.jpg",
     ],
     specs: { scope: "New Build-Out" },
   },
@@ -90,13 +90,13 @@ export const projects: Project[] = [
     description:
       "Ground-up construction of a standalone El Pollo Loco restaurant. Full build-out from foundation through opening day, featuring an open kitchen with vertical spits, plancha grill station, branded patio with fire fixtures, and interior finishes optimized for fast-casual service.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_3.jpg",
+      "/projects/El_pollo_loco_3.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_3.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_4.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_5.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_7.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/El_pollo_loco_8.jpg",
+      "/projects/El_pollo_loco_3.jpg",
+      "/projects/El_pollo_loco_4.jpg",
+      "/projects/El_pollo_loco_5.jpg",
+      "/projects/El_pollo_loco_7.jpg",
+      "/projects/El_pollo_loco_8.jpg",
     ],
     specs: { sqft: "2,500", scope: "Ground-Up Construction" },
   },
@@ -108,15 +108,15 @@ export const projects: Project[] = [
     description:
       "First brick-and-mortar location for Koala T Cafe, designed to feel like an extension of your living room. Features cozy seating with antique mirrors and armchairs, an expansive marble counter, La Marzocco espresso machines, and custom wood shelving for merchandise and baked goods.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+      "/projects/2017-09-02.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_6.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_5.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_4.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_3.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_2.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Koala_Tea_1.jpg",
+      "/projects/2017-09-02.jpg",
+      "/projects/Koala_Tea_6.jpg",
+      "/projects/Koala_Tea_5.jpg",
+      "/projects/Koala_Tea_4.jpg",
+      "/projects/Koala_Tea_3.jpg",
+      "/projects/Koala_Tea_2.jpg",
+      "/projects/Koala_Tea_1.jpg",
     ],
     specs: { scope: "New Build-Out" },
   },
@@ -128,10 +128,10 @@ export const projects: Project[] = [
     description:
       "A boba tea shop on the iconic 3rd Street Promenade combining traditional and innovative elements. The project involved transforming a prime retail space while navigating complex construction challenges, extended plan check delays, and an accelerated timeline requiring extended work hours and increased manpower.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/08/DSC00788-1-scaled.jpg",
+      "/projects/DSC00788-1-scaled.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/08/DSC00788-1-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/08/o1o_b4_after.png",
+      "/projects/DSC00788-1-scaled.jpg",
+      "/projects/o1o_b4_after.png",
     ],
     specs: { scope: "Interior Remodel" },
   },
@@ -145,9 +145,9 @@ export const projects: Project[] = [
     description:
       "Three retail locations for eco-conscious footwear brand Rothy's across Los Angeles and Pasadena. Each build-out integrates locally-sourced reclaimed woods, accent tile, and sustainable finishes aligned with the brand's mission, along with custom millwork displays for their knit shoes and bags.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87-600x600.png",
+      "/projects/Untitled-design-87-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87-600x600.png",
+      "/projects/Untitled-design-87-600x600.png",
     ],
     specs: { scope: "Retail Build-Out" },
     featured: true,
@@ -160,9 +160,9 @@ export const projects: Project[] = [
     description:
       "Two distinctive retail locations for premium skincare brand Malin+Goetz, designed to reflect the brand's philosophy of uncomplicated skincare and sustainable living. Features recycled and eco-friendly construction materials, minimalist aesthetic with clean lines and neutral palette, and energy-efficient lighting.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/2-web-or-mls-APR00067-1-600x600.jpg",
+      "/projects/2-web-or-mls-APR00067-1-600x600.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/2-web-or-mls-APR00067-1-600x600.jpg",
+      "/projects/2-web-or-mls-APR00067-1-600x600.jpg",
     ],
     specs: { scope: "Retail Build-Out" },
   },
@@ -174,9 +174,9 @@ export const projects: Project[] = [
     description:
       "Flagship Westcoast retail store for renowned British bespoke menswear brand Thom Sweeney, completed in a record-breaking four weeks. The finished space features clean lines, natural materials, and carefully considered lighting creating a gallery-like atmosphere on Melrose Place.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/10-web-or-mls-APR00150-600x600.jpg",
+      "/projects/10-web-or-mls-APR00150-600x600.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/10-web-or-mls-APR00150-600x600.jpg",
+      "/projects/10-web-or-mls-APR00150-600x600.jpg",
     ],
     specs: { timeline: "4 weeks", scope: "Retail Build-Out" },
   },
@@ -190,9 +190,9 @@ export const projects: Project[] = [
     description:
       "Five successful locations across Southern California for the Scandinavian juice and coffee brand. Each build-out features a signature aesthetic including moss walls, brick backsplashes, sleek counters, and durable high-traffic finishes with custom juice stations and coffee bar installations.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-18-1-600x600.png",
+      "/projects/Untitled-design-18-1-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-18-1-600x600.png",
+      "/projects/Untitled-design-18-1-600x600.png",
     ],
     specs: { scope: "Multi-Location Build-Out" },
     featured: true,
@@ -205,9 +205,9 @@ export const projects: Project[] = [
     description:
       "Eight locations across California and Arizona for the premium bakery concept featuring handcrafted pastries and beverages. Each space showcases an in-house bakery producing fresh items hourly, with dark wood displays, commercial baking equipment, and site-specific design adaptations including a historic early 20th-century building in Downtown LA.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-15-600x600.png",
+      "/projects/Untitled-design-15-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-15-600x600.png",
+      "/projects/Untitled-design-15-600x600.png",
     ],
     specs: { scope: "Multi-Location Build-Out" },
     featured: true,
@@ -220,11 +220,11 @@ export const projects: Project[] = [
     description:
       "Over eight new restaurant builds across Southern California including Los Angeles, Riverside, Yucaipa, Redlands, Barstow, and Moreno Valley. Full-service construction from permitting and site preparation through ground-up building and complete interiors tailored to the brand's specifications.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Jersey_Mikes_LA_1-scaled.jpg",
+      "/projects/Jersey_Mikes_LA_1-scaled.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Jersey_Mikes_LA_1-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Jersey_Mikes_LA_2-scaled.jpg",
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/Jersey_Mikes_LA_3-scaled.jpg",
+      "/projects/Jersey_Mikes_LA_1-scaled.jpg",
+      "/projects/Jersey_Mikes_LA_2-scaled.jpg",
+      "/projects/Jersey_Mikes_LA_3-scaled.jpg",
     ],
     specs: { scope: "Multi-Location Build-Out" },
   },

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import PageHero from "@/components/ui/PageHero";
@@ -15,8 +15,8 @@ export const metadata: Metadata = generatePageMetadata({
 
 export default function FreeConsultationPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Free Consultation", url: "https://econstructhomes.com/free-consultation" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Free Consultation", url: "https://econstructinc.com/free-consultation" },
   ]);
 
   return (
@@ -28,7 +28,7 @@ export default function FreeConsultationPage() {
 
       <PageHero
         title="Free Consultation"
-        subtitle="Restaurant, retail, TI, fire rebuild, custom home, or luxury remodel — tell us your project and we'll outline the right next step."
+        subtitle=”Restaurant, retail, TI, fire rebuild, custom home, or luxury remodel — tell us your project and we'll outline the right next step.”
         breadcrumbs={[{ label: "Free Consultation" }]}
       />
 

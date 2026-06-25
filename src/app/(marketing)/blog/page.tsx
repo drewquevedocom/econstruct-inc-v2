@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import PostCard from "@/components/blog/PostCard";
@@ -14,17 +14,17 @@ import Container from "@/components/ui/Container";
 import PageHero from "@/components/ui/PageHero";
 
 export const metadata: Metadata = {
-  title: "Blog | Insights from the LA Rebuild Frontline",
+  title: "Blog | Construction Insights for Restaurant, Retail & Luxury Builds | econstruct",
   description:
-    "Field-tested insight on fire rebuilds, luxury modernization, and custom home construction across Pacific Palisades, Brentwood, Santa Monica, Altadena, and greater Los Angeles.",
+    "Expert guidance on restaurant construction, retail build-outs, office TI, fire rebuilds, luxury remodels, and ADUs across Los Angeles from econstruct's project team.",
   alternates: {
-    canonical: "https://econstructhomes.com/blog",
+    canonical: "https://econstructinc.com/blog",
   },
   openGraph: {
-    title: "Insights from the LA Rebuild Frontline | econstruct",
+    title: "Restaurant, Commercial & Luxury Construction Insights | econstruct LA",
     description:
-      "Expert rebuild, modernization, and custom home guidance from active Los Angeles job sites.",
-    url: "https://econstructhomes.com/blog",
+      "Field-tested construction guidance on restaurant, retail, TI, fire rebuild, and luxury home projects across Los Angeles.",
+    url: "https://econstructinc.com/blog",
     images: [{ url: "/blog/blog_08_vet_contractor_og.png", width: 1200, height: 630 }],
   },
   twitter: {
@@ -44,8 +44,8 @@ export default function BlogIndexPage() {
   const totalPages = getBlogIndexPages(posts.length);
 
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Blog", url: "https://econstructhomes.com/blog" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Blog", url: "https://econstructinc.com/blog" },
   ]);
 
   return (

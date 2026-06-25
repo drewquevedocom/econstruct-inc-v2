@@ -139,7 +139,7 @@ export const promptProjects: PromptProjectPage[] = [
       "With limited public project details, the team prioritized craftsmanship quality, consistency, and a complete final presentation.",
     ],
     approach: [
-      "eConstruct managed the project with a detail-first build approach, aligning materials, finishes, and layout decisions to maintain a cohesive result.",
+      "econstruct managed the project with a detail-first build approach, aligning materials, finishes, and layout decisions to maintain a cohesive result.",
       "Execution focused on clean lines, durable selections, and smooth transitions between interior zones.",
     ],
     build: [
@@ -147,7 +147,7 @@ export const promptProjects: PromptProjectPage[] = [
       "The completed project reflects careful coordination across all trades and a final level of polish throughout the home.",
     ],
     result: [
-      "San Vincente ADU is now complete and stands as a beautiful showcase project on the eConstruct portfolio.",
+      "San Vincente ADU is now complete and stands as a beautiful showcase project on the econstruct portfolio.",
       "The finished build presents as both visually elevated and highly functional for residential use.",
     ],
     takeaways: [

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { MessageCircleQuestion } from "lucide-react";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateFAQSchema, generateBreadcrumbSchema } from "@/lib/schema";
@@ -12,9 +12,9 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 import { COMPANY } from "@/lib/constants";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "FAQ — Frequently Asked Questions About eConstruct Homes",
+  title: "FAQ â€” Frequently Asked Questions About econstruct",
   description:
-    "Get answers to common questions about eConstruct Homes' fire rebuild, luxury modernization, and custom home services in Los Angeles. Pricing, timelines, process, and more.",
+    "Get answers to common questions about econstruct' fire rebuild, luxury modernization, and custom home services in Los Angeles. Pricing, timelines, process, and more.",
   path: "/faq",
 });
 
@@ -24,8 +24,8 @@ export default function FAQPage() {
   );
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "FAQ", url: "https://econstructhomes.com/faq" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "FAQ", url: "https://econstructinc.com/faq" },
   ]);
 
   return (

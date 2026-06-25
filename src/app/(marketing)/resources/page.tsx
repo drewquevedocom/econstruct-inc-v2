@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import { blogPosts } from "@/lib/data/blog-posts";
@@ -40,8 +40,8 @@ function formatDate(dateString: string): string {
 
 export default function ResourcesPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Resources", url: "https://econstructhomes.com/resources" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Resources", url: "https://econstructinc.com/resources" },
   ]);
 
   return (

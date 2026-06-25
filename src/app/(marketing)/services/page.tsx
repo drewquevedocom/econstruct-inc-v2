@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { generatePageMetadata } from "@/lib/metadata";
@@ -10,7 +10,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 import ConsultationCTA from "@/components/ConsultationCTA";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Los Angeles Construction Services | eConstruct Homes",
+  title: "Los Angeles Construction Services | econstruct",
   description:
     "Los Angeles construction services from luxury home building to fire rebuilds, additions, and custom residential work.",
   path: "/services",
@@ -18,8 +18,8 @@ export const metadata: Metadata = generatePageMetadata({
 
 export default function ServicesPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Services", url: "https://econstructhomes.com/services" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Services", url: "https://econstructinc.com/services" },
   ]);
   const publicServices = promptServices;
 
@@ -30,7 +30,7 @@ export default function ServicesPage() {
       "@type": "ListItem",
       position: index + 1,
       name: service.title,
-      url: `https://econstructhomes.com/services/${service.slug}`,
+      url: `https://econstructinc.com/services/${service.slug}`,
     })),
   };
 

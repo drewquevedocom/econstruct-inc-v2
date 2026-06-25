@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+﻿import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@supabase/supabase-js';
 import type { SupabaseClient } from '@supabase/supabase-js';
 
@@ -10,7 +10,7 @@ const HOT_LEAD_NOTIFY_EMAILS = (process.env.HOT_LEAD_NOTIFY_EMAILS || process.en
   .map((s) => s.trim())
   .filter(Boolean);
 
-// ── Supabase client ──────────────────────────────────────────────────────────
+// â”€â”€ Supabase client â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 function getSupabase() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://dzudtdhmvnuipqyoogem.supabase.co";
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY ||
@@ -44,14 +44,14 @@ async function createPartnerReplyTask(
     .filter(Boolean)
     .join('\n');
 
-  // Move to "Replied" stage — surfaces in the Replied column of the Kanban
+  // Move to "Replied" stage â€” surfaces in the Replied column of the Kanban
   // so Frank knows to review and decide whether to send the agreement.
   await supabase
     .from('partner_leads')
     .update({
       status: 'Replied',
       last_contact_date: today,
-      next_follow_up_date: today, // due today — Frank should act same day
+      next_follow_up_date: today, // due today â€” Frank should act same day
       notes,
       updated_at: new Date().toISOString(),
     })
@@ -59,7 +59,7 @@ async function createPartnerReplyTask(
 
   await supabase.from('partner_tasks').insert({
     partner_lead_id: partnerLeadId,
-    title: `Review reply from ${partner.partner_name} — send agreement if interested`,
+    title: `Review reply from ${partner.partner_name} â€” send agreement if interested`,
     due_date: today,
   });
 }
@@ -204,7 +204,7 @@ async function upsertPartnerIntelLead(params: {
   return { created: true, partnerLeadId: lead.id };
 }
 
-// ── Classify reply sentiment using Claude ────────────────────────────────────
+// â”€â”€ Classify reply sentiment using Claude â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 async function classifyReply(replyText: string): Promise<{
   sentiment: 'interested' | 'not_interested' | 'question' | 'out_of_office' | 'unknown';
   confidence: number;
@@ -212,7 +212,7 @@ async function classifyReply(replyText: string): Promise<{
 }> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    console.warn('ANTHROPIC_API_KEY not set — skipping AI classification');
+    console.warn('ANTHROPIC_API_KEY not set â€” skipping AI classification');
     return { sentiment: 'unknown', confidence: 0, summary: 'No API key configured' };
   }
 
@@ -255,7 +255,7 @@ Respond with ONLY valid JSON: {"sentiment":"<category>","confidence":<0-100>,"su
   }
 }
 
-// ── Send handoff email to hot-lead recipients via Instantly reply API ───────
+// â”€â”€ Send handoff email to hot-lead recipients via Instantly reply API â”€â”€â”€â”€â”€â”€â”€
 async function notifyHotLead(lead: {
   email: string;
   firstName: string;
@@ -268,7 +268,7 @@ async function notifyHotLead(lead: {
   campaignName?: string;
 }) {
   if (HOT_LEAD_NOTIFY_EMAILS.length === 0) {
-    console.warn('HOT_LEAD_NOTIFY_EMAILS / FRANK_EMAIL not set — skipping handoff notification');
+    console.warn('HOT_LEAD_NOTIFY_EMAILS / FRANK_EMAIL not set â€” skipping handoff notification');
     return;
   }
 
@@ -280,7 +280,7 @@ async function notifyHotLead(lead: {
   console.log(`To: ${toList}`);
   console.log(`Lead: ${lead.firstName} ${lead.lastName} <${lead.email}>`);
   console.log(`Property: ${lead.property}`);
-  console.log(`Sentiment: ${lead.sentiment} — ${lead.summary}`);
+  console.log(`Sentiment: ${lead.sentiment} â€” ${lead.summary}`);
   console.log('========================');
 
   // Subject + headline reflect the sentiment when available, or just say "Partner Reply" otherwise.
@@ -288,10 +288,10 @@ async function notifyHotLead(lead: {
   const isInterested = sentimentNorm === 'interested';
   const isUnknown = sentimentNorm === 'unknown' || sentimentNorm === '';
   const subjectPrefix = isInterested
-    ? '🔥 HOT LEAD'
+    ? 'ðŸ”¥ HOT LEAD'
     : isUnknown
-      ? '📬 PARTNER REPLY'
-      : `📬 REPLY (${sentimentNorm})`;
+      ? 'ðŸ“¬ PARTNER REPLY'
+      : `ðŸ“¬ REPLY (${sentimentNorm})`;
   const headlineColor = isInterested ? '#0E7C5C' : '#B8963E';
   const sentimentBadge = isInterested
     ? `<strong style="color:#0E7C5C;">${lead.sentiment}</strong>`
@@ -309,12 +309,12 @@ async function notifyHotLead(lead: {
       body: JSON.stringify({
         eaccount: 'info@econstructllc.com',
         to_address_email_list: toList,
-        subject: `${subjectPrefix}: ${lead.firstName} ${lead.lastName} — ${lead.replyText.slice(0, 60).replace(/\n/g, ' ')}…`,
+        subject: `${subjectPrefix}: ${lead.firstName} ${lead.lastName} â€” ${lead.replyText.slice(0, 60).replace(/\n/g, ' ')}â€¦`,
         body: {
           html: `
             <div style="font-family:Arial,sans-serif;max-width:600px;">
               <h2 style="color:${headlineColor};">${subjectPrefix}</h2>
-              <p><strong>${lead.firstName} ${lead.lastName}</strong> replied to our outreach — sentiment: ${sentimentBadge}.</p>
+              <p><strong>${lead.firstName} ${lead.lastName}</strong> replied to our outreach â€” sentiment: ${sentimentBadge}.</p>
               <div style="background:#f5f5f0;padding:16px;border-radius:8px;margin:16px 0;border-left:4px solid ${headlineColor};">
                 <p style="margin:0;font-style:italic;">"${lead.replyText.slice(0, 1500)}"</p>
               </div>
@@ -324,7 +324,7 @@ async function notifyHotLead(lead: {
                 ${lead.property ? `<tr><td style="padding:6px 12px;font-weight:bold;color:#666;">Property</td><td style="padding:6px 12px;">${lead.property}</td></tr>` : ''}
                 <tr><td style="padding:6px 12px;font-weight:bold;color:#666;">AI Summary</td><td style="padding:6px 12px;">${lead.summary}</td></tr>
               </table>
-              <p style="color:#666;font-size:13px;">Reply directly to the lead's email above. Follow-up task auto-created in <a href="https://econstructhomes.com/crm/partners">/crm/partners</a>.</p>
+              <p style="color:#666;font-size:13px;">Reply directly to the lead's email above. Follow-up task auto-created in <a href="https://econstructinc.com/crm/partners">/crm/partners</a>.</p>
             </div>
           `,
         },
@@ -354,7 +354,7 @@ async function notifyHotLead(lead: {
   }
 }
 
-// ── Unsubscribe handler ─────────────────────────────────────────────────────
+// â”€â”€ Unsubscribe handler â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 async function handleUnsubscribe(params: {
   supabase: SupabaseClient;
   partnerLeadId: string;
@@ -416,7 +416,7 @@ async function handleUnsubscribe(params: {
 
   await supabase.from('partner_tasks').insert({
     partner_lead_id: partner.id,
-    title: `Unsubscribed — verify suppression in Instantly for ${partner.partner_name}`,
+    title: `Unsubscribed â€” verify suppression in Instantly for ${partner.partner_name}`,
     due_date: today,
   });
 
@@ -445,7 +445,7 @@ async function notifyUnsubscribe(params: {
       body: JSON.stringify({
         eaccount: 'info@econstructllc.com',
         to_address_email_list: HOT_LEAD_NOTIFY_EMAILS.join(','),
-        subject: `🚫 Unsubscribe: ${params.name} (${params.partnerType}) opted out`,
+        subject: `ðŸš« Unsubscribe: ${params.name} (${params.partnerType}) opted out`,
         body: {
           html: `<div style="font-family:Arial,sans-serif;max-width:600px;color:#222;">
             <h2 style="color:#B91C1C;margin-top:0;">Partner Unsubscribed</h2>
@@ -453,9 +453,9 @@ async function notifyUnsubscribe(params: {
             <table style="width:100%;border-collapse:collapse;margin:16px 0;background:#FAF9F6;border-radius:8px;">
               <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Partner Type</td><td style="padding:8px 12px;">${params.partnerType}</td></tr>
               ${params.campaignName ? `<tr><td style="padding:8px 12px;font-weight:bold;color:#666;">Campaign</td><td style="padding:8px 12px;">${params.campaignName}</td></tr>` : ''}
-              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">✓ Status set to Inactive · Follow-up task created · Auto-suppressed from future sends</td></tr>
+              <tr><td style="padding:8px 12px;font-weight:bold;color:#666;">CRM Action</td><td style="padding:8px 12px;color:#0E7C5C;">âœ“ Status set to Inactive Â· Follow-up task created Â· Auto-suppressed from future sends</td></tr>
             </table>
-            <p style="color:#666;font-size:13px;">Instantly auto-blocklists this address — they will not receive any further emails from us. View in <a href="https://econstructhomes.com/crm/partners" style="color:#B8963E;">/crm/partners</a>.</p>
+            <p style="color:#666;font-size:13px;">Instantly auto-blocklists this address â€” they will not receive any further emails from us. View in <a href="https://econstructinc.com/crm/partners" style="color:#B8963E;">/crm/partners</a>.</p>
           </div>`,
         },
       }),
@@ -465,7 +465,7 @@ async function notifyUnsubscribe(params: {
   }
 }
 
-// ── Webhook handler ──────────────────────────────────────────────────────────
+// â”€â”€ Webhook handler â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 export async function POST(req: NextRequest) {
   try {
     const payload = await req.json();
@@ -500,7 +500,7 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    // Unsubscribe events — set status=Inactive, create task, notify Drew + Frank
+    // Unsubscribe events â€” set status=Inactive, create task, notify Drew + Frank
     if (
       eventType === 'lead_unsubscribed' ||
       eventType === 'unsubscribed' ||
@@ -593,10 +593,10 @@ export async function POST(req: NextRequest) {
         sentiment: classification.sentiment ?? 'unknown',
         summary:
           classification.summary ??
-          'AI classification unavailable — check ANTHROPIC_API_KEY credit balance',
+          'AI classification unavailable â€” check ANTHROPIC_API_KEY credit balance',
       });
 
-      // If AI confirmed interested → also flip Instantly's internal lead status.
+      // If AI confirmed interested â†’ also flip Instantly's internal lead status.
       if (classification.sentiment === 'interested') {
         const apiKey = process.env.INSTANTLY_API_KEY;
         if (apiKey && leadEmail && campaignId) {

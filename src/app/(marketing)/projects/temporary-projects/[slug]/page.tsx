@@ -79,12 +79,12 @@ export default async function TemporaryProjectPage({
     mainEntityOfPage: `https://econstructhomes.com/projects/temporary-projects/${project.slug}`,
     author: {
       "@type": "Organization",
-      name: "eConstruct",
+      name: "econstruct",
       url: "https://econstructhomes.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "eConstruct",
+      name: "econstruct",
       url: "https://econstructhomes.com",
       logo: {
         "@type": "ImageObject",

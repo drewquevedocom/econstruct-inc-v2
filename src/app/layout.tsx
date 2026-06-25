@@ -15,9 +15,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Luxury Home Builder Beverly Hills & Los Angeles | eConstruct Homes",
+  title: "General Contractor Los Angeles | Restaurant, Retail & Luxury Construction | econstruct",
   description:
-    "Luxury home building, fire rebuilds, custom home construction, remodels, and tenant improvements across Los Angeles. CA License #964015.",
+    "econstruct builds restaurants, retail, office TI, luxury homes, and fire rebuilds across Los Angeles. Licensed CA general contractor since 2001. CA Lic #964015.",
   metadataBase: new URL(SITE_URL),
   icons: {
     icon: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "eConstruct Homes",
+    siteName: "econstruct",
   },
 };
 

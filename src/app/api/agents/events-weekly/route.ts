@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { createServiceClient } from "@/lib/supabase/server";
 
 export const maxDuration = 30;
@@ -19,7 +19,7 @@ const AUDIENCE_LABEL: Record<string, string> = {
 };
 
 function formatEventDate(iso: string | null): string {
-  if (!iso) return "Date TBD — recurring";
+  if (!iso) return "Date TBD â€” recurring";
   const d = new Date(iso + "T12:00:00");
   return d.toLocaleDateString("en-US", {
     weekday: "short",
@@ -46,10 +46,10 @@ function buildHtml(events: Array<{
 
   if (events.length === 0) {
     return `<div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.65;color:#222;max-width:620px;">
-<p>Frank + Drew —</p>
+<p>Frank + Drew â€”</p>
 <p>No upcoming LA-area events this week. The Events table is empty or all past dates have been archived.</p>
 <p>Drop new event intel into <code>/api/agents/extract-events</code> (forward any AIA|LA, PPCC, or Altadena Town Council newsletters and Claude extracts the events automatically).</p>
-<p>— Drew (via CRM)</p>
+<p>â€” Drew (via CRM)</p>
 </div>`;
   }
 
@@ -57,9 +57,9 @@ function buildHtml(events: Array<{
     .map((e) => {
       const audience = AUDIENCE_LABEL[e.audience] || e.audience;
       const dateLabel = formatEventDate(e.event_date);
-      const locationLine = [e.host_org, e.location].filter(Boolean).join(" · ") || "Location TBD";
+      const locationLine = [e.host_org, e.location].filter(Boolean).join(" Â· ") || "Location TBD";
       const url = e.event_url
-        ? `<p style="margin:6px 0 0 0;"><a href="${e.event_url}" style="color:#B8963E;font-size:12px;text-decoration:none;">View details →</a></p>`
+        ? `<p style="margin:6px 0 0 0;"><a href="${e.event_url}" style="color:#B8963E;font-size:12px;text-decoration:none;">View details â†’</a></p>`
         : "";
       const notes = e.notes
         ? `<p style="margin:6px 0 0 0;color:#666;font-size:12px;font-style:italic;">${e.notes}</p>`
@@ -78,7 +78,7 @@ ${notes}${url}
 
   return `<div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.65;color:#222;max-width:620px;">
 
-<p>Frank + Drew —</p>
+<p>Frank + Drew â€”</p>
 
 <p>Here's the upcoming LA-area networking + fire-rebuild community events worth showing up to this week. Pulled live from the CRM event feed (${today}).</p>
 
@@ -86,13 +86,13 @@ ${notes}${url}
 
 ${eventCards}
 
-<p style="margin-top:20px;">Pick 1-2 to attend in person — hand out cards, meet displaced homeowners actively choosing GCs, deepen relationships with the architects and permit folks. Showing up is the unfair advantage.</p>
+<p style="margin-top:20px;">Pick 1-2 to attend in person â€” hand out cards, meet displaced homeowners actively choosing GCs, deepen relationships with the architects and permit folks. Showing up is the unfair advantage.</p>
 
-<p style="font-size:12px;color:#666;">Full live list updates daily on the CRM dashboard at <a href="https://econstructhomes.com/crm/dashboard" style="color:#B8963E;">/crm/dashboard</a>. Past events auto-archive.</p>
+<p style="font-size:12px;color:#666;">Full live list updates daily on the CRM dashboard at <a href="https://econstructinc.com/crm/dashboard" style="color:#B8963E;">/crm/dashboard</a>. Past events auto-archive.</p>
 
 <table cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;border-top:2px solid #B8963E;padding-top:14px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:1.5;color:#222;">
 <tr><td><strong>Drew Quevedo</strong></td></tr>
-<tr><td style="color:#666;">DQ Agentiq · CRM Operator for econstruct</td></tr>
+<tr><td style="color:#666;">DQ Agentiq Â· CRM Operator for econstruct</td></tr>
 <tr><td><a href="mailto:marketing@econstructinc.com" style="color:#222;text-decoration:none;">marketing@econstructinc.com</a></td></tr>
 </table>
 
@@ -137,7 +137,7 @@ export async function POST(req: NextRequest) {
 
   const from = process.env.DAILY_REPORT_FROM?.replace("CRM", "Events") || "econstruct Events <onboarding@resend.dev>";
 
-  const subject = `econstruct — Weekly LA Events to Attend (${todayPT})`;
+  const subject = `econstruct â€” Weekly LA Events to Attend (${todayPT})`;
   const html = buildHtml(eventList);
 
   const payload: Record<string, unknown> = { from, to, subject, html };

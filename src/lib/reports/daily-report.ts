@@ -1,4 +1,4 @@
-import { createServiceClient } from "@/lib/supabase/server";
+﻿import { createServiceClient } from "@/lib/supabase/server";
 
 export type DailyReportData = {
   date: string;
@@ -79,7 +79,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   const todayPT = ymdInPT(now);
   const yesterdayCutoff = new Date(now.getTime() - 24 * 3600 * 1000).toISOString();
 
-  // ── HERO: cold emails sent today (partner + new-customer enrollments) ──
+  // â”€â”€ HERO: cold emails sent today (partner + new-customer enrollments) â”€â”€
   // partner_leads.last_contact_date is set by partner-enroll the moment a
   // partner is pushed into an Instantly campaign. The new-customer count comes
   // from campaign_enrolled lead activities so Frank sees both tracks.
@@ -108,7 +108,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   }
   const coldEmailsSentToday = partnerColdEmailsSentToday + customerColdEmailsSentToday;
 
-  // ── Yesterday's movement ────────────────────────────────────────
+  // â”€â”€ Yesterday's movement â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   const [
     enrolledRes,
     repliesRes,
@@ -163,7 +163,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   ]);
 
   const runs = runsRes.data ?? [];
-  // Stale-timeout cleanups aren't real failures — they're rows left in 'running'
+  // Stale-timeout cleanups aren't real failures â€” they're rows left in 'running'
   // by Worker-timeout-truncated executions. Filter them so Frank only sees real errors.
   // Match both the current STALE_TIMEOUT prefix and the legacy "stale running timeout"
   // string so historical rows from older code are also classified as noise.
@@ -176,7 +176,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
   const failedRuns = runs.filter((r) => r.status === "failed" && !isStaleTimeout(r.errors));
   const staleRuns = runs.filter((r) => r.status === "failed" && isStaleTimeout(r.errors));
 
-  // ── Cumulative snapshot ─────────────────────────────────────────
+  // â”€â”€ Cumulative snapshot â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   const [
     totalLeadsRes,
     totalPermitsRes,
@@ -270,7 +270,7 @@ export async function buildDailyReport(): Promise<DailyReportData> {
     },
     topActivity: (activityRes.data ?? []).slice(0, 10).map((a) => ({
       when: a.created_at,
-      type: String(a.type ?? "—"),
+      type: String(a.type ?? "â€”"),
       channel: a.channel as string | null,
       detail: a.metadata ? JSON.stringify(a.metadata).slice(0, 120) : undefined,
     })),
@@ -311,13 +311,13 @@ function recommendation(report: DailyReportData): { tone: "good" | "watch" | "ac
     return {
       tone: "act",
       title: `${y.agentRunsFailed} agent run${y.agentRunsFailed === 1 ? "" : "s"} failed in the last 24h.`,
-      body: "Check the failures section below. The system held off on sending to avoid bad data — once the failure is resolved, partners will auto-enroll on the next cron.",
+      body: "Check the failures section below. The system held off on sending to avoid bad data â€” once the failure is resolved, partners will auto-enroll on the next cron.",
     };
   }
   if (h.coldEmailsSentToday === 0 && s.partnersNewLead > 0) {
     return {
       tone: "act",
-      title: `${s.partnersNewLead} partners ready to send — but no enrollments today.`,
+      title: `${s.partnersNewLead} partners ready to send â€” but no enrollments today.`,
       body: "Likely the Instantly campaign is paused or a secret isn't deployed. Resume campaigns in Instantly and trigger the partner-enroll agent.",
     };
   }
@@ -344,7 +344,7 @@ function recommendation(report: DailyReportData): { tone: "good" | "watch" | "ac
   }
   return {
     tone: "watch",
-    title: "Quiet day — no sends, no replies.",
+    title: "Quiet day â€” no sends, no replies.",
     body: "Systems healthy. Add more leads or resume campaign to keep volume flowing.",
   };
 }
@@ -355,14 +355,14 @@ export function renderDailyReportHtml(report: DailyReportData): string {
   const recBg = rec.tone === "good" ? "#E6F5EF" : rec.tone === "watch" ? "#FAF1D5" : "#FBE7E6";
 
   const movementRows = [
-    { label: "Cold emails sent", value: report.yesterday.coldEmailsEnrolled, icon: "📨" },
-    { label: "Partner cold emails sent", value: report.hero.partnerColdEmailsSentToday, icon: "🤝" },
-    { label: "New customer cold emails sent", value: report.hero.customerColdEmailsSentToday, icon: "🏠" },
-    { label: "Replies received", value: report.yesterday.repliesReceived, icon: "💬" },
-    { label: "Interested replies (hot)", value: report.yesterday.interestedReplies, icon: "🔥" },
-    { label: "New partner leads loaded", value: report.yesterday.newPartnerLeads, icon: "🤝" },
-    { label: "New permits scraped", value: report.yesterday.newPermits, icon: "🏗️" },
-    { label: "Owners enriched (ATTOM)", value: report.yesterday.ownersEnriched, icon: "🧭" },
+    { label: "Cold emails sent", value: report.yesterday.coldEmailsEnrolled, icon: "ðŸ“¨" },
+    { label: "Partner cold emails sent", value: report.hero.partnerColdEmailsSentToday, icon: "ðŸ¤" },
+    { label: "New customer cold emails sent", value: report.hero.customerColdEmailsSentToday, icon: "ðŸ " },
+    { label: "Replies received", value: report.yesterday.repliesReceived, icon: "ðŸ’¬" },
+    { label: "Interested replies (hot)", value: report.yesterday.interestedReplies, icon: "ðŸ”¥" },
+    { label: "New partner leads loaded", value: report.yesterday.newPartnerLeads, icon: "ðŸ¤" },
+    { label: "New permits scraped", value: report.yesterday.newPermits, icon: "ðŸ—ï¸" },
+    { label: "Owners enriched (ATTOM)", value: report.yesterday.ownersEnriched, icon: "ðŸ§­" },
   ];
 
   const snapshotRows = [
@@ -388,7 +388,7 @@ export function renderDailyReportHtml(report: DailyReportData): string {
       <!-- Header -->
       <tr>
         <td style="background:#1C1C1E;padding:24px 28px;">
-          <p style="margin:0;font-size:11px;font-weight:bold;letter-spacing:0.22em;text-transform:uppercase;color:#D4B96A;">econstruct CRM · Daily Report</p>
+          <p style="margin:0;font-size:11px;font-weight:bold;letter-spacing:0.22em;text-transform:uppercase;color:#D4B96A;">econstruct CRM Â· Daily Report</p>
           <h1 style="margin:6px 0 0 0;font-size:24px;font-weight:900;color:#FFF8E7;line-height:1.2;">${fmtDate(report.date)}</h1>
         </td>
       </tr>
@@ -398,15 +398,15 @@ export function renderDailyReportHtml(report: DailyReportData): string {
         <td style="background:#1C1C1E;padding:32px 28px 40px 28px;text-align:center;border-top:1px solid #2B2B2D;">
           <p style="margin:0;font-size:12px;font-weight:bold;letter-spacing:0.28em;text-transform:uppercase;color:#D4B96A;">Cold Emails Sent Today</p>
           <p style="margin:8px 0 0 0;font-size:84px;font-weight:900;line-height:1;color:#FFF8E7;font-variant-numeric:tabular-nums;letter-spacing:-2px;">${(report.hero.coldEmailsSentToday + report.hero.instantlyDripSinceLastReport).toLocaleString()}</p>
-          <p style="margin:10px 0 0 0;font-size:12px;color:#F2E8C9;line-height:1.4;"><strong style="color:#FFF8E7;">${report.hero.coldEmailsSentToday}</strong> new enrollments today · <strong style="color:#FFF8E7;">${report.hero.instantlyDripSinceLastReport}</strong> from Instantly drip queue since last report</p>
-          <p style="margin:6px 0 0 0;font-size:11px;color:#8a8079;">${report.hero.instantlyActiveCampaigns} active campaigns · ${report.hero.instantlyTotalSent.toLocaleString()} total cold emails sent all-time</p>
+          <p style="margin:10px 0 0 0;font-size:12px;color:#F2E8C9;line-height:1.4;"><strong style="color:#FFF8E7;">${report.hero.coldEmailsSentToday}</strong> new enrollments today Â· <strong style="color:#FFF8E7;">${report.hero.instantlyDripSinceLastReport}</strong> from Instantly drip queue since last report</p>
+          <p style="margin:6px 0 0 0;font-size:11px;color:#8a8079;">${report.hero.instantlyActiveCampaigns} active campaigns Â· ${report.hero.instantlyTotalSent.toLocaleString()} total cold emails sent all-time</p>
           ${
             Object.keys(report.hero.byType).length
               ? `<p style="margin:14px 0 0 0;font-size:13px;color:#F2E8C9;line-height:1.6;">${Object.entries(
                   report.hero.byType
                 )
                   .map(([t, n]) => `<span style="display:inline-block;margin:0 8px;"><strong style="color:#FFF8E7;">${n}</strong> ${t.replace(/ \/ .*/, "")}</span>`)
-                  .join("·")}</p>`
+                  .join("Â·")}</p>`
               : `<p style="margin:14px 0 0 0;font-size:13px;color:#8a8079;">No cold emails today yet.</p>`
           }
         </td>
@@ -467,7 +467,7 @@ export function renderDailyReportHtml(report: DailyReportData): string {
             .map(
               (f) => `
           <tr><td style="padding:8px 12px;font-size:12px;color:#1C1C1E;border-bottom:1px solid rgba(185,74,72,0.15);">
-            <strong>${f.agent}</strong> · ${fmtShort(f.when)}<br>
+            <strong>${f.agent}</strong> Â· ${fmtShort(f.when)}<br>
             <span style="color:#7A2A28;font-family:Menlo,Consolas,monospace;font-size:11px;">${f.error}</span>
           </td></tr>`
             )
@@ -489,7 +489,7 @@ export function renderDailyReportHtml(report: DailyReportData): string {
           <tr>
             <td style="padding:6px 0;font-size:12px;color:#404040;border-bottom:1px solid #F0EDE5;">
               <span style="color:#7E7468;font-variant-numeric:tabular-nums;">${fmtShort(a.when)}</span>
-              &nbsp;·&nbsp; <strong style="color:#1C1C1E;">${a.type.replace(/_/g, " ")}</strong>${a.channel ? ` via ${a.channel}` : ""}
+              &nbsp;Â·&nbsp; <strong style="color:#1C1C1E;">${a.type.replace(/_/g, " ")}</strong>${a.channel ? ` via ${a.channel}` : ""}
             </td>
           </tr>`
             )
@@ -502,7 +502,7 @@ export function renderDailyReportHtml(report: DailyReportData): string {
       <!-- Footer -->
       <tr><td style="padding:24px 28px;background:#FAF9F6;border-top:1px solid #E8E4DC;">
         <p style="margin:0 0 4px 0;font-size:11px;color:#7E7468;line-height:1.5;">
-          Dashboard: <a href="https://econstructhomes.com/crm/dashboard" style="color:#B8963E;text-decoration:none;">econstructhomes.com/crm/dashboard</a>
+          Dashboard: <a href="https://econstructinc.com/crm/dashboard" style="color:#B8963E;text-decoration:none;">econstructhomes.com/crm/dashboard</a>
         </p>
         <p style="margin:0;font-size:11px;color:#7E7468;line-height:1.5;">
           Generated automatically by the econstruct CRM. Replies to this address are not monitored.
@@ -534,7 +534,7 @@ export async function sendDailyReport(
   const payload: Record<string, unknown> = {
     from: process.env.DAILY_REPORT_FROM || "econstruct CRM <onboarding@resend.dev>",
     to: toRecipients,
-    subject: `econstruct CRM — Daily Report — ${subjectDate}`,
+    subject: `econstruct CRM â€” Daily Report â€” ${subjectDate}`,
     html,
   };
   if (ccRecipients.length) payload.cc = ccRecipients;

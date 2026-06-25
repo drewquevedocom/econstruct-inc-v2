@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+﻿import { NextRequest, NextResponse } from "next/server";
 import { createServiceClient } from "@/lib/supabase/server";
 import crypto from "node:crypto";
 
@@ -38,15 +38,15 @@ async function sendAgreementEmail(params: {
   const html = `<div style="font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;line-height:1.65;color:#222;max-width:560px;">
 <p>Hi ${firstName},</p>
 
-<p>Glad to officially welcome you into the econstruct referral network. Here's the deal in plain English — no lawyer-speak, no fine print.</p>
+<p>Glad to officially welcome you into the econstruct referral network. Here's the deal in plain English â€” no lawyer-speak, no fine print.</p>
 
 <table cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0;border-collapse:collapse;background:#FAF9F6;border-radius:10px;">
 <tr><td style="padding:14px 18px;">
 <p style="margin:0 0 8px 0;"><strong>What you do:</strong> Send qualified leads our way when your client needs a GC for a luxury rebuild, new build, ADU, or post-fire reconstruction in LA County.</p>
 <p style="margin:8px 0;"><strong>What we do:</strong> Close the contract, deliver the project to your client's standard, and pay you a flat <strong style="color:#B8963E;">$5,000 referral fee</strong> within 30 days of the GC contract signing.</p>
 <p style="margin:8px 0;"><strong>How we track it:</strong> Every referral you send gets tagged to your unique code below. Share it with your client at intro, or just CC me on the intro email and I'll handle the rest.</p>
-<p style="margin:8px 0;"><strong>What you don't have to do:</strong> No exclusivity. No minimums. No monthly fees. Send us 1 or 50 — same terms either way.</p>
-<p style="margin:8px 0 0 0;"><strong>You can leave anytime.</strong> Just email me — no notice required.</p>
+<p style="margin:8px 0;"><strong>What you don't have to do:</strong> No exclusivity. No minimums. No monthly fees. Send us 1 or 50 â€” same terms either way.</p>
+<p style="margin:8px 0 0 0;"><strong>You can leave anytime.</strong> Just email me â€” no notice required.</p>
 </td></tr>
 </table>
 
@@ -60,14 +60,14 @@ async function sendAgreementEmail(params: {
 <p>Click below to count yourself in. That's the whole agreement.</p>
 
 <p style="margin:20px 0;">
-<a href="${agreeUrl}" style="display:inline-block;padding:14px 28px;background:#B8963E;color:#fff;text-decoration:none;font-weight:bold;font-size:15px;border-radius:8px;">I AGREE — COUNT ME IN</a>
+<a href="${agreeUrl}" style="display:inline-block;padding:14px 28px;background:#B8963E;color:#fff;text-decoration:none;font-weight:bold;font-size:15px;border-radius:8px;">I AGREE â€” COUNT ME IN</a>
 </p>
 
 <p style="font-size:12px;color:#666;">If the button doesn't work, paste this into your browser: <a href="${agreeUrl}" style="color:#B8963E;word-break:break-all;">${agreeUrl}</a></p>
 
 <table cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;border-top:2px solid #B8963E;padding-top:14px;font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;line-height:1.5;color:#222;">
 <tr><td><strong>Frank Neimroozi</strong></td></tr>
-<tr><td style="color:#666;">Owner · econstruct</td></tr>
+<tr><td style="color:#666;">Owner Â· econstruct</td></tr>
 <tr><td><a href="mailto:frank@econstructinc.com" style="color:#222;text-decoration:none;">frank@econstructinc.com</a></td></tr>
 <tr><td><a href="https://econstructinc.com" style="color:#B8963E;text-decoration:none;">econstructinc.com</a></td></tr>
 </table>
@@ -80,7 +80,7 @@ async function sendAgreementEmail(params: {
       from,
       to: params.toEmail,
       reply_to: "frank@econstructinc.com",
-      subject: `Welcome to econstruct, ${firstName} — quick partnership agreement`,
+      subject: `Welcome to econstruct, ${firstName} â€” quick partnership agreement`,
       html,
     }),
   });
@@ -140,7 +140,7 @@ export async function POST(req: NextRequest) {
     })
     .eq("id", partner.id);
 
-  const baseUrl = process.env.PUBLIC_BASE_URL || "https://econstructhomes.com";
+  const baseUrl = process.env.PUBLIC_BASE_URL || "https://econstructinc.com";
   try {
     const sendResult = await sendAgreementEmail({
       toEmail: partner.contact_email,

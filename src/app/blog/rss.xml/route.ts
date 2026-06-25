@@ -1,4 +1,4 @@
-import { getAllBlogPosts } from "@/lib/blog";
+﻿import { getAllBlogPosts } from "@/lib/blog";
 import { getLegacyBlogPostCanonicalUrl } from "@/lib/blog/paths";
 
 export function GET() {
@@ -8,7 +8,7 @@ export function GET() {
 <rss version="2.0">
   <channel>
     <title>econstruct Blog</title>
-    <link>https://econstructhomes.com/blog</link>
+    <link>https://econstructinc.com/blog</link>
     <description>Insights from the LA Rebuild Frontline</description>
     <language>en-us</language>
     ${posts

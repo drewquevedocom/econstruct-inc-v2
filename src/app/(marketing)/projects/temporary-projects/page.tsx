@@ -12,9 +12,9 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Temporary Projects | eConstruct Homes",
+  title: "Temporary Projects | econstruct",
   description:
-    "Hidden review page for upcoming eConstruct Homes portfolio case studies before approval.",
+    "Hidden review page for upcoming econstruct portfolio case studies before approval.",
   alternates: {
     canonical: `${SITE_URL}/projects/temporary-projects`,
   },
@@ -41,7 +41,7 @@ export default function TemporaryProjectsPage() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Temporary econstruct Project Reviews",
-    description: "Internal review set for upcoming eConstruct Homes project case studies.",
+    description: "Internal review set for upcoming econstruct project case studies.",
     itemListElement: temporaryProjectSummaries.map((project, index) => ({
       "@type": "ListItem",
       position: index + 1,

@@ -8,12 +8,12 @@ import { COMPANY } from "@/lib/constants";
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Reserve a Private Lot Walk | eConstruct Homes",
+  title: "Reserve a Private Lot Walk | econstruct",
   description:
     "Private lot walk request for families planning a high-end custom home, full estate remodel, major addition, or pre-design property evaluation in Los Angeles.",
   path: "/private-lot-walk",
   image: "/campaigns/new-build-postcard/postcard-page-1.png",
-  imageAlt: "eConstruct Homes private lot walk postcard for high-end custom home clients",
+  imageAlt: "econstruct private lot walk postcard for high-end custom home clients",
   noIndex: true,
 });
 
@@ -55,7 +55,7 @@ export default function PrivateLotWalkPage() {
         <div className="absolute inset-0">
           <Image
             src="/campaigns/new-build-postcard/postcard-page-1.png"
-            alt="Private note from the founder postcard for eConstruct Homes"
+            alt="Private note from the founder postcard for econstruct"
             fill
             priority
             className="object-cover opacity-42"
@@ -99,7 +99,7 @@ export default function PrivateLotWalkPage() {
             <div className="rounded-[2rem] border border-white/12 bg-[#0d0d0d]/84 p-5 shadow-[0_28px_80px_rgba(0,0,0,0.42)] backdrop-blur-md">
               <Image
                 src="/campaigns/new-build-postcard/postcard-page-2.png"
-                alt="eConstruct Homes postcard back with referral practice proof points and lot walk call to action"
+                alt="econstruct postcard back with referral practice proof points and lot walk call to action"
                 width={1066}
                 height={720}
                 className="rounded-[1.35rem] border border-white/10"
