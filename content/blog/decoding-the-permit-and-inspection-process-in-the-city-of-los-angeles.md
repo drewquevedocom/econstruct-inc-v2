@@ -103,5 +103,3 @@ Securing an inspection is a straightforward process which involves either submit
 If you have any queries regarding this process, don’t hesitate to contact the LADBS. They can answer any questions you may have and can verify if you possess all necessary documentation before arranging an inspection appointment.
 
 If you prefer not to navigate the plan check process yourself, you have the alternative to engage a professional to handle the entire task for you. These experts, often referred to as “Permit Expeditors,” can easily be located online. Upon finishing the construction work and successfully passing the “Final” inspections, the Certificate of Occupancy you obtain signals that the structure is primed for use and safe to occupy.
-
-[![](/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles-01.png)](https://econstructinc.com/new-lead-questionnaire/)

@@ -62,8 +62,4 @@ Our “From Project Concept to Completion” infographic covers the following ke
 
 If you’re ready to embark on your new home construction journey in Los Angeles, we invite you to explore our infographic and discover how econstruct can make the process smooth, enjoyable, and rewarding.
 
-[![](/blog/residential-contractor-in-los-angeles-expert-home-builders-at-econstruct-01.png)](https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/07/White-Colorful-Modern-Timeline-Design-Process-Infographic.png)
-
 Your dream home is just a few clicks away. Contact econstruct today to schedule a consultation and turn your vision into reality!
-
-[![Request a Consultation](/blog/residential-contractor-in-los-angeles-expert-home-builders-at-econstruct-02.png)](https://econstructinc.com/new-lead-questionnaire/)

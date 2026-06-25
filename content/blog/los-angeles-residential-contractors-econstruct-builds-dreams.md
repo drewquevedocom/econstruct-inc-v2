@@ -59,5 +59,3 @@ Please take a moment to browse our [Portfolio](https://econstructinc.com/constru
 **Ready to Get Started?**
 
 If you’re ready to build or renovate your dream home in Los Angeles, contact econstruct today. We’ll schedule a consultation to discuss your vision, answer your questions, and develop a personalized plan that meets your needs and exceeds your expectations.
-
-[![Request a Consultation](/blog/los-angeles-residential-contractors-econstruct-builds-dreams-03.png)](https://econstructinc.com/new-lead-questionnaire/)

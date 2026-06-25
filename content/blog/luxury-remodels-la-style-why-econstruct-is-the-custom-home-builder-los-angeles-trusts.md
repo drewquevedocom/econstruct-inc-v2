@@ -41,5 +41,3 @@ localAreas:
 Whether you have a crystal-clear vision or need inspiration, econstruct is here to guide you. Explore our portfolio of custom luxury home remodels in Los Angeles, and visualize the possibilities.
 
 **Don’t settle for a standard remodel; demand an econstruct remodel.**
-
-[![](/blog/luxury-remodels-la-style-why-econstruct-is-the-custom-home-builder-los-angeles-trusts-02.png)](https://econstructinc.com/contact-page/)

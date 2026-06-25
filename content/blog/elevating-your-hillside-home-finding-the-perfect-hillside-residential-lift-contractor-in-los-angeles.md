@@ -78,6 +78,4 @@ Our team will guide you through every step of the process, from initial consulta
 
 If you’re ready to unlock the full potential of your Los Angeles property, contact econstruct today. We’ll explore your options, answer your questions, and help you find the perfect hillside residential lift to enhance your lifestyle and add value to your home.
 
-To learn more about our comprehensive construction services for Los Angeles homeowners, [VIEW HILLSIDE LIFT PROJECT](https://econstructinc.com/portfolio/50-saddlebow-rd-bell-canyon/).
-
-[![Request a Consultation](/blog/elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles-03.png)](https://econstructinc.com/new-lead-questionnaire/)
+To learn more about our comprehensive construction services for Los Angeles homeowners, .

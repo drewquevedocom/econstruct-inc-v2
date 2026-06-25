@@ -55,5 +55,3 @@ At econstruct, we’re passionate about building beautiful homes that are kind t
 **Build a Greener Home, a Greener Future**
 
 Ready to create a sustainable LA haven that works with the environment, not against it? Contact us today for a consultation. Let’s build a greener future for you and for Los Angeles!
-
-[![](/blog/eco-smart-home-upgrades-build-a-greener-future-with-econstruct-02.png)](https://econstructinc.com/new-lead-questionnaire/)

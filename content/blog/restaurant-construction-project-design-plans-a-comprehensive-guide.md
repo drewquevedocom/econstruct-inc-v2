@@ -40,5 +40,3 @@ Our creativity provides an opportunity to create the restaurant of your dreams w
 [econstruct,](https://econstruct.pro/) has the experience to create the restaurant of your dreams. Our team focuses on providing high-quality project plans that are [smart and efficient](https://econstructinc.com/blog/how-to-build-a-smart-efficient-restaurant), because we expect your restaurant to last for years. When an area of the design is outside our area of expertise, we work with an architect to ensure that it meets or exceeds your expectations. We have the knowledge and experience to ensure that your restaurant is built for a long-lasting and growing business.
 
 Project plans are essential for restaurant construction, especially if you want plans that will create the restaurant of your dreams. Working with a design-build contractor provides more opportunities to create a smart restaurant, thus maximizing on your profits.
-
-[![](/blog/restaurant-construction-project-design-plans-a-comprehensive-guide-01.png)](https://econstructinc.com/new-lead-questionnaire/)

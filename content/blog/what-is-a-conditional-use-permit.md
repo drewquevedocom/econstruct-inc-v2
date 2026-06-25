@@ -66,5 +66,3 @@ In the event that you are able to show the public how the new use for your land 
 It’s worth noting that ordinance requirements can vary across different zones. For example, some ordinances may stipulate that any conditional use permit must comply with the comprehensive land-use plan set by the municipality. The permit will also likely need to align with the character of the surrounding properties. Specific land uses may be subjected to additional standards, such as business operating hours, landscaping plans, and off-street parking provisions.
 
 If you successfully illustrate to the public how your property’s new use aligns with these standards, your application stands a good chance of being approved. However, these standards are not exhaustive. Certain communities may impose even stricter criteria that you must satisfy. Therefore, it’s essential to identify these standards before the public hearing, enabling you to be fully prepared.
-
-[![](/blog/what-is-a-conditional-use-permit-03.png)](https://econstructinc.com/new-lead-questionnaire/)

@@ -106,6 +106,4 @@ Building a new home in Los Angeles is a major investment. Selecting the right bu
 
 Contact us for a free consultation today, and let’s start building your future together!
 
-[![Request a Consultation](/blog/new-home-construction-in-los-angeles-expert-builders-at-econstruct-01.png)](https://econstructinc.com/new-lead-questionnaire/)
-
 ##

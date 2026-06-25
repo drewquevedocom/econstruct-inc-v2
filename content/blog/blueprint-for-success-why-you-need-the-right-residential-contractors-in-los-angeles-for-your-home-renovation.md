@@ -59,5 +59,3 @@ We’ll work closely with you to understand your vision, create a detailed plan,
 **Ready to Transform Your Los Angeles Home?**
 
 If you’re ready to embark on a home renovation project in Los Angeles, contact econstruct today. We’ll help you find your blueprints, develop a plan, and bring your vision to life.
-
-[![Request a Consultation](/blog/blueprint-for-success-why-you-need-the-right-residential-contractors-in-los-angeles-for-your-home-renovation-03.png)](https://econstructinc.com/new-lead-questionnaire/)

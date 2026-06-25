@@ -69,5 +69,3 @@ Experience sets us apart. econstruct has a legacy of success in high-end restaur
 **Ready to Craft Your Extraordinary LA Home?**
 
 If you envision a home that reflects you truly, econstruct is ready to collaborate. Explore our portfolio to see the possibilities and let your imagination take flight.
-
-[![](/blog/custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs-01.png)](https://econstructinc.com/new-lead-questionnaire/)

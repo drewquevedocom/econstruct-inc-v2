@@ -22,22 +22,6 @@ localAreas:
   - "Los Angeles"
 ---
 
-[![8004_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-01.jpg)](https://econstructinc.com/portfolio/800-degrees/8004_degrees/)
-
-				[![8003_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-02.jpg)](https://econstructinc.com/portfolio/800-degrees/8003_degrees/)
-
-				[![8005_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-03.jpg)](https://econstructinc.com/portfolio/800-degrees/8005_degrees/)
-
-				[![8007_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-04.jpg)](https://econstructinc.com/portfolio/800-degrees/8007_degrees/)
-
-				[![8002_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-05.jpg)](https://econstructinc.com/portfolio/800-degrees/8002_degrees/)
-
-				[![800degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-06.jpg)](https://econstructinc.com/portfolio/800-degrees/800degrees/)
-
-				[![8006_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-07.jpg)](https://econstructinc.com/portfolio/800-degrees/8006_degrees/)
-
-				[![8001_degrees](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-08.jpg)](https://econstructinc.com/portfolio/800-degrees/8001_degrees/)
-
 In the bustling heart of [Hollywood](https://en.wikipedia.org/wiki/Hollywood,_Los_Angeles), a unique collaboration between econstruct and Chef Anthony Carron has set a new standard for restaurant construction in Los Angeles. This partnership has birthed the iconic 800° Degrees Pizzeria, a testament to the fusion of culinary artistry and construction prowess. This blog post delves into the journey of transforming a vision into a tangible, gastronomic reality, showcasing why econstruct is a leader among commercial restaurant contractors in Los Angeles.
 
 Conceptualization and Design
@@ -69,5 +53,3 @@ Conclusion
 The creation of 800° Degrees Pizzeria is a prime example of how specialized restaurant construction, like that offered by econstruct, can bring a vision to life. This project exemplifies the synergy between construction expertise and culinary artistry, resulting in a Hollywood landmark that delights the senses and champions sustainability. As leaders in commercial restaurant construction in Los Angeles, econstruct continues to redefine the standards of building great restaurants, proving that with the right partnership, the possibilities are limitless.
 
 READ FULL CASE STUDY [CLICK HERE](https://econstructinc.com/case-study-800-degrees-pizzeria/)
-
-[![](/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct-09.png)](https://econstructinc.com/new-lead-questionnaire/)

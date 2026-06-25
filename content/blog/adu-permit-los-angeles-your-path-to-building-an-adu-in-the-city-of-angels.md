@@ -185,5 +185,3 @@ To further help you understand the ADU process, here are answers to some frequen
 Building an ADU is a significant undertaking, but with the right guidance and expertise, it can be a rewarding investment that enhances your property and meets your needs. At econstruct, we are committed to providing top-notch service, expert advice, and quality craftsmanship to ensure your ADU project is a success.
 
 Whether you’re just starting to explore the idea or are ready to begin the permitting process, our team is here to help. Contact us today for a personalized consultation and take the first step toward building your dream ADU in Los Angeles. Let’s transform your property together!
-
-[![Request a Consultation](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels-05.png)](https://econstructinc.com/new-lead-questionnaire/)

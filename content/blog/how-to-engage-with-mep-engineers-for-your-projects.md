@@ -85,8 +85,4 @@ Established in 2015 by Anthony Winston III, P.E., P. Eng, Winston Engineering In
 
 Projects include M/E/P engineering services for public works, commercial, agriculture, residential, multifamily, governmental, municipalities, restaurants, distilleries, research centers, hotels, hospitals, laboratories and more.
 
-[![](/blog/how-to-engage-with-mep-engineers-for-your-projects-01.png)](https://winstoneng.com/)
-
 For more details about our services, please check out [www.winstoneng.com](https://winstoneng.com/)
-
-[![](/blog/how-to-engage-with-mep-engineers-for-your-projects-02.png)](https://econstructinc.com/new-lead-questionnaire/)

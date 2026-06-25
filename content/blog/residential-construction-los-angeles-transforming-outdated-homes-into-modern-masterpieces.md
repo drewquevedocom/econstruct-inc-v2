@@ -65,5 +65,3 @@ Our comprehensive residential construction services in Los Angeles include:
 **Ready to Transform Your Los Angeles Home?**
 
 If you’re ready to embark on a home transformation journey, econstruct is here to guide you every step of the way. Contact us today for a [free consultation](https://econstructinc.com/new-lead-questionnaire/) and let’s discuss how we can bring your vision to life.
-
-[![Request a Consultation](/blog/residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces-03.png)](https://econstructinc.com/new-lead-questionnaire/)

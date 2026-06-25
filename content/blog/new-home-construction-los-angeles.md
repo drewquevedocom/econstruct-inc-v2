@@ -63,5 +63,3 @@ We understand the unique challenges and opportunities of new home construction i
 **Ready to Create Your Los Angeles Oasis?**
 
 Browse [our portfolio](https://econstructinc.com/construction-projects/) of exquisite projects in Los Angeles, and contact us to schedule a consultation. Let’s start building your future together!
-
-[![](/blog/new-home-construction-los-angeles-01.png)](https://econstructinc.com/new-lead-questionnaire/)

@@ -38,29 +38,13 @@ Our diverse portfolio showcases our capability to deliver quality work across va
 
 OUR WORK: 85°C distribution center |  Buena Park, CA.
 
-				[![85c_distribution_16](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-01.jpg)](https://econstructinc.com/85c_distribution_16/)
-
 				85°C Distribution Center Office – Conference Room
-
-				[![85c_distribution_14](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-02.jpg)](https://econstructinc.com/85c_distribution_14/)
-
-				[![85c_distribution_11](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-03.jpg)](https://econstructinc.com/85c_distribution_11/)
 
 				85°C Distribution Center Office – Hallways
 
-				[![85c_distribution_13](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-04.jpg)](https://econstructinc.com/85c_distribution_13/)
-
 				85°C Distribution Center Office – Rom With Window Room
 
-				[![85c_distribution_8](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-05.jpg)](https://econstructinc.com/85c_distribution_8/)
-
-				[![85c_distribution_15](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-06.jpg)](https://econstructinc.com/85c_distribution_15/)
-
 				85°C Distribution Center Office – Hallway
-
-				[![85c_distribution_12](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-07.jpg)](https://econstructinc.com/85c_distribution_12/)
-
-				[![85c_distribution_6](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-08.jpg)](https://econstructinc.com/85c_distribution_6/)
 
 				85°C Distribution Center Office – Offices
 
@@ -93,5 +77,3 @@ Our experience allows us to offer realistic timelines that account for design, p
 Choosing to renovate your office space is a significant step towards investing in your business’s future. Selecting **econstruct** as your office building TI contractor in Los Angeles guarantees a partnership with a company that not only brings extensive experience and local expertise to the table, but also shares your vision for a space that embodies your business values and ambitions. Our commitment to excellence, innovation, and client satisfaction makes us the ideal choice for your next office renovation project.
 
 Embark on your transformative journey with **econstruct**, and let us turn your vision into reality. Contact us today to discuss how we can elevate your office space to new heights.
-
-[![](/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct-09.png)](https://econstructinc.com/new-lead-questionnaire/)

@@ -59,5 +59,3 @@ An ergonomic layout is designed to minimize preparation time by strategically pl
 Explore Our Work
 
 See our recent projects and discover why we’re the go-to experts for restaurant construction in Los Angeles. [https://econstructinc.com/projects-1](https://econstructinc.com/projects-1/)
-
-[![](/blog/restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction-03.png)](https://econstructinc.com/new-lead-questionnaire/)

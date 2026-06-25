@@ -61,5 +61,3 @@ Develop a meticulously planned TI strategy that respects your budget and timelin
 Deliver flawless project management, so you stay on track and stress-free.
 
 Don’t settle for an office stuck in the past. Contact us today for a free consultation and let’s build a workspace that works for you!
-
-[![](/blog/partner-with-top-office-building-ti-contractors-los-angeles-to-design-the-workplace-of-the-future-02.png)](https://econstructinc.com/new-lead-questionnaire/)

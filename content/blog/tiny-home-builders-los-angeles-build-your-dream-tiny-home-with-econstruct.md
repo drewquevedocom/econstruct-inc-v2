@@ -117,5 +117,3 @@ We believe in open communication and transparency throughout the entire building
 ### Your Tiny Home Dream Starts Here
 
 Don’t let the high cost of living in Los Angeles deter you from owning your own home. With **econstruct**, you can escape soaring housing costs and embrace the freedom and simplicity of tiny home living. Contact us today to schedule a consultation and start your journey towards a more affordable and sustainable lifestyle.
-
-[![Request a Consultation](/blog/tiny-home-builders-los-angeles-build-your-dream-tiny-home-with-econstruct-03.png)](https://econstructinc.com/new-lead-questionnaire/)

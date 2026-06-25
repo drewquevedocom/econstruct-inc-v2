@@ -73,5 +73,3 @@ We’re known for:
 **Ready to Transform Your Office?**
 
 Whether you’re dreaming of a sleek modern workspace, a cozy collaboration hub, or something in between, the first step is finding the right construction partner. Check out our portfolio of Commercial Construction projects in Los Angeles, and then let’s chat about turning your office into a space that has you weirdly excited about Monday mornings (okay, maybe not excited, but let’s aim for a distinct lack of dread).
-
-[![](/blog/top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space-01.png)](http:/https://econstructinc.com/new-lead-questionnaire/)

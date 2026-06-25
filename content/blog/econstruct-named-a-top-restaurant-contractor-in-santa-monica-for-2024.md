@@ -50,5 +50,3 @@ This recognition wouldn’t be possible without our hardworking team, our incred
 **Ready to Transform Your Restaurant?**
 
 Whether you’re opening a new hot spot or revamping an existing space, econstruct is here to help. Contact us today to discuss your restaurant project.
-
-[![](/blog/econstruct-named-a-top-restaurant-contractor-in-santa-monica-for-2024-02.png)](https://econstructinc.com/new-lead-questionnaire/)

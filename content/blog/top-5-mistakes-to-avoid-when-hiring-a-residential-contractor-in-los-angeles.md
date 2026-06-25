@@ -67,5 +67,3 @@ Building or renovating your home in Los Angeles should be an exciting experience
 **Call to Action:**
 
 Ready to start your home project? Contact econstruct today for a free consultation. Let’s discuss your vision and how we can bring it to life with precision, passion, and perfection.
-
-[![Request a Consultation](/blog/top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles-03.png)](https://econstructinc.com/new-lead-questionnaire/)

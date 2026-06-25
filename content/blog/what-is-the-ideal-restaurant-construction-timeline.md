@@ -88,5 +88,3 @@ As a midway answer to these two answers, there was a third opinion about “Lead
 Sending a clear message to the prospects that the organization has their welfare in mind and considers it as its priority by stating “How Can I help you” will go a long way in making them open up easily. Though it is not easy to please all the consumers all the time, it will definitely open up the channel of communication and bring in suggestions for new and better communication.
 
 In short, for an organization looking to bring in or develop more leads, it needs to bring in a major shift in its style of working from marketing and only sales to problem detecting and problem-solving.
-
-[![](/blog/what-is-the-ideal-restaurant-construction-timeline-03.png)](https://econstructinc.com/new-lead-questionnaire/)

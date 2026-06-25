@@ -96,5 +96,3 @@ When hiring a General Contractor, having a checklist on hand can be extremely us
 - Ask for References: Reach out to previous clients to get a firsthand account of their experience with the contractor.
 
 - Assess Communication: The contractor should be responsive, prompt, clear, and professional in their communication.
-
-[![](/blog/navigating-the-world-of-general-contracting-a-comprehensive-guide-to-hiring-the-right-professional-01.png)](https://econstructinc.com/contact-page/)

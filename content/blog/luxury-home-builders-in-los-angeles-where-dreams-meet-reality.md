@@ -59,5 +59,3 @@ Here’s how the econstruct process ensures the home you’ve imagined becomes t
 If you’re ready to turn your most demanding aspirations into a tangible masterpiece, econstruct will guide the way. Explore our [portfolio](https://econstructinc.com/construction-projects/), and let the inspiration flow.
 
 **Call to action:** Contact us to schedule your personalized consultation and begin your journey. [CONTACT US](https://econstructinc.com/contact-page/)
-
-[![](/blog/luxury-home-builders-in-los-angeles-where-dreams-meet-reality-02.png)](https://econstructinc.com/new-lead-questionnaire/)

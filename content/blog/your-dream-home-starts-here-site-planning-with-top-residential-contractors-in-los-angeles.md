@@ -67,5 +67,3 @@ At econstruct, we take a holistic approach to site planning, considering every a
 Building a new home in Los Angeles is an investment in your future. With econstruct’s expertise in site planning and residential construction, you can rest assured that your project is in capable hands. We’ll guide you through every step of the process, from concept to completion, ensuring your dream home becomes a reality.
 
 Ready to embark on your new home construction journey in Los Angeles? Contact econstruct today for a free consultation. Let’s discuss your vision and create a site plan that sets the stage for your dream home.
-
-[![Request a Consultation](/blog/your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles-03.png)](https://econstructinc.com/new-lead-questionnaire/)

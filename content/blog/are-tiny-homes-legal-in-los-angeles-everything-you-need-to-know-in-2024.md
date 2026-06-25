@@ -59,5 +59,3 @@ Navigating the complexities of building codes and regulations can be overwhelmin
 With the rising cost of housing and increasing interest in sustainable living, tiny homes are becoming increasingly popular in Los Angeles. Whether you’re a first-time homeowner, looking to downsize, or seeking a unique and affordable housing option, a tiny home could be the perfect solution for you.
 
 **Ready to explore the possibilities of living in a tiny home in Los Angeles? Contact econstruct today for a free consultation, and let us help you build your dream tiny home.**
-
-[![Request a Consultation](/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-02.png)](https://econstructinc.com/new-lead-questionnaire/)

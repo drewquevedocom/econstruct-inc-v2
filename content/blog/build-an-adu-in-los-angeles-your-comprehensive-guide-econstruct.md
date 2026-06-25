@@ -87,5 +87,3 @@ With your ADU complete, it’s time to reap the rewards:
 From initial idea to move-in day, econstruct streamlines the ADU building process and delivers an end product exceeding expectations. Our team combines design sensibility, construction excellence, and a deep understanding of local regulations.
 
 **Call to action:** Contact us for your personalized ADU consultation and let’s transform your Los Angeles property! [BOOK CONSULTATION NOW](https://econstructinc.com/booking-calendar)
-
-[![](/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct-01.png)](https://econstructinc.com/new-lead-questionnaire/)

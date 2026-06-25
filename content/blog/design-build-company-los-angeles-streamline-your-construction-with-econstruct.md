@@ -37,5 +37,3 @@ Another significant bonus is that the design-build model saves much time. With f
 Several decades ago, a few innovative construction companies, such as econstruct, began presenting their clients with a design-build model. Although at first many were resistant to the idea of one entity handling their entire project, many clients found the simplicity it offered to be quite attractive. With simplicity always comes decreased costs. Design build eliminates many steps and even eliminates people from a project that are not necessary. When steps and extra people are eliminated, projects can flow more smoothly.
 
 Over time, many well-known construction companies have adopted the design build model and found clients converting to this new project delivery system. Today, it is the PDS of choice. econstruct and its project managers are proud to be one of the top early adopters with decades of experience under their belt. Visit us online to learn why the design build model is best for you.
-
-[![](/blog/design-build-company-los-angeles-streamline-your-construction-with-econstruct-01.png)](https://econstructinc.com/new-lead-questionnaire/)

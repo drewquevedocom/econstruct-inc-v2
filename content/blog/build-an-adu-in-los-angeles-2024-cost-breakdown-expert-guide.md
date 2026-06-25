@@ -61,5 +61,3 @@ At econstruct, we’re committed to transparency and helping you get the most va
 The best way to determine the cost of your ADU project is to schedule a free consultation with econstruct. We’ll assess your property, discuss your vision, and provide a personalized estimate for your budget and needs.
 
 **Don’t let the cost of building an ADU in Los Angeles intimidate you. With careful planning and the right partner, you can create a beautiful and functional ADU that adds value to your property and enhances your lifestyle.**
-
-[![Request a Consultation](/blog/build-an-adu-in-los-angeles-2024-cost-breakdown-expert-guide-01.png)](https://econstructinc.com/new-lead-questionnaire/)

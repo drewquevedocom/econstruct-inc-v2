@@ -139,4 +139,3 @@ A homeowner should assume that wildfire compliance will influence roofing, cladd
 
 The plain-English version is simple: Chapter 7A is the framework that turns wildfire resilience into actual building decisions. If you need help translating that framework into a real design and permit strategy for your site, [contact econstruct](/contact). We can help you define the code path before the code path defines your schedule for you.
 
-
