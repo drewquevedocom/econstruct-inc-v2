@@ -1,9 +1,14 @@
 ---
 title: "How to Build an ADU in Los Angeles: Your Comprehensive Guide"
 slug: "build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct"
-description: "How to Build an ADU in Los Angeles Accessory Dwelling Units, or ADUs, are the savvy resolution for Los Angeles residents seeking more space, rental income, o..."
+description: "How to Build an ADU in Los Angeles Accessory Dwelling Units, or ADUs, are the savvy resolution for Los Angeles residents seeking more space, rental."
 category: "ADUs & Additions"
-tags: []
+tags:
+  - "ADU Los Angeles"
+  - "accessory dwelling unit"
+  - "ADU permits LA"
+  - "home addition"
+  - "ADU builder Los Angeles"
 publishedAt: "2025-03-28"
 updatedAt: "2025-03-28"
 authorSlug: "frank-neimroozi"
@@ -13,10 +18,20 @@ heroImage: "/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruc
 heroImageAlt: "untitled-500-x-500-px-1200-x-1200-px"
 ogImage: "/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct-hero.png"
 excerpt: "How to Build an ADU in Los Angeles Accessory Dwelling Units, or ADUs, are the savvy resolution for Los Angeles residents seeking more space, rental income, or a flexible solution for changing family needs. Building an..."
-targetKeyword: "How to Build an ADU in Los Angeles: Your Comprehensive Guide"
-takeaways: []
+targetKeyword: "ADU builder Los Angeles"
+takeaways:
+  - "Los Angeles ADU permits can be expedited with the right pre-application strategy."
+  - "ADU rental income can offset construction costs within 5-7 years in most LA neighborhoods."
+  - "econstruct handles full ADU design, permit, and construction across LA County."
 sources: []
-faq: []
+
+faq:
+  - question: "How much does an ADU cost in Los Angeles in 2026?"
+    answer: "An ADU in Los Angeles costs $150,000-$400,000+ depending on size, type (attached vs. detached), and finish level. Studio ADUs start around $150K. Full 2-bed detached ADUs run $250-$400K. econstruct provides fixed-price ADU proposals."
+  - question: "How long does it take to build an ADU in Los Angeles?"
+    answer: "From design through move-in, an ADU in Los Angeles takes 12-18 months. Permit approval alone takes 3-6 months. econstruct uses pre-approved ADU plans on eligible lots to cut timeline by 2-3 months."
+  - question: "What ADU types are allowed in Los Angeles?"
+    answer: "Los Angeles allows detached ADUs, attached ADUs, garage conversions, and JADUs (Junior ADUs up to 500 sq ft). State law preempts most local restrictions. econstruct handles all ADU types across LA County."
 relatedSlugs: []
 localAreas:
   - "Los Angeles"

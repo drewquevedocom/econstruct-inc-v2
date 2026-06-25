@@ -1,9 +1,14 @@
 ---
 title: "How To Engage with MEP Engineers For Your Projects"
 slug: "how-to-engage-with-mep-engineers-for-your-projects"
-description: "Mechanical, electrical, and plumbing (MEP) engineers are responsible for the design of the systems that keep buildings running. They play a critical role in..."
+description: "Mechanical, electrical, and plumbing (MEP) engineers are responsible for the design of the systems that keep buildings running. They play a critical role."
 category: "Permits & Compliance"
-tags: []
+tags:
+  - "LADBS permits"
+  - "construction permits Los Angeles"
+  - "building permits LA"
+  - "permit process"
+  - "construction compliance"
 publishedAt: "2025-10-06"
 updatedAt: "2025-10-06"
 authorSlug: "frank-neimroozi"
@@ -13,12 +18,24 @@ heroImage: "/blog/how-to-engage-with-mep-engineers-for-your-projects-hero.png"
 heroImageAlt: "untitled-design-2023-10-25t152806-902"
 ogImage: "/blog/how-to-engage-with-mep-engineers-for-your-projects-hero.png"
 excerpt: "Mechanical, electrical, and plumbing (MEP) engineers are responsible for the design of the systems that keep buildings running. They play a critical role in any construction project, and it’s important for project own..."
-targetKeyword: "How To Engage with MEP Engineers For Your Projects"
-takeaways: []
+targetKeyword: "construction compliance Los Angeles"
+takeaways:
+  - "Los Angeles building permits require plan check submissions that can take 4-12 weeks."
+  - "Working with a licensed GC who knows LADBS saves homeowners time and costly corrections."
+  - "econstruct's permit team manages all submissions, corrections, and inspections."
 sources: []
-faq: []
+
+faq:
+  - question: "How long does a building permit take in Los Angeles?"
+    answer: "Los Angeles building permits take 4-16 weeks depending on project type. Standard residential permits: 4-8 weeks. Complex projects with structural engineering: 8-16 weeks. econstruct pre-screens plans before submission to reduce corrections."
+  - question: "What is LADBS and how does it affect my construction project?"
+    answer: "LADBS (Los Angeles Department of Building and Safety) reviews and approves all construction permits in the City of LA. Every permitted project requires plan check approval, inspections at key milestones, and final sign-off."
+  - question: "Do I need a general contractor to pull permits in Los Angeles?"
+    answer: "Homeowners can pull their own permits in Los Angeles but most lenders and cities require a licensed GC for financed projects or complex scopes. Licensed GCs carry the insurance and bond that protect homeowners throughout construction."
 relatedSlugs: []
-localAreas: []
+localAreas:
+  - "Los Angeles"
+  - "Los Angeles County"
 ---
 
 Mechanical, electrical, and plumbing (MEP) engineers are responsible for the design of the systems that keep buildings running. They play a critical role in any construction project, and it’s important for project owners to engage with them early in the planning process.

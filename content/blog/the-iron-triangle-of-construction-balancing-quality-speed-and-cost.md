@@ -3,22 +3,39 @@ title: "The Iron Triangle in Construction: Quality, Speed, Cost"
 slug: "the-iron-triangle-of-construction-balancing-quality-speed-and-cost"
 description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
 category: "Industry Insights"
-tags: []
+tags:
+  - "general contractor Los Angeles"
+  - "construction tips"
+  - "home building guide"
+  - "construction advice LA"
+  - "contractor insights"
 publishedAt: "2026-04-18"
 updatedAt: "2026-04-18"
 authorSlug: "frank-neimroozi"
 reviewedBy: "Reviewed by econstruct editorial team"
 factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/the-iron-triangle-of-construction-balancing-quality-speed-and-cost-hero.png"
-heroImageAlt: "untitled-design-72"
+heroImageAlt: "General contractor expertise from econstruct in Los Angeles — The Iron Triangle in Construction: Quality, Speed,"
 ogImage: "/blog/the-iron-triangle-of-construction-balancing-quality-speed-and-cost-hero.png"
 excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
-targetKeyword: "The Iron Triangle in Construction: Quality, Speed, Cost"
-takeaways: []
+targetKeyword: "iron triangle construction"
+takeaways:
+  - "econstruct brings 20+ years of Los Angeles construction expertise to every project."
+  - "Proper planning, permitting, and execution are what separate successful builds from problem projects."
+  - "Working with a licensed LA general contractor from day one protects your investment."
 sources: []
-faq: []
+
+faq:
+  - question: "What makes a good general contractor in Los Angeles?"
+    answer: "A good LA GC is CSLB-licensed, insured, experienced with local plan check requirements, and has verified local project references. Communication, clear contracts, and a proven subcontractor network are also critical."
+  - question: "How do I protect myself when hiring a contractor in Los Angeles?"
+    answer: "Always verify the CSLB license, require a written contract with scope and payment schedule, never pay more than 10% or $1,000 upfront, and confirm insurance certificates before work starts."
+  - question: "What questions should I ask before hiring a contractor?"
+    answer: "Ask for their CSLB license number, proof of insurance, a list of 3 recent similar local projects, how they handle permit pulling, their subcontractor vetting process, and what their change order policy is."
 relatedSlugs: []
-localAreas: []
+localAreas:
+  - "Los Angeles"
+  - "Los Angeles County"
 ---
 
 ## The Iron Triangle in Construction: Quality, Speed, Cost – Choose Wisely!

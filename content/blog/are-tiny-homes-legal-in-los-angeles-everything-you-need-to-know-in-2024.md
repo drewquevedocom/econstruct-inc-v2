@@ -1,9 +1,14 @@
 ---
 title: "Are Tiny Homes Legal in Los Angeles? Everything You Need to Know in 2024"
 slug: "are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024"
-description: "The tiny house movement has captured the hearts and minds of many Angelenos seeking affordable, sustainable, and minimalist living. But are these pint-sized..."
+description: "The tiny house movement has captured the hearts and minds of many Angelenos seeking affordable, sustainable, and minimalist living. But are these."
 category: "ADUs & Additions"
-tags: []
+tags:
+  - "ADU Los Angeles"
+  - "accessory dwelling unit"
+  - "ADU permits LA"
+  - "home addition"
+  - "ADU builder Los Angeles"
 publishedAt: "2025-02-20"
 updatedAt: "2025-02-20"
 authorSlug: "frank-neimroozi"
@@ -13,10 +18,21 @@ heroImage: "/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-kno
 heroImageAlt: "tiny home construction los angeles"
 ogImage: "/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-hero.png"
 excerpt: "The tiny house movement has captured the hearts and minds of many Angelenos seeking affordable, sustainable, and minimalist living. But are these pint-sized dwellings legal in the City of Angels? The answer is a resou..."
-targetKeyword: "Are Tiny Homes Legal in Los Angeles? Everything You Need to Know in 2024"
-takeaways: []
+targetKeyword: "home addition contractor Los Angeles"
+takeaways:
+  - "The Changing Landscape of Tiny Homes in LA — a key part of any successful project in Los Angeles."
+  - "![](/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-01.png)What Makes a Tiny Home Legal in Los Angeles? — a key part of any successful project in Los Angeles."
+  - "Tiny Homes as ADUs: A Popular Option in Los Angeles — a key part of any successful project in Los Angeles."
+  - "Los Angeles ADU permits can be expedited with the right pre-application strategy."
 sources: []
-faq: []
+
+faq:
+  - question: "How much does an ADU cost in Los Angeles in 2026?"
+    answer: "An ADU in Los Angeles costs $150,000-$400,000+ depending on size, type (attached vs. detached), and finish level. Studio ADUs start around $150K. Full 2-bed detached ADUs run $250-$400K. econstruct provides fixed-price ADU proposals."
+  - question: "How long does it take to build an ADU in Los Angeles?"
+    answer: "From design through move-in, an ADU in Los Angeles takes 12-18 months. Permit approval alone takes 3-6 months. econstruct uses pre-approved ADU plans on eligible lots to cut timeline by 2-3 months."
+  - question: "What ADU types are allowed in Los Angeles?"
+    answer: "Los Angeles allows detached ADUs, attached ADUs, garage conversions, and JADUs (Junior ADUs up to 500 sq ft). State law preempts most local restrictions. econstruct handles all ADU types across LA County."
 relatedSlugs: []
 localAreas:
   - "Los Angeles"

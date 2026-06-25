@@ -1,9 +1,14 @@
 ---
 title: "Top Office Tenant Improvement Contractors in Los Angeles: Transforming Your Space"
 slug: "top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space"
-description: "Choosing the wrong Office Tenant Improvement Contractor in Los Angeles can turn your office upgrade dreams into a never-ending saga of unreliable contractors..."
+description: "Choosing the wrong Office Tenant Improvement Contractor in Los Angeles can turn your office upgrade dreams into a never-ending saga of unreliable."
 category: "Restaurant & Commercial"
-tags: []
+tags:
+  - "restaurant construction Los Angeles"
+  - "commercial contractor LA"
+  - "restaurant build-out"
+  - "tenant improvement"
+  - "commercial construction"
 publishedAt: "2026-05-23"
 updatedAt: "2026-05-23"
 authorSlug: "frank-neimroozi"
@@ -13,10 +18,20 @@ heroImage: "/blog/top-office-tenant-improvement-contractors-in-los-angeles-trans
 heroImageAlt: "untitled-design-2024-03-11t103746-006"
 ogImage: "/blog/top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space-hero.png"
 excerpt: "Choosing the wrong Office Tenant Improvement Contractor in Los Angeles can turn your office upgrade dreams into a never-ending saga of unreliable contractors, budgets with more holes than Swiss cheese, and the creepin..."
-targetKeyword: "Top Office Tenant Improvement Contractors in Los Angeles: Transforming Your Space"
-takeaways: []
+targetKeyword: "commercial contractor Los Angeles"
+takeaways:
+  - "Restaurant construction timelines in LA average 4-6 months from permit approval."
+  - "Budget 15-25% contingency for commercial build-outs in Los Angeles."
+  - "econstruct specializes in occupied-building TI work with minimal disruption."
 sources: []
-faq: []
+
+faq:
+  - question: "How long does a restaurant build-out take in Los Angeles?"
+    answer: "A typical restaurant build-out in Los Angeles takes 3-6 months from permit approval, depending on scope. Tenant improvements in existing shells run 60-90 days. Ground-up builds with health department and fire marshal approvals add 2-4 months."
+  - question: "What permits are required for a restaurant in Los Angeles?"
+    answer: "Los Angeles restaurant construction requires a building permit from LADBS, a health permit from LA County Department of Public Health, fire department clearance, and a certificate of occupancy. econstruct manages all of these submissions."
+  - question: "How much does restaurant construction cost per square foot in LA?"
+    answer: "Restaurant construction in Los Angeles typically costs $150-$400+ per square foot depending on finish level, kitchen equipment, and MEP complexity. Fast-casual concepts run lower; full-service upscale restaurants trend higher."
 relatedSlugs: []
 localAreas:
   - "Los Angeles"
