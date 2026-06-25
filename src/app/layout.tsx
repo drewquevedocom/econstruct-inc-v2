@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Poppins } from "next/font/google";
 import FaviconAnimator from "@/components/FaviconAnimator";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
@@ -44,6 +46,7 @@ export default function RootLayout({
       </head>
       <body className="font-body bg-background text-body-text antialiased">
         <FaviconAnimator />
+        <Header />
         <Script
           id="google-analytics-loader"
           async
@@ -113,6 +116,7 @@ export default function RootLayout({
           `}
         </Script>
         {children}
+        <Footer />
       </body>
     </html>
   );

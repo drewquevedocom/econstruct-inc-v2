@@ -1,5 +1,3 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { generateOrganizationSchema } from "@/lib/blog/schema";
 import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/schema";
 
@@ -32,9 +30,7 @@ export default function MarketingLayout({
           __html: JSON.stringify(websiteSchema),
         }}
       />
-      <Header />
       <main>{children}</main>
-      <Footer />
     </>
   );
 }
