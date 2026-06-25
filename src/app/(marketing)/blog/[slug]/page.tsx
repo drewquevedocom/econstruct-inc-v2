@@ -1,14 +1,20 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
+import BlogPostContent from "@/components/blog/BlogPostContent";
 import {
-  getAllBlogPosts,
   getBlogPostBySlug,
 } from "@/lib/blog";
-import { getLegacyBlogPostPath } from "@/lib/blog/paths";
+import {
+  getLegacyBlogPostCanonicalUrl,
+  getLegacyBlogPostPath,
+} from "@/lib/blog/paths";
+import { wordpressBlogRedirects } from "@/lib/blog/wordpress-redirects";
 
-export function generateStaticParams() {
-  return getAllBlogPosts().map((post) => ({ slug: post.slug }));
-}
+export const dynamic = "force-dynamic";
+
+const legacyBlogSlugs = new Set(
+  wordpressBlogRedirects.map(({ source }) => source.replace(/^\/+/, "")),
+);
 
 export async function generateMetadata({
   params,
@@ -16,6 +22,11 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+
+  if (legacyBlogSlugs.has(slug)) {
+    permanentRedirect(getLegacyBlogPostPath(slug));
+  }
+
   const post = getBlogPostBySlug(slug);
 
   if (!post) {
@@ -32,6 +43,10 @@ export async function generateMetadata({
     description: post.description,
     alternates: {
       canonical: url,
+    },
+    robots: {
+      index: false,
+      follow: true,
     },
     openGraph: {
       title: post.title,
@@ -67,12 +82,23 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
+  if (legacyBlogSlugs.has(slug)) {
+    permanentRedirect(getLegacyBlogPostPath(slug));
+  }
+
   const post = getBlogPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
-  permanentRedirect(getLegacyBlogPostPath(post.slug));
+
+  return (
+    <BlogPostContent
+      post={post}
+      canonicalUrl={getLegacyBlogPostCanonicalUrl(post.slug)}
+    />
+  );
 }
 
 
