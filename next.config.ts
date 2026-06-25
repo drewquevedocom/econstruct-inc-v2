@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { wordpressBlogRedirects } from "./src/lib/blog/wordpress-redirects";
 
 const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR || ".next",
@@ -106,6 +107,7 @@ const nextConfig: NextConfig = {
         destination: "/for-insurance-adjusters",
         permanent: true,
       },
+      ...wordpressBlogRedirects,
     ];
   },
 };

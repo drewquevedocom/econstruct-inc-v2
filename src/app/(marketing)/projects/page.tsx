@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { generateBreadcrumbSchema } from "@/lib/schema";
 import { SITE_URL } from "@/lib/constants";
-import { promptProjectSummaries } from "@/lib/data/prompt-project-summaries";
+import { projects } from "@/lib/data/projects";
 import Container from "@/components/ui/Container";
 import PageHero from "@/components/ui/PageHero";
 import ConsultationCTA from "@/components/ConsultationCTA";
@@ -12,33 +12,47 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Projects | eConstruct Homes — Luxury Home Remodels & Custom Builds in Los Angeles",
+  title: "Projects | econstruct Portfolio",
   description:
-    "Explore luxury remodel and custom home construction projects by eConstruct Homes across Hollywood Hills, Bell Canyon, Lawndale, and greater Los Angeles, backed by 639 combined partner projects.",
+    "Explore 19 migrated econstruct portfolio projects across residential, restaurant, retail, and commercial construction.",
   alternates: {
     canonical: `${SITE_URL}/projects`,
   },
   openGraph: {
-    title: "Projects | eConstruct Homes — Luxury Home Remodels in Los Angeles",
+    title: "Projects | econstruct Portfolio",
     description:
-      "Portfolio of completed high-end residential projects by eConstruct Homes — Hollywood Hills remodels, Bell Canyon estate transformations, coastal condo renovations, and custom engineering.",
+      "Legacy econstruct portfolio projects migrated into the new website format, including residential, restaurant, retail, and commercial work.",
     url: `${SITE_URL}/projects`,
     images: [{ url: "/projects/devista-hero.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects | eConstruct Homes Los Angeles",
-    description: "Completed luxury remodel and custom home projects across Los Angeles.",
+    title: "Projects | econstruct Portfolio",
+    description: "19 legacy econstruct projects migrated into the new site.",
     images: ["/projects/devista-hero.jpg"],
   },
 };
 
-const categoryColors: Record<string, string> = {
-  "Home Remodel": "bg-accent-gold/12 text-accent-gold",
-  "Custom Engineering": "bg-blue-500/10 text-blue-700",
-  "Condo Remodel": "bg-emerald-500/10 text-emerald-700",
-  "Luxury Remodel": "bg-accent-gold/12 text-accent-gold",
-};
+const categoryLabels = {
+  residential: "Residential",
+  restaurant: "Restaurant",
+  retail: "Retail",
+  commercial: "Commercial",
+} as const;
+
+const categoryColors = {
+  residential: "bg-accent-gold/12 text-accent-gold",
+  restaurant: "bg-emerald-500/10 text-emerald-700",
+  retail: "bg-blue-500/10 text-blue-700",
+  commercial: "bg-brand-dark/8 text-brand-dark",
+} as const;
+
+const featuredProject =
+  projects.find((project) => project.slug === "mulholland-drive-residence") ??
+  projects.find((project) => project.featured) ??
+  projects[0];
+
+const remainingProjects = projects.filter((project) => project.slug !== featuredProject.slug);
 
 export default function ProjectsPage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
@@ -49,39 +63,35 @@ export default function ProjectsPage() {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "econstruct Completed Projects — Los Angeles",
-    description: "Portfolio of completed luxury residential construction and remodel projects by eConstruct Homes.",
-    itemListElement: promptProjectSummaries.map((project, index) => ({
+    name: "econstruct Portfolio Projects",
+    description: "Migrated econstruct portfolio projects spanning residential and commercial construction.",
+    itemListElement: projects.map((project, index) => ({
       "@type": "ListItem",
       position: index + 1,
       name: project.title,
       url: `${SITE_URL}/projects/${project.slug}`,
-      image: `${SITE_URL}${project.image}`,
+      image: project.heroImage,
       description: project.description,
     })),
   };
-
-  const [featured, ...rest] = promptProjectSummaries;
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
 
-      {/* Ã¢â€â‚¬Ã¢â€â‚¬ Hero Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <PageHero
-        title="Our Work Across Los Angeles"
-        subtitle="Backed by 639 combined partner projects, with a primarily commercial foundation before 2011 and econstruct's residential focus since 2011."
+        title="Legacy Portfolio, Rebuilt for the New Site"
+        subtitle="All 19 projects from the previous econstruct portfolio have been migrated into the new format across residential, restaurant, retail, and commercial work."
         breadcrumbs={[{ label: "Projects" }]}
-        backgroundImage={featured.image}
+        backgroundImage={featuredProject.heroImage}
         stats={[
-          { value: "639", label: "Partner Projects" },
-          { value: "51 Yrs", label: "Combined Partner Experience" },
+          { value: "19", label: "Migrated Projects" },
+          { value: "4", label: "Project Sectors" },
           { value: "CA #964015", label: "Licensed GC" },
         ]}
       />
 
-      {/* Ã¢â€â‚¬Ã¢â€â‚¬ Featured project Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="bg-[#f6f2ea] py-20 md:py-28">
         <Container>
           <p className="mb-8 text-[11px] font-semibold uppercase tracking-[0.34em] text-accent-gold">
@@ -89,62 +99,57 @@ export default function ProjectsPage() {
           </p>
 
           <Link
-            href={`/projects/${featured.slug}`}
+            href={`/projects/${featuredProject.slug}`}
             className="group block overflow-hidden rounded-3xl bg-white shadow-[0_24px_60px_rgba(0,0,0,0.1)] transition-all duration-500 hover:shadow-[0_32px_80px_rgba(0,0,0,0.14)] lg:grid lg:grid-cols-[1.2fr_0.8fr]"
           >
-            {/* Image */}
             <div className="relative aspect-[16/10] overflow-hidden lg:aspect-auto lg:min-h-[520px]">
               <img
-                src={featured.image}
-                alt={featured.title}
+                src={featuredProject.heroImage}
+                alt={featuredProject.title}
                 className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
               <div className="absolute left-6 top-6">
-                <span className={`rounded-full px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.22em] ${categoryColors[featured.category] ?? "bg-white/20 text-white"}`}>
-                  {featured.category}
+                <span
+                  className={`rounded-full px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.22em] ${
+                    categoryColors[featuredProject.category]
+                  }`}
+                >
+                  {categoryLabels[featuredProject.category]}
                 </span>
               </div>
               <div className="absolute bottom-6 left-6">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-accent-gold">
-                  {featured.neighborhood}
+                  {featuredProject.neighborhood}
                 </p>
               </div>
             </div>
 
-            {/* Details */}
             <div className="flex flex-col justify-between p-8 md:p-12">
               <div>
                 <h2 className="font-heading text-[1.85rem] leading-[1.08] tracking-tight text-brand-dark md:text-[2.2rem]">
-                  {featured.title}
+                  {featuredProject.title}
                 </h2>
                 <p className="mt-5 text-[0.95rem] leading-[1.75] text-black/60">
-                  {featured.description}
+                  {featuredProject.description}
                 </p>
-
-                <ul className="mt-8 space-y-2.5">
-                  {featured.highlights.map((h) => (
-                    <li key={h} className="flex items-start gap-2.5 text-[0.875rem] text-black/65">
-                      <span className="mt-[5px] h-1.5 w-1.5 shrink-0 rounded-full bg-accent-gold" />
-                      {h}
-                    </li>
-                  ))}
-                </ul>
               </div>
 
               <div className="mt-10 flex flex-wrap gap-4 border-t border-black/8 pt-8 text-[11px] font-semibold uppercase tracking-[0.2em]">
                 <div>
-                  <p className="text-black/35">Scope</p>
-                  <p className="mt-1 text-brand-dark">{featured.scope}</p>
+                  <p className="text-black/35">Category</p>
+                  <p className="mt-1 text-brand-dark">{categoryLabels[featuredProject.category]}</p>
                 </div>
                 <div>
                   <p className="text-black/35">Location</p>
-                  <p className="mt-1 text-brand-dark">{featured.location}</p>
+                  <p className="mt-1 text-brand-dark">{featuredProject.neighborhood}</p>
                 </div>
-                <div>
-                  <p className="text-black/35">Year</p>
-                  <p className="mt-1 text-brand-dark">{featured.completionDate}</p>
-                </div>
+                {featuredProject.specs.scope && (
+                  <div>
+                    <p className="text-black/35">Scope</p>
+                    <p className="mt-1 text-brand-dark">{featuredProject.specs.scope}</p>
+                  </div>
+                )}
               </div>
 
               <div className="mt-8 inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.22em] text-accent-gold transition-colors group-hover:text-brand-dark">
@@ -156,7 +161,6 @@ export default function ProjectsPage() {
         </Container>
       </section>
 
-      {/* Ã¢â€â‚¬Ã¢â€â‚¬ Project grid Ã¢â€â‚¬Ã¢â€â‚¬ */}
       <section className="bg-white py-20 md:py-28">
         <Container>
           <div className="mb-12 flex flex-col gap-4 min-[700px]:flex-row min-[700px]:items-end min-[700px]:justify-between">
@@ -165,65 +169,76 @@ export default function ProjectsPage() {
                 All Projects
               </p>
               <h2 className="font-heading text-[2.2rem] leading-tight tracking-tight text-brand-dark md:text-[2.8rem]">
-                Portfolio of Work
+                Complete Migrated Portfolio
               </h2>
             </div>
-            <p className="max-w-sm text-[0.9rem] leading-[1.7] text-black/50">
-              Every project reflects eConstruct Homes commitment to premium execution, clear communication, and results that outlast the build.
+            <p className="max-w-md text-[0.9rem] leading-[1.7] text-black/50">
+              Each card below is now mapped to the legacy portfolio project data and images rather than the temporary residential prompt set.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-2">
-            {rest.map((project, i) => (
+            {remainingProjects.map((project, index) => (
               <Link
                 key={project.slug}
                 href={`/projects/${project.slug}`}
                 className="group block overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm transition-all duration-400 hover:-translate-y-1 hover:shadow-xl"
-                style={{ animationDelay: `${i * 80}ms` }}
+                style={{ animationDelay: `${index * 80}ms` }}
               >
-                {/* Image */}
                 <div className="relative aspect-[16/10] overflow-hidden">
                   <img
-                    src={project.image}
+                    src={project.heroImage}
                     alt={project.title}
                     className="h-full w-full object-cover transition-transform duration-600 group-hover:scale-[1.04]"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
                   <div className="absolute left-5 top-5">
-                    <span className={`rounded-full px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] backdrop-blur-sm ${categoryColors[project.category] ?? "bg-white/20 text-white"}`}>
-                      {project.category}
+                    <span
+                      className={`rounded-full px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.2em] backdrop-blur-sm ${
+                        categoryColors[project.category]
+                      }`}
+                    >
+                      {categoryLabels[project.category]}
                     </span>
                   </div>
-                  <div className="absolute bottom-5 left-5 right-5 flex items-end justify-between">
+                  <div className="absolute bottom-5 left-5 right-5">
                     <p className="text-[11px] font-semibold uppercase tracking-[0.26em] text-accent-gold">
                       {project.neighborhood}
                     </p>
-                    <span className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/60">
-                      {project.completionDate}
-                    </span>
                   </div>
                 </div>
 
-                {/* Body */}
                 <div className="p-7 md:p-8">
                   <h3 className="font-heading text-[1.35rem] leading-snug tracking-tight text-brand-dark">
-                    {project.shortTitle}
+                    {project.title}
                   </h3>
                   <p className="mt-3 text-[0.875rem] leading-[1.72] text-black/55 line-clamp-3">
                     {project.description}
                   </p>
 
                   <div className="mt-6 flex flex-wrap gap-x-5 gap-y-1 border-t border-black/8 pt-5">
-                    {project.highlights.slice(0, 3).map((h) => (
-                      <span key={h} className="flex items-center gap-1.5 text-[11px] font-medium text-black/45">
+                    {project.specs.scope && (
+                      <span className="flex items-center gap-1.5 text-[11px] font-medium text-black/45">
                         <span className="h-1 w-1 rounded-full bg-accent-gold" />
-                        {h}
+                        {project.specs.scope}
                       </span>
-                    ))}
+                    )}
+                    {project.specs.sqft && (
+                      <span className="flex items-center gap-1.5 text-[11px] font-medium text-black/45">
+                        <span className="h-1 w-1 rounded-full bg-accent-gold" />
+                        {project.specs.sqft} sq ft
+                      </span>
+                    )}
+                    {project.specs.timeline && (
+                      <span className="flex items-center gap-1.5 text-[11px] font-medium text-black/45">
+                        <span className="h-1 w-1 rounded-full bg-accent-gold" />
+                        {project.specs.timeline}
+                      </span>
+                    )}
                   </div>
 
                   <div className="mt-5 inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.22em] text-accent-gold transition-colors group-hover:text-brand-dark">
-                    View Case Study
+                    View Project
                     <ArrowUpRight size={13} />
                   </div>
                 </div>
@@ -237,4 +252,3 @@ export default function ProjectsPage() {
     </>
   );
 }
-

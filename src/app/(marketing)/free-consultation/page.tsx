@@ -9,7 +9,7 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "Free Construction Consultation | eConstruct Homes",
   description:
-    "Request a free consultation with eConstruct Homes for fire rebuilds, luxury homes, additions, and other high-end residential projects.",
+    "Request a free consultation for fire rebuilds, luxury home builds, custom homes, home additions, ADUs, and home automation projects.",
   path: "/free-consultation",
 });
 
@@ -28,7 +28,7 @@ export default function FreeConsultationPage() {
 
       <PageHero
         title="Free Consultation"
-        subtitle="Tell us what you are planning and we will help you define the smartest next step."
+        subtitle="Tell us whether you need a fire rebuild, custom home, luxury remodel, addition, ADU, or home automation scope and we will help define the right next step."
         breadcrumbs={[{ label: "Free Consultation" }]}
       />
 

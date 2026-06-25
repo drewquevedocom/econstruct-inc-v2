@@ -244,9 +244,9 @@ export const projects: Project[] = [
     description:
       "Two distinctive retail locations for premium skincare brand Malin+Goetz, designed to reflect the brand's philosophy of uncomplicated skincare and sustainable living. Features recycled and eco-friendly construction materials, minimalist aesthetic with clean lines and neutral palette, and energy-efficient lighting.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/2-web-or-mls-APR00067-1-600x600.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/2-web-or-mls-APR00067-1-600x600.jpg",
     ],
     specs: { scope: "Retail Build-Out" },
   },
@@ -258,9 +258,9 @@ export const projects: Project[] = [
     description:
       "Three retail locations for eco-conscious footwear brand Rothy's across Los Angeles and Pasadena. Each build-out integrates locally-sourced reclaimed woods, accent tile, and sustainable finishes aligned with the brand's mission, along with custom millwork displays for their knit shoes and bags.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87-600x600.png",
     ],
     specs: { scope: "Retail Build-Out" },
     featured: true,
@@ -273,9 +273,9 @@ export const projects: Project[] = [
     description:
       "Flagship Westcoast retail store for renowned British bespoke menswear brand Thom Sweeney, completed in a record-breaking four weeks. The finished space features clean lines, natural materials, and carefully considered lighting creating a gallery-like atmosphere on Melrose Place.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/10-web-or-mls-APR00150-600x600.jpg",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2024/04/10-web-or-mls-APR00150-600x600.jpg",
     ],
     specs: { timeline: "4 weeks", scope: "Retail Build-Out" },
   },
@@ -289,9 +289,9 @@ export const projects: Project[] = [
     description:
       "Five successful locations across Southern California for the Scandinavian juice and coffee brand. Each build-out features a signature aesthetic including moss walls, brick backsplashes, sleek counters, and durable high-traffic finishes with custom juice stations and coffee bar installations.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-18-1-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-18-1-600x600.png",
     ],
     specs: { scope: "Multi-Location Build-Out" },
   },
@@ -303,9 +303,9 @@ export const projects: Project[] = [
     description:
       "Eight locations across California and Arizona for the premium bakery concept featuring handcrafted pastries and beverages. Each space showcases an in-house bakery producing fresh items hourly, with dark wood displays, commercial baking equipment, and site-specific design adaptations including a historic early 20th-century building in Downtown LA.",
     heroImage:
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-15-600x600.png",
     images: [
-      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+      "https://i1.wp.com/econstructinc.com/wp-content/uploads/2017/03/Untitled-design-15-600x600.png",
     ],
     specs: { scope: "Multi-Location Build-Out" },
     featured: true,
@@ -329,6 +329,10 @@ export const projects: Project[] = [
 ];
 
 export const residentialProjects = projects.filter((project) => project.category === "residential");
+
+export function getProjectBySlug(slug: string): Project | undefined {
+  return projects.find((project) => project.slug === slug);
+}
 
 export const projectCategories = [
   { label: "All", value: "all" },

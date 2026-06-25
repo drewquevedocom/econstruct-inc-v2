@@ -5,10 +5,11 @@ import { ArrowRight, ArrowLeft, CheckCircle2, Loader2 } from "lucide-react";
 
 const projectTypes = [
   "Fire Rebuild",
-  "Luxury Modernization",
-  "Ground-Up Custom Home",
-  "ADU & Additions",
-  "Commercial / Other",
+  "Luxury Home Build or Major Remodel",
+  "Custom Home Construction",
+  "Home Addition or ADU",
+  "Home Automation",
+  "Not Sure Yet",
 ];
 
 const budgetRanges = [
@@ -117,7 +118,8 @@ export default function ConsultationCTA({
             transition={{ delay: 0.1 }}
             className="text-gray-500 font-medium text-lg"
           >
-            Complete the form below to help us understand your vision.
+            Tell us which service you need, where the property is, and what kind
+            of timeline you are working with.
           </motion.p>
         </div>
 
@@ -161,7 +163,7 @@ export default function ConsultationCTA({
                       onChange={(e) => update("projectType", e.target.value)}
                       className={inputClasses}
                     >
-                      <option value="">Select a project type...</option>
+                      <option value="">Select the service you need...</option>
                       {projectTypes.map((t) => (
                         <option key={t} value={t}>{t}</option>
                       ))}
@@ -308,7 +310,7 @@ export default function ConsultationCTA({
                     </label>
                     <textarea
                       rows={4}
-                      placeholder="Briefly describe what you're looking to achieve..."
+                      placeholder="Briefly describe the scope, property, and any design, permitting, or rebuild goals..."
                       value={formData.details}
                       onChange={(e) => update("details", e.target.value)}
                       className={`${inputClasses} resize-none`}

@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "blog:import-wordpress": "node scripts/import-wordpress-blog.mjs",
+    "blog:sync-external-assets": "node scripts/sync-external-blog-assets.mjs",
     "sync:blog-manifest": "node scripts/sync-blog-manifest.mjs",
     "seo:scan": "node scripts/daily-seo-opportunities.mjs",
     "blog:autopost": "node scripts/generate-daily-blog.mjs"
