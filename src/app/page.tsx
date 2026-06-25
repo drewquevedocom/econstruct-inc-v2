@@ -1,21 +1,7 @@
-import {
-  ContactBand,
-  HomeHero,
-  LogoBar,
-  ProofSection,
-  ServiceGrid,
-  TestimonialRail,
-} from "@/components/marketing";
+import HomePage, { metadata } from "./(marketing)/page";
 
-export default function Home() {
-  return (
-    <>
-      <HomeHero />
-      <LogoBar />
-      <ServiceGrid />
-      <ProofSection />
-      <TestimonialRail />
-      <ContactBand />
-    </>
-  );
-}
+export { metadata };
+
+export const dynamic = "force-static";
+
+export default HomePage;
