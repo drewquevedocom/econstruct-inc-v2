@@ -25,11 +25,11 @@ const EXPLORE = [
 ];
 
 const SERVICES = [
-  { label: "Restaurant & Bar Construction", href: "/services" },
-  { label: "Retail Fit-Out", href: "/services" },
-  { label: "Office & Tenant Improvement", href: "/services" },
-  { label: "Custom Homes & ADUs", href: "/services/custom-home-construction-los-angeles" },
-  { label: "Architecture & Expediting", href: "/services" },
+  { label: "Restaurant & Bar Construction", href: "/projects" },
+  { label: "Retail Fit-Out", href: "/free-consultation" },
+  { label: "Office & Tenant Improvement", href: "/contact" },
+  { label: "Custom Homes & ADUs", href: "/services/custom-homes" },
+  { label: "Architecture & Expediting", href: "/for-architects" },
 ];
 
 const SOCIAL = [

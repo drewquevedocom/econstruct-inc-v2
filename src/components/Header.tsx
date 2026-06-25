@@ -19,12 +19,13 @@ import HeaderLogo from "@/components/HeaderLogo";
 import { ECONSTRUCT_INC } from "@/lib/constants";
 
 const SERVICE_LINKS = [
-  { label: "Restaurant & Bar Construction", href: "/services" },
-  { label: "Retail & Tenant Improvement", href: "/services" },
+  { label: "Restaurant & Bar Construction", href: "/projects" },
+  { label: "Retail & Tenant Improvement", href: "/free-consultation" },
+  { label: "Office & Tenant Improvement", href: "/contact" },
   { label: "Food Distribution & Cold Storage", href: "/food-distribution-construction" },
-  { label: "Custom Homes & ADUs", href: "/services/custom-home-construction-los-angeles" },
-  { label: "Luxury Modernization", href: "/services/luxury-home-builder-los-angeles" },
-  { label: "Fire Rebuild & Restoration", href: "/services/fire-rebuild-contractor-los-angeles" },
+  { label: "Custom Homes & ADUs", href: "/services/custom-homes" },
+  { label: "Luxury Modernization", href: "/services/luxury-modernization" },
+  { label: "Fire Rebuild & Restoration", href: "/services/fire-rebuild" },
 ];
 
 const NAV = [

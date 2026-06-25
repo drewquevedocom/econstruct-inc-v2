@@ -28,7 +28,7 @@ export const homeServices: HomeService[] = [
       "Storefronts, custom millwork and brand-perfect finishes delivered on tight launch schedules.",
     image: "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
     icon: "ShoppingBag",
-    href: "/projects",
+    href: "/free-consultation",
   },
   {
     title: "Office & Tenant Improvement",
@@ -36,7 +36,7 @@ export const homeServices: HomeService[] = [
       "Office, creative and workplace TI with permit support, MEP coordination and clean turnover.",
     image: "/Photorealistic_cinematic_interior_202604121940.png",
     icon: "Building2",
-    href: "/services",
+    href: "/contact",
   },
   {
     title: "Food Distribution & Cold Storage",
@@ -52,7 +52,7 @@ export const homeServices: HomeService[] = [
       "Ground-up custom homes, luxury modernizations, additions and accessory dwelling units.",
     image: "/custom_home_service.png",
     icon: "Home",
-    href: "/services",
+    href: "/services/custom-homes",
   },
   {
     title: "Architecture & Expediting",
@@ -60,7 +60,7 @@ export const homeServices: HomeService[] = [
       "In-house design coordination plus LADBS and LA County entitlement, plan-check and expediting.",
     image: "/01-palisades-modern-glass-v1.png",
     icon: "PencilRuler",
-    href: "/services",
+    href: "/for-architects",
   },
 ];
 
