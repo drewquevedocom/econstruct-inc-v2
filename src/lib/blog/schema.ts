@@ -1,10 +1,11 @@
 import type { BlogAuthor } from "@/lib/blog/authors";
 import type { BlogFaqItem, BlogPost } from "@/lib/blog";
 import { COMPANY, SITE_URL } from "@/lib/constants";
+import { getLegacyBlogPostCanonicalUrl } from "@/lib/blog/paths";
 
 const baseUrl = SITE_URL;
 
-export function generateBlogArticleSchema(post: BlogPost) {
+export function generateBlogArticleSchema(post: BlogPost, canonicalUrl = getLegacyBlogPostCanonicalUrl(post.slug)) {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -13,7 +14,7 @@ export function generateBlogArticleSchema(post: BlogPost) {
     image: [`${baseUrl}${post.ogImage}`],
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    mainEntityOfPage: `${baseUrl}/blog/${post.slug}`,
+    mainEntityOfPage: canonicalUrl,
     articleSection: post.category,
     keywords: post.tags.join(", "),
     wordCount: post.wordCount,

@@ -1,4 +1,5 @@
 import { getAllBlogPosts } from "@/lib/blog";
+import { getLegacyBlogPostCanonicalUrl } from "@/lib/blog/paths";
 
 export function GET() {
   const posts = getAllBlogPosts();
@@ -15,8 +16,8 @@ export function GET() {
         (post) => `
     <item>
       <title><![CDATA[${post.title}]]></title>
-      <link>https://econstructhomes.com/blog/${post.slug}</link>
-      <guid>https://econstructhomes.com/blog/${post.slug}</guid>
+      <link>${getLegacyBlogPostCanonicalUrl(post.slug)}</link>
+      <guid>${getLegacyBlogPostCanonicalUrl(post.slug)}</guid>
       <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
       <author>info@econstructhomes.com (${post.author.name})</author>
       <description><![CDATA[${post.description}]]></description>

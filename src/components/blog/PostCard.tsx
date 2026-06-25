@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Clock3 } from "lucide-react";
 import type { BlogPostSummary } from "@/lib/blog";
+import { getLegacyBlogPostPath } from "@/lib/blog/paths";
 
 interface PostCardProps {
   post: BlogPostSummary;
@@ -9,11 +10,12 @@ interface PostCardProps {
   hrefBase?: string;
 }
 
-export default function PostCard({ post, featured = false, hrefBase = "/blog" }: PostCardProps) {
+export default function PostCard({ post, featured = false, hrefBase = "" }: PostCardProps) {
+  const href = hrefBase ? `${hrefBase}/${post.slug}` : getLegacyBlogPostPath(post.slug);
   if (featured) {
     return (
       <Link
-        href={`${hrefBase}/${post.slug}`}
+        href={href}
         className="group grid overflow-hidden rounded-[2rem] border border-black/8 bg-white shadow-[0_24px_60px_rgba(0,0,0,0.06)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_70px_rgba(0,0,0,0.1)] lg:grid-cols-[1.2fr_0.95fr]"
       >
         <div className="relative h-full min-h-[320px] overflow-hidden">
@@ -62,7 +64,7 @@ export default function PostCard({ post, featured = false, hrefBase = "/blog" }:
 
   return (
     <Link
-      href={`${hrefBase}/${post.slug}`}
+      href={href}
       className="group flex h-full flex-col overflow-hidden rounded-[1.75rem] border border-black/8 bg-white shadow-[0_18px_44px_rgba(0,0,0,0.05)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(0,0,0,0.09)]"
     >
       <div className="relative">
