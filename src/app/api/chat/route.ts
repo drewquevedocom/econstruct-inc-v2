@@ -1,4 +1,4 @@
-export const runtime = "edge";
+﻿export const runtime = "edge";
 
 const ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages";
 
@@ -13,7 +13,7 @@ You help website visitors learn about econstruct's services, answer questions ab
 - NAHB Member, USGBC Member
 - Phone: (310) 740-9999
 - Email: info@econstructinc.com
-- Website: econstructhomes.com
+- Website: econstructinc.com
 
 ## Services
 1. **Fire Rebuild** — Specialty in rebuilding homes destroyed by the 2025 LA fires (Palisades, Altadena, Malibu). Full turnkey service from insurance coordination to final walkthrough. This is our primary focus right now.

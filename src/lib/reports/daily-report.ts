@@ -1,4 +1,4 @@
-import { createServiceClient } from "@/lib/supabase/server";
+﻿import { createServiceClient } from "@/lib/supabase/server";
 
 export type DailyReportData = {
   date: string;
@@ -502,7 +502,7 @@ export function renderDailyReportHtml(report: DailyReportData): string {
       <!-- Footer -->
       <tr><td style="padding:24px 28px;background:#FAF9F6;border-top:1px solid #E8E4DC;">
         <p style="margin:0 0 4px 0;font-size:11px;color:#7E7468;line-height:1.5;">
-          Dashboard: <a href="https://econstructinc.com/crm/dashboard" style="color:#B8963E;text-decoration:none;">econstructhomes.com/crm/dashboard</a>
+          Dashboard: <a href="https://econstructinc.com/crm/dashboard" style="color:#B8963E;text-decoration:none;">econstructinc.com/crm/dashboard</a>
         </p>
         <p style="margin:0;font-size:11px;color:#7E7468;line-height:1.5;">
           Generated automatically by the econstruct CRM. Replies to this address are not monitored.

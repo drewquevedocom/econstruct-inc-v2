@@ -50,7 +50,7 @@ export async function generateMetadata({
     };
   }
 
-  const url = `https://econstructhomes.com/blog/temporary-blogs/${post.slug}`;
+  const url = `https://econstructinc.com/blog/temporary-blogs/${post.slug}`;
 
   return {
     title: `${post.title} | Draft Review`,
@@ -93,15 +93,15 @@ export default async function DraftBlogPostPage({
   }
 
   const relatedPosts = getRelatedDraftPosts(post.slug, post.categorySlug, post.tags);
-  const canonicalUrl = `https://econstructhomes.com/blog/temporary-blogs/${post.slug}`;
+  const canonicalUrl = `https://econstructinc.com/blog/temporary-blogs/${post.slug}`;
 
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Blog", url: "https://econstructhomes.com/blog" },
-    { name: "Temporary Blogs", url: "https://econstructhomes.com/blog/temporary-blogs" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Blog", url: "https://econstructinc.com/blog" },
+    { name: "Temporary Blogs", url: "https://econstructinc.com/blog/temporary-blogs" },
     {
       name: post.category,
-      url: `https://econstructhomes.com/blog/category/${post.categorySlug}`,
+      url: `https://econstructinc.com/blog/category/${post.categorySlug}`,
     },
     { name: post.title, url: canonicalUrl },
   ]);

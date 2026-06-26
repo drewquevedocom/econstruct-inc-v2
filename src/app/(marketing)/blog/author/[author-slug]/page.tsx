@@ -36,7 +36,7 @@ export async function generateMetadata({
     description: author.shortBio,
     robots: { index: false, follow: true },
     alternates: {
-      canonical: `https://econstructhomes.com/blog/author/${author.slug}`,
+      canonical: `https://econstructinc.com/blog/author/${author.slug}`,
     },
   };
 }
@@ -55,9 +55,9 @@ export default async function BlogAuthorPage({
 
   const posts = getPostsByAuthorSlug(authorSlug);
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Blog", url: "https://econstructhomes.com/blog" },
-    { name: author.name, url: `https://econstructhomes.com/blog/author/${author.slug}` },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Blog", url: "https://econstructinc.com/blog" },
+    { name: author.name, url: `https://econstructinc.com/blog/author/${author.slug}` },
   ]);
   const personSchema = generateAuthorPersonSchema(author);
 

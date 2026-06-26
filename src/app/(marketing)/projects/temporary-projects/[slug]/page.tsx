@@ -55,40 +55,40 @@ export default async function TemporaryProjectPage({
   }
 
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Projects", url: "https://econstructhomes.com/projects" },
-    { name: "Temporary Projects", url: "https://econstructhomes.com/projects/temporary-projects" },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Projects", url: "https://econstructinc.com/projects" },
+    { name: "Temporary Projects", url: "https://econstructinc.com/projects/temporary-projects" },
     {
       name: project.title,
-      url: `https://econstructhomes.com/projects/temporary-projects/${project.slug}`,
+      url: `https://econstructinc.com/projects/temporary-projects/${project.slug}`,
     },
   ]);
 
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": `https://econstructhomes.com/projects/temporary-projects/${project.slug}`,
+    "@id": `https://econstructinc.com/projects/temporary-projects/${project.slug}`,
     headline: project.title,
     description: project.description,
     image: project.gallery.map((img) => ({
       "@type": "ImageObject",
-      url: `https://econstructhomes.com${img.src}`,
+      url: `https://econstructinc.com${img.src}`,
       description: img.alt,
       caption: img.caption,
     })),
-    mainEntityOfPage: `https://econstructhomes.com/projects/temporary-projects/${project.slug}`,
+    mainEntityOfPage: `https://econstructinc.com/projects/temporary-projects/${project.slug}`,
     author: {
       "@type": "Organization",
       name: "econstruct",
-      url: "https://econstructhomes.com",
+      url: "https://econstructinc.com",
     },
     publisher: {
       "@type": "Organization",
       name: "econstruct",
-      url: "https://econstructhomes.com",
+      url: "https://econstructinc.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://econstructhomes.com/opengraph-image.png",
+        url: "https://econstructinc.com/opengraph-image.png",
       },
     },
     datePublished: `${project.completionDate}-01-01`,

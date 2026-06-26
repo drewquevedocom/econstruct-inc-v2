@@ -30,7 +30,7 @@ export async function generateMetadata({
     description: `Tagged content related to ${label} on the econstruct blog.`,
     robots: { index: false, follow: true },
     alternates: {
-      canonical: `https://econstructhomes.com/blog/tag/${tag}`,
+      canonical: `https://econstructinc.com/blog/tag/${tag}`,
     },
   };
 }
@@ -49,9 +49,9 @@ export default async function BlogTagPage({
   }
 
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
-    { name: "Home", url: "https://econstructhomes.com" },
-    { name: "Blog", url: "https://econstructhomes.com/blog" },
-    { name: label, url: `https://econstructhomes.com/blog/tag/${tag}` },
+    { name: "Home", url: "https://econstructinc.com" },
+    { name: "Blog", url: "https://econstructinc.com/blog" },
+    { name: label, url: `https://econstructinc.com/blog/tag/${tag}` },
   ]);
 
   return (

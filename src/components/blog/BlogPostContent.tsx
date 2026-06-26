@@ -7,7 +7,7 @@ import PageHero from "@/components/ui/PageHero";
 import TableOfContents from "@/components/resources/TableOfContents";
 import ShareButtons from "@/components/blog/ShareButtons";
 import PostCard from "@/components/blog/PostCard";
-import { COMPANY } from "@/lib/constants";
+import { ECONSTRUCT_INC } from "@/lib/constants";
 import {
   generateAuthorPersonSchema,
   generateBlogArticleSchema,
@@ -194,26 +194,28 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
                 />
               </div>
 
-              <section className="rounded-[1.75rem] border border-black/8 bg-white p-7 shadow-sm md:p-8">
-                <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
-                  Sources & Citations
-                </p>
-                <ol className="mt-5 space-y-4 pl-5">
-                  {post.sources.map((source) => (
-                    <li key={source.url} className="text-sm leading-7 text-body-text">
-                      <a
-                        href={source.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-semibold text-brand-dark underline decoration-accent-gold/45 underline-offset-4 transition-colors hover:text-accent-gold"
-                      >
-                        {source.title}
-                      </a>
-                      {source.publisher ? <> - {source.publisher}</> : null}
-                    </li>
-                  ))}
-                </ol>
-              </section>
+              {post.sources && post.sources.length > 0 && (
+                <section className="rounded-[1.75rem] border border-black/8 bg-white p-7 shadow-sm md:p-8">
+                  <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
+                    Sources & Citations
+                  </p>
+                  <ol className="mt-5 space-y-4 pl-5">
+                    {post.sources.map((source) => (
+                      <li key={source.url} className="text-sm leading-7 text-body-text">
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-semibold text-brand-dark underline decoration-accent-gold/45 underline-offset-4 transition-colors hover:text-accent-gold"
+                        >
+                          {source.title}
+                        </a>
+                        {source.publisher ? <> — {source.publisher}</> : null}
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              )}
 
               <section className="rounded-[1.75rem] border border-black/8 bg-white p-7 shadow-sm md:p-8">
                 <div className="flex flex-col gap-5 md:flex-row md:items-start">
@@ -264,7 +266,7 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
                   </div>
                 </div>
                 <div className="mt-6 border-t border-black/8 pt-5 text-sm text-body-text">
-                  Last updated {post.formattedUpdatedDate}. {post.factCheckedBy}. {COMPANY.license.display}.
+                  Last updated {post.formattedUpdatedDate}. {post.factCheckedBy}. {ECONSTRUCT_INC.stats.license}.
                 </div>
               </section>
 
@@ -287,46 +289,30 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
 
               <section className="rounded-[2rem] bg-brand-dark px-8 py-10 text-white shadow-[0_24px_70px_rgba(0,0,0,0.14)] md:px-10">
                 <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
-                  Consultation CTA
+                  Ready to Build?
                 </p>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight text-white">
-                  Get a Free Rebuild Consultation
+                  Talk to econstruct About Your Project
                 </h2>
                 <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/72">
-                  If you are weighing permit risk, insurance gaps, or scope decisions, bring the
-                  real address and the real constraints. We will help you map the next move clearly.
+                  Whether you are planning a restaurant, office TI, custom home, or ADU — bring your
+                  address, timeline, and goals. We will map out the next move clearly.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-4">
                   <Link
-                    href="/contact"
+                    href="/free-consultation"
                     className="rounded-full bg-accent-gold px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-white hover:text-brand-dark"
                   >
-                    Start the Conversation
+                    Get a Free Consultation
                   </Link>
                   <Link
-                    href="/services/fire-rebuild-contractor-los-angeles"
+                    href="/projects"
                     className="rounded-full border border-white/14 px-6 py-3 text-sm font-bold text-white transition-colors hover:border-accent-gold hover:text-accent-gold"
                   >
-                    Explore Fire Rebuild Services
+                    View Our Work
                   </Link>
                 </div>
               </section>
-
-              <div className="rounded-[1.75rem] border border-black/8 bg-white p-7 shadow-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
-                  Have Questions?
-                </p>
-                <p className="mt-4 text-base leading-relaxed text-body-text">
-                  Every rebuild has a different pressure point. If you want help translating this article
-                  into a site-specific decision, contact our team and we will point you to the right next step.
-                </p>
-                <Link
-                  href="/contact"
-                  className="mt-5 inline-flex rounded-full border border-brand-dark/12 px-5 py-3 text-sm font-bold text-brand-dark transition-colors hover:border-accent-gold hover:text-accent-gold"
-                >
-                  Contact econstruct
-                </Link>
-              </div>
             </div>
 
             <aside className="space-y-8">

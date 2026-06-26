@@ -19,7 +19,7 @@ export function GET() {
       <link>${getLegacyBlogPostCanonicalUrl(post.slug)}</link>
       <guid>${getLegacyBlogPostCanonicalUrl(post.slug)}</guid>
       <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
-      <author>info@econstructhomes.com (${post.author.name})</author>
+      <author>info@econstructinc.com (${post.author.name})</author>
       <description><![CDATA[${post.description}]]></description>
     </item>`,
       )
