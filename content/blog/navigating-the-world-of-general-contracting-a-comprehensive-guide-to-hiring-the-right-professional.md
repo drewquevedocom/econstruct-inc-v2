@@ -23,7 +23,16 @@ takeaways:
   - "Restaurant construction timelines in LA average 4-6 months from permit approval."
   - "Budget 15-25% contingency for commercial build-outs in Los Angeles."
   - "econstruct specializes in occupied-building TI work with minimal disruption."
-sources: []
+sources:
+  - title: "Contractor License Lookup"
+    url: "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx"
+    publisher: "California Contractors State License Board"
+  - title: "Building Permits"
+    url: "https://www.ladbs.org/permits"
+    publisher: "Los Angeles Department of Building and Safety"
+  - title: "Los Angeles Fire Code"
+    url: "https://www.lafd.org/fire-prevention/fire-code"
+    publisher: "Los Angeles Fire Department"
 
 faq:
   - question: "How long does a restaurant build-out take in Los Angeles?"
@@ -32,7 +41,10 @@ faq:
     answer: "Los Angeles restaurant construction requires a building permit from LADBS, a health permit from LA County Department of Public Health, fire department clearance, and a certificate of occupancy. econstruct manages all of these submissions."
   - question: "How much does restaurant construction cost per square foot in LA?"
     answer: "Restaurant construction in Los Angeles typically costs $150-$400+ per square foot depending on finish level, kitchen equipment, and MEP complexity. Fast-casual concepts run lower; full-service upscale restaurants trend higher."
-relatedSlugs: []
+relatedSlugs:
+  - "top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles"
+  - "the-iron-triangle-of-construction-balancing-quality-speed-and-cost"
+  - "architect-designer-contractor-collaboration-the-key-to-successful-construction-projects"
 localAreas:
   - "Los Angeles"
   - "West Hollywood"
@@ -116,3 +128,15 @@ When hiring a General Contractor, having a checklist on hand can be extremely us
 - Ask for References: Reach out to previous clients to get a firsthand account of their experience with the contractor.
 
 - Assess Communication: The contractor should be responsive, prompt, clear, and professional in their communication.
+
+## What Restaurant and High-End Residential Projects Specifically Demand of a GC
+
+Restaurant construction in Los Angeles is one of the most demanding project types a general contractor can take on. Beyond the standard building permit from LADBS, a restaurant requires health department clearance from the Los Angeles County Department of Public Health, LAFD approval for the commercial kitchen exhaust and fire suppression system, a plumbing permit for grease interceptor installation, and in many cases a conditional use permit if the establishment will serve alcohol or operate late hours. Each agency has its own review cycle, and they don't always move in sync. A contractor without restaurant-specific experience will frequently encounter delays at the fire marshal or health inspector stages that an experienced restaurant GC would have anticipated and pre-empted.
+
+High-end residential construction in Los Angeles presents a different but equally complex set of demands. Hillside properties require soils reports and often involve the Bureau of Engineering for grading oversight. Structural requirements in seismic zones add layers of engineering review. HPOZ (Historic Preservation Overlay Zone) properties have design restrictions enforced by the Office of Historic Resources. And luxury finishes — large-format porcelain, custom millwork, European plumbing fixtures with long lead times — require a contractor who knows how to coordinate procurement well ahead of installation to avoid schedule-killing delays. Knowing how to [balance quality, speed, and cost](/blog/the-iron-triangle-of-construction-balancing-quality-speed-and-cost) is especially critical in these high-stakes environments.
+
+## How econstruct Approaches Restaurant and High-End Projects
+
+econstruct (CA License #964015, founded 2011) has been delivering restaurant and high-end residential construction in Los Angeles since our founding, with principal Frank Neimroozi leading a team that brings more than 51 years of combined project experience. Our completed restaurant and food service projects include Hal's Bar & Grill, Hutchinson Cocktails, Jersey Mike's, 85C Bakery, and El Pollo Loco. Our residential work includes custom homes, luxury modernizations, and fire rebuilds across West Los Angeles and the surrounding communities.
+
+Our vetting process for the projects we take on mirrors the one we recommend for owners hiring contractors: we review scope thoroughly before committing, provide itemized proposals that leave nothing buried in allowances, and set realistic schedules that account for permit timelines and material lead times. We carry full CSLB licensing, general liability insurance, and workers' compensation coverage on every project, and we verify the same for every subcontractor who works on our sites. To see our project portfolio or start a conversation about your restaurant or residential project, visit our [projects page](/projects) or [request a free consultation](/free-consultation).

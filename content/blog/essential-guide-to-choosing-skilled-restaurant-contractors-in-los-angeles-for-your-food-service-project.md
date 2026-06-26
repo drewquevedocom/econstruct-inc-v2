@@ -23,7 +23,19 @@ takeaways:
   - "Restaurant construction timelines in LA average 4-6 months from permit approval."
   - "Budget 15-25% contingency for commercial build-outs in Los Angeles."
   - "econstruct specializes in occupied-building TI work with minimal disruption."
-sources: []
+sources:
+  - title: "Contractor License Lookup"
+    url: "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx"
+    publisher: "California Contractors State License Board"
+  - title: "Food Facility Permitting"
+    url: "https://ehservices.publichealth.lacounty.gov/"
+    publisher: "LA County Department of Public Health"
+  - title: "Building Permits"
+    url: "https://www.ladbs.org/permits"
+    publisher: "Los Angeles Department of Building and Safety"
+  - title: "Los Angeles Fire Code"
+    url: "https://www.lafd.org/fire-prevention/fire-code"
+    publisher: "Los Angeles Fire Department"
 
 faq:
   - question: "How long does a restaurant build-out take in Los Angeles?"
@@ -32,7 +44,10 @@ faq:
     answer: "Los Angeles restaurant construction requires a building permit from LADBS, a health permit from LA County Department of Public Health, fire department clearance, and a certificate of occupancy. econstruct manages all of these submissions."
   - question: "How much does restaurant construction cost per square foot in LA?"
     answer: "Restaurant construction in Los Angeles typically costs $150-$400+ per square foot depending on finish level, kitchen equipment, and MEP complexity. Fast-casual concepts run lower; full-service upscale restaurants trend higher."
-relatedSlugs: []
+relatedSlugs:
+  - "choosing-skilled-restaurant-contractors-in-los-angeles-an-essential-guide-for-food-service-projects"
+  - "what-is-the-ideal-restaurant-construction-timeline"
+  - "restaurant-construction-project-design-plans-a-comprehensive-guide"
 localAreas:
   - "Los Angeles"
 ---
@@ -82,3 +97,19 @@ Opting for an inexperienced contractor can lead to grossly budget overruns, not 
 Hiring a restaurant contractor in Los Angeles CA demands a systematic and thorough approach. You can make an informed choice by clearly defining your project goals, conducting diligent research, verifying credentials, assessing experience, and understanding the importance of client feedback. These steps are crucial in selecting a restaurant contractor who will realize your vision and ensure a seamless and compliant construction process.
 
 Remember, the success of your food service venture in Los Angeles CA hinges not just on your concept, food, or quality of service, but also on the expertise of the professionals you choose to bring your vision to life. By prioritizing experience and expertise in your selection process, you can avoid the pitfalls of hiring inexperienced contractors, setting your project on the path to great success.
+
+## Why Fire Code and Health Code Expertise Matter
+
+Los Angeles restaurant projects must satisfy not just the building department but also the [Los Angeles Fire Department](https://www.lafd.org/fire-prevention/fire-code) and the LA County Department of Public Health. LAFD reviews hood suppression systems, fire sprinkler coverage in commercial kitchens, occupant load calculations, and egress path compliance. Many contractors who lack restaurant experience submit drawings that fail fire code review because they haven't correctly specified the UL-300 suppression system for Type I hoods or because the exit signage layout doesn't meet occupancy requirements. These errors cause correction cycles that add weeks to your timeline and can trigger re-plan-check fees.
+
+The LA County Health Department's requirements go far beyond what building inspectors check. Floor finishes must be impervious and coved at wall bases, hand-washing sinks must be positioned within specific distances of each work zone, and all equipment must be NSF-certified. An experienced restaurant contractor incorporates these requirements into the drawings from the start, rather than discovering them during health inspections after walls are already finished. Understanding the [full project design plan process](/blog/restaurant-construction-project-design-plans-a-comprehensive-guide) is essential to coordinating all of these agency requirements without costly rework.
+
+## Verifying Credentials and Setting Expectations
+
+Always verify a contractor's license status through the [California Contractors State License Board](https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx) before signing any contract. Confirm the license classification (Class B General Building for most restaurant TI work), active status, bond, and workers' compensation coverage. Beyond the license check, request a copy of the contractor's certificate of liability insurance and confirm that it names your landlord and property owner as additional insureds — most commercial leases require this as a condition of any construction work. Then verify references personally: call at least two past restaurant clients, ask specifically about how the contractor handled agency corrections and mid-project surprises, and confirm that the final cost stayed within the original bid range.
+
+## Working With econstruct
+
+econstruct (CA GC License #964015) has been building restaurants and food service facilities across Los Angeles since 2011. Led by principal Frank Neimroozi and a team with 51-plus years of combined experience, our portfolio includes Hal's Bar & Grill, Hutchinson Cocktails & Grill, Jersey Mike's, 85C Bakery Cafe, El Pollo Loco, Koala T Cafe, and 800 Degrees Woodfired Kitchen, among many others. We were named Best Restaurant Contractor in Santa Monica (2024) and Glendale (2022) by independent industry evaluators.
+
+Our integrated design-build approach means your project moves from concept to construction under a single team that understands every regulatory checkpoint in Los Angeles — from LADBS plan check through LAFD suppression review and LA County Health sign-off. [See our project portfolio](/projects) or [request a free consultation](/free-consultation) to discuss your specific concept and timeline. You're also welcome to reach us directly at [contact econstruct](/contact).

@@ -24,7 +24,19 @@ takeaways:
   - "![](/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-01.png)What Makes a Tiny Home Legal in Los Angeles? — a key part of any successful project in Los Angeles."
   - "Tiny Homes as ADUs: A Popular Option in Los Angeles — a key part of any successful project in Los Angeles."
   - "Los Angeles ADU permits can be expedited with the right pre-application strategy."
-sources: []
+sources:
+  - title: "ADU Law Overview"
+    url: "https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units"
+    publisher: "California Department of Housing and Community Development"
+  - title: "Accessory Dwelling Units"
+    url: "https://www.ladbs.org/services/core-services/plan-check-permit/adu"
+    publisher: "LADBS"
+  - title: "LA County Planning"
+    url: "https://planning.lacounty.gov/"
+    publisher: "Los Angeles County Planning"
+  - title: "Building Permits"
+    url: "https://www.ladbs.org/permits"
+    publisher: "Los Angeles Department of Building and Safety"
 
 faq:
   - question: "How much does an ADU cost in Los Angeles in 2026?"
@@ -33,7 +45,10 @@ faq:
     answer: "From design through move-in, an ADU in Los Angeles takes 12-18 months. Permit approval alone takes 3-6 months. econstruct uses pre-approved ADU plans on eligible lots to cut timeline by 2-3 months."
   - question: "What ADU types are allowed in Los Angeles?"
     answer: "Los Angeles allows detached ADUs, attached ADUs, garage conversions, and JADUs (Junior ADUs up to 500 sq ft). State law preempts most local restrictions. econstruct handles all ADU types across LA County."
-relatedSlugs: []
+relatedSlugs:
+  - "adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels"
+  - "build-an-adu-in-los-angeles-2024-cost-breakdown-expert-guide"
+  - "build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct"
 localAreas:
   - "Los Angeles"
 ---
@@ -75,3 +90,15 @@ Navigating the complexities of building codes and regulations can be overwhelmin
 With the rising cost of housing and increasing interest in sustainable living, tiny homes are becoming increasingly popular in Los Angeles. Whether you’re a first-time homeowner, looking to downsize, or seeking a unique and affordable housing option, a tiny home could be the perfect solution for you.
 
 **Ready to explore the possibilities of living in a tiny home in Los Angeles? Contact econstruct today for a free consultation, and let us help you build your dream tiny home.**
+
+## Tiny Homes on Foundations vs. Tiny Homes on Wheels: Key Legal Differences
+
+In Los Angeles, the legality of a tiny home hinges almost entirely on whether it sits on a permanent foundation or on wheels. Foundation-based tiny homes are treated as ADUs under California and LA municipal code, which means they follow the same permit process, setback rules, and building standards as any other dwelling unit. They must be connected to city water, sewer, and electrical services, and they must pass a full plan check through LADBS before construction can begin. Tiny homes on wheels (THOWs), by contrast, are classified as vehicles and are regulated by the California Department of Motor Vehicles rather than by LADBS. This makes permanent habitation in a THOW legally precarious — they may not be used as a primary residence on a private residential lot without special zoning permission that Los Angeles currently does not broadly grant. If your goal is a legally permitted, permanent tiny living space, a foundation-based ADU is the only reliable path in LA. For a full breakdown of what it takes to get there, read our [comprehensive ADU permit guide](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels).
+
+## What Size Counts as a "Tiny Home" Under LA Code?
+
+Los Angeles does not have an official "tiny home" zoning category, but under ADU regulations, dwelling units as small as 150 square feet are permitted on eligible lots. Junior ADUs (JADUs), which are carved out of the existing square footage of a primary residence, max out at 500 square feet. Detached tiny ADUs can range from 150 to 850 square feet on smaller lots, and up to 1,200 square feet on larger ones, depending on local zoning overlays. The California Department of Housing and Community Development's [ADU law overview](https://www.hcd.ca.gov/policy-and-research/accessory-dwelling-units) provides guidance on how state preemption interacts with local size limits. One nuance worth knowing: even the smallest ADU must meet the same California Building Code requirements for ceiling height, egress windows, ventilation, and smoke/CO detection as a full-size home. Cutting corners on these requirements during design leads to costly plan check corrections and construction delays.
+
+## Working With a Licensed LA Tiny Home Builder
+
+econstruct has built ADUs and compact residential units across West Los Angeles, Brentwood, Pacific Palisades, and the surrounding communities since 2011. Principal Frank Neimroozi and his team of over 51 years combined experience understand how to maximize every square foot, meet the California Building Code requirements, and shepherd projects through LADBS plan check efficiently. Our [ADU construction services](/services/adu-construction) cover the full scope from feasibility assessment through Certificate of Occupancy, and our fixed-price proposals mean you know your budget before any work begins. Explore completed residential projects in our [portfolio](/projects) and [request a free consultation](/free-consultation) to find out if your lot qualifies for a tiny home ADU and what it would realistically cost.

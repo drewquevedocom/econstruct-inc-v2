@@ -23,7 +23,16 @@ takeaways:
   - "Restaurant construction timelines in LA average 4-6 months from permit approval."
   - "Budget 15-25% contingency for commercial build-outs in Los Angeles."
   - "econstruct specializes in occupied-building TI work with minimal disruption."
-sources: []
+sources:
+  - title: "Contractor License Lookup"
+    url: "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx"
+    publisher: "California Contractors State License Board"
+  - title: "California Restaurant Association"
+    url: "https://www.calrest.org/"
+    publisher: "CalRestaurant"
+  - title: "Building Permits"
+    url: "https://www.ladbs.org/permits"
+    publisher: "Los Angeles Department of Building and Safety"
 
 faq:
   - question: "How long does a restaurant build-out take in Los Angeles?"
@@ -32,7 +41,10 @@ faq:
     answer: "Los Angeles restaurant construction requires a building permit from LADBS, a health permit from LA County Department of Public Health, fire department clearance, and a certificate of occupancy. econstruct manages all of these submissions."
   - question: "How much does restaurant construction cost per square foot in LA?"
     answer: "Restaurant construction in Los Angeles typically costs $150-$400+ per square foot depending on finish level, kitchen equipment, and MEP complexity. Fast-casual concepts run lower; full-service upscale restaurants trend higher."
-relatedSlugs: []
+relatedSlugs:
+  - "restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct"
+  - "choosing-skilled-restaurant-contractors-in-los-angeles-an-essential-guide-for-food-service-projects"
+  - "what-is-the-ideal-restaurant-construction-timeline"
 localAreas:
   - "Los Angeles"
   - "Santa Monica"
@@ -65,3 +77,15 @@ This recognition wouldn’t be possible without our hardworking team, our incred
 **Ready to Transform Your Restaurant?**
 
 Whether you’re opening a new hot spot or revamping an existing space, econstruct is here to help. Contact us today to discuss your restaurant project.
+
+## What This Recognition Means for Our Clients
+
+Being named among the best restaurant contractors in Santa Monica is not just a point of pride — it is a signal to prospective clients that our work consistently meets the high standards of one of the most competitive dining markets on the West Coast. Santa Monica’s restaurant scene is demanding: landlords expect precise tenant improvements, the City of Santa Monica and LA County both have active inspection and enforcement programs, and diners have exceptionally high expectations for finished quality. When an independent evaluation body recognizes econstruct in that environment, it reflects on our track record of delivering projects on time, within budget, and without compliance surprises.
+
+This recognition follows our earlier award as Best Restaurant Contractor in Glendale (2022), confirming that our performance holds up across the varied regulatory landscapes of Los Angeles County. Whether navigating Santa Monica’s coastal development requirements or Glendale’s building department, our team brings the same systematic approach: comprehensive permit drawings, coordinated MEP submissions, proactive communication with city and health inspectors, and a construction phase managed by experienced supervisors who have seen every type of problem before. You can [view our commercial project portfolio](/projects) to see the breadth of concepts and neighborhoods we’ve successfully built in.
+
+## Our Approach to Restaurant Construction in Los Angeles
+
+econstruct (CA GC License #964015) was founded in 2011 and is based in West LA. Principal Frank Neimroozi leads a team with 51-plus years of combined restaurant and commercial construction experience. Our design-build model means we handle everything from initial space planning and permit drawings through the final certificate of occupancy, giving clients a single point of contact rather than a fragmented team of separate architects, consultants, and builders.
+
+Our completed projects span every major restaurant segment: the iconic 800 Degrees Woodfired Kitchen in Hollywood, the upscale Hutchinson Cocktails & Grill, the full-service Hal’s Bar & Grill, and national chains including Jersey Mike’s, 85C Bakery Cafe, and El Pollo Loco. Across all of these, our process involves understanding the [full restaurant construction timeline](/blog/what-is-the-ideal-restaurant-construction-timeline) from day one so that clients can plan their financing, staffing, and marketing around a realistic opening date. If you’re planning a restaurant project in the Los Angeles area, [request a free consultation](/free-consultation) or [contact econstruct](/contact) to start the conversation.

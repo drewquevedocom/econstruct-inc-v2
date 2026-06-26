@@ -24,7 +24,16 @@ takeaways:
   - "Energy Efficiency: Beyond the Basics — a key part of any successful project in Los Angeles."
   - "Custom Homebuilders: Partners in Sustainability — a key part of any successful project in Los Angeles."
   - "Luxury remodels in Los Angeles require precise scope definition before breaking ground."
-sources: []
+sources:
+  - title: "California Building Energy Efficiency Standards"
+    url: "https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards"
+    publisher: "California Energy Commission"
+  - title: "California Building Standards Commission"
+    url: "https://www.dgs.ca.gov/BSC"
+    publisher: "CA DGS"
+  - title: "Building Permits"
+    url: "https://www.ladbs.org/permits"
+    publisher: "Los Angeles Department of Building and Safety"
 
 faq:
   - question: "How much does a luxury home remodel cost in Los Angeles?"
@@ -33,7 +42,10 @@ faq:
     answer: "A full luxury home renovation in Los Angeles takes 6-18 months depending on permit complexity, material lead times, and scope size. Kitchen and bath remodels alone take 3-5 months. econstruct sets realistic timelines upfront."
   - question: "Do I need a permit to remodel my home in Los Angeles?"
     answer: "Yes. Any structural work, electrical, plumbing, or HVAC changes require permits in Los Angeles. Cosmetic work like painting and flooring does not. econstruct pulls all required permits and manages LADBS inspections."
-relatedSlugs: []
+relatedSlugs:
+  - "eco-smart-home-upgrades-build-a-greener-future-with-econstruct"
+  - "econstructs-insight-into-2024-luxury-homeowner-trends-in-los-angeles"
+  - "custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs"
 localAreas:
   - "Los Angeles"
 ---
