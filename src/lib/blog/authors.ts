@@ -15,16 +15,16 @@ export const blogAuthors: BlogAuthor[] = [
     name: "Frank Neimroozi",
     title: "Principal & Founder, econstruct",
     shortBio:
-      "Frank Neimroozi leads econstruct's fire rebuild, luxury modernization, and custom home work across Los Angeles.",
+      "Frank Neimroozi leads econstruct's commercial and residential construction projects across Los Angeles — restaurants, retail, office TI, custom homes, and fire rebuilds.",
     bio: [
-      "Frank Neimroozi is the Principal & Founder of econstruct and has spent more than two decades managing residential construction in Los Angeles. His work spans high-end renovations, ground-up custom homes, and complex post-wildfire rebuilds for homeowners who need both premium execution and decisive project leadership.",
-      "Frank's recent focus has centered on Pacific Palisades, Brentwood, Santa Monica, Altadena, and other neighborhoods where code changes, insurance pressure, and schedule risk intersect. He works closely with architects, engineers, permit teams, and owners to translate rebuilding complexity into clear scope, budget, and sequencing decisions.",
+      "Frank Neimroozi is the Principal & Founder of econstruct and has spent more than two decades managing commercial and residential construction in Los Angeles. His work spans restaurant and retail build-outs, office tenant improvements, high-end home renovations, ground-up custom homes, and post-wildfire rebuilds.",
+      "Frank works closely with architects, engineers, permit expeditors, and clients to translate project complexity into clear scope, budget, and scheduling decisions — with the accountability of a single project lead from preconstruction through close-out.",
     ],
     credentials: [
-      "Licensed General Contractor (CSLB # TODO)",
-      "20+ years managing Los Angeles residential construction",
-      "Fire rebuild and WUI compliance project leadership",
-      "Luxury modernization and custom home delivery",
+      "Licensed General Contractor — CSLB #964015",
+      "21+ years building in Los Angeles since 2001",
+      "634+ completed commercial and residential projects",
+      "Restaurant, retail, office TI, and luxury residential specialist",
     ],
     image: "/frank_blog.png",
     linkedin: "https://www.linkedin.com/company/econstruct-homes",
