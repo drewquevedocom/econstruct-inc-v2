@@ -61,7 +61,9 @@ While a standard building permit is typically mandatory for most construction ac
 
 *The following provides you with a more in-depth guide on building permits and the necessary inspections that will take place during construction.*
 
+
 ## WHY YOU SHOULD SECURE A BUILDING PERMIT
+
 
 Building permits are primarily necessary to ensure that developers and contractors adhere to local safety standards. If you start construction without securing a building permit in Los Angeles, your project can be halted at any phase. Such a shutdown would inevitably lead to significant loss of time and money, as you’d have to demolish the non-compliant work and restart. Therefore, acquiring a building permit at the project’s onset is strongly advised.
 
@@ -71,7 +73,9 @@ It’s important to note that obtaining a building permit isn’t always straigh
 
 Building plans that are submitted with the application often contain errors regarding local building codes. Although [LADBS](https://www.ladbs.org/) might allow you some time to rectify these mistakes, it is best to preemptively resolve these issues before submitting the application. Hiring a proficient architect or designer who is well-versed in local codes can effectively circumvent these issues, ensuring a smoother permit acquisition process.
 
+
 ## PROCEDURE FOR SECURING A PERMIT
+
 
 Initiating the permit acquisition process involves understanding the unique application procedures of the city where your property is located. While every municipality has its own set of rules for building permit application, there are general guidelines to prepare you for this task. Prior to application submission, acquaint yourself thoroughly with local construction requirements.
 
@@ -83,7 +87,9 @@ The subsequent step entails preparing and submitting your permit application, co
 
 As part of your application, certain fees must be paid to the LADBS. The precise fee amount will largely depend on the nature of your project and the type of permit sought. The final step in this process is to collect your permit after the LADBS has assessed and approved your application. Any complications during this stage may cause delays. However, most building permits are typically approved within 4-6 weeks after plan review, assuming no corrections are required. If there are corrections, expect an additional 2-3 weeks added to the overall timeline. Once the approval is granted, which includes Ready-To-Issue (RTI), you are good to commence your project.
 
+
 ## WHAT ARE THE REQUIREMENTS FOR A BUILDING PERMIT APPLICATION?
+
 
 As noted earlier, there’s a host of documents that need to accompany your building permit application. Among the most crucial are your building plans, which outline your project’s intended outcome. The LADBS uses these plans to assess whether your design conforms to local building regulations. It’s essential to remember that your submitted building plans and drawings should comprise:
 
@@ -103,7 +109,9 @@ As noted earlier, there’s a host of documents that need to accompany your buil
 
 Additional potential documentation may encompass a soil report, energy calculations, a joint referral form, and a hillside referral form. You can submit your building permit application online via the LADBS website or directly at any LADBS office. With five offices across the Los Angeles area, you should face minimal wait times. Once the LADBS reviews your building plans and approves the permit, you can proceed with your project, assured that it aligns with safety regulations and building codes.
 
+
 ## UNDERSTANDING THE INSPECTION PROCEDURE
+
 
 The inspection procedure during construction typically comprises 3-5 stages, contingent upon the outcomes of each inspection. These steps are:
 
@@ -119,7 +127,9 @@ The inspection procedure during construction typically comprises 3-5 stages, con
 
 When your project is ready for inspection, you can make an online request. To do this, you’ll need the 15-digit number located on your building permit. Alternatively, you can call the local 311 number or dial (213) 473-3231.
 
+
 ## ARRANGING FOR AN INSPECTION APPOINTMENT
+
 
 Securing an inspection is a straightforward process which involves either submitting an online request or dialing the aforementioned phone number. Once you have the 15-digit number corresponding to your building permit, scheduling an inspection after finishing the requisite work should be a breeze. Before the inspection, the inspector should have access to specific documents, including:
 
@@ -135,13 +145,17 @@ If you have any queries regarding this process, don’t hesitate to contact the 
 
 If you prefer not to navigate the plan check process yourself, you have the alternative to engage a professional to handle the entire task for you. These experts, often referred to as “Permit Expeditors,” can easily be located online. Upon finishing the construction work and successfully passing the “Final” inspections, the Certificate of Occupancy you obtain signals that the structure is primed for use and safe to occupy.
 
+
 ## Common Reasons Building Permits Are Delayed in Los Angeles
+
 
 Understanding why permits get delayed is just as important as knowing how to apply for them. The most frequent cause of plan check corrections in Los Angeles is incomplete or non-compliant drawings. LADBS plan checkers review structural calculations, Title 24 energy compliance documentation, accessibility requirements under the ADA, and coordination between the architectural, mechanical, electrical, and plumbing sets. Any gap in these documents triggers a correction notice and restarts the clock on the review cycle. Projects in hillside zones or near fault rupture zones face an additional layer of review from the Department of Public Works and, in some cases, the California Geological Survey.
 
 Zoning clearances can add unexpected delays as well. If your project triggers a [Conditional Use Permit (CUP)](/blog/what-is-a-conditional-use-permit), the planning department review alone can add three to nine months to your timeline. Other clearances — from the Los Angeles Fire Department (LAFD), the Bureau of Engineering, the Department of Transportation for curb cuts, or the Bureau of Sanitation for sewer connections — must each be obtained before LADBS will issue a final permit. Projects near designated historic resources may also require review by the Office of Historic Resources. A knowledgeable general contractor or permit expediter who tracks the status of each clearance through the LADBS online portal can prevent these from stalling your project.
 
+
 ## How econstruct Manages the Permit Process for Clients
+
 
 econstruct (CA License #964015) has been navigating LADBS plan check and inspection processes since 2011, handling permitted projects across West Los Angeles, Culver City, and throughout Los Angeles County. Principal Frank Neimroozi and our project team pre-screen drawings for compliance gaps before submission, coordinate directly with plan check engineers during corrections, and track each clearance agency until Ready-to-Issue (RTI) status is achieved. This hands-on approach consistently reduces total permit timelines compared to owners or first-time applicants who are less familiar with LADBS procedures.
 

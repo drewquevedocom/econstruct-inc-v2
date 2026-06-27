@@ -56,11 +56,15 @@ approvalStatus: "Awaiting final blog images before publishing"
 ---
 Calabasas offers something rare in the Los Angeles luxury market: space. With sprawling lots, a mountain backdrop, and the kind of quiet that the rest of LA simply can't provide, it's become one of the region's most coveted addresses for homeowners who want luxury without compromise. Building here — especially within its iconic gated communities — comes with a specific set of rules and processes that can catch even experienced contractors off guard.
 
+
 ## Quick Answer for Homeowners
+
 
 If you are asking, "Who builds luxury homes in Calabasas gated communities?", the practical answer is to choose a licensed Los Angeles luxury home builder that understands the neighborhood approval process, site constraints, finish expectations, and communication demands before pricing the project. econstruct helps owners align design intent, permit strategy, construction sequencing, and budget control before the build starts.
 
+
 ## Why Calabasas Is a Unique Construction Market
+
 
 Unlike Beverly Hills or the Westside neighborhoods, most of Calabasas falls within unincorporated Los Angeles County — meaning building permits are issued through the LA County Department of Regional Planning (DRP), not the City of Los Angeles LADBS. The processes, fees, inspection schedules, and approval timelines differ meaningfully, and only contractors with direct LA County DRP experience know how to navigate them efficiently.
 
@@ -70,7 +74,9 @@ The result is a construction environment that rewards preparation. Homeowners wh
 
 ![Calabasas gated community luxury estate with mountain backdrop and expansive pool](/blog/draft-calabasas-hero.jpeg "Calabasas projects succeed when gated-community constraints, lot potential, and lifestyle goals are coordinated before submittals begin")
 
+
 ## Unique Construction Challenges in Calabasas
+
 
 ARC approval in The Oaks of Calabasas typically adds 8–12 weeks before building permit submission can begin — and revision requests from the ARC can extend that timeline further if plans aren't well-prepared from the start. econstruct designs with ARC standards in mind from the first concept sketch, reducing the likelihood of costly revisions.
 
@@ -78,7 +84,9 @@ Calabasas sits in a high fire hazard severity zone. Wildland-Urban Interface (WU
 
 For properties near Malibu Creek State Park and Las Virgenes Road wildlife corridors, grading and landscaping decisions must account for wildlife movement considerations. And in portions of Calabasas and adjacent areas with equestrian zoning, barn, stable, and arena permits introduce unique design and regulatory complexity that requires specific expertise.
 
+
 ## What to Look for in a Calabasas Luxury Home Builder
+
 
 1. LA County DRP Permit Experience: Confirm your contractor has pulled permits through LA County DRP — not just LA City LADBS. The systems are different and the learning curve is real.
 
@@ -92,13 +100,17 @@ For properties near Malibu Creek State Park and Las Virgenes Road wildlife corri
 
 ![Calabasas luxury home planning meeting with estate model, finish samples, and site drawings](/blog/draft-calabasas-og.jpeg "ARC-compliant estate planning in Calabasas gets easier when design, materials, and approval strategy are reviewed together early")
 
+
 ## The econstruct Approach: Building Calabasas Estates with Precision and Passion
+
 
 At econstruct, we understand that getting past the ARC is just the first step. Our team works with you from the initial design phase to ensure your project is ARC-compliant before you've invested in full permit drawings — saving time, money, and frustration. We don't design first and ask permission later. We design with the ARC in mind from the start.
 
 Our construction teams are experienced in WUI construction requirements and work with trusted LA County DRP-approved inspectors throughout the project. From the initial ARC submission through your final walkthrough, we handle every detail with the transparency and communication our clients expect.
 
+
 ## Our Services for Calabasas Homeowners
+
 
 - [Custom Luxury Home Construction](/services/luxury-home-builder-los-angeles)
 - [Architectural Design](/services/custom-home-construction-los-angeles)
@@ -107,25 +119,37 @@ Our construction teams are experienced in WUI construction requirements and work
 - [Interior Design](/services/luxury-home-builder-los-angeles)
 - [ADU Construction](/services/home-additions-los-angeles)
 
+
 ## Frequently Asked Questions
+
+
 
 ### How long does HOA/ARC approval take in Calabasas gated communities?
 
+
 In The Oaks of Calabasas, expect 8–12 weeks for ARC review of new construction plans. Minor remodels may be reviewed faster. econstruct prepares all ARC submissions and handles revision requests on your behalf.
+
 
 ### Does Calabasas use LA City or LA County building permits?
 
+
 Most of Calabasas is unincorporated LA County, so permits go through the LA County Department of Regional Planning — not LA City LADBS. The process, fees, and timelines differ significantly.
+
 
 ### Can I build a guest house or ADU on my Calabasas property?
 
+
 Yes, subject to lot size, zoning, and HOA/ARC approval. Calabasas' larger lot sizes often accommodate guest houses, ADUs, and additional structures comfortably. econstruct assesses your specific parcel as part of the initial consultation.
+
 
 ### Are there special fire construction requirements in Calabasas?
 
+
 Yes. Most of Calabasas falls within a High or Very High Fire Hazard Severity Zone. WUI (Wildland-Urban Interface) construction requirements mandate fire-resistant roofing, exterior cladding, vents, and landscaping. econstruct builds to these standards on every Calabasas project.
 
+
 ## Ready to Talk?
+
 
 Calabasas offers the kind of space and privacy that the rest of LA can only dream about. Contact econstruct today for a free consultation — we'll walk you through the ARC process, assess your property's potential, and put together a plan that makes the most of your lot.
 

@@ -58,14 +58,20 @@ localAreas:
 
 **Identifying Asbestos in Homes** Asbestos can be found in materials like roofing shingles, siding, and household products. Homeowners planning renovations should consult with experienced residential contractors in Los Angeles for asbestos assessment and safe removal practices.
 
+
 ## What California Law Requires Before You Renovate
+
 
 California takes asbestos compliance seriously, and for good reason. State regulations administered through Cal/OSHA require that any building constructed before 1978 undergo an asbestos survey before demolition or significant renovation work begins. This applies to residential properties in Los Angeles just as much as commercial buildings. If asbestos-containing materials are identified, they must be removed by a licensed abatement contractor before general construction can proceed — and that work must be documented and disposed of according to strict hazardous waste protocols. Skipping this step doesn't just put workers and occupants at risk; it can also result in stop-work orders from LADBS and substantial fines. The permit application process through the Los Angeles Department of Building and Safety often includes questions about the presence of hazardous materials, and licensed general contractors are expected to address these disclosures accurately.
 
+
 ## The Permit Process and Asbestos Disclosure in Los Angeles
+
 
 When you pull a residential renovation permit through LADBS, the plan check process may flag asbestos or lead-based paint concerns depending on the age of your home and the scope of the work. A knowledgeable general contractor will help you navigate these disclosures correctly, coordinating with a certified industrial hygienist if needed before submitting plans. Working without permits — or attempting to conceal known hazardous material issues — creates serious liability for homeowners and can complicate a future sale. Lenders and title companies routinely require permit history, and unpermitted work that concealed an asbestos removal can become a costly legal issue at escrow. The right approach is always transparency: assess early, remediate properly, and document everything.
 
+
 ## Why Choose econstruct for Renovation Projects in Older LA Homes
+
 
 econstruct (California GC License #964015) has been operating in West Los Angeles since 2011, and our team of 51+ years of combined experience means we've encountered virtually every compliance scenario the city has to offer. Principal Frank Neimroozi and the econstruct project development team understand how to identify potential asbestos exposure risks early in the pre-construction phase — before they become schedule or cost surprises. We coordinate with licensed abatement specialists when needed and ensure all required documentation is in order before any demolition begins. Our projects in Beverly Hills, Brentwood, and across the Westside have consistently passed LADBS inspections because we treat compliance as a first step, not an afterthought. If you're planning a renovation on a home built before the 1980s, [reach out for a free consultation](/free-consultation) so we can assess your project's compliance needs from the start. You can also explore our work in [our portfolio](/projects) to see how we handle complex residential scopes with care and precision.

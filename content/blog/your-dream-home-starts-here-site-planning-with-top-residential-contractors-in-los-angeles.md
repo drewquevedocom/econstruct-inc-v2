@@ -69,8 +69,7 @@ Site planning is the art and science of analyzing your property's unique charact
 
 - Landscaping: How your home will integrate with the surrounding landscape, including existing trees, vegetation, and potential for outdoor living spaces.
 
-**Why Site Planning is Crucial for Your Los Angeles Home**
-
+## Why Site Planning is Crucial for Your Los Angeles Home
 - Maximizing Your Investment: A well-planned site ensures your home takes full advantage of its location, views, and natural features, increasing its value and appeal.
 
 - Securing Project Approval: Proper site planning is the crucial first step in obtaining the necessary permits and approvals from the City of Los Angeles. A well-prepared site plan ensures your project complies with zoning regulations, building codes, and environmental considerations, paving the way for a smooth and efficient approval process.
@@ -99,7 +98,7 @@ Any residential construction project in Los Angeles that involves structural cha
 
 The California Contractors State License Board (CSLB) requires all contractors who perform construction work valued at $500 or more in California to hold a valid license. For residential projects in Los Angeles, working with a licensed general contractor like econstruct (GC License #964015) provides several concrete protections: the contractor carries workers' compensation insurance covering all employees on your project, so you are not liable for injuries on your property; the contractor is bonded, providing financial recourse if work is abandoned or defective; and the contractor is subject to CSLB enforcement, which can revoke a license for fraud, unsafe work, or failure to honor contracts. LADBS also requires that permits for complex residential work — new construction, additions, major structural alterations — be pulled by a licensed contractor rather than an owner-builder, because the license is the mechanism by which the city establishes accountability for code compliance. When evaluating contractors, verify the CSLB license number directly on the CSLB website, confirm current insurance certificates, and check for any disciplinary history. econstruct has maintained a clean license record since our founding in 2011, and principal Frank Neimroozi is available to discuss any project directly.
 
-**Your Dream Home Starts with a Plan**
+## Your Dream Home Starts with a Plan
 
 Building a new home in Los Angeles is an investment in your future. With econstruct's expertise in site planning and residential construction — backed by California GC License #964015, founded 2011, and 51+ years of combined team experience — you can rest assured that your project is in capable hands. We'll guide you through every step of the process, from concept to completion, ensuring your dream home becomes a reality.
 

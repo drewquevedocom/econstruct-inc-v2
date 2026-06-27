@@ -52,7 +52,8 @@ localAreas:
   - "Los Angeles"
 ---
 
-**Optimizing Your Restaurant's Heart: The Kitchen**
+
+## Optimizing Your Restaurant's Heart: The Kitchen
 
 At econstruct, We understand that the [kitchen](https://en.wikipedia.org/wiki/Kitchen) is the heart of any restaurant. Its construction and design are pivotal, influencing not only the daily operations but also the ultimate success of your establishment. A cluttered, poorly designed kitchen can lead to inefficiencies, accidents, and loss of revenue. Conversely, a kitchen crafted with precision and forethought operates seamlessly, enhancing productivity and success.
 
@@ -84,14 +85,20 @@ An ergonomic layout is designed to minimize preparation time by strategically pl
 
 **Streamlining and Organization**A common pitfall in kitchen management is overstocking equipment and gadgets. It's vital to keep only essential items that justify their space in your kitchen. Organize your kitchen by grouping similar items together and enforcing a strict policy of returning items to their designated spots. Consider innovative storage solutions, especially vertical storage, to maximize kitchen space.
 
+
 ## Health Department and Fire Code Requirements for Commercial Kitchens
+
 
 Every commercial kitchen in Los Angeles must satisfy two distinct regulatory frameworks before it can legally operate: the LA County Department of Public Health food facility permitting requirements and the Los Angeles Fire Department fire code. The health department reviews kitchen construction plans for adequate handwashing sink placement (within arm's reach of every food preparation and service area), three-compartment sink sizing, surface materials (all food-contact and splash surfaces must be smooth, non-porous, and easily cleanable), adequate refrigeration capacity, and proper equipment clearances for pest prevention. The LAFD reviews the kitchen ventilation system, including the Type I hood, the fire suppression system integrated into the hood, the exhaust duct construction and clearances, and the make-up air supply. ASHRAE standards set the technical benchmarks for ventilation rates and energy performance that Los Angeles commercial kitchens must meet. Cal/OSHA construction safety orders also govern how the kitchen is built — covering electrical safety, fall protection during installation of elevated equipment, and safe handling of commercial gas line connections. Understanding all of these requirements before finalizing your kitchen layout prevents costly redesigns during plan check. Our [restaurant construction project design plans guide](/blog/restaurant-construction-project-design-plans-a-comprehensive-guide) covers how these compliance requirements are integrated into the full drawing set.
 
+
 ## Ventilation, Gas, and Electrical: The Systems That Make or Break a Kitchen
+
 
 The three utility systems that most directly determine a kitchen's operational capacity — and its construction cost — are ventilation, gas, and electrical. A properly designed Type I exhaust hood system must capture all grease-laden vapors from cooking equipment, exhaust them at the required velocity through a grease-rated duct, and supply tempered make-up air at a rate that prevents negative pressure from creating uncomfortable or unsafe conditions for kitchen staff. Gas line sizing must account for the BTU demand of every piece of cooking equipment operating simultaneously at full output, which in a busy commercial kitchen can easily exceed 400,000 BTU/hour. Undersizing the gas line is a code violation that also causes equipment to underperform. Electrical service must handle refrigeration loads, high-draw appliances like commercial ovens and dishwashers, lighting, POS systems, and emergency circuits — and in Los Angeles, the California Building Standards Commission's energy code also governs lighting efficiency and HVAC controls in new commercial construction. These systems must be engineered by licensed MEP engineers and reviewed by LADBS before permits are issued. econstruct coordinates all of this in-house, ensuring the systems are sized correctly from the design phase rather than discovered to be inadequate during rough-in.
 
+
 ## Collaborate with econstruct for Your Restaurant Kitchen in Los Angeles
+
 
 Expertise in designing and constructing efficient kitchens is key to a successful restaurant. Even a small kitchen, when designed smartly, can significantly boost sales. At econstruct, led by principal Frank Neimroozi and a team with 51+ years of combined experience, we collaborate closely with owners and chefs to create kitchens that are not just functional, but also optimized for peak performance. California GC License #964015. Our portfolio includes 800 Degrees Woodfired Kitchen — a high-complexity build featuring dual wood-burning ovens, a charcoal grill, and a rotisserie — as well as Hutchinson Cocktails & Grill, Koala T Cafe, and Jersey Mike's. Each project required the same careful approach to kitchen systems planning described in this article. View our [full project portfolio](/projects) to see examples of completed restaurant kitchens, or [contact us](/contact) today to begin your journey towards constructing a state-of-the-art restaurant kitchen in Los Angeles.

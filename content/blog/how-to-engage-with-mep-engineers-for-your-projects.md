@@ -119,13 +119,17 @@ Projects include M/E/P engineering services for public works, commercial, agricu
 
 For more details about our services, please check out [www.winstoneng.com](https://winstoneng.com/)
 
+
 ## MEP Coordination in Los Angeles: What Makes It Unique
+
 
 Los Angeles construction projects face a specific set of MEP challenges that engineers from other markets may underestimate. California's Title 24 energy compliance standards require that HVAC systems meet minimum efficiency ratings and that lighting power density stays within strict limits — requirements that are updated every three years and are significantly more demanding than the national baseline. Restaurant projects in Los Angeles must also satisfy the Los Angeles Fire Department's requirements for commercial kitchen exhaust systems, including grease duct clearances, make-up air design, and fire suppression integration. These requirements are reviewed as part of the LADBS plan check process under separate mechanical and fire permits, which means MEP drawings must be complete and coordinated before any permit can issue.
 
 For multifamily and mixed-use projects, MEP coordination becomes even more demanding. Gas line sizing, electrical service capacity, plumbing stack routing, and HVAC zoning all intersect in ways that require careful three-dimensional coordination. Building Information Modeling (BIM) clash detection has become standard practice on larger projects precisely because the consequences of poor MEP coordination are expensive — rerouting ductwork or re-running conduit after walls are closed is far more costly than resolving conflicts on a model before construction starts. For a complete understanding of what goes into a construction drawing package, including how [MEP drawings fit into the full plan set](/blog/essential-elements-of-construction-blueprints-a-comprehensive-guide), see our comprehensive guide.
 
+
 ## How econstruct Works with MEP Engineers
+
 
 econstruct (CA License #964015, founded 2011) understands that the general contractor's role in MEP coordination is to hold the space and schedule for each trade while keeping the design team informed of field conditions. Our project managers review MEP drawings for spatial conflicts with structural elements, coordinate subcontractor shop drawings through the submittal process, and flag discrepancies between the construction documents and actual site conditions as early as possible. On restaurant projects — where we have extensive experience through builds including Hal's Bar & Grill, Hutchinson Cocktails, Jersey Mike's, 85C Bakery, and El Pollo Loco — MEP coordination is particularly intensive due to the complexity of commercial kitchen ventilation, fire suppression, and utility connections.
 

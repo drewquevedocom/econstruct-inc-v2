@@ -56,11 +56,15 @@ approvalStatus: "Awaiting final blog images before publishing"
 ---
 Hidden Hills lives up to its name. Entirely gated, equestrian-zoned, and tucked away from the noise of greater Los Angeles, it's one of the most private and distinctive communities in Southern California. Every resident enters through the same gate. Every lot is at least an acre. The lifestyle — horses, open space, and genuine community — is something you simply can't replicate anywhere else in LA. Building or renovating here requires a contractor who understands not just construction, but the unique character of this one-of-a-kind neighborhood.
 
+
 ## Quick Answer for Homeowners
+
 
 If you are asking, "Who builds luxury homes in Hidden Hills CA?", the practical answer is to choose a licensed Los Angeles luxury home builder that understands the neighborhood approval process, site constraints, finish expectations, and communication demands before pricing the project. econstruct helps owners align design intent, permit strategy, construction sequencing, and budget control before the build starts.
 
+
 ## What Makes Hidden Hills Unique for Custom Home Construction
+
 
 Hidden Hills is one of California's few entirely gated incorporated cities — a single master-gated community of more than 2,000 residents, offering a level of privacy that even Bel Air and Beverly Hills can't fully match.
 
@@ -70,7 +74,9 @@ Building permits in Hidden Hills are issued through LA County's Department of Re
 
 ![Hidden Hills equestrian estate planning session with ranch compound model and horse facilities](/blog/draft-hidden-hills-hero.jpeg "Hidden Hills projects often combine estate design, equestrian structures, and ARC expectations in one coordinated planning effort")
 
+
 ## Unique Construction Challenges in Hidden Hills
+
 
 The Hidden Hills Community Association's Architectural Review Committee must approve all new construction, major remodels, additions, and significant exterior changes before building permits can be issued. ARC submissions typically require detailed plans, material samples, and landscape proposals — and revision requests are common without thorough preparation. Expect a minimum of 4–8 weeks for ARC review.
 
@@ -80,7 +86,9 @@ Hidden Hills' large lot sizes create unique opportunities: main residences, gues
 
 The community's prevailing aesthetic leans toward rustic luxury — ranch-inspired architecture with premium materials and finishes. Ultra-modern all-glass designs are reviewed more scrutinously by the ARC. The most successful Hidden Hills builds balance personal style with sensitivity to community character.
 
+
 ## What to Look for in a Hidden Hills Custom Home Builder
+
 
 1. Hidden Hills ARC Experience: Ask specifically about experience submitting to the Hidden Hills Community Association ARC — not just general HOA experience.
 
@@ -94,13 +102,17 @@ The community's prevailing aesthetic leans toward rustic luxury — ranch-inspir
 
 ![Private Hidden Hills equestrian estate with pool, long drive, and mountain backdrop](/blog/draft-hidden-hills-og.jpeg "The finished Hidden Hills result depends on getting privacy, scale, equestrian use, and community character right from the start")
 
+
 ## The econstruct Approach: Building Hidden Hills Estates with Precision and Passion
+
 
 At econstruct, we approach Hidden Hills projects with respect for what makes this community special. Our design and construction teams build homes that honor the ranch character of Hidden Hills while delivering every modern luxury our clients expect — from chef's kitchens with commercial grade walk-in refrigeration, cigar rooms/wine cellars, bowling alleys and home theaters to custom horse facilities and private sports courts.
 
 We manage the full ARC process from first submission to final approval, prepare complete and well-documented permit packages for LA County DRP, and keep our clients informed at every step. In a community where privacy matters above all else, you can trust that our team operates with the discretion your project deserves.
 
+
 ## Our Services for Hidden Hills Homeowners
+
 
 - [Custom Luxury Home Construction](/services/luxury-home-builder-los-angeles)
 - [Architectural Design](/services/custom-home-construction-los-angeles)
@@ -109,25 +121,37 @@ We manage the full ARC process from first submission to final approval, prepare 
 - [Interior Design](/services/luxury-home-builder-los-angeles)
 - [ADU Construction](/services/home-additions-los-angeles)
 
+
 ## Frequently Asked Questions
+
+
 
 ### Can I build a barn or equestrian facility on my Hidden Hills property?
 
+
 Yes. Hidden Hills is equestrian-zoned city-wide, and barns, stables, and arenas are permitted uses. Specific setback and size requirements apply. econstruct manages the full permit and ARC submission scope for equestrian facilities.
+
 
 ### How does the Hidden Hills ARC approval process work?
 
+
 The Hidden Hills Community Association ARC reviews all new construction, major remodels, additions, and significant exterior changes. Submissions typically take 4–8 weeks for review, and ARC approval must be obtained before building permits are issued. econstruct prepares and manages all ARC submissions.
+
 
 ### Can I build a guest house or ADU on my Hidden Hills property?
 
+
 Yes, subject to lot size, zoning, and ARC approval. Hidden Hills' large lots often accommodate guest houses, ADUs, and additional structures comfortably. econstruct assesses your parcel's full potential as part of the initial consultation.
+
 
 ### Does Hidden Hills use LA City or LA County building permits?
 
+
 Hidden Hills building permits are issued through the LA County Department of Regional Planning (DRP) — not LA City LADBS. The process, fees, and inspection requirements differ significantly from LA City.
 
+
 ## Ready to Talk?
+
 
 Hidden Hills is one of the most private and distinctive communities in LA — and building here should be handled with the same level of care. Contact econstruct today for a free consultation. We'll assess your property, walk you through the ARC process, and bring your vision to life.
 

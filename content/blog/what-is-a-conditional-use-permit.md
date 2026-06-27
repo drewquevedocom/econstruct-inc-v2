@@ -55,8 +55,7 @@ localAreas:
 
 A CUP must take any local ordinance requirements into account before you are able to obtain one. In most situations, a public hearing will be held to determine if your request for a CUP should be granted. Before you begin the process of applying for a conditional use permit, it's important that you understand how this permit works and how it differs from a variance. *This article provides a comprehensive overview of conditional use permits.*
 
-**Key Takeaways:**
-
+## Key Takeaways
 - A conditional use permit allows for other types of uses on the property that are normally prohibited.
 
 - Your local zoning ordinance will determine whether or not your property will qualify for a conditional use permit, check with your Planning Department.

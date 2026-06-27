@@ -55,51 +55,73 @@ If you are trying to figure out **how to choose fire rebuild contractor** in Los
 
 The right contractor should reduce uncertainty. If the conversation creates more of it, keep interviewing. Our [fire rebuild contractor](/services/fire-rebuild-contractor-los-angeles) and [luxury home builder](/services/luxury-home-builder-los-angeles) teams believe owners should ask hard questions early, because good contractors welcome them.
 
+
 ## The CSLB License Check
+
 
 Before anything else, verify the license.
 
+
 ### Why the license matters
+
 
 The CSLB record tells you whether the contractor is actually licensed for the work they are offering. It also gives you a place to confirm the business details instead of relying on a brochure or a sales rep.
 
+
 ### Ask for the details in writing
+
 
 Ask for the contractor's license number, insurance certificate, and business name exactly as it appears on record. If anything feels inconsistent, stop there until it is clarified.
 
 ![Fire rebuild contractor reviewing plans with homeowner at a kitchen table](/blog/Rebuild%20Contractor%202.png "The first sign of a serious contractor is organized documentation and clear answers")
 
+
 ## Insurance and Bonding Requirements
+
 
 Licensing is only part of the protection. Insurance and bonding matter too.
 
+
 ### What you should confirm
+
 
 Ask for general liability, workers' compensation, and any bonding information that applies to the project. If a contractor is vague about this, that is not a minor detail.
 
+
 ### Why this protects the owner
+
 
 If a worker gets hurt or something goes wrong on site, you want to know the contractor is properly covered. Rebuild projects are too expensive to rely on casual assurances.
 
+
 ## Fire Rebuild Specific Experience
+
 
 Many contractors can remodel a kitchen. Far fewer can run a post-fire rebuild well.
 
+
 ### Ask for similar projects
+
 
 Ask specifically for fire rebuild examples, not just general luxury remodels. The questions are different because the project is different.
 
+
 ### Ask about code and permit sequencing
+
 
 The contractor should be able to explain how they work with plan check, WUI requirements, consultants, and insurance documentation. If they cannot explain the path clearly, they probably do not manage it often enough.
 
 ![Construction team and homeowner reviewing fire rebuild scope, contract documents, and timeline](/blog/Rebuild%20Contractor%203.png "A rebuild contractor should be able to explain scope, schedule, and permit path in plain English")
 
+
 ## The 12 Questions Checklist
+
 
 Use these questions as a baseline before you sign.
 
+
 ### Ask about the job
+
 
 1. What fire rebuild projects have you completed in Los Angeles?
 2. What is your CSLB license number?
@@ -114,19 +136,27 @@ Use these questions as a baseline before you sign.
 11. How often will I get updates?
 12. Who will actually manage the project day to day?
 
+
 ### What good answers sound like
+
 
 Good answers are specific. They include examples, sequencing, and names of the people involved. Bad answers are vague, rushed, or full of vague promises.
 
+
 ## Red Flags to Walk Away From
+
 
 Some warning signs are obvious once you know what to look for.
 
+
 ### Pressure is a red flag
+
 
 If the contractor pushes you to sign immediately, changes the subject when you ask about license and insurance, or refuses to define the scope in detail, walk away.
 
+
 ### Too-good-to-be-true pricing usually is
+
 
 In fire rebuild work, unrealistically low bids often hide missing scope. That can cost more later than the contractor saved up front.
 

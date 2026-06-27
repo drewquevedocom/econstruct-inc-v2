@@ -55,7 +55,8 @@ Embarking on a restaurant construction journey in Los Angeles requires more than
 
 At econstruct, we understand the financial constraints of our clients. Our fees range between $5,000 and $8,000 for project plans, substantially lowering your overall expenses. This approach not only keeps your budget in check but also allows flexibility for unique design elements that might elevate the cost of your restaurant construction in Los Angeles.
 
-**Innovative and Tailored Design Expertise**
+
+## Innovative and Tailored Design Expertise
 
 The caliber of design you receive depends heavily on the experience and creativity of your team. At econstruct, we bring over 50 years of combined partner experience in crafting plans for restaurant construction. Our forte lies in developing smart, energy-efficient restaurants that embody your vision.
 
@@ -67,13 +68,17 @@ Restaurant construction, especially in a vibrant city like Los Angeles, calls fo
 
 In Los Angeles, where restaurant construction is an art, econstruct is your ideal partner. Our approach blends innovation, efficiency, and affordability, paving the way for your dream restaurant to become a celebrated reality. Reach out to us and take the first step towards building your culinary empire in the heart of Los Angeles.
 
+
 ## The Design Phase: What Smart Restaurant Plans Look Like
+
 
 The design phase is where the economics of your restaurant are largely determined — not the construction phase. A skilled design team that understands restaurant operations will lay out your kitchen to minimize staff travel distances, plan your electrical panel to avoid costly service upgrades, size your HVAC systems to satisfy [California Title 24](https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards) without over-engineering expensive equipment, and place your hand-washing sinks in locations that satisfy [LA County Health Department](https://ehservices.publichealth.lacounty.gov/) inspectors on first review. All of these decisions are locked in during design — and undoing them during construction is expensive. A complete plan set for Los Angeles restaurant TI work includes architectural, MEP (mechanical, electrical, plumbing), structural, and Title 24 energy calculations. When any of these are incomplete or internally inconsistent, [LADBS plan check](https://www.ladbs.org/permits) issues corrections that restart the review clock, adding weeks of costly delay.
 
 The design-build model is particularly valuable for restaurants because it eliminates the handoff problem: when the same team that draws the plans is also responsible for building within the budget, there is strong incentive to produce drawings that are buildable, code-compliant, and cost-accurate. This is why econstruct's plan fees — ranging from $5,000 to $8,000 for a complete set — consistently deliver more value than paying an architect 10% of project cost for drawings that may still require a separate contractor to price and build.
 
+
 ## Managing Change Orders and Budget Discipline
+
 
 One of the leading causes of budget overruns in restaurant construction is change orders — modifications to the scope of work that arise after the contract is signed. Some change orders are unavoidable: hidden conditions behind existing walls, utility service capacity shortfalls, or design changes requested by the owner. But many change orders are preventable through thorough upfront design, a detailed pre-construction site investigation, and an honest initial scope of work that doesn't exclude known cost items to win a bid.
 

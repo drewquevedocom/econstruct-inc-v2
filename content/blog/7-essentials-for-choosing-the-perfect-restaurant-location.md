@@ -62,7 +62,8 @@ When embarking on a restaurant construction journey, the mantra “location, loc
 
 Consider a standout restaurant experience. Note down every detail you loved about it. Now, shift your focus to its location. How was the parking? The lighting in the parking lot? If in a strip center, was the space an end-cap or buried somewhere in the middle? These assessments are instrumental in understanding what your future customers value, guiding you in creating an exceptional dining environment in your chosen locale.
 
-**To Build or Not to Build**
+
+## To Build or Not to Build
 
 Choosing between building a new ground up project and leasing a space is a significant decision in the restaurant construction process. Opting for a new build, though potentially more costly due to expanded scope and ownership expenses, offers freedom from rental woes and potential neighbor & landlord disputes.
 
@@ -70,19 +71,25 @@ Alternatively, leasing a space in an already established & thriving area might b
 
 In choosing the perfect location for your restaurant, remember that each decision you make is a step towards realizing your dream. At **econstruct**, we’re dedicated to guiding you through every phase of your restaurant construction journey, ensuring that your establishment not only opens its doors within budget and on time, but thrives in a competitive market. Contact us today to turn your vision into reality.
 
+
 ## Zoning, Permits, and Regulatory Due Diligence
+
 
 Before signing a lease or breaking ground, every prospective restaurant owner needs to conduct thorough regulatory due diligence on any candidate site. In Los Angeles, zoning designations control whether food service is permitted at a given address — a space zoned for light industrial use, for example, cannot simply be converted into a dining room without a conditional use permit or zone change. The [Los Angeles County Planning Department](https://planning.lacounty.gov/) maintains the zoning maps and use tables that determine what is allowed, and reviewing these early prevents expensive surprises after you’ve committed to a space.
 
 Beyond zoning, you’ll need a building permit from LADBS for any structural or significant cosmetic work, and a separate food facility permit from the [LA County Department of Public Health](https://ehservices.publichealth.lacounty.gov/) before you can serve a single guest. Fire egress requirements, grease interceptor mandates, hood ventilation specs, and ADA accessibility upgrades all attach to the location itself — meaning a poorly chosen site may require tens of thousands of dollars in compliance upgrades just to open legally. Always walk a candidate space with a qualified restaurant contractor before committing to understand your true build-out exposure.
 
+
 ## Evaluating Lease Terms and Landlord Relationships
+
 
 The physical space is only half the equation — the lease terms you negotiate will govern your project economics for years. Tenant improvement allowances (TI) from landlords can offset significant construction costs, but they vary wildly by market and landlord. In competitive Los Angeles submarkets like Santa Monica, West Hollywood, and Culver City, TI allowances of $50–$100 per square foot are not uncommon, though larger, more complex restaurant builds regularly exceed what landlords offer. Understanding exactly what is covered — and what you’ll need to fund yourself — before signing allows your contractor to provide an accurate bid and prevents budget shock during construction.
 
 Pay close attention to lease duration relative to your build-out timeline. Restaurant construction in Los Angeles can take four to six months from permit approval, and delays in permitting are common. Negotiating a "free rent" or "rent abatement" period that covers the construction phase is standard practice and should be a condition of any deal. A seasoned restaurant contractor can provide your attorney or broker with realistic schedule estimates to use as leverage during lease negotiations.
 
+
 ## How econstruct Evaluates Restaurant Locations
+
 
 econstruct (CA License #964015) has been building restaurants across Los Angeles since 2011, and our team has walked hundreds of potential sites with clients before a single permit is pulled. Principal Frank Neimroozi and our 51-plus-year combined team bring an operator’s eye to site assessment: we evaluate utility service capacity (gas, electrical, water), existing grease trap infrastructure, structural load limitations, and the complexity of the HVAC work required to pass LA County Health Department review. These factors directly determine your true cost to open.
 

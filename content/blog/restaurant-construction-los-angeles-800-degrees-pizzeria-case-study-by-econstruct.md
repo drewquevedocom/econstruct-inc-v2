@@ -78,15 +78,21 @@ Environmental Sustainability
 
 Beyond its culinary achievements, 800° Degrees Pizzeria, in partnership with econstruct, embraces a commitment to environmental sustainability. Through its collaboration with the National Forest Foundation, the restaurant pledges to more trees than we consume, reinforcing its dedication to reforestation and ecological responsibility.
 
+
 ## Navigating Permits and Compliance for a Hollywood Restaurant
+
 
 One of the most complex aspects of this project was managing the multi-agency permit process required for a restaurant of this scope in the City of Los Angeles. The installation of wood-burning ovens triggered heightened scrutiny from the Los Angeles Fire Department, whose fire code mandates specific hood suppression systems, clearance distances, and ventilation standards for open-flame cooking equipment. econstruct coordinated directly with LAFD inspectors during the design phase to ensure the wood-burning hearth design met code before a single permit was submitted. In parallel, the project required a health permit from the LA County Department of Public Health, which involves a pre-opening inspection of all food preparation surfaces, refrigeration units, and handwashing stations. LADBS plan check approval for the structural and MEP work added another layer, covering the electrical load calculations for the commercial kitchen, plumbing tie-ins for the three-compartment sinks, and mechanical ventilation for the cooking suite. By front-loading all agency coordination, econstruct kept the project on schedule despite the complexity.
 
+
 ## MEP Coordination: The Hidden Backbone of a High-Performance Kitchen
+
 
 The 800° Degrees build-out required extensive mechanical, electrical, and plumbing coordination to support a high-output wood-burning kitchen. The dual wood-fired ovens required a custom Type I hood system with make-up air, grease duct enclosures meeting NFPA 96 standards, and a fire suppression system tied to the hood. Electrical capacity had to be engineered to handle simultaneous peak loads from the charcoal grill, rotisserie, refrigeration banks, and POS infrastructure without tripping breakers during service. Plumbing rough-in for the dishwashing station, three-compartment sink, and mop sink was coordinated against the Italian marble flooring installation sequence to avoid costly rework. These are exactly the kinds of interdisciplinary challenges that separate experienced restaurant contractors from general builders — and why ASHRAE MEP engineering standards guide econstruct's approach to every kitchen build. You can explore more about our [restaurant construction project portfolio](/projects) to see how we handle similar complexity across different concepts.
 
+
 ## econstruct's Approach to Landmark Restaurant Projects
+
 
 The 800° Degrees Pizzeria case study is a signature example of what econstruct brings to landmark restaurant builds in Los Angeles. Founded in 2011 and holding California GC License #964015, econstruct has spent over a decade building restaurants that balance culinary ambition with construction precision. Principal Frank Neimroozi leads a team with 51+ years of combined experience across tenant improvements, ground-up commercial builds, and specialty food service projects. Beyond 800° Degrees, econstruct has delivered projects including Hutchinson Cocktails & Grill, Koala T Cafe, and Jersey Mike's — each requiring the same multi-agency permit management, custom millwork coordination, and MEP sequencing that made this Hollywood build a success. econstruct was also voted Best Restaurant Contractor in Santa Monica (2024) and Glendale (2022), recognition that reflects a consistent track record across the greater LA market. If you're planning a restaurant build and want to see what this level of expertise looks like applied to your concept, [request a free consultation](/free-consultation) or read our [comprehensive guide to restaurant design plans](/blog/restaurant-construction-project-design-plans-a-comprehensive-guide).
 

@@ -50,7 +50,8 @@ localAreas:
 
 Embarking on an office renovation project in Los Angeles presents a unique set of challenges and opportunities. Whether you're aiming to revitalize an outdated space, accommodate your growing team, or enhance overall productivity, partnering with the right [office building TI contractor](https://econstructinc.com/top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space/) is pivotal. **econstruct**, with our extensive experience and deep understanding of the Los Angeles market, is your ideal partner for navigating the complexities of office renovations. Our expertise in transforming spaces is matched only by our commitment to realizing your vision and business needs.
 
-**Selecting the Right TI Contractor**
+
+## Selecting the Right TI Contractor
 
 Choosing a contractor is not just about finding someone to execute a project; it's about selecting a partner who understands your vision and the nuances of your business. Here's why **econstruct** stands out as your choice for office building TI contractors in Los Angeles:
 
@@ -82,7 +83,8 @@ Comprehensive Services:
 
 At **econstruct**, we offer a full spectrum of renovation services, from initial design consultation to the final reveal. Our integrated approach simplifies the renovation process, allowing you to focus on your business while we handle the complexities of your office transformation.
 
-**Understanding the Scope of Your Renovation Project**
+
+## Understanding the Scope of Your Renovation Project
 
 Effective communication and meticulous planning are the cornerstones of a successful renovation project. Partnering with **econstruct** ensures:
 
@@ -98,15 +100,20 @@ Realistic Timelines:
 
 Our experience allows us to offer realistic timelines that account for design, permitting, construction, and finishing touches. **econstruct** is committed to delivering your project within the agreed timeframe, ensuring minimal disruption to your business operations.
 
+
 ## Permits and Compliance: What Every Los Angeles Office TI Requires
+
 
 Office tenant improvements in Los Angeles require permits from LADBS for any work that affects structural elements, electrical systems, plumbing, HVAC, or fire sprinklers. This is true even for projects that feel cosmetic — for example, adding or removing partition walls may trigger a structural review if the walls interact with the building's lateral system. Electrical panel upgrades required to support additional workstations or conference room AV systems require their own electrical permit. If the renovation includes a new kitchenette or restroom, plumbing permits apply. The California Building Standards Commission's Title 24 energy code also governs lighting controls and HVAC systems in commercial tenant improvements, meaning new light fixtures must meet efficiency standards and may require occupancy sensors or daylight controls. Cal/OSHA construction safety orders govern how the work is executed, including requirements for temporary barriers to separate active construction zones from occupied office space — which is critical when renovating in phases while employees continue to work in adjacent areas. econstruct manages all permit submissions, inspections, and agency coordination so that the renovation process does not disrupt your business operations beyond the construction itself. Read our [full permits guide](/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles) for more detail.
 
+
 ## Phasing Office Renovations to Minimize Business Disruption
+
 
 One of the most important skills an office TI contractor can offer is the ability to phase a renovation around an active business. Unlike restaurant construction — where the space is typically vacant during build-out — office renovations often need to be completed while employees continue to work in part of the space. econstruct has extensive experience with phased tenant improvements, having completed office TI projects in Culver City and West LA that required maintaining business continuity throughout construction. Phasing requires careful sequencing: completing the noisiest and most disruptive work (demolition, concrete cutting for plumbing rough-in, MEP rough-in above the ceiling) in one zone before moving employees into that newly finished space and beginning work in the next zone. Dust barriers, negative air pressure containment, and off-hours scheduling for particularly disruptive tasks all contribute to a renovation that feels manageable rather than chaotic. Our team plans phasing sequences during pre-construction so that both the construction schedule and the client's business operations are accounted for before any work begins.
 
-**Conclusion**
+
+## Conclusion
 
 Choosing to renovate your office space is a significant step towards investing in your business's future. Selecting **econstruct** as your office building TI contractor in Los Angeles guarantees a partnership with a company that not only brings extensive experience and local expertise to the table, but also shares your vision for a space that embodies your business values and ambitions. Founded in 2011 and holding California GC License #964015, econstruct brings 51+ years of combined team experience to every project. Our commitment to excellence, innovation, and client satisfaction makes us the ideal choice for your next office renovation project.
 

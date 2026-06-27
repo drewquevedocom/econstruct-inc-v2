@@ -79,22 +79,30 @@ At econstruct, we're more than just a construction company. Here's what sets us 
 
 - Commitment to Excellence: We strive for excellence in everything we do, from the initial consultation to the final walkthrough. Your satisfaction is our ultimate goal.
 
-**Your Dream Home Awaits: Explore econstruct's Portfolio**
+
+## Your Dream Home Awaits: Explore econstruct's Portfolio
 
 Please take a moment to browse our [Portfolio](https://econstructinc.com/construction-projects/) of some of our exceptional residential projects in Los Angeles. You'll see firsthand how we blend creativity, functionality, and meticulous craftsmanship to create homes that our clients love.
 
-**Ready to Get Started?**
+
+## Ready to Get Started?
 
 If you're ready to build or renovate your dream home in Los Angeles, contact econstruct today. We'll schedule a consultation to discuss your vision, answer your questions, and develop a personalized plan that meets your needs and exceeds your expectations.
 
+
 ## Understanding the LA Permitting Landscape
+
 
 One of the most underestimated aspects of residential construction in Los Angeles is the permitting and plan check process administered by the Los Angeles Department of Building and Safety (LADBS). Whether you're adding a new room, renovating a kitchen, or building from the ground up, virtually all structural, electrical, plumbing, and HVAC work requires a permit. LADBS plan check timelines can range from four to sixteen weeks depending on project complexity, and first-time submissions that contain errors or omissions can add months to a project timeline. An experienced residential contractor who knows the LADBS process — what reviewers look for, how to pre-screen plans for common correction triggers, and how to respond efficiently to plan check comments — is one of the most valuable assets you can have on your project. Permit compliance also matters at sale time: unpermitted work discovered during a real estate transaction can kill a deal or saddle a seller with expensive remediation costs.
 
+
 ## What Sets Licensed Contractors Apart in Los Angeles
+
 
 California requires all contractors performing work above $500 in combined labor and materials to hold an active license issued by the California Contractors State License Board (CSLB). For homeowners, verifying a contractor's CSLB license should be the very first step before inviting any bids. A valid license confirms that the contractor has passed trade knowledge exams, maintains general liability insurance, holds a workers' compensation policy, and posts a bond — protections that directly shield you if something goes wrong on the job. Unlicensed contractors operating in Los Angeles are unfortunately common, particularly in the wake of high demand after seismic events or wildfires, and they create serious exposure for homeowners who unwittingly hire them. econstruct holds California GC License #964015 and has maintained active, unblemished licensure since the company was founded in 2011. You can verify our license status at any time through the CSLB's online lookup tool.
 
+
 ## Why econstruct Is the Right Choice for Your Los Angeles Home
+
 
 Founded in West Los Angeles in 2011, econstruct has spent over a decade building and renovating homes across some of the city's most demanding neighborhoods — Beverly Hills, Brentwood, Malibu, and Pacific Palisades. Principal Frank Neimroozi leads a team with 51+ years of combined construction experience, and that depth shows in the results. From [custom home construction](/services/custom-homes) to [luxury modernization projects](/services/luxury-modernization), econstruct approaches every project with the same principles: thorough pre-construction planning, transparent communication, and an uncompromising commitment to quality. We also bring commercial-grade project management discipline — the kind we've developed through years of restaurant and retail tenant improvement work — into every residential scope. Whether your project is a full ground-up build or a targeted renovation, we encourage you to [start with a free consultation](/free-consultation) so we can understand your goals and outline a realistic path forward.

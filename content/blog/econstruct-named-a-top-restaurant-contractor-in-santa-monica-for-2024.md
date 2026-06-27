@@ -54,15 +54,18 @@ localAreas:
 
 At econstruct, we approach every restaurant project with our signature “Precision, Passion, Perfection” motto. We understand that a successful restaurant isn’t just about serving great food – it’s about crafting an immersive experience that keeps guests coming back.
 
-**800° Degrees Pizzeria**
+
+## 800° Degrees Pizzeria
 
 In the heart of Los Angeles, econstruct, with over 50 years of joint partner expertise, took on the ambitious task of transforming Chef Anthony Carron’s vision into reality. The collaboration resulted in the iconic 800° Degrees Pizzeria, a culinary haven in Hollywood known for its innovative wood-fired cuisine.
 
-**Hutchinson Cocktails & Grill**
+
+## Hutchinson Cocktails & Grill
 
 Hutchinson Cocktails & Grill, a vision brought to life in the heart of Los Angeles by Creekstone Partners, stands as a prime example of the expertise of restaurant contractors in Los Angeles. This upscale Indonesian Steakhouse & Bar, constructed by the renowned econstruct team, showcases the harmonious blend of modern design and old Hollywood charm.
 
-**Our Commitment to Santa Monica**
+
+## Our Commitment to Santa Monica
 
 Santa Monica’s vibrant culinary scene inspires us. We’re proud to be a part of this dynamic community and committed to helping local restaurants thrive through our expertise in:
 
@@ -74,17 +77,22 @@ Santa Monica’s vibrant culinary scene inspires us. We’re proud to be a part 
 
 This recognition wouldn’t be possible without our hardworking team, our incredible clients, and the support of the Santa Monica community. Thank you for trusting econstruct to bring your restaurant visions to life!
 
-**Ready to Transform Your Restaurant?**
+
+## Ready to Transform Your Restaurant?
 
 Whether you’re opening a new hot spot or revamping an existing space, econstruct is here to help. Contact us today to discuss your restaurant project.
 
+
 ## What This Recognition Means for Our Clients
+
 
 Being named among the best restaurant contractors in Santa Monica is not just a point of pride — it is a signal to prospective clients that our work consistently meets the high standards of one of the most competitive dining markets on the West Coast. Santa Monica’s restaurant scene is demanding: landlords expect precise tenant improvements, the City of Santa Monica and LA County both have active inspection and enforcement programs, and diners have exceptionally high expectations for finished quality. When an independent evaluation body recognizes econstruct in that environment, it reflects on our track record of delivering projects on time, within budget, and without compliance surprises.
 
 This recognition follows our earlier award as Best Restaurant Contractor in Glendale (2022), confirming that our performance holds up across the varied regulatory landscapes of Los Angeles County. Whether navigating Santa Monica’s coastal development requirements or Glendale’s building department, our team brings the same systematic approach: comprehensive permit drawings, coordinated MEP submissions, proactive communication with city and health inspectors, and a construction phase managed by experienced supervisors who have seen every type of problem before. You can [view our commercial project portfolio](/projects) to see the breadth of concepts and neighborhoods we’ve successfully built in.
 
+
 ## Our Approach to Restaurant Construction in Los Angeles
+
 
 econstruct (CA GC License #964015) was founded in 2011 and is based in West LA. Principal Frank Neimroozi leads a team with 51-plus years of combined restaurant and commercial construction experience. Our design-build model means we handle everything from initial space planning and permit drawings through the final certificate of occupancy, giving clients a single point of contact rather than a fragmented team of separate architects, consultants, and builders.
 

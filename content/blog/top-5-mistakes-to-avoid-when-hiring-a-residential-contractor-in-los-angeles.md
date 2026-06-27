@@ -59,25 +59,25 @@ Don't rush into hiring the first contractor who returns your call. Take the time
 
 - The econstruct Difference: We encourage potential clients to explore our extensive portfolio of successful projects, read testimonials from satisfied homeowners, and verify our credentials and licenses.
 
-**Mistake #2: Prioritizing Price Over Value**
+## Mistake #2: Prioritizing Price Over Value
 
 The lowest bid most often isn't the best deal. A suspiciously low estimate could mean cutting corners on materials or labor, or worst yet, leaving important components off the bid, leading to costly change orders down the line that could've easily been avoided.
 
 - The econstruct Difference: We provide transparent, meticulously detailed estimates that outline all costs upfront. Furthermore, we believe in delivering exceptional value through quality craftsmanship and materials, ensuring your investment stands the test of time.
 
-**Mistake #3: Overlooking the Importance of Communication**
+## Mistake #3: Overlooking the Importance of Communication
 
 Clear and consistent communication is the cornerstone of a successful project. A contractor who's difficult to reach or vague about timelines can quickly turn your dream project into a nightmare.
 
 - The econstruct Difference: We pride ourselves on open, honest communication. We keep you informed at every stage, providing regular updates such as weekly conf. calls with stakeholders, weekly reporting project highlights with supporting pictures, and expeditiously addressing any concerns. Our goal is to make the process as stress-free as possible for you..
 
-**Mistake #4: Not Checking References and Reviews**
+## Mistake #4: Not Checking References and Reviews
 
 Don't rely solely on a contractor's website or marketing materials. Dig deeper by checking online reviews and asking for references from past clients.
 
 - The econstruct Difference: We're happy to provide references and encourage you to read our client testimonials. We're confident that our past work speaks for itself.
 
-**Mistake #5: Failing to Get Everything in Writing**
+## Mistake #5: Failing to Get Everything in Writing
 
 A verbal agreement is not enough. Ensure you have a detailed contract that outlines the scope of work, payment schedule, timeline, project schedule, and any warranties or guarantees.
 
@@ -87,11 +87,11 @@ A verbal agreement is not enough. Ensure you have a detailed contract that outli
 
 Consider partnering with a design-build firm like econstruct. This turn-key approach streamlines the process by having the design and construction teams work together seamlessly. It can save you time, money, and headaches by ensuring your vision is translated into reality efficiently and effectively.
 
-**Your Dream Home Awaits**
+## Your Dream Home Awaits
 
 Building or renovating your home in Los Angeles should be an exciting experience, not a stressful one. By avoiding these common mistakes and partnering with a reputable residential contractor like econstruct, you can ensure your project is a success.
 
-**Call to Action:**
+## Call to Action
 
 Ready to start your home project? Contact econstruct today for a free consultation. Let's discuss your vision and how we can bring it to life with precision, passion, and perfection.
 

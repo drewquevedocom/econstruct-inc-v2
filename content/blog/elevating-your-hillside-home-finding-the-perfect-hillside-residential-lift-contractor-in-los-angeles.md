@@ -70,7 +70,8 @@ Hillside residential lifts are engineered systems designed to transport people o
 
 - Aesthetic Appeal: Modern lifts blend seamlessly with your home’s architecture and landscape design.
 
-**Choosing the Right Hillside Residential Lift Contractor in Los Angeles**
+
+## Choosing the Right Hillside Residential Lift Contractor in Los Angeles
 
 Finding the right contractor is crucial for a successful hillside lift project. Consider these factors:
 
@@ -82,7 +83,8 @@ Finding the right contractor is crucial for a successful hillside lift project. 
 
 - Communication: Open communication is key. Choose a contractor who listens attentively, explains the process clearly, and provides regular updates throughout the project.
 
-**A Real-World Example: Elevating a Luxury Modern Home in LA**
+
+## A Real-World Example: Elevating a Luxury Modern Home in LA
 
 Our recent project showcased the transformative power of a hillside residential lift. The client owned a luxurious modern home with breathtaking views, but the steep slope hindered access to the lower portion of the property.
 
@@ -98,26 +100,34 @@ Our recent project showcased the transformative power of a hillside residential 
 
 - Prioritize Safety: Ask your contractor about redundant safety systems and ensure they adhere to local codes.
 
-**Why Choose econstruct for Your Hillside Residential Lift Project?**
+
+## Why Choose econstruct for Your Hillside Residential Lift Project?
 
 At econstruct, we specialize in complex residential construction projects that demand precision, passion, and a commitment to perfection. We take pride in our ability to blend technical expertise with artful design, creating lift systems that not only enhance your property’s functionality but also add a touch of elegance.
 
 Our team will guide you through every step of the process, from initial consultation to final inspection. We’ll work closely with you to understand your needs, design a custom solution, and execute the project with meticulous attention to detail.
 
-**Ready to Elevate Your Hillside Home?**
+
+## Ready to Elevate Your Hillside Home?
 
 If you’re ready to unlock the full potential of your Los Angeles property, contact econstruct today. We’ll explore your options, answer your questions, and help you find the perfect hillside residential lift to enhance your lifestyle and add value to your home.
 
 To learn more about our comprehensive construction services for Los Angeles homeowners, visit our [project portfolio](/projects) or [contact us](/contact).
 
+
 ## Permitting a Hillside Residential Lift in Los Angeles
+
 
 Installing a hillside residential lift in Los Angeles is a permitted construction project, not a consumer product installation. LADBS requires a building permit for any hillside lift system, and the permit application must include engineered structural drawings, soils report data for the foundation work, and manufacturer specifications for the lift equipment itself. Cal/OSHA's [construction safety orders](https://www.dir.ca.gov/dosh/) also apply during installation, requiring that excavation, concrete work, and equipment rigging be conducted by properly supervised and qualified tradespeople. Depending on the slope and soil conditions, a geotechnical engineer's report may be required before permit submission. In hillside fire hazard areas — common in neighborhoods like Hollywood Hills, Laurel Canyon, and portions of Pacific Palisades — additional review by the LA Fire Department may apply. The permit process typically takes six to ten weeks for a straightforward hillside lift installation. Working with a licensed general contractor who has coordinated this permit type before dramatically smooths the process.
 
+
 ## Hillside Construction Costs and What Drives Them in LA
+
 
 Hillside construction in Los Angeles is consistently more expensive than flat-lot work, and hillside lift projects are no exception. Foundation work on steep slopes requires engineered concrete pads or piles that extend to bedrock, a process that is both labor-intensive and equipment-intensive. In some cases, excavation equipment cannot access the site by street and must be lifted or lowered by crane, adding significant cost. The lift equipment itself — whether a funicular-style system or a vertical residential elevator — ranges from $30,000 to $150,000+ depending on capacity, travel distance, and customization. Installation of the foundation, structural frame, power supply, and finished enclosure typically adds another $50,000 to $100,000+. When a hillside lift project is combined with improvements to the lower level — an ADU, a guest suite, a garage expansion, or an outdoor entertaining area — the total investment often makes strong financial sense by unlocking previously inaccessible square footage.
 
+
 ## Working With a Licensed LA Hillside Contractor
+
 
 econstruct has executed complex hillside residential projects across Los Angeles since 2011, including work in neighborhoods with challenging soils, steep grades, and stringent fire safety requirements. California GC License #964015 and over 51 years of combined team experience means we understand both the engineering realities and the permitting requirements of hillside construction. Principal Frank Neimroozi has overseen projects from the initial LADBS permit application through final inspection on sites that would challenge less experienced teams. Whether your hillside project involves a lift system, a structural expansion, or a complete hillside home build, [request a free consultation](/free-consultation) to discuss scope, budget, and timeline.

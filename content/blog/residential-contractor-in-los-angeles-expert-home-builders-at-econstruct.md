@@ -54,7 +54,9 @@ Embarking on a new home construction project in Los Angeles can be exhilarating 
 
 That’s exactly what econstruct’s latest infographic, “From Project Concept to Completion,” offers. We’ve distilled our decades of experience into a comprehensive, easy-to-understand visual guide that takes the mystery out of building your dream home in LA.
 
+
 ### Why an Infographic?
+
 
 Infographics are a powerful tool for communicating complex information in a simple, engaging way. They combine visuals, concise text, and data to make learning fun and memorable. With our infographic, you can:
 
@@ -66,7 +68,9 @@ Infographics are a powerful tool for communicating complex information in a simp
 
 - Make Informed Decisions: Feel confident in your choices as you move through the process.
 
+
 ### What You’ll Discover
+
 
 Our “From Project Concept to Completion” infographic covers the following key areas:
 
@@ -86,23 +90,31 @@ Our “From Project Concept to Completion” infographic covers the following ke
 
 - Final Walkthrough and Handover: Conduct a final walkthrough to ensure your complete satisfaction before receiving the keys to your dream project.
 
+
 ### Ready to Get Started?
+
 
 If you’re ready to embark on your new home construction journey in Los Angeles, we invite you to explore our infographic and discover how econstruct can make the process smooth, enjoyable, and rewarding.
 
 Your dream home is just a few clicks away. Contact econstruct today to schedule a consultation and turn your vision into reality!
 
+
 ## What the Process Actually Looks Like: Key Milestones Explained
+
 
 The journey from concept to completed home involves several distinct phases, each with its own timeline and decision points. The initial consultation and feasibility assessment typically take two to four weeks and culminate in a preliminary project budget and schedule. Design collaboration — working with architects and designers to develop drawings from schematic design through construction documents — can take two to six months depending on project complexity and how many design iterations are required. Permit submission and plan check review at LADBS adds another six to sixteen weeks, and corrections can extend that further.
 
 Construction itself varies widely by scope. A targeted kitchen and bathroom remodel in an existing home might take four to six months from permit approval. A full gut renovation or new custom home build in Los Angeles typically takes twelve to twenty-four months from groundbreaking through final inspection and certificate of occupancy. Material lead times — especially for custom millwork, imported tile, European plumbing fixtures, and high-specification windows — are one of the most common schedule risks and must be managed through early procurement. Your contractor should be placing orders for long-lead items during the design phase, not waiting until permits are issued.
 
+
 ## Why Choosing the Right Contractor Changes Everything
+
 
 Not all general contractors are equipped to manage the full complexity of a custom home build or major renovation in Los Angeles. The CSLB (California Contractors State License Board) issues a Class B general building license, but licensure alone doesn't guarantee experience with the specific demands of hillside construction, HPOZ districts, seismic retrofit requirements, or the high-finish residential market. Beyond credentials, the right contractor will have a track record of completed projects you can visit, references from homeowners willing to speak candidly, and a project management process that keeps you informed at every stage.
 
+
 ## How econstruct Guides You from Concept to Completion
+
 
 econstruct (CA License #964015, founded 2011) has been building and renovating homes across West Los Angeles since our founding. Principal Frank Neimroozi leads our residential team with over 51 years of combined project experience, delivering everything from full gut renovations and home additions to luxury modernizations and [fire rebuilds](/services/fire-rebuild). Our process is designed to take the complexity out of construction for the homeowner: we manage design coordination, permit submissions, subcontractor selection, inspections, and final punch list to a single point of accountability.
 
