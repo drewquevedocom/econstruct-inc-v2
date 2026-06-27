@@ -30,27 +30,27 @@ export const metadata: Metadata = generatePageMetadata({
 const milestones = [
   {
     year: "2001",
-    title: "Construction Roots in LA",
+    title: "Building in LA",
     description:
-      "Our leadership team begins building in Los Angeles, learning every corner of residential construction from the ground up.",
+      "Our partners begin building across Los Angeles — restaurants, retail, commercial tenant improvements, and residential work. The foundation of econstruct's field experience and trade network.",
   },
   {
     year: "2011",
     title: "econstruct Founded",
     description:
-      "econstruct is founded to bring a single, disciplined standard to high-end residential construction across Los Angeles.",
+      "econstruct is founded to bring a single, accountable standard to commercial and residential construction in Los Angeles — one team, one point of contact, from preconstruction through close-out.",
   },
   {
-    year: "2015",
-    title: "High-End Residential Focus",
+    year: "2018",
+    title: "Multi-Location Build-Outs",
     description:
-      "econstruct sharpens its Los Angeles focus around high-end residential remodels, custom homes, and disciplined project management.",
+      "econstruct establishes its reputation for multi-location commercial build-outs — delivering Jersey Mike's, 85°C Bakery, Joe & The Juice, and other national brands across Southern California.",
   },
   {
-    year: "2026",
-    title: "639 Combined Partner Projects",
+    year: "2024",
+    title: "Best Restaurant Contractor — Santa Monica",
     description:
-      "The 639 count reflects our partners' combined project history: primarily commercial work before 2011, with econstruct focused on residential construction since 2011.",
+      "Recognized as Best Restaurant Contractor in Santa Monica (2024) and Glendale (2022). 634 combined projects. Still building with the same standard Frank set on day one.",
   },
 ];
 
@@ -74,10 +74,10 @@ const credentials = [
 ];
 
 const stats = [
-  { value: "639", label: "Partner Projects", icon: HardHat },
+  { value: "634+", label: "Completed Projects", icon: HardHat },
   { value: "Since 2001", label: "Building in LA", icon: Clock },
-  { value: "$450-$800", label: "Per Sq Ft", icon: DollarSign },
-  { value: "3x", label: "Faster Permits", icon: FileCheck },
+  { value: "51 Years", label: "Combined Experience", icon: DollarSign },
+  { value: "CA #964015", label: "Licensed & Bonded", icon: FileCheck },
 ];
 
 export default function AboutPage() {
@@ -97,7 +97,7 @@ export default function AboutPage() {
 
       <PageHero
         title="About econstruct"
-        subtitle="Building in Los Angeles since 2001. Founded as econstruct in 2011. From fire rebuilds to luxury custom homes, we build with uncompromising quality."
+        subtitle="Building in Los Angeles since 2001. Restaurants, retail, offices, tenant improvements, and luxury homes — one team, one standard, from preconstruction through close-out."
         breadcrumbs={[{ label: "About" }]}
       />
 
@@ -134,11 +134,11 @@ export default function AboutPage() {
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed">
                   Frank&apos;s hands-on approach means he&apos;s personally
-                  involved in every project from pre-construction planning
-                  through final walkthrough. His deep relationships with the
-                  city&apos;s best subcontractors, architects, and inspectors
-                  ensure every econstruct project runs on time, on budget, and
-                  above expectations.
+                  involved in every project — from the first preconstruction
+                  meeting through final walkthrough. His deep relationships with
+                  Los Angeles&apos; top subcontractors, architects, health
+                  department officials, and permit expeditors keep every
+                  econstruct project on time, on budget, and above expectations.
                 </p>
                 <div className="flex flex-wrap gap-4 mt-2">
                   <Link
@@ -186,7 +186,7 @@ export default function AboutPage() {
                   Over the years, Frank assembled a vetted network of Los Angeles&apos; top architects, engineers, permit expeditors, subcontractors, and vendors — relationships built on mutual accountability and a shared standard of craft. This network is one of econstruct&apos;s most significant competitive advantages and cannot be replicated overnight.
                 </p>
                 <p>
-                  Today, with 639 combined partner projects and over two decades of hands-on field experience, econstruct is recognized as one of Los Angeles&apos; most trusted residential construction firms. Our mission has never changed: to build enduring homes of unmatched quality — and to do it with the honesty and discipline that our clients deserve.
+                  Today, with 634 completed projects and over two decades of hands-on field experience, econstruct is recognized as one of Los Angeles&apos; most trusted general contractors — for restaurants, retail, office TI, and luxury residential. Our mission has never changed: to deliver projects of unmatched quality with the honesty and discipline our clients deserve.
                 </p>
               </div>
 
@@ -226,7 +226,7 @@ export default function AboutPage() {
           <SectionHeader
             badge={["Our Journey"]}
             title="Building LA Since 2001"
-            subtitle="Key milestones that shaped econstruct into Los Angeles' premier residential contractor."
+            subtitle="Key milestones that shaped econstruct into one of Los Angeles' most trusted general contractors."
           />
 
           <div className="relative">

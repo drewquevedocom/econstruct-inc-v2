@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
-import { COMPANY } from "@/lib/constants";
+import { COMPANY, ECONSTRUCT_INC } from "@/lib/constants";
 import PageHero from "@/components/ui/PageHero";
 import Container from "@/components/ui/Container";
 import AnimatedSection from "@/components/ui/AnimatedSection";
@@ -26,21 +26,21 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Phone",
-    value: COMPANY.phone.display,
-    href: `tel:${COMPANY.phone.primary}`,
+    value: ECONSTRUCT_INC.phone.primary,
+    href: `tel:${ECONSTRUCT_INC.phone.primaryHref}`,
   },
   {
     icon: Mail,
     label: "Email",
-    value: COMPANY.email,
-    href: `mailto:${COMPANY.email}`,
+    value: ECONSTRUCT_INC.email,
+    href: `mailto:${ECONSTRUCT_INC.email}`,
   },
   {
     icon: MapPin,
     label: "Office",
-    value: `${COMPANY.address.street}, ${COMPANY.address.suite}`,
-    secondary: `${COMPANY.address.city}, ${COMPANY.address.state} ${COMPANY.address.zip}`,
-    href: `https://maps.google.com/?q=${encodeURIComponent(COMPANY.address.full)}`,
+    value: `${ECONSTRUCT_INC.address.line}`,
+    secondary: `${ECONSTRUCT_INC.address.city}, ${ECONSTRUCT_INC.address.state} ${ECONSTRUCT_INC.address.zip}`,
+    href: `https://maps.google.com/?q=${encodeURIComponent(ECONSTRUCT_INC.address.full)}`,
   },
 ];
 

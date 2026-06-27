@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     description:
       "econstruct's project portfolio spans restaurants, bars, retail stores, and multi-location commercial build-outs across Los Angeles.",
     url: `${SITE_URL}/projects`,
-    images: [{ url: "/projects/Hals_pv_12-scaled.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/projects/hutchinson11.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Commercial Construction Projects | econstruct LA",
     description: "Restaurant, retail, and commercial build-outs by econstruct across Los Angeles.",
-    images: ["/projects/Hals_pv_12-scaled.jpg"],
+    images: ["/projects/hutchinson11.jpg"],
   },
 };
 
@@ -85,7 +85,7 @@ export default function ProjectsPage() {
         breadcrumbs={[{ label: "Projects" }]}
         backgroundImage={featuredProject.heroImage}
         stats={[
-          { value: "19+", label: "Completed Projects" },
+          { value: "634+", label: "Projects Completed" },
           { value: "3", label: "Project Sectors" },
           { value: "CA #964015", label: "Licensed GC" },
         ]}

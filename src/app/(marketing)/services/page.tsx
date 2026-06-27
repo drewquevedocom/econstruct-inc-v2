@@ -44,8 +44,8 @@ export default function ServicesPage() {
       />
 
       <PageHero
-        title="Los Angeles Construction Services - From Luxury Homes to Fire Rebuilds"
-        subtitle="Full-service general contractor for Los Angeles' most demanding projects."
+        title="Los Angeles Construction Services"
+        subtitle="Commercial and residential construction across Los Angeles — restaurants, retail, office TI, custom homes, ADUs, and fire rebuilds. One team, one standard."
         breadcrumbs={[{ label: "Services" }]}
       />
 
@@ -53,11 +53,12 @@ export default function ServicesPage() {
         <Container>
           <div className="mx-auto max-w-4xl text-center">
             <p className="text-lg leading-relaxed text-body-text">
-              econstruct operates across the full lifecycle of premium Los
-              Angeles construction, from luxury home building and fire rebuilds
-              to additions and other custom residential work. Each service is
-              managed with the same priorities: clear leadership, disciplined
-              preconstruction, strong field execution, and direct communication.
+              econstruct operates across the full lifecycle of commercial and
+              residential construction in Los Angeles — restaurants, retail,
+              office tenant improvements, food facilities, custom homes, ADUs,
+              and fire rebuilds. Every project is managed with the same
+              priorities: clear leadership, disciplined preconstruction, strong
+              field execution, and direct communication.
             </p>
           </div>
 
