@@ -63,22 +63,6 @@ Portfolio of Success:
 
 Our diverse portfolio showcases our capability to deliver quality work across various office spaces. **econstruct's** projects highlight our versatility, attention to detail, and commitment to quality, demonstrating why we're the preferred contractor for  office space renovation/remodel and tenant improvements across Los Angeles.
 
-OUR WORK: 85°C distribution center |  Buena Park, CA.
-
-				85°C Distribution Center Office – Conference Room
-
-				85°C Distribution Center Office – Hallways
-
-				85°C Distribution Center Office – Rom With Window Room
-
-				85°C Distribution Center Office – Hallway
-
-				85°C Distribution Center Office – Offices
-
-Client Testimonials:
-
-The positive feedback from our clients reflects our reliability, excellent & fluid communication methodology, and ability to deliver projects on time and within pre-determined budget. econstruct is celebrated for its collaborative approach and innovative solutions to complex renovation challenges.
-
 Comprehensive Services:
 
 At **econstruct**, we offer a full spectrum of renovation services, from initial design consultation to the final reveal. Our integrated approach simplifies the renovation process, allowing you to focus on your business while we handle the complexities of your office transformation.
