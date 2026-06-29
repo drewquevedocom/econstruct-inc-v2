@@ -90,9 +90,14 @@ export const projects: Project[] = [
     neighborhood: "Hollywood",
     description:
       "Collaboration with acclaimed chef Anthony Carron to construct an innovative woodfired restaurant featuring dual wood-burning ovens, charcoal grill, and rotisserie. Custom Douglas fir accents, reclaimed whiskey barrel oak counters and bar tops, and a state-of-the-art ventilation hood system throughout.",
-    heroImage: "/projects/Untitled-design-18-1-600x600.png",
+    heroImage: "/projects/800degrees_1.webp",
     images: [
-      "/projects/Untitled-design-18-1-600x600.png",
+      "/projects/800degrees_1.webp",
+      "/projects/800degrees_2.webp",
+      "/projects/800degrees_3.webp",
+      "/projects/800degrees_4.webp",
+      "/projects/800degrees_5.webp",
+      "/projects/800degrees_6.webp",
     ],
     specs: { scope: "New Build-Out" },
   },
