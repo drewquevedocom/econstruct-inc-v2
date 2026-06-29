@@ -20,7 +20,7 @@ export const homeServices: HomeService[] = [
       "Full hospitality build-outs — kitchens, hoods, bars and MEP — coordinated to hit your opening day.",
     image: "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/hutchinson11.jpg",
     icon: "UtensilsCrossed",
-    href: "/projects",
+    href: "/services/restaurant-bar-construction",
   },
   {
     title: "Retail Fit-Out",
@@ -28,7 +28,7 @@ export const homeServices: HomeService[] = [
       "Storefronts, custom millwork and brand-perfect finishes delivered on tight launch schedules.",
     image: "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
     icon: "ShoppingBag",
-    href: "/free-consultation",
+    href: "/services/retail-tenant-improvement",
   },
   {
     title: "Office & Tenant Improvement",
@@ -36,7 +36,7 @@ export const homeServices: HomeService[] = [
       "Office, creative and workplace TI with permit support, MEP coordination and clean turnover.",
     image: "/Photorealistic_cinematic_interior_202604121940.png",
     icon: "Building2",
-    href: "/contact",
+    href: "/services/office-tenant-improvement",
   },
   {
     title: "Food Distribution & Cold Storage",

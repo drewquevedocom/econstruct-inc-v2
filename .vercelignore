@@ -3,3 +3,9 @@ public/hero_vid.mp4
 
 # Local dev artifacts
 dev-server.log
+
+# Generated build/dependency artifacts
+.next
+.open-next
+.wrangler
+node_modules

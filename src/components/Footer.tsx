@@ -25,9 +25,10 @@ const EXPLORE = [
 ];
 
 const SERVICES = [
-  { label: "Restaurant & Bar Construction", href: "/projects" },
-  { label: "Retail Fit-Out", href: "/free-consultation" },
-  { label: "Office & Tenant Improvement", href: "/contact" },
+  { label: "Restaurant & Bar Construction", href: "/services/restaurant-bar-construction" },
+  { label: "Retail Fit-Out", href: "/services/retail-tenant-improvement" },
+  { label: "Office & Tenant Improvement", href: "/services/office-tenant-improvement" },
+  { label: "Food Distribution & Cold Storage", href: "/food-distribution-construction" },
   { label: "Custom Homes & ADUs", href: "/services/custom-homes" },
   { label: "Architecture & Expediting", href: "/for-architects" },
 ];
