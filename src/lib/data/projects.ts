@@ -279,7 +279,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "85°C Bakery Cafe",
+    title: "85°C Bakery Cafe & Warehouse",
     slug: "85c-bakery-cafe",
     category: "commercial",
     neighborhood: "Buena Park & Multiple Los Angeles Locations",
