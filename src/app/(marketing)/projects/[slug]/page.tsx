@@ -2,19 +2,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft, ArrowRight, MapPin, Layers, Ruler, Clock, Phone } from "lucide-react";
 import { generatePageMetadata } from "@/lib/metadata";
 import { generateBreadcrumbSchema } from "@/lib/schema";
-import { SITE_URL } from "@/lib/constants";
+import { ECONSTRUCT_INC, SITE_URL } from "@/lib/constants";
 import { getProjectBySlug, projects } from "@/lib/data/projects";
-import PageHero from "@/components/ui/PageHero";
 import Container from "@/components/ui/Container";
-import SectionHeader from "@/components/ui/SectionHeader";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import ConsultationCTA from "@/components/ConsultationCTA";
 
 const categoryLabels = {
   residential: "Residential",
-  restaurant: "Restaurant",
+  restaurant: "Restaurant & Bar",
   retail: "Retail",
   commercial: "Commercial",
 } as const;
@@ -39,10 +38,15 @@ export async function generateMetadata({
 
   return generatePageMetadata({
     title: `${project.title} | econstruct Project`,
-    description: project.description,
+    description: project.tagline,
     path: `/projects/${project.slug}`,
     image: project.heroImage,
   });
+}
+
+function getYouTubeId(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&?]+)/);
+  return match ? match[1] : null;
 }
 
 export default async function ProjectPage({
@@ -73,14 +77,17 @@ export default async function ProjectPage({
     { name: project.title, url: `${SITE_URL}/projects/${project.slug}` },
   ]);
 
-  const statCards = [
-    ["Category", categoryLabels[project.category]],
-    ["Neighborhood", project.neighborhood],
-    ...(project.specs.scope ? [["Scope", project.specs.scope]] : []),
-    ...(project.specs.sqft ? [["Size", `${project.specs.sqft} sq ft`]] : []),
-    ...(project.specs.timeline ? [["Timeline", project.specs.timeline]] : []),
-    ...(project.specs.value ? [["Value", project.specs.value]] : []),
+  const specCards = [
+    { label: "Category", value: categoryLabels[project.category], icon: Layers },
+    { label: "Neighborhood", value: project.neighborhood, icon: MapPin },
+    ...(project.specs.scope ? [{ label: "Scope", value: project.specs.scope, icon: Ruler }] : []),
+    ...(project.specs.sqft ? [{ label: "Size", value: `${project.specs.sqft} sq ft`, icon: Ruler }] : []),
+    ...(project.specs.timeline ? [{ label: "Timeline", value: project.specs.timeline, icon: Clock }] : []),
+    ...(project.specs.value ? [{ label: "Value", value: project.specs.value, icon: Ruler }] : []),
   ];
+
+  const otherProjects = projects.filter((p) => p.slug !== project.slug).slice(0, 3);
+  const youtubeId = project.video ? getYouTubeId(project.video) : null;
 
   return (
     <>
@@ -89,35 +96,56 @@ export default async function ProjectPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, projectSchema]) }}
       />
 
-      <PageHero
-        title={project.title}
-        subtitle={project.description}
-        breadcrumbs={[
-          { label: "Projects", href: "/projects" },
-          { label: project.title },
-        ]}
-        backgroundImage={project.heroImage}
-      />
+      {/* Hero */}
+      <section className="relative flex min-h-[58vh] items-end overflow-hidden bg-brand-ink pt-36 pb-14">
+        <img
+          src={project.heroImage}
+          alt={project.title}
+          className="absolute inset-0 h-full w-full object-cover opacity-40"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-ink via-brand-ink/70 to-brand-ink/40" />
+        <div className="brand-grid absolute inset-0 opacity-20" />
+        <div className="relative mx-auto w-full max-w-[1500px] px-6 md:px-10">
+          <Link
+            href="/projects"
+            className="mb-6 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-white/55 transition-colors hover:text-brand-gold"
+          >
+            <ArrowLeft size={14} />
+            All Projects
+          </Link>
+          <span className="inline-block rounded-full bg-brand-red px-3 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-white">
+            {categoryLabels[project.category]}
+          </span>
+          <h1
+            className="mt-5 font-display text-4xl font-extrabold leading-[1.04] tracking-tight text-white md:text-[3.4rem]"
+            style={{ color: "#ffffff" }}
+          >
+            {project.title}
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg text-white/75">{project.tagline}</p>
+          <p className="mt-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.16em] text-brand-gold">
+            <MapPin size={14} />
+            {project.neighborhood}
+          </p>
+        </div>
+      </section>
 
-      <section className="py-20 md:py-28">
+      {/* Spec cards */}
+      <section className="bg-white py-14 md:py-16">
         <Container>
-          <SectionHeader
-            badge={["Project", "Snapshot"]}
-            title="Verified Project Details"
-            subtitle="This page is built from the migrated legacy portfolio entry and its associated project imagery."
-            centered={false}
-            className="mb-12"
-          />
-          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
-            {statCards.map(([label, value], index) => (
-              <AnimatedSection key={label} delay={index * 0.05}>
-                <div className="h-full rounded-3xl border border-gray-100 bg-white p-8 shadow-sm transition-transform duration-300 hover:-translate-y-1">
-                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent-gold">
-                    {label}
-                  </p>
-                  <p className="mt-4 text-lg font-bold text-brand-dark">
-                    {value}
-                  </p>
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            {specCards.map((card, index) => (
+              <AnimatedSection key={card.label} delay={index * 0.05}>
+                <div className="flex items-center gap-4 rounded-2xl border border-black/8 bg-white p-6 shadow-sm">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-red/10 text-brand-red">
+                    <card.icon size={20} />
+                  </span>
+                  <div>
+                    <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-brand-red">
+                      {card.label}
+                    </p>
+                    <p className="mt-1 text-base font-bold text-brand-ink">{card.value}</p>
+                  </div>
                 </div>
               </AnimatedSection>
             ))}
@@ -125,29 +153,29 @@ export default async function ProjectPage({
         </Container>
       </section>
 
-      <section className="bg-secondary py-20 md:py-28">
+      {/* Overview + testimonial */}
+      <section className="bg-secondary py-16 md:py-24">
         <Container>
           <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
             <AnimatedSection>
-              <div className="rounded-[2rem] border border-black/8 bg-white p-8 shadow-sm md:p-10">
-                <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
-                  Overview
-                </p>
-                <h2 className="mt-4 text-3xl font-bold tracking-tight text-brand-dark md:text-4xl">
-                  Legacy Portfolio Summary
+              <div className="rounded-3xl border border-black/8 bg-white p-8 shadow-sm md:p-10">
+                <div className="mb-4 flex items-center gap-3">
+                  <span className="h-px w-9 bg-brand-red" />
+                  <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">Overview</span>
+                </div>
+                <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">
+                  The Project
                 </h2>
-                <p className="mt-6 leading-relaxed text-body-text">
-                  {project.description}
-                </p>
+                <p className="mt-5 leading-relaxed text-body-text">{project.description}</p>
                 {project.testimonial && (
-                  <div className="mt-8 rounded-2xl bg-[#f8f6f2] p-6">
-                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-accent-gold">
+                  <div className="mt-8 rounded-2xl bg-secondary p-6">
+                    <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-red">
                       Client Perspective
                     </p>
-                    <p className="mt-4 text-lg leading-relaxed text-body-text">
+                    <p className="mt-3 text-lg leading-relaxed text-brand-ink">
                       &ldquo;{project.testimonial.quote}&rdquo;
                     </p>
-                    <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-brand-dark">
+                    <p className="mt-4 text-xs font-bold uppercase tracking-[0.18em] text-body-text">
                       {project.testimonial.name}
                     </p>
                   </div>
@@ -156,36 +184,32 @@ export default async function ProjectPage({
             </AnimatedSection>
 
             <AnimatedSection delay={0.1}>
-              <div className="rounded-[2rem] bg-brand-dark p-8 text-white shadow-[0_24px_70px_rgba(0,0,0,0.18)] md:p-10">
-                <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
-                  Available Media
-                </p>
-                <h2 className="mt-4 text-3xl font-bold tracking-tight text-white md:text-4xl">
-                  {project.images.length} Project Image{project.images.length === 1 ? "" : "s"}
+              <div className="rounded-3xl bg-brand-ink p-8 text-white shadow-[0_24px_70px_rgba(0,0,0,0.18)] md:p-10">
+                <div className="mb-4 flex items-center gap-3">
+                  <span className="h-px w-9 bg-brand-red" />
+                  <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Ready to Start?</span>
+                </div>
+                <h2 className="font-display text-2xl font-extrabold text-white md:text-3xl" style={{ color: "#ffffff" }}>
+                  Let&apos;s talk about your project
                 </h2>
-                <ul className="mt-8 space-y-4 text-white/80">
-                  <li className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-accent-gold" />
-                    <span>Original neighborhood: {project.neighborhood}</span>
-                  </li>
-                  <li className="flex gap-3">
-                    <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-accent-gold" />
-                    <span>Construction category: {categoryLabels[project.category]}</span>
-                  </li>
-                  {project.specs.scope && (
-                    <li className="flex gap-3">
-                      <span className="mt-2 h-2 w-2 flex-shrink-0 rounded-full bg-accent-gold" />
-                      <span>Primary scope: {project.specs.scope}</span>
-                    </li>
-                  )}
-                </ul>
-                <div className="mt-10 flex flex-wrap gap-4">
+                <p className="mt-4 text-white/70">
+                  Tell us what you&apos;re building. We&apos;ll bring the same discipline to your project that you see here.
+                </p>
+                <div className="mt-8 flex flex-col gap-3">
                   <Link
-                    href="/projects"
-                    className="rounded-full bg-white px-5 py-3 text-sm font-bold text-brand-dark transition-colors hover:bg-accent-gold"
+                    href="/free-consultation"
+                    className="inline-flex items-center justify-center gap-2 rounded-sm bg-brand-red px-6 py-3.5 text-sm font-bold uppercase tracking-[0.08em] text-white transition-all hover:bg-brand-red-dark"
                   >
-                    Back to Projects
+                    Get a Free Quote
+                    <ArrowRight size={16} />
                   </Link>
+                  <a
+                    href={`tel:${ECONSTRUCT_INC.phone.primaryHref}`}
+                    className="inline-flex items-center justify-center gap-2 rounded-sm border border-white/25 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.08em] text-white transition-all hover:bg-white/10"
+                  >
+                    <Phone size={15} />
+                    {ECONSTRUCT_INC.phone.primary}
+                  </a>
                 </div>
               </div>
             </AnimatedSection>
@@ -193,29 +217,103 @@ export default async function ProjectPage({
         </Container>
       </section>
 
-      <section className="bg-[#F8F6F2] py-24 md:py-32">
+      {/* Video */}
+      {youtubeId && (
+        <section className="bg-brand-navy py-16 md:py-24">
+          <Container>
+            <AnimatedSection>
+              <div className="mb-8 text-center">
+                <div className="mb-3 flex items-center justify-center gap-3">
+                  <span className="h-px w-9 bg-brand-red" />
+                  <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Project Video</span>
+                  <span className="h-px w-9 bg-brand-red" />
+                </div>
+                <h2 className="font-display text-2xl font-extrabold text-white md:text-3xl" style={{ color: "#ffffff" }}>
+                  See it in motion
+                </h2>
+              </div>
+              <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-2xl">
+                <div className="aspect-video">
+                  <iframe
+                    src={`https://www.youtube.com/embed/${youtubeId}`}
+                    title={`${project.title} project video`}
+                    className="h-full w-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </AnimatedSection>
+          </Container>
+        </section>
+      )}
+
+      {/* Gallery */}
+      <section className="bg-white py-20 md:py-28">
         <Container>
-          <SectionHeader
-            badge={["Gallery", "Images"]}
-            title="Migrated Project Gallery"
-            subtitle="These images are carried over from the legacy portfolio entry and rendered in the new layout."
-            centered={false}
-            className="mb-12"
-          />
-          <div className="grid gap-8 lg:grid-cols-3">
+          <AnimatedSection>
+            <div className="mb-12 text-center">
+              <div className="mb-3 flex items-center justify-center gap-3">
+                <span className="h-px w-9 bg-brand-red" />
+                <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">Gallery</span>
+                <span className="h-px w-9 bg-brand-red" />
+              </div>
+              <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">
+                {project.images.length} Project Photo{project.images.length === 1 ? "" : "s"}
+              </h2>
+            </div>
+          </AnimatedSection>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {project.images.map((image, index) => (
-              <AnimatedSection key={`${project.slug}-${index}`} delay={index * 0.06}>
-                <div className="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
+              <AnimatedSection key={`${project.slug}-${index}`} delay={index * 0.04}>
+                <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
                   <div className="relative aspect-[4/3]">
                     <img
                       src={image}
-                      alt={`${project.title} image ${index + 1}`}
+                      alt={`${project.title} photo ${index + 1}`}
                       className="h-full w-full object-cover"
                       loading={index === 0 ? "eager" : "lazy"}
                       decoding="async"
                     />
                   </div>
                 </div>
+              </AnimatedSection>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      {/* Other projects */}
+      <section className="bg-secondary py-16 md:py-20">
+        <Container>
+          <AnimatedSection>
+            <div className="mb-8 flex items-center gap-3">
+              <span className="h-px w-9 bg-brand-red" />
+              <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">More Projects</span>
+            </div>
+          </AnimatedSection>
+          <div className="grid gap-6 sm:grid-cols-3">
+            {otherProjects.map((p, i) => (
+              <AnimatedSection key={p.slug} delay={i * 0.08}>
+                <Link
+                  href={`/projects/${p.slug}`}
+                  className="group block overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src={p.heroImage}
+                      alt={p.title}
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
+                    <div className="absolute bottom-4 left-4">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-brand-gold">
+                        {p.neighborhood}
+                      </p>
+                      <h3 className="font-display text-lg font-bold text-white">{p.title}</h3>
+                    </div>
+                  </div>
+                </Link>
               </AnimatedSection>
             ))}
           </div>
