@@ -206,7 +206,6 @@ export const projects: Project[] = [
       "/projects/Untitled-design-89.webp",
       "/projects/Untitled-design-90.webp",
       "/projects/Untitled-design-91.webp",
-      "/projects/Untitled-design-18.webp",
     ],
     specs: { scope: "Retail Build-Out" },
     featured: true,
@@ -233,6 +232,7 @@ export const projects: Project[] = [
       "/projects/18-web-or-mls-APR00049.webp",
       "/projects/20-web-or-mls-APR00055.webp",
     ],
+    video: "https://www.youtube.com/watch?v=LG9jy5Nt-So",
     specs: { scope: "Retail Build-Out" },
   },
   {
@@ -379,7 +379,6 @@ export const projects: Project[] = [
     heroImage: "/projects/devista-hero.jpg",
     images: [
       "/projects/devista-hero.jpg",
-      "/projects/devista-2.jpg",
       "/projects/Devista_1-scaled.webp",
       "/projects/Devista_2-scaled.webp",
       "/projects/Devista_3-scaled.webp",
@@ -431,6 +430,7 @@ export const projects: Project[] = [
       "/projects/Saddlebow6.webp",
       "/projects/Saddlebow9.webp",
     ],
+    video: "https://www.youtube.com/watch?v=mzZI4WeI2pA",
     specs: { scope: "Hillside Lift Installation" },
   },
   {
@@ -470,9 +470,18 @@ export const projects: Project[] = [
     tagline: "A 1970s hillside home opened up to its panoramic views.",
     description:
       "A 1970s home on Mulholland Drive underwent a comprehensive remodel to modernize the space and enhance its connection to panoramic hillside views. Open-concept design achieved through partition removal, expansive glass walls, wide plank flooring, and coastal-inspired tile — plus a redesigned open kitchen with quartz island, spa-like master suite, resurfaced pool and deck, and an outdoor barbecue kitchen.",
-    heroImage: "/projects/mulholland-hero.jpg",
+    heroImage: "/projects/Tan_estate_with_tiled_roof_202606192224.jpeg",
     images: [
-      "/projects/mulholland-hero.jpg",
+      "/projects/Tan_estate_with_tiled_roof_202606192224.jpeg",
+      "/projects/Tan_mansion_with_glowing_lights_202606192224.jpeg",
+      "/projects/Interior_view_grand_foyer_estate_202606192224.jpeg",
+      "/projects/Great_room_with_glass_windows_202606192224.jpeg",
+      "/projects/Chef's_kitchen_Mediterranean_sty…_202606192224.jpeg",
+      "/projects/Primary_bedroom_suite_mansion_wi…_202606192224.jpeg",
+      "/projects/Spa_bathroom_with_marble_surfaces_202606192224.jpeg",
+      "/projects/Arched_entrance_double_wooden_doors_202606192224.jpeg",
+      "/projects/Backyard_infinity_pool_reflectin…_202606192224.jpeg",
+      "/projects/Backyard_stone_patio_outdoor_fur…_202606192224.jpeg",
     ],
     specs: { scope: "Full Remodel" },
   },
