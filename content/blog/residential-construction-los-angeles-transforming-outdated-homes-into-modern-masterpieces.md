@@ -51,7 +51,7 @@ localAreas:
 
 Los Angeles is a city of dreams, where classic architecture meets modern innovation. But even the most charming homes can feel outdated or cramped over time. If your home is no longer serving your lifestyle, it might be time for a transformation. That’s where econstruct, a leading residential construction company in Los Angeles, steps in. We specialize in revitalizing homes, blending modern design with functionality to create spaces that truly reflect your unique needs and aspirations.
 
-**![](/blog/residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces-01.png)The [Devista Project: A Case Study](https://econstructinc.com/luxury-home-builders-los-angeles-hollywood-hills-remodel-case-study/) in Transformation**
+**The [Devista Project: A Case Study](https://econstructinc.com/luxury-home-builders-los-angeles-hollywood-hills-remodel-case-study/) in Transformation**
 
 Nestled in the Hollywood Hills, the Devista Project was a 3,000 sq ft 1980s contemporary home yearning for a refresh. The overseas homeowners sought econstruct’s expertise to completely reimagine their space, creating a haven for modern family living.
 
@@ -76,7 +76,7 @@ Nestled in the Hollywood Hills, the Devista Project was a 3,000 sq ft 1980s cont
 
 The homeowners now enjoy a revitalized home that perfectly suits their modern lifestyle. High-end finishes, custom built-ins, and designer touches add a layer of sophistication. econstruct’s technical expertise and thoughtful design delivered a stunning remodel that exceeded expectations, all within an impressively short timeframe.
 
-**![](/blog/residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces-02.png)Why Choose econstruct for Your Los Angeles Home Transformation?**
+**Why Choose econstruct for Your Los Angeles Home Transformation?**
 
 At econstruct, we understand that your home is more than just a building; it’s a reflection of your life and aspirations. We bring our passion for precision and perfection to every project, ensuring your home is not only beautiful but also functional, comfortable, and built to last.
 

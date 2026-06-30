@@ -56,7 +56,7 @@ The blueprints of your Los Angeles home are more than just interesting historica
 
 At [econstruct](https://econstructinc.com/), we understand the importance of blueprints in the renovation and construction process. We’ve seen firsthand how they can save time, money, and headaches for homeowners in Los Angeles.
 
-**![](/blog/blueprint-for-success-why-you-need-the-right-residential-contractors-in-los-angeles-for-your-home-renovation-01.png)Why You Need Blueprints for Your Los Angeles Home**
+**Why You Need Blueprints for Your Los Angeles Home**
 
 - Renovations and Additions: Blueprints provide a detailed look at your home’s structure, including walls, plumbing, electrical wiring, and more. This information is essential for planning renovations or additions, ensuring that your project is safe, compliant with building codes, and doesn’t compromise any existing structures.
 
@@ -80,7 +80,7 @@ At [econstruct](https://econstructinc.com/), we understand the importance of blu
 
 - Pay for New Blueprints: If all else fails, you can hire an architect or engineer to create new blueprints by measuring your home. This is a costly option, but it may be necessary if you can’t find the originals.
 
-**![](/blog/blueprint-for-success-why-you-need-the-right-residential-contractors-in-los-angeles-for-your-home-renovation-02.png)The [econstruct Advantage](https://econstructinc.com/about-us/): Your Partner in Home Renovations**
+**The [econstruct Advantage](https://econstructinc.com/about-us/): Your Partner in Home Renovations**
 
 At econstruct, we understand that obtaining blueprints is just the first step in your home renovation journey. Our team can help you with every aspect of your project, from design and planning to construction and completion.
 

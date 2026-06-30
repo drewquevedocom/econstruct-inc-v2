@@ -60,7 +60,7 @@ Have you ever looked at your Los Angeles property and wondered, “Can I build a
 
 But as any Angeleno knows, navigating Los Angeles Building and Safety regulations can feel like a maze. Don’t worry – we’re here to guide you through the ADU permit process, making it as smooth and stress-free as possible.
 
-**![](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels-01.jpg)What Is an ADU?**
+**What Is an ADU?**
 
 Before we dive into permits, let’s clarify what exactly is an ADU. It’s a secondary structure unit on your property, either attached to your main house or detached. They come in various forms:
 
@@ -88,7 +88,7 @@ At econstruct, we specialize in ADU construction and permitting. Our team of exp
 
 - Ongoing Guidance: We keep you informed about the permit’s progress and address any concerns or questions you may have.
 
-**![](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels-02.png)What Does the ADU Permit Process Look Like in Los Angeles?**
+**What Does the ADU Permit Process Look Like in Los Angeles?**
 
 While econstruct handles the details, it’s helpful to understand the key steps:
 
@@ -121,7 +121,7 @@ Several factors can influence the timeline for obtaining an ADU permit:
 
 - Utility Easements: Any utility lines running through your property will need to be addressed in your plans. This might require rerouting utilities or obtaining special permissions from utility companies.
 
-**![](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels-03.jpg)Cost Considerations for ADUs in Los Angeles**
+**Cost Considerations for ADUs in Los Angeles**
 
 Building an ADU is a significant investment. Here are some key cost factors:
 
@@ -148,7 +148,7 @@ Financing an ADU can be daunting, but there are several options available:
 
 - Government Programs: Some local and state programs offer incentives or grants for ADU construction. Researching these opportunities can provide additional financial support.
 
-**![](/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels-04.png)Designing Your ADU with econstruct**
+**Designing Your ADU with econstruct**
 
 The design phase is crucial in creating an ADU that meets your needs and complies with regulations. Here’s how econstruct ensures a successful design process:
 

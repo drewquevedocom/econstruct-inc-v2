@@ -52,7 +52,7 @@ localAreas:
   - "Los Angeles"
 ---
 
-![Residential Construction Services in Los Angeles](/blog/luxury-home-builders-in-los-angeles-where-dreams-meet-reality-01.png)Devista Hollywood Hills Project
+Devista Hollywood Hills Project
 
 Are you dreaming of a home that reflects your unique style and elevates your daily life? Building a custom luxury home is a journey towards creating the ultimate expression. At **econstruct**, we turn those dreams into tangible, extraordinary spaces. Our "Precision, Passion, Perfection" approach delivers excellence at every stage, ensuring a seamless and rewarding experience for every client.
 

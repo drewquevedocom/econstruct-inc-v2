@@ -69,9 +69,6 @@ Conduct meticulous research to identify reputable food service architects in Los
 
 Ensuring your architect holds the requisite licenses and accreditations becomes paramount. In California, architects must be licensed by the California Architects Board (CAB). Evaluate their years of practice, specific experience in food service design, and profound knowledge of local building codes and regulations. Prior experience in navigating through complexities such as ADA compliance and Health Department regulations stands as a testament to their proficiency.
 
-![](/blog/hire-a-top-notch-restaurant-architect-in-los-angeles-the-ultimate-guide-01.webp)
-
-
 ## Step 4: Assess Client Feedback and References
 
 Feedback from previous clients becomes a window into an architect’s professionalism and capabilities. Testimonials and references offer valuable insights into their ability to meet deadlines, communicate effectively, and deliver impeccable results.

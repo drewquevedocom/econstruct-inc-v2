@@ -59,7 +59,7 @@ At econstruct, We understand that the [kitchen](https://en.wikipedia.org/wiki/Ki
 
 Embarking on a new restaurant venture or revamping an existing one in Los Angeles? The approach remains consistent. Designing your kitchen demands careful consideration. In our newest feature, "Crafting Efficient Restaurant Kitchens," we delve into how you can design your kitchen to maximize efficiency and drive your restaurant's success in Los Angeles.
 
-**![](/blog/restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction-01.png)Essential Equipment for Peak Performance**
+**Essential Equipment for Peak Performance**
 
 A restaurant kitchen is the backbone of your operation, necessitating robust and reliable equipment to deliver consistent quality. Essential kitchen equipment includes:
 
@@ -77,7 +77,7 @@ These elements are integral to maintaining a smooth operation. Depending on your
 
 Remember, all equipment should be commercial-grade, correctly sized, and comply with health and safety regulations.
 
-**![](/blog/restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction-02.png)Designing for Efficiency: Kitchen Layouts**
+**Designing for Efficiency: Kitchen Layouts**
 
 There are four primary layouts for restaurant kitchens: Assembly Line, Island, Zone, and Ergonomic. The choice depends on your menu and operational style. For example, fast food or pizza restaurants benefit from an assembly line layout for increased efficiency.
 

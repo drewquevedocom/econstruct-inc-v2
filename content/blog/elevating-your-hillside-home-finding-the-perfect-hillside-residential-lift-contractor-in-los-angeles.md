@@ -56,7 +56,7 @@ Los Angeles boasts stunning hillside properties offering breathtaking views, but
 
 In this comprehensive guide, we’ll explore the world of hillside residential lifts, delve into the key factors for choosing the right contractor, and provide insights based on our experience with a recent Los Angeles project.
 
-**![](/blog/elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles-01.webp)Hillside Residential Lifts: More Than Just Convenience**
+**Hillside Residential Lifts: More Than Just Convenience**
 
 Hillside residential lifts are engineered systems designed to transport people or cargo up and down steep slopes. They offer a range of benefits:
 
@@ -92,7 +92,7 @@ Our recent project showcased the transformative power of a hillside residential 
 
 **Results:** The homeowners gained effortless access to a previously inaccessible area. This opened up endless possibilities for expanding their living space, creating an outdoor entertainment area, or even building an additional dwelling unit (ADU).
 
-**![](/blog/elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles-02.webp)Tips for a Successful Hillside Lift Project**
+**Tips for a Successful Hillside Lift Project**
 
 - Plan Early: Involve your contractor early in the design phase to ensure the lift seamlessly integrates with your home and landscaping.
 

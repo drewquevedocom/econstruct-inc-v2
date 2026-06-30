@@ -53,7 +53,7 @@ Los Angeles, a city of dreams, iconic architecture, and a unique blend of urban 
 
 At econstruct, we understand that building a home is more than just a construction project; it's a journey toward creating a space that reflects your unique lifestyle and aspirations. We're not just builders but your partners in crafting a home that exceeds your expectations and stands the test of time.
 
-**![](/blog/los-angeles-residential-contractors-econstruct-builds-dreams-01.png)Why Choose Residential Contractors in Los Angeles?**
+**Why Choose Residential Contractors in Los Angeles?**
 
 - Local Expertise: Los Angeles has unique building codes, regulations, and architectural styles. Experienced residential contractors in Los Angeles understand the nuances of the local landscape, ensuring your project complies with stringent city regulations and complements the surrounding neighborhood.
 
@@ -65,7 +65,7 @@ At econstruct, we understand that building a home is more than just a constructi
 
 - Peace of Mind: With a reputable contractor managing your project, you can relax knowing that your home is in capable hands. We handle the permits, inspections, and all the complex details, allowing you to focus on enjoying the process.
 
-**![](/blog/los-angeles-residential-contractors-econstruct-builds-dreams-02.png)The econstruct Difference: Building Dreams with Precision and Passion**
+**The econstruct Difference: Building Dreams with Precision and Passion**
 
 At econstruct, we're more than just a construction company. Here's what sets us apart:
 

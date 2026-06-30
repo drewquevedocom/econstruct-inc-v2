@@ -49,7 +49,7 @@ localAreas:
   - "Los Angeles"
 ---
 
-![](/blog/eco-smart-home-upgrades-build-a-greener-future-with-econstruct-01.png)[California](https://en.wikipedia.org/wiki/California) leads the way in eco-conscious living, and your Los Angeles home should reflect that! Old, inefficient houses waste resources and money. Whether you’re building your dream home from the ground up or embarking on a smart remodel, let’s unlock a greener, more cost-effective future with cutting-edge technologies.
+[California](https://en.wikipedia.org/wiki/California) leads the way in eco-conscious living, and your Los Angeles home should reflect that! Old, inefficient houses waste resources and money. Whether you’re building your dream home from the ground up or embarking on a smart remodel, let’s unlock a greener, more cost-effective future with cutting-edge technologies.
 
 
 ## Smart Water Solutions

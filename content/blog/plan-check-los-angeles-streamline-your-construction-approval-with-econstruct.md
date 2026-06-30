@@ -52,7 +52,7 @@ localAreas:
   - "Los Angeles"
 ---
 
-[![](/blog/plan-check-los-angeles-streamline-your-construction-approval-with-econstruct-01.webp)](https://www.ladbs.org/faq/lists/plan-check-faqs/when-is-plan-check-required)Embarking on a construction project in the City of Los Angeles can be an exciting endeavor. However, it’s crucial to understand and navigate the plan check procedure to ensure a smooth approval process. Let’s explore the plan check procedure in the City of Los Angeles, highlighting its key components, guidelines, and estimated timelines.
+[](https://www.ladbs.org/faq/lists/plan-check-faqs/when-is-plan-check-required)Embarking on a construction project in the City of Los Angeles can be an exciting endeavor. However, it’s crucial to understand and navigate the plan check procedure to ensure a smooth approval process. Let’s explore the plan check procedure in the City of Los Angeles, highlighting its key components, guidelines, and estimated timelines.
 
 - Preparing the Application: Before submitting plans for review, gather all required documents, including application forms, building plans, engineering calculations, existing city records and supporting materials. Ensure compliance with the City’s specific requirements and regulations. Timeline: Allow 2-4 weeks for thorough preparation.
 

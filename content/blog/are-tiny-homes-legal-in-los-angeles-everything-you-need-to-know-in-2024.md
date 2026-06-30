@@ -21,7 +21,7 @@ excerpt: "The tiny house movement has captured the hearts and minds of many Ange
 targetKeyword: "home addition contractor Los Angeles"
 takeaways:
   - "The Changing Landscape of Tiny Homes in LA — a key part of any successful project in Los Angeles."
-  - "![](/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-01.png)What Makes a Tiny Home Legal in Los Angeles? — a key part of any successful project in Los Angeles."
+  - "What Makes a Tiny Home Legal in Los Angeles? — a key part of any successful project in Los Angeles."
   - "Tiny Homes as ADUs: A Popular Option in Los Angeles — a key part of any successful project in Los Angeles."
   - "Los Angeles ADU permits can be expedited with the right pre-application strategy."
 sources:
@@ -62,7 +62,7 @@ The tiny house movement has captured the hearts and minds of many Angelenos seek
 Like many cities across California, Los Angeles has embraced the tiny home movement as a potential solution to the housing crisis. In recent years, the city has adopted more lenient regulations and incentives to encourage the construction of Accessory Dwelling Units (ADUs), which include tiny homes.
 
 
-### ![](/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024-01.png)What Makes a Tiny Home Legal in Los Angeles?
+### What Makes a Tiny Home Legal in Los Angeles?
 
 
 To be considered legal in Los Angeles, tiny homes must meet specific criteria:

@@ -55,7 +55,7 @@ Los Angeles, with its diverse neighborhoods, iconic architecture, and unique ble
 
 At econstruct, we understand that site planning is more than just placing a house on a plot of land. It's about harmonizing your dream home with the surrounding environment, maximizing views, optimizing natural light, and ensuring your home is built to last. Our experienced residential contractors in Los Angeles are dedicated to turning your vision into a tangible reality.
 
-**![](/blog/your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles-01.png)What is Site Planning?**
+**What is Site Planning?**
 
 Site planning is the art and science of analyzing your property's unique characteristics and designing a home that complements its surroundings. It involves considering factors like:
 
@@ -78,7 +78,7 @@ Site planning is the art and science of analyzing your property's unique charact
 
 - Ensuring Sustainability: Site planning can incorporate eco-friendly features like solar panels, rainwater harvesting, and native landscaping, reducing your home's environmental impact.
 
-**![](/blog/your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles-02.png)The econstruct Approach to Site Planning**
+**The econstruct Approach to Site Planning**
 
 At econstruct, we take a holistic approach to site planning, considering every aspect of your property and your vision for your dream home. Our experienced team of architects, designers, and engineers collaborate to create a comprehensive site plan that:
 

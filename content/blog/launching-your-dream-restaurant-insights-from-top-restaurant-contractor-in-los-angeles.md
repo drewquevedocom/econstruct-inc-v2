@@ -58,7 +58,7 @@ Creating a restaurant is a multifaceted endeavor, requiring more than just const
 
 **Optimizing Space for a Welcoming Ambiance**Your restaurant’s entrance sets the tone for your guests’ experience. Ensure that the entryway is spacious and inviting to avoid giving an impression of overcrowding. A well-thought-out layout is essential, with approximately 60% allocated to the dining area and 40% to the kitchen as the standard general rule. This provides enough room for guests to dine comfortably and staff to operate efficiently, establishing a harmonious flow in your restaurant.
 
-**![commercial kitchen construction](/blog/launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles-01.jpg)Kitchen Design: The Core of Your Restaurant**A well-designed kitchen is crucial for a smooth-running restaurant. As your chosen restaurant contractor in Los Angeles, econstruct  emphasizes the importance of a functional kitchen layout. This includes sufficient storage (cold & dry), conveniently placed refrigeration units, and prep areas tailored for comfort and efficiency. Proper spacing between stations is also vital to prevent a cramped work environment.
+**Kitchen Design: The Core of Your Restaurant**A well-designed kitchen is crucial for a smooth-running restaurant. As your chosen restaurant contractor in Los Angeles, econstruct  emphasizes the importance of a functional kitchen layout. This includes sufficient storage (cold & dry), conveniently placed refrigeration units, and prep areas tailored for comfort and efficiency. Proper spacing between stations is also vital to prevent a cramped work environment.
 
 
 ## Interior Design: Crafting the Perfect Dining Experience
