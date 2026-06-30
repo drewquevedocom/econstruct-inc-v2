@@ -39,7 +39,12 @@ const NAV = [
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (!mobileMenuOpen) setMobileServicesOpen(false);
+  }, [mobileMenuOpen]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -188,18 +193,66 @@ export default function Header() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -16 }}
             transition={{ duration: 0.2 }}
-            className="absolute inset-x-3 top-full mt-2 flex flex-col gap-1 rounded-2xl border border-white/10 bg-brand-navy/98 p-5 shadow-2xl backdrop-blur-2xl lg:hidden"
+            className="absolute inset-x-3 top-full mt-2 flex max-h-[calc(100vh-96px)] flex-col gap-1 overflow-y-auto rounded-2xl border border-white/10 bg-brand-navy/98 p-5 shadow-2xl backdrop-blur-2xl lg:hidden"
           >
-            {NAV.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                onClick={() => setMobileMenuOpen(false)}
-                className="rounded-lg px-3 py-3 text-base font-semibold text-white/85 transition-colors hover:bg-white/5 hover:text-brand-gold"
-              >
-                {item.label}
-              </Link>
-            ))}
+            {NAV.map((item) =>
+              item.children ? (
+                <div key={item.label}>
+                  <div className="flex items-center">
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="flex-1 rounded-lg px-3 py-3 text-base font-semibold text-white/85 transition-colors hover:bg-white/5 hover:text-brand-gold"
+                    >
+                      {item.label}
+                    </Link>
+                    <button
+                      type="button"
+                      onClick={() => setMobileServicesOpen((v) => !v)}
+                      aria-label={mobileServicesOpen ? "Collapse services" : "Expand services"}
+                      aria-expanded={mobileServicesOpen}
+                      className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg text-white/70 transition-colors hover:bg-white/5 hover:text-brand-gold"
+                    >
+                      <ChevronDown
+                        size={18}
+                        className={`transition-transform duration-200 ${mobileServicesOpen ? "rotate-180" : ""}`}
+                      />
+                    </button>
+                  </div>
+                  <AnimatePresence initial={false}>
+                    {mobileServicesOpen && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden pl-3"
+                      >
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.label}
+                            href={child.href}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="block rounded-lg border-l-2 border-white/10 px-4 py-2.5 text-sm font-semibold text-white/65 transition-colors hover:border-brand-red hover:bg-white/5 hover:text-white"
+                          >
+                            {child.label}
+                          </Link>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              ) : (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="rounded-lg px-3 py-3 text-base font-semibold text-white/85 transition-colors hover:bg-white/5 hover:text-brand-gold"
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
             <a
               href={`tel:${ECONSTRUCT_INC.phone.primaryHref}`}
               className="mt-3 flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/5 py-3.5 font-bold text-white"
