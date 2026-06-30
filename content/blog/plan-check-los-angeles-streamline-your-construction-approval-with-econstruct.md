@@ -1,7 +1,7 @@
 ---
 title: "Plan Check Los Angeles: Navigate the Approval Process with Ease"
 slug: "plan-check-los-angeles-streamline-your-construction-approval-with-econstruct"
-description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+description: "LA's plan check process can take 4-12 weeks and derail a project timeline. Here's how to navigate LADBS plan check efficiently."
 category: "Permits & Compliance"
 tags:
   - "LADBS permits"
@@ -17,7 +17,7 @@ factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/plan-check-los-angeles-streamline-your-construction-approval-with-econstruct-hero.png"
 heroImageAlt: "Construction permit planning in Los Angeles — Plan Check Los Angeles: Navigate the Approval Proc"
 ogImage: "/blog/plan-check-los-angeles-streamline-your-construction-approval-with-econstruct-hero.png"
-excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+excerpt: "Los Angeles plan check can take 4-12 weeks and derail a project timeline if it's mismanaged. econstruct explains how the LADBS plan check process works, common causes of correction cycles, and how our permit team keeps submissions moving."
 targetKeyword: "construction compliance Los Angeles"
 takeaways:
   - "Los Angeles building permits require plan check submissions that can take 4-12 weeks."
@@ -67,8 +67,6 @@ localAreas:
 - Permit Issuance: Once the plans meet all requirements, receive final approval and the permit fees are paid, the LADBS issues the necessary construction permits. The applicant can then proceed with the construction phase of the project. Timeline: Permit issuance usually takes no more than 1 week after the final approval.
 
 Note: the timelines noted above are average for projects, in the case of special Planning Dept projects, the times for the Clearances can take longer. An example of this would be if a Conditional Use Permit (CUP) is required for some reason—that alone can run 3-9 months.
-
-![iStock-1176842849.jpg](https://static.mywebsites360.com/aea42179c4024001bdabf0b1b1798b85/i/c3cfad35c7944a398ac5a30080202b4b/1/4SoifmQpDrHbZJ6W2ZLJ8/iStock-1176842849.jpg)
 
 Key Guidelines to Facilitate the Plan Check Procedure:
 

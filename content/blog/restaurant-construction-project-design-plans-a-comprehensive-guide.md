@@ -60,7 +60,7 @@ localAreas:
 Restaurant construction requires the assistance of professionals who understand the designs that are most appropriate for your goals. Depending on your plans, working with an experienced and creative construction company provides the chance to develop an amazing restaurant. Before finalizing your plans, evaluate the situation and focus on identifying the right professional for your goals.
 
 
-## COSTS FOR CONSTRUCTION PROFESSIONALS
+## Costs for Construction Professionals
 
 
 Although you might assume that an architect provides the services that you need to create an efficient and smart restaurant, a design-build contractor provides an alternative that is more cost-effective for your project plans. An architect will usually charge about 10 percent of the total cost of the project for the plans that he or she develops. For example, if the project will cost about $200,000 to complete, then you can expect the architect to charge roughly $20,000 for the project plans.
@@ -68,7 +68,7 @@ Although you might assume that an architect provides the services that you need 
 In contrast, at econstruct, we usually charge between $5,000 and $8,000 for project plans. Since we have the experience to create plans for smart restaurants that are energy-efficient and effective, our lower costs help reduce the overall expense and ensure that you stay within a strict budget. It also provides more leeway if you have specific preferences for the [design](https://econstructinc.com/blog/how-to-build-a-smart-efficient-restaurant) that will add to the final cost of building the restaurant.
 
 
-## CREATING EXCEPTIONAL DESIGNS
+## Creating Exceptional Designs
 
 
 The designs that you can expect from an architect or a design-build contractor depend on several factors, including the experience of the team and the previous projects that it has worked on. At [econstruct](https://econstruct.pro/), we have more than 30 years of experience creating project plans for restaurant construction. We also have experience creating smart restaurants that are energy-efficient.
@@ -76,7 +76,7 @@ The designs that you can expect from an architect or a design-build contractor d
 Our creativity provides an opportunity to create the restaurant of your dreams without wasting your time with unnecessary plans or designs. An architect does not always provide the same level of creativity. Usually, architects develop project plans that are similar to their previous plans and projects. Although the plans may follow any zoning laws or regulations, they do not always have efficient designs and do not always follow the design preferences of the owner.
 
 
-## CREATING THE RESTAURANT OF YOUR DREAMS
+## Creating the Restaurant of Your Dreams
 
 
 [econstruct,](https://econstruct.pro/) has the experience to create the restaurant of your dreams. Our team focuses on providing high-quality project plans that are [smart and efficient](https://econstructinc.com/blog/how-to-build-a-smart-efficient-restaurant), because we expect your restaurant to last for years. When an area of the design is outside our area of expertise, we work with an architect to ensure that it meets or exceeds your expectations. We have the knowledge and experience to ensure that your restaurant is built for a long-lasting and growing business.

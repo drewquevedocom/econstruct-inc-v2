@@ -108,7 +108,7 @@ export default function AboutPage() {
             <AnimatedSection>
               <div className="relative rounded-3xl overflow-hidden aspect-[4/5] bg-gray-100">
                 <Image
-                  src="/Luxury Home Modernization3.png"
+                  src="/frank2.png"
                   alt={frank.name}
                   fill
                   className="object-cover"
@@ -203,7 +203,7 @@ export default function AboutPage() {
             <AnimatedSection>
               <div className="relative overflow-hidden rounded-3xl aspect-[4/5] bg-gray-100">
                 <Image
-                  src="/frank_about1.png"
+                  src="/Frank3.png"
                   alt="Frank Neimroozi — econstruct founder on a job site"
                   fill
                   className="object-cover object-top"

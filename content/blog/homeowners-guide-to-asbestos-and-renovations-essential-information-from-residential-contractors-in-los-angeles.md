@@ -1,7 +1,7 @@
 ---
 title: "Homeowner's Guide to Asbestos and Renovations by Residential Contractors in Los Angeles"
 slug: "homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles"
-description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+description: "Older Los Angeles homes often contain asbestos in flooring, insulation, or popcorn ceilings. Here's what homeowners need to know before renovating."
 category: "Permits & Compliance"
 tags:
   - "LADBS permits"
@@ -17,7 +17,7 @@ factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles-hero.png"
 heroImageAlt: "untitled-design-2024-03-06t103712-099"
 ogImage: "/blog/homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles-hero.png"
-excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+excerpt: "Older Los Angeles homes often contain asbestos in flooring, insulation, or popcorn ceilings — and disturbing it during a renovation creates real health and legal risk. econstruct explains what homeowners need to know before starting a remodel."
 targetKeyword: "construction compliance Los Angeles"
 takeaways:
   - "Los Angeles building permits require plan check submissions that can take 4-12 weeks."

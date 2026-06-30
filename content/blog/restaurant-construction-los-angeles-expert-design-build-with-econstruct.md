@@ -56,7 +56,7 @@ Welcome to the final installment of our three-part series on Project Design Plan
 
 **Securing the Location and Starting the Process**The moment you secure the perfect location for your restaurant is exhilarating. The exhaustive search, negotiation, and paperwork are behind you, and it's time to bring those design plans to life. However, before delving into aesthetic details like color schemes, it's vital to navigate the world of permits. These permits ensure your structure's safety and compliance with local regulations.
 
-Econstruct understands that obtaining these permits can be a meticulous process, taking around six weeks under ideal conditions. Our expertise in dealing with the nuances of official certifications in Los Angeles ensures that every angle is considered, preventing unnecessary delays.
+econstruct understands that obtaining these permits can be a meticulous process, taking around six weeks under ideal conditions. Our expertise in dealing with the nuances of official certifications in Los Angeles ensures that every angle is considered, preventing unnecessary delays.
 
 
 ## Post-Permit Phase

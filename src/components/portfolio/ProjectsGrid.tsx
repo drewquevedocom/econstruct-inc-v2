@@ -9,12 +9,14 @@ import type { Project } from "@/lib/data/projects";
 import Container from "@/components/ui/Container";
 
 const categoryColors: Record<Project["category"], string> = {
+  residential: "bg-brand-gold/15 text-brand-ink",
   restaurant: "bg-emerald-500/10 text-emerald-700",
   retail: "bg-blue-500/10 text-blue-700",
   commercial: "bg-brand-dark/8 text-brand-dark",
 };
 
 const categoryLabels: Record<Project["category"], string> = {
+  residential: "Residential",
   restaurant: "Restaurant & Bar",
   retail: "Retail",
   commercial: "Commercial",

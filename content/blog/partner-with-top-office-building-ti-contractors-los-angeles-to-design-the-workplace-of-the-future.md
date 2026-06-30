@@ -73,7 +73,7 @@ Corporate responsibility isn’t just about image, it’s about making choices t
 
 Your office space is an extension of your company culture. The right TI partners will work with you to incorporate your brand personality into the design. Think distinctive color palettes, unique architectural details, and creative use of spaces that embody your company’s ethos.
 
-The Econstruct Advantage
+The econstruct Advantage
 
 At econstruct, we don’t just follow trends, we help shape them. Our team understands the unique pace of Los Angeles and the importance of creating offices that match that energy. Let our experience guide yours – from navigating those LA building codes to seamless project execution.
 

@@ -1,7 +1,7 @@
 ---
 title: "Decoding The Permit And Inspection Process In The City Of Los Angeles"
 slug: "decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles"
-description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+description: "Building permits and inspections in Los Angeles can derail a construction timeline fast if you don't know the process. Here's how LADBS permitting and inspections actually work."
 category: "Permits & Compliance"
 tags:
   - "LADBS permits"
@@ -17,7 +17,7 @@ factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles-hero.png"
 heroImageAlt: "untitled-design-2023-10-25t161415-322"
 ogImage: "/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles-hero.png"
-excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+excerpt: "Building permits and inspections in Los Angeles can derail a construction timeline if you don't know the process. econstruct walks through how LADBS permitting, plan check, and inspections actually work — and how to avoid the most common delays."
 targetKeyword: "building permits Los Angeles"
 takeaways:
   - "WHY YOU SHOULD SECURE A BUILDING PERMIT — a key part of any successful project in Los Angeles."
@@ -62,7 +62,7 @@ While a standard building permit is typically mandatory for most construction ac
 *The following provides you with a more in-depth guide on building permits and the necessary inspections that will take place during construction.*
 
 
-## WHY YOU SHOULD SECURE A BUILDING PERMIT
+## Why You Should Secure a Building Permit
 
 
 Building permits are primarily necessary to ensure that developers and contractors adhere to local safety standards. If you start construction without securing a building permit in Los Angeles, your project can be halted at any phase. Such a shutdown would inevitably lead to significant loss of time and money, as you’d have to demolish the non-compliant work and restart. Therefore, acquiring a building permit at the project’s onset is strongly advised.
@@ -74,7 +74,7 @@ It’s important to note that obtaining a building permit isn’t always straigh
 Building plans that are submitted with the application often contain errors regarding local building codes. Although [LADBS](https://www.ladbs.org/) might allow you some time to rectify these mistakes, it is best to preemptively resolve these issues before submitting the application. Hiring a proficient architect or designer who is well-versed in local codes can effectively circumvent these issues, ensuring a smoother permit acquisition process.
 
 
-## PROCEDURE FOR SECURING A PERMIT
+## Procedure for Securing a Permit
 
 
 Initiating the permit acquisition process involves understanding the unique application procedures of the city where your property is located. While every municipality has its own set of rules for building permit application, there are general guidelines to prepare you for this task. Prior to application submission, acquaint yourself thoroughly with local construction requirements.
@@ -110,7 +110,7 @@ As noted earlier, there’s a host of documents that need to accompany your buil
 Additional potential documentation may encompass a soil report, energy calculations, a joint referral form, and a hillside referral form. You can submit your building permit application online via the LADBS website or directly at any LADBS office. With five offices across the Los Angeles area, you should face minimal wait times. Once the LADBS reviews your building plans and approves the permit, you can proceed with your project, assured that it aligns with safety regulations and building codes.
 
 
-## UNDERSTANDING THE INSPECTION PROCEDURE
+## Understanding the Inspection Procedure
 
 
 The inspection procedure during construction typically comprises 3-5 stages, contingent upon the outcomes of each inspection. These steps are:
@@ -128,7 +128,7 @@ The inspection procedure during construction typically comprises 3-5 stages, con
 When your project is ready for inspection, you can make an online request. To do this, you’ll need the 15-digit number located on your building permit. Alternatively, you can call the local 311 number or dial (213) 473-3231.
 
 
-## ARRANGING FOR AN INSPECTION APPOINTMENT
+## Arranging for an Inspection Appointment
 
 
 Securing an inspection is a straightforward process which involves either submitting an online request or dialing the aforementioned phone number. Once you have the 15-digit number corresponding to your building permit, scheduling an inspection after finishing the requisite work should be a breeze. Before the inspection, the inspector should have access to specific documents, including:

@@ -1,7 +1,7 @@
 ---
 title: "Design Build Company Los Angeles, Part 1: History Of Design Build"
 slug: "design-build-company-los-angeles-streamline-your-construction-with-econstruct"
-description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+description: "Design-build consolidates design and construction under one team, cutting timelines and miscommunication. Here's how the model works and why it matters in Los Angeles."
 category: "Remodeling & Renovation"
 tags:
   - "luxury home remodel Los Angeles"
@@ -17,7 +17,7 @@ factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/design-build-company-los-angeles-streamline-your-construction-with-econstruct-hero.webp"
 heroImageAlt: "c4db3e9e-569d-4c6c-bfad-ae522527e0e4"
 ogImage: "/blog/design-build-company-los-angeles-streamline-your-construction-with-econstruct-hero.webp"
-excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+excerpt: "Design-build consolidates design and construction under one accountable team, cutting timelines and miscommunication versus the traditional design-bid-build approach. econstruct explains the history of design-build and why it matters for projects in Los Angeles."
 targetKeyword: "design build company los"
 takeaways:
   - "Luxury remodels in Los Angeles require precise scope definition before breaking ground."
@@ -61,7 +61,7 @@ Design Build methods offer simplicity in what could otherwise be a very complex 
 Another significant bonus is that the design-build model saves much time. With fewer people involved, there is less time wasted in confusing communication between parties. Research on Selecting Project Delivery Systems by Victor Sanvido and Mark Konchar of Pennsylvania State University found that design–build projects are delivered 33.5% faster than projects that are designed and built under separate contracts (design-bid-build). The fact that fewer people are involved is significant in that historically this is not the way construction projects have been handled. In the past, the owner was dealing with many people on many different levels working on many different aspects of the construction project. This contributed to confusion, and eventually a slower schedule. Sanvido and Konchar also showed that design–build projects are constructed 12% faster* and have a unit cost that is 6.1% lower than design-bid-build projects. Design-build models have attempted to alleviate some of this confusion and take some of this stress off of the owner so that the owner can think about other aspects of their business or building project.
 
 
-## DESIGN BUILD HISTORY
+## Design Build History
 
 Several decades ago, a few innovative construction companies, such as econstruct, began presenting their clients with a design-build model. Although at first many were resistant to the idea of one entity handling their entire project, many clients found the simplicity it offered to be quite attractive. With simplicity always comes decreased costs. Design build eliminates many steps and even eliminates people from a project that are not necessary. When steps and extra people are eliminated, projects can flow more smoothly.
 

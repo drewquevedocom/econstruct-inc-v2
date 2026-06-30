@@ -57,7 +57,7 @@ localAreas:
   - "Culver City"
 ---
 
-![iStock-176602390.jpg](https://static.mywebsites360.com/aea42179c4024001bdabf0b1b1798b85/i/a07f7f87b82d4eb785930531d65b7dc3/1/4SoifmQp45JMgBnHjfgmz/iStock-176602390.jpg)For the restaurant construction timeline to work, make certain the [architectural plans](https://en.wikipedia.org/wiki/Architectural_drawing) are comprehensive and aligned with mechanical, electrical, plumbing, and health plans. No discrepancies should exist. Choose a contractor who has a solid rapport with vendors and subcontractors. It's imperative these partners are licensed, bonded, and insured up to the requirements set by your landlord. Before finalizing the contract, discuss potential weekend work. If weekend work is needed, your contractor should be willing to comply. Costs for overtime work should be pre-agreed upon, especially if needed to meet tight deadlines. After selecting a general contractor for your restaurant, you'll naturally want to begin immediately. However, always ask for and review a project schedule before the actual construction begins.
+For the restaurant construction timeline to work, make certain the [architectural plans](https://en.wikipedia.org/wiki/Architectural_drawing) are comprehensive and aligned with mechanical, electrical, plumbing, and health plans. No discrepancies should exist. Choose a contractor who has a solid rapport with vendors and subcontractors. It's imperative these partners are licensed, bonded, and insured up to the requirements set by your landlord. Before finalizing the contract, discuss potential weekend work. If weekend work is needed, your contractor should be willing to comply. Costs for overtime work should be pre-agreed upon, especially if needed to meet tight deadlines. After selecting a general contractor for your restaurant, you'll naturally want to begin immediately. However, always ask for and review a project schedule before the actual construction begins.
 
 Here are a variety of factors that determine the timeline for restaurant construction.
 
@@ -81,7 +81,7 @@ Here are a variety of factors that determine the timeline for restaurant constru
 
 - Weather conditions.
 
-## PLANNING AHEAD
+## Planning Ahead
 
 Is the latest version of plans and construction documents prepared? Have you set the delivery dates for the fixtures and furnishings? Have the utilities been turned on, and are all accounts set up? For any new services, it's crucial to complete all paperwork at the project's outset. Field representatives from different utility companies should inspect the site early on to assess the scope of work and initiate processes. Only after the city inspectors provide the final approval can utility companies proceed with installing new meters and activating services. Be aware that installing a meter might take up to a month, depending on the utility provider. Therefore, prioritizing this immediately after the project finishes and obtaining city approvals is essential.
 
@@ -93,9 +93,9 @@ Opening a new restaurant entails three significant pre-construction phases:
 
 - Plan-check/Permits: can extend up to 8-10 weeks
 
-## DESIGNING
+## Designing
 
-![iStock-1473873886.jpg](https://static.mywebsites360.com/aea42179c4024001bdabf0b1b1798b85/i/fb2f2e86fc1e429d88cbf6d34b20c5d1/1/4SoifmQp45JMgBnHjfgmz/iStock-1473873886.jpg)During the design phase, the architect creates the restaurant's full set of plans. Depending on the restaurant's size and intricacy, this process can take up to 6 weeks. For smaller establishments, the design typically wraps up within a month.
+During the design phase, the architect creates the restaurant's full set of plans. Depending on the restaurant's size and intricacy, this process can take up to 6 weeks. For smaller establishments, the design typically wraps up within a month.
 
 ## BIDDING
 

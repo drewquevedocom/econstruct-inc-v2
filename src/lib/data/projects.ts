@@ -1,7 +1,7 @@
 export interface Project {
   title: string;
   slug: string;
-  category: "restaurant" | "retail" | "commercial";
+  category: "residential" | "restaurant" | "retail" | "commercial";
   neighborhood: string;
   description: string;
   heroImage: string;
@@ -134,6 +134,19 @@ export const projects: Project[] = [
     ],
     specs: { scope: "Interior Remodel" },
   },
+  {
+    title: "Tea Pot Cafe",
+    slug: "tea-pot-cafe",
+    category: "restaurant",
+    neighborhood: "Santa Clarita",
+    description:
+      "Ground-up commercial restaurant build-out for this family-oriented dining destination. Open, welcoming interior with separate kids' and adults' zones, custom booth seating fabricated from reclaimed wood, an efficient stainless-steel kitchen for a diverse menu, an indoor supervised playground, and an outdoor cafe patio.",
+    heroImage: "/projects/2017-09-02.jpg",
+    images: [
+      "/projects/2017-09-02.jpg",
+    ],
+    specs: { scope: "New Build-Out" },
+  },
 
   // ── Retail ───────────────────────────────────────────────────
   {
@@ -198,14 +211,21 @@ export const projects: Project[] = [
     title: "85°C Bakery Cafe",
     slug: "85c-bakery-cafe",
     category: "commercial",
-    neighborhood: "Multiple West Coast Locations",
+    neighborhood: "Buena Park & Multiple West Coast Locations",
     description:
-      "Eight locations across California and Arizona for the premium bakery concept. Each space showcases an in-house bakery producing fresh items hourly, with dark wood displays, commercial baking equipment, and site-specific adaptations including a historic early 20th-century building in Downtown LA.",
-    heroImage: "/projects/Untitled-design-15-600x600.png",
+      "Eight locations across California and Arizona for the premium bakery concept, plus the brand's Buena Park distribution center office build-out. Each space showcases an in-house bakery producing fresh items hourly, with dark wood displays, commercial baking equipment, and site-specific adaptations including a historic early 20th-century building in Downtown LA.",
+    heroImage: "/blog/85c-distribution-11-600x600.jpg",
     images: [
-      "/projects/Untitled-design-15-600x600.png",
+      "/blog/85c-distribution-11-600x600.jpg",
+      "/blog/85c-distribution-12-600x600.jpg",
+      "/blog/85c-distribution-13-600x600.jpg",
+      "/blog/85c-distribution-14-600x600.jpg",
+      "/blog/85c-distribution-15-600x600.jpg",
+      "/blog/85c-distribution-16-600x600.jpg",
+      "/blog/85c-distribution-6-600x600.jpg",
+      "/blog/85c-distribution-8-600x600.jpg",
     ],
-    specs: { scope: "Multi-Location Build-Out" },
+    specs: { scope: "Multi-Location Build-Out + Distribution Center Office" },
   },
   {
     title: "Joe & The Juice",
@@ -219,6 +239,112 @@ export const projects: Project[] = [
       "/projects/Untitled-design-18-1-600x600.png",
     ],
     specs: { scope: "Multi-Location Build-Out" },
+  },
+
+  // ── Residential ──────────────────────────────────────────────
+  {
+    title: "Devista Project",
+    slug: "devista-project",
+    category: "residential",
+    neighborhood: "Hollywood Hills",
+    description:
+      "Comprehensive renovation of a 1980s Hollywood Hills residence transformed into a modern open-concept home. The project involved removing walls for improved natural light flow, a redesigned chef's kitchen with large island and premium appliances, smart home technology integration, and drought-resistant hillside landscaping.",
+    heroImage: "/projects/devista-hero.jpg",
+    images: [
+      "/projects/devista-hero.jpg",
+      "/projects/devista-2.jpg",
+      "/projects/Devista_1-scaled.webp",
+      "/projects/Devista_2-scaled.webp",
+      "/projects/Devista_3-scaled.webp",
+      "/projects/Devista_4-scaled.webp",
+      "/projects/Devista_5-scaled.webp",
+      "/projects/Devista_6-scaled.webp",
+      "/projects/Devista_7-scaled.webp",
+      "/projects/Devista_8-scaled.webp",
+      "/projects/Devista_9-scaled.webp",
+      "/projects/Devista_11-scaled.webp",
+    ],
+    specs: { scope: "Full Remodel" },
+    featured: true,
+  },
+  {
+    title: "54 Saddlebow Rd",
+    slug: "54-saddlebow-rd",
+    category: "residential",
+    neighborhood: "Bell Canyon",
+    description:
+      "Comprehensive transformation of a late 1970s residence into a modern open-concept home. The project involved removing walls for improved natural light flow, a redesigned chef's kitchen with large island and premium appliances, smart home technology integration, and drought-resistant hillside landscaping.",
+    heroImage: "/projects/saddlebow-54-hero.jpg",
+    images: [
+      "/projects/saddlebow-54-hero.jpg",
+      "/projects/saddlebow-54-2.jpg",
+      "/projects/saddlebow-54-3.jpg",
+      "/projects/saddlebow-54-5.jpg",
+      "/projects/saddlebow-54-8.jpg",
+    ],
+    specs: { scope: "Full Remodel" },
+  },
+  {
+    title: "50 Saddlebow Rd",
+    slug: "50-saddlebow-rd",
+    category: "residential",
+    neighborhood: "Bell Canyon",
+    description:
+      "A luxury modern hillside home required innovative access solutions to an unusable lower property area. The team engineered and installed a compact hillside lift system with a 950-pound capacity, featuring custom doors and cab matching the home's modern materials, reinforced concrete landing, and multiple redundant fail-safe systems.",
+    heroImage: "/projects/saddlebow-50-hero.jpg",
+    images: [
+      "/projects/saddlebow-50-hero.jpg",
+      "/projects/saddlebow-50-2.webp",
+      "/projects/Saddlebow2.webp",
+      "/projects/Saddlebow3.webp",
+      "/projects/Saddlebow4.webp",
+      "/projects/Saddlebow5.webp",
+      "/projects/Saddlebow6.webp",
+      "/projects/Saddlebow9.webp",
+    ],
+    specs: { scope: "Hillside Lift Installation" },
+  },
+  {
+    title: "Lawndale Condo",
+    slug: "marine-avenue-condo",
+    category: "residential",
+    neighborhood: "Lawndale",
+    description:
+      "A comprehensive transformation of a 3-bedroom, 3-bathroom coastal condo on Marine Avenue. Reconfigured the floorplan with an open, airy layout for beachside living, including kitchen expansion, spa-inspired bathroom renovation, and a redesigned private balcony with firepit seating area.",
+    heroImage: "/projects/marine-ave-hero.jpg",
+    images: [
+      "/projects/marine-ave-hero.jpg",
+      "/projects/Marine_Ave_condo_6.webp",
+      "/projects/Marine_Ave_condo_7.webp",
+      "/projects/Marine_Ave_condo_12.webp",
+    ],
+    specs: { scope: "Condo Remodel" },
+  },
+  {
+    title: "Mulholland Dr Project",
+    slug: "mulholland-drive-residence",
+    category: "residential",
+    neighborhood: "Mulholland Drive, Los Angeles",
+    description:
+      "A 1970s home on Mulholland Drive underwent a comprehensive remodel to modernize the space and enhance its connection to panoramic hillside views. Open-concept design achieved through partition removal, expansive glass walls, wide plank flooring, and coastal-inspired tile — plus a redesigned open kitchen with quartz island, spa-like master suite, resurfaced pool and deck, and an outdoor barbecue kitchen.",
+    heroImage: "/projects/mulholland-hero.jpg",
+    images: [
+      "/projects/mulholland-hero.jpg",
+    ],
+    specs: { scope: "Full Remodel" },
+  },
+  {
+    title: "Newcomb Road",
+    slug: "newcomb-road-residence",
+    category: "residential",
+    neighborhood: "Newcomb Road, Los Angeles",
+    description:
+      "A full home transformation into a sleek, modern oasis — fresh exterior paint, new concrete patio, and custom wood fence outside; complete kitchen remodel with white cabinetry, marble countertops and high-end appliances inside; plus a master bath update with a freestanding tub and frameless glass shower, hardwood flooring, and custom built-ins throughout.",
+    heroImage: "/projects/newcomb-road-hero.jpg",
+    images: [
+      "/projects/newcomb-road-hero.jpg",
+    ],
+    specs: { scope: "Full Remodel" },
   },
 ];
 
@@ -235,6 +361,7 @@ export function getProjectsByCategory(
 
 export const projectCategories = [
   { label: "All", value: "all" },
+  { label: "Residential", value: "residential" },
   { label: "Restaurant & Bar", value: "restaurant" },
   { label: "Retail", value: "retail" },
   { label: "Commercial", value: "commercial" },
@@ -242,7 +369,7 @@ export const projectCategories = [
 
 /** @deprecated use getProjectsByCategory("restaurant") instead */
 export const residentialProjects = projects.filter(
-  (p) => p.category === "restaurant"
+  (p) => p.category === "residential"
 );
 
 /** @deprecated alias for projectCategories */

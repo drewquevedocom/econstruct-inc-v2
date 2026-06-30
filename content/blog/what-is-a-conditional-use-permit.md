@@ -51,7 +51,7 @@ localAreas:
   - "Los Angeles County"
 ---
 
-![iStock-1476234451.jpg](https://static.mywebsites360.com/aea42179c4024001bdabf0b1b1798b85/i/ee8e15721e02474e83f2c034fd31514e/1/4SoifmQp45JMgBnHp7ed2/iStock-1476234451.jpg)When you want to use the property for a purpose that differs from what it has been zoned for, you will likely need to obtain a **Conditional Use Permit (CUP)**. While CUPs don't allow for the property to be used for purposes that are directly prohibited by local zoning laws, it's possible for a CUP to expand the types of uses that are allowed on the property, as long as you provide and/or adhere to the Conditions that are set forth by the Authority.
+When you want to use the property for a purpose that differs from what it has been zoned for, you will likely need to obtain a **Conditional Use Permit (CUP)**. While CUPs don't allow for the property to be used for purposes that are directly prohibited by local zoning laws, it's possible for a CUP to expand the types of uses that are allowed on the property, as long as you provide and/or adhere to the Conditions that are set forth by the Authority.
 
 A CUP must take any local ordinance requirements into account before you are able to obtain one. In most situations, a public hearing will be held to determine if your request for a CUP should be granted. Before you begin the process of applying for a conditional use permit, it's important that you understand how this permit works and how it differs from a variance. *This article provides a comprehensive overview of conditional use permits.*
 
@@ -78,9 +78,9 @@ Since a change in how the land is being used will impact the surrounding communi
 
 Please keep in mind, the process of doing a CUP can be lengthy. On average they can run 3 months up to 9 months and the timing for processing is subject to change based on the Planning Department's workload, board meeting calendar and attentiveness to your project.
 
-## STANDARDS TO DETERMINE IF A CONDITIONAL USE PERMIT SHOULD BE GRANTED
+## Standards to Determine If a Conditional Use Permit Should Be Granted
 
-![iStock-901351330.jpg](https://static.mywebsites360.com/aea42179c4024001bdabf0b1b1798b85/i/d114d0f8cb894f4e976f78164e61b778/1/4SoifmQp45JMgBnHjfgmz/iStock-901351330.jpg)Communities can use a variety of different standards to determine if an application for a conditional use permit should be granted. These standards include:
+Communities can use a variety of different standards to determine if an application for a conditional use permit should be granted. These standards include:
 
 - General welfare standard – This standard is designed to ensure that the new use for the property in question will not cause damage to the property, to improvements on the property, or to the public interests
 

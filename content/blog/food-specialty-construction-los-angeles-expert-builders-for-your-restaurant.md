@@ -1,7 +1,7 @@
 ---
 title: "Steps to Vetting & Hiring a well-qualified Food Service Architect: Food Specialty Construction Los Angeles"
 slug: "food-specialty-construction-los-angeles-expert-builders-for-your-restaurant"
-description: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+description: "Hiring the right food service architect is the first real decision in any restaurant build. Here's how to vet and hire one in Los Angeles."
 category: "Restaurant & Bar"
 tags:
   - "restaurant construction Los Angeles"
@@ -17,7 +17,7 @@ factCheckedBy: "Fact-checked by econstruct project development team"
 heroImage: "/blog/food-specialty-construction-los-angeles-expert-builders-for-your-restaurant-hero.png"
 heroImageAlt: "Professional restaurant construction project in Los Angeles — Steps to Vetting & Hiring a well-qualified Food Se"
 ogImage: "/blog/food-specialty-construction-los-angeles-expert-builders-for-your-restaurant-hero.png"
-excerpt: "Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit lorem ipsum is simply free amet finibus eros."
+excerpt: "Hiring the right food service architect is the first real decision in any restaurant build-out. econstruct breaks down the steps to vetting and hiring a qualified architect for your Los Angeles restaurant or food service project."
 targetKeyword: "commercial contractor Los Angeles"
 takeaways:
   - "Restaurant construction timelines in LA average 4-6 months from permit approval."
