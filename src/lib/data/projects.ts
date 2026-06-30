@@ -1,3 +1,12 @@
+/** A distinct scope of work within a single multi-part project (e.g. retail
+ * locations vs. a distribution center build for the same client). */
+export interface ProjectPart {
+  title: string;
+  description: string;
+  images: string[];
+  video?: string;
+}
+
 export interface Project {
   title: string;
   slug: string;
@@ -10,6 +19,8 @@ export interface Project {
   images: string[];
   /** YouTube video URL, if available for this project. */
   video?: string;
+  /** For multi-scope projects: render distinct sections instead of one flat gallery. */
+  parts?: ProjectPart[];
   specs: {
     sqft?: string;
     timeline?: string;
@@ -186,13 +197,16 @@ export const projects: Project[] = [
     tagline: "Sustainable retail design for an eco-conscious footwear brand.",
     description:
       "Three retail locations for eco-conscious footwear brand Rothy's across Los Angeles and Pasadena. Each build-out integrates locally-sourced reclaimed woods, accent tile, and sustainable finishes aligned with the brand's mission, along with custom millwork displays.",
-    heroImage: "/blog/Untitled-design-84.webp",
+    heroImage: "/projects/Untitled-design-84.webp",
     images: [
-      "/blog/Untitled-design-84.webp",
-      "/blog/Untitled-design-85.webp",
-      "/blog/Untitled-design-86.webp",
-      "/blog/Untitled-design-87.webp",
-      "/blog/Untitled-design-89.webp",
+      "/projects/Untitled-design-84.webp",
+      "/projects/Untitled-design-85.webp",
+      "/projects/Untitled-design-86.webp",
+      "/projects/Untitled-design-87.webp",
+      "/projects/Untitled-design-89.webp",
+      "/projects/Untitled-design-90.webp",
+      "/projects/Untitled-design-91.webp",
+      "/projects/Untitled-design-18.webp",
     ],
     specs: { scope: "Retail Build-Out" },
     featured: true,
@@ -205,9 +219,19 @@ export const projects: Project[] = [
     tagline: "Minimalist retail design for a premium skincare brand.",
     description:
       "Two distinctive retail locations for premium skincare brand Malin+Goetz, reflecting the brand's philosophy of uncomplicated skincare and sustainable living. Recycled construction materials, minimalist aesthetic with clean lines and neutral palette, and energy-efficient lighting throughout.",
-    heroImage: "/projects/2-web-or-mls-APR00067-1-600x600.jpg",
+    heroImage: "/projects/1-web-or-mls-APR00058 (1).webp",
     images: [
-      "/projects/2-web-or-mls-APR00067-1-600x600.jpg",
+      "/projects/1-web-or-mls-APR00058 (1).webp",
+      "/projects/2-web-or-mls-APR00067.webp",
+      "/projects/4-web-or-mls-APR00061.webp",
+      "/projects/5-web-or-mls-APR00004.webp",
+      "/projects/7-web-or-mls-APR00007.webp",
+      "/projects/10-web-or-mls-APR00013.webp",
+      "/projects/11-web-or-mls-APR00043.webp",
+      "/projects/12-web-or-mls-APR00016.webp",
+      "/projects/17-web-or-mls-APR00037.webp",
+      "/projects/18-web-or-mls-APR00049.webp",
+      "/projects/20-web-or-mls-APR00055.webp",
     ],
     specs: { scope: "Retail Build-Out" },
   },
@@ -258,10 +282,10 @@ export const projects: Project[] = [
     title: "85°C Bakery Cafe",
     slug: "85c-bakery-cafe",
     category: "commercial",
-    neighborhood: "Buena Park & Multiple West Coast Locations",
-    tagline: "Eight bakery locations plus a full distribution center office build-out.",
+    neighborhood: "Buena Park & Multiple Los Angeles Locations",
+    tagline: "Nine projects, one client: eight bakery cafes plus the commercial building built to feed all of them.",
     description:
-      "Eight locations across California and Arizona for the premium bakery concept, plus the brand's Buena Park distribution center office build-out. Each space showcases an in-house bakery producing fresh items hourly, with dark wood displays, commercial baking equipment, and site-specific adaptations including a historic early 20th-century building in Downtown LA.",
+      "econstruct delivered nine distinct builds for 85°C as one program: eight individual bakery cafe locations across the Los Angeles area, each with an in-house bakery producing fresh items hourly, dark wood displays, and commercial baking equipment — and, as the ninth and most complex piece, a dedicated commercial distribution center and corporate office in Buena Park engineered to supply and support every one of those locations. The distribution center was the operational backbone of the entire rollout: a single commercial building handling production, logistics, and administration for the full Los Angeles footprint.",
     heroImage: "/blog/image00409-scaled.webp",
     images: [
       "/blog/image00409-scaled.webp",
@@ -282,8 +306,41 @@ export const projects: Project[] = [
       "/blog/85c-distribution-6-600x600.jpg",
       "/blog/85c-distribution-8-600x600.jpg",
     ],
-    video: "https://www.youtube.com/watch?v=zHbxhNZdRT4",
-    specs: { scope: "Multi-Location Build-Out + Distribution Center Office" },
+    parts: [
+      {
+        title: "Part 1 — Eight Bakery Cafe Locations",
+        description:
+          "Eight individual restaurant build-outs across the Los Angeles area for the premium bakery concept. Each location showcases an in-house bakery producing fresh pastries and beverages hourly, dark wood displays, commercial baking equipment, and site-specific design adaptations to fit each property's footprint and shell condition.",
+        images: [
+          "/blog/image00409-scaled.webp",
+          "/blog/image00011-scaled.webp",
+          "/blog/image00024-scaled.webp",
+          "/blog/image00045-scaled.webp",
+          "/blog/image00126-scaled.webp",
+          "/blog/image00128-scaled.webp",
+          "/blog/image00129-scaled.webp",
+          "/blog/image00407-29-scaled.webp",
+          "/blog/image00412-scaled.webp",
+        ],
+      },
+      {
+        title: "Part 2 — The Distribution Center: One Building Feeding Every LA Location",
+        description:
+          "The ninth and central piece of the program: a commercial distribution center and corporate office build-out in Buena Park, purpose-built to produce and supply every 85°C bakery cafe across Los Angeles from a single facility. This was the most complex scope in the engagement — production space, logistics flow, and administrative offices delivered as one coordinated commercial build.",
+        images: [
+          "/blog/85c-distribution-11-600x600.jpg",
+          "/blog/85c-distribution-12-600x600.jpg",
+          "/blog/85c-distribution-13-600x600.jpg",
+          "/blog/85c-distribution-14-600x600.jpg",
+          "/blog/85c-distribution-15-600x600.jpg",
+          "/blog/85c-distribution-16-600x600.jpg",
+          "/blog/85c-distribution-6-600x600.jpg",
+          "/blog/85c-distribution-8-600x600.jpg",
+        ],
+        video: "https://www.youtube.com/watch?v=zHbxhNZdRT4",
+      },
+    ],
+    specs: { scope: "9 Builds: 8 Bakery Locations + 1 Distribution Center" },
   },
   {
     title: "Joe & The Juice",
@@ -293,9 +350,15 @@ export const projects: Project[] = [
     tagline: "Five Scandinavian juice and coffee bars across Southern California.",
     description:
       "Five successful locations across Southern California for the Scandinavian juice and coffee brand. Each build-out features a signature aesthetic — moss walls, brick backsplashes, sleek counters, and durable high-traffic finishes with custom juice stations and coffee bar installations.",
-    heroImage: "/projects/Untitled-design-18-1-600x600.png",
+    heroImage: "/projects/JOETHEJUICE_1-scaled.webp",
     images: [
-      "/projects/Untitled-design-18-1-600x600.png",
+      "/projects/JOETHEJUICE_1-scaled.webp",
+      "/projects/JOETHEJUICE_3-scaled.webp",
+      "/projects/JOETHEJUICE_3-1-scaled.webp",
+      "/projects/JOETHEJUICE_4-scaled.webp",
+      "/projects/JOETHEJUICE_5-scaled.webp",
+      "/projects/JOETHEJUICE_6-scaled.webp",
+      "/projects/JOETHEJUICE_7-scaled.webp",
     ],
     specs: { scope: "Multi-Location Build-Out" },
   },

@@ -217,8 +217,8 @@ export default async function ProjectPage({
         </Container>
       </section>
 
-      {/* Video */}
-      {youtubeId && (
+      {/* Top-level video (only when the project has no separate parts) */}
+      {!project.parts && youtubeId && (
         <section className="bg-brand-navy py-16 md:py-24">
           <Container>
             <AnimatedSection>
@@ -248,40 +248,101 @@ export default async function ProjectPage({
         </section>
       )}
 
-      {/* Gallery */}
-      <section className="bg-white py-20 md:py-28">
-        <Container>
-          <AnimatedSection>
-            <div className="mb-12 text-center">
-              <div className="mb-3 flex items-center justify-center gap-3">
-                <span className="h-px w-9 bg-brand-red" />
-                <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">Gallery</span>
-                <span className="h-px w-9 bg-brand-red" />
-              </div>
-              <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">
-                {project.images.length} Project Photo{project.images.length === 1 ? "" : "s"}
-              </h2>
-            </div>
-          </AnimatedSection>
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {project.images.map((image, index) => (
-              <AnimatedSection key={`${project.slug}-${index}`} delay={index * 0.04}>
-                <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
-                  <div className="relative aspect-[4/3]">
-                    <img
-                      src={image}
-                      alt={`${project.title} photo ${index + 1}`}
-                      className="h-full w-full object-cover"
-                      loading={index === 0 ? "eager" : "lazy"}
-                      decoding="async"
-                    />
+      {/* Multi-part projects: each scope gets its own labeled section */}
+      {project.parts ? (
+        project.parts.map((part, partIndex) => {
+          const partVideoId = part.video ? getYouTubeId(part.video) : null;
+          return (
+            <section
+              key={part.title}
+              className={partIndex % 2 === 0 ? "bg-white py-20 md:py-28" : "bg-secondary py-20 md:py-28"}
+            >
+              <Container>
+                <AnimatedSection>
+                  <div className="mb-4 flex items-center gap-3">
+                    <span className="h-px w-9 bg-brand-red" />
+                    <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">
+                      Scope {partIndex + 1} of {project.parts!.length}
+                    </span>
                   </div>
+                  <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">
+                    {part.title}
+                  </h2>
+                  <p className="mt-4 max-w-3xl leading-relaxed text-body-text">{part.description}</p>
+                </AnimatedSection>
+
+                {partVideoId && (
+                  <AnimatedSection delay={0.1}>
+                    <div className="mx-auto mt-10 max-w-3xl overflow-hidden rounded-2xl shadow-xl">
+                      <div className="aspect-video">
+                        <iframe
+                          src={`https://www.youtube.com/embed/${partVideoId}`}
+                          title={`${part.title} video`}
+                          className="h-full w-full"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                    </div>
+                  </AnimatedSection>
+                )}
+
+                <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {part.images.map((image, index) => (
+                    <AnimatedSection key={`${project.slug}-part${partIndex}-${index}`} delay={index * 0.04}>
+                      <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
+                        <div className="relative aspect-[4/3]">
+                          <img
+                            src={image}
+                            alt={`${part.title} photo ${index + 1}`}
+                            className="h-full w-full object-cover"
+                            loading={partIndex === 0 && index === 0 ? "eager" : "lazy"}
+                            decoding="async"
+                          />
+                        </div>
+                      </div>
+                    </AnimatedSection>
+                  ))}
                 </div>
-              </AnimatedSection>
-            ))}
-          </div>
-        </Container>
-      </section>
+              </Container>
+            </section>
+          );
+        })
+      ) : (
+        <section className="bg-white py-20 md:py-28">
+          <Container>
+            <AnimatedSection>
+              <div className="mb-12 text-center">
+                <div className="mb-3 flex items-center justify-center gap-3">
+                  <span className="h-px w-9 bg-brand-red" />
+                  <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">Gallery</span>
+                  <span className="h-px w-9 bg-brand-red" />
+                </div>
+                <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">
+                  {project.images.length} Project Photo{project.images.length === 1 ? "" : "s"}
+                </h2>
+              </div>
+            </AnimatedSection>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {project.images.map((image, index) => (
+                <AnimatedSection key={`${project.slug}-${index}`} delay={index * 0.04}>
+                  <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
+                    <div className="relative aspect-[4/3]">
+                      <img
+                        src={image}
+                        alt={`${project.title} photo ${index + 1}`}
+                        className="h-full w-full object-cover"
+                        loading={index === 0 ? "eager" : "lazy"}
+                        decoding="async"
+                      />
+                    </div>
+                  </div>
+                </AnimatedSection>
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* Other projects */}
       <section className="bg-secondary py-16 md:py-20">
