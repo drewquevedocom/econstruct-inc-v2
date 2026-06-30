@@ -108,7 +108,7 @@ export default function AboutPage() {
             <AnimatedSection>
               <div className="relative rounded-3xl overflow-hidden aspect-[4/5] bg-gray-100">
                 <Image
-                  src="/frank2.png"
+                  src="/frank_about2.png"
                   alt={frank.name}
                   fill
                   className="object-cover"
