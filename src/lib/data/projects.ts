@@ -262,6 +262,52 @@ export const projects: Project[] = [
 
   // ── Commercial (Multi-Location) ─────────────────────────────
   {
+    title: "SBUX – Lancaster",
+    slug: "sbux-lancaster",
+    category: "commercial",
+    neighborhood: "Lancaster, CA",
+    tagline: "Full Starbucks ground-up construction from permits through opening day.",
+    description:
+      "Ground-up Starbucks restaurant construction in Lancaster, CA. Full-service build from permitting and site preparation through brand-spec interior finishes, drive-through configuration, and opening-day delivery.",
+    heroImage: "/projects/01_Starbucks.jpg",
+    images: [
+      "/projects/01_Starbucks.jpg",
+      "/projects/02_Starbucks.jpg",
+      "/projects/03_Starbucks.jpg",
+      "/projects/04_Starbucks.jpg",
+      "/projects/05_Starbucks.jpg",
+      "/projects/06_Starbucks.jpg",
+      "/projects/07_Starbucks.jpg",
+      "/projects/08_Starbucks.jpg",
+      "/projects/09_Starbucks.jpg",
+      "/projects/10_Starbucks.jpg",
+    ],
+    specs: { scope: "Ground-Up Construction" },
+  },
+  {
+    title: "The Fix Wellness Lounge",
+    slug: "the-fix-wellness-lounge",
+    category: "commercial",
+    neighborhood: "Los Angeles",
+    tagline: "A premium wellness lounge build-out delivering a modern, high-end client experience.",
+    description:
+      "Full tenant improvement build-out for The Fix Wellness Lounge in Los Angeles. Custom finishes, premium lighting coordination, millwork, and MEP work — delivered as a turn-key, client-ready wellness destination.",
+    heroImage: "/projects/01_TheFix_web.jpg",
+    images: [
+      "/projects/01_TheFix_web.jpg",
+      "/projects/02_TheFix_web.jpg",
+      "/projects/03_TheFix_web.jpg",
+      "/projects/04_TheFix_web.jpg",
+      "/projects/05_TheFix_web.jpg",
+      "/projects/06_TheFix_web.jpg",
+      "/projects/07_TheFix_web.jpg",
+      "/projects/08_TheFix_web.jpg",
+      "/projects/09_TheFix_web.jpg",
+      "/projects/10_TheFix_web.jpg",
+    ],
+    specs: { scope: "Tenant Improvement" },
+  },
+  {
     title: "Jersey Mike's Subs",
     slug: "jersey-mikes-subs",
     category: "commercial",
@@ -368,6 +414,27 @@ export const projects: Project[] = [
   },
 
   // ── Residential ──────────────────────────────────────────────
+  {
+    title: "Santa Monica ADU",
+    slug: "santa-monica-adu",
+    category: "residential",
+    neighborhood: "Santa Monica",
+    tagline: "A detached ADU on San Vicente Blvd — designed, permitted, and built to maximize the lot.",
+    description:
+      "Detached accessory dwelling unit construction on San Vicente Boulevard in Santa Monica. Full scope from design coordination and LADBS permitting through construction and final inspection — delivering a code-compliant, high-finish secondary unit that maximizes the property's value.",
+    heroImage: "/projects/01_SanVincenteADU.jpg",
+    images: [
+      "/projects/01_SanVincenteADU.jpg",
+      "/projects/02_SanVincenteADU.jpg",
+      "/projects/03_SanVincenteADU.jpg",
+      "/projects/04_SanVincenteADU.jpg",
+      "/projects/05_SanVincenteADU.jpg",
+      "/projects/06_SanVincenteADU.jpg",
+      "/projects/09_SanVincenteADU.jpg",
+      "/projects/10_SanVincenteADU.jpg",
+    ],
+    specs: { scope: "ADU Construction" },
+  },
   {
     title: "Devista Project",
     slug: "devista-project",
