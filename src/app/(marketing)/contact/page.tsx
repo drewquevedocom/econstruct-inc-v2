@@ -18,7 +18,7 @@ import GenericContactForm from "@/components/contact/GenericContactForm";
 export const metadata: Metadata = generatePageMetadata({
   title: "Contact econstruct",
   description:
-    "Contact econstruct with a general inquiry, vendor question, or project message. Call 310-740-9999 for direct support.",
+    "Contact econstruct with a general inquiry, vendor question, or project message. Call 888.990.0303 for direct support.",
   path: "/contact",
 });
 

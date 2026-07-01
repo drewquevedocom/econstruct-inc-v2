@@ -43,7 +43,7 @@ export const projects: Project[] = [
     neighborhood: "La Cienega, Los Angeles",
     tagline: "Old Hollywood glamour meets a modern cocktail program.",
     description:
-      "An upscale cocktail lounge blending modern elegance with old Hollywood glamour. Features an expansive blue onyx bar as centerpiece, custom leather and velvet booth seating, live-edge wood tables fabricated by econstruct artisans, and an open-concept kitchen with a state-of-the-art bar program.",
+      "An upscale cocktail lounge blending modern elegance with old Hollywood glamour. Features imported Indonesian custom millwork throughout, oversized custom lighting coordination, custom leather and velvet booth seating, and a state-of-the-art bar program.",
     heroImage: "/projects/hutchinson11.jpg",
     images: [
       "/projects/hutchinson11.jpg",

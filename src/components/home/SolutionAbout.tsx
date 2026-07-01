@@ -140,13 +140,15 @@ export default function SolutionAbout() {
               onClick={(e) => e.stopPropagation()}
               className="w-full max-w-4xl overflow-hidden rounded-lg shadow-2xl"
             >
-              <video
-                src="/loop.mp4"
-                controls
-                autoPlay
-                playsInline
-                className="aspect-video w-full bg-black object-cover"
-              />
+              <div className="aspect-video">
+                <iframe
+                  src="https://www.youtube.com/embed/LG9jy5Nt-So?autoplay=1"
+                  title="Watch How We Build — econstruct"
+                  className="h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
             </motion.div>
           </motion.div>
         )}

@@ -77,7 +77,7 @@ const process = [
 const faqs = [
   {
     q: "How long does a restaurant build-out take in Los Angeles?",
-    a: "A typical restaurant TI in an existing shell runs 60–120 days from permit approval, depending on scope. Ground-up builds with LA County Health and fire marshal approvals add 2–4 months. econstruct provides a milestone schedule before construction begins so you can plan your opening date with confidence.",
+    a: "A typical restaurant TI in an existing shell runs 60–120 days from permit approval, depending on scope. Ground-up builds with LA County Health and fire marshal approvals add 8–12 months. econstruct provides a milestone schedule before construction begins so you can plan your opening date with confidence.",
   },
   {
     q: "What permits are required for a restaurant in Los Angeles?",
@@ -85,7 +85,7 @@ const faqs = [
   },
   {
     q: "How much does restaurant construction cost per square foot in LA?",
-    a: "Restaurant construction in Los Angeles typically costs $150–$400+ per square foot depending on finish level, kitchen equipment complexity, and MEP scope. Fast-casual concepts run lower; full-service upscale restaurants trend higher. We provide detailed line-item estimates before you commit.",
+    a: "Restaurant construction in Los Angeles typically costs $250–$400+ per square foot depending on finish level, kitchen equipment complexity, and MEP scope. Fast-casual concepts run lower; full-service upscale restaurants trend higher. We provide detailed line-item estimates before you commit.",
   },
   {
     q: "Do you work with our architect, or do you provide design-build?",
@@ -144,7 +144,7 @@ export default function RestaurantBarConstruction() {
                 Hutchinson Cocktails & Grill
               </h2>
               <p className="text-[15px] leading-relaxed text-body-text mb-4">
-                An upscale cocktail lounge on La Cienega blending modern elegance with old Hollywood glamour. econstruct delivered the blue onyx bar, custom leather and velvet booth seating, live-edge wood tables, and a fully outfitted open-concept kitchen with a state-of-the-art bar program.
+                An upscale cocktail lounge on La Cienega blending modern elegance with old Hollywood glamour. econstruct delivered imported Indonesian custom millwork throughout, oversized custom lighting coordination, custom leather and velvet booth seating, and a fully outfitted state-of-the-art bar program.
               </p>
               <p className="text-[15px] leading-relaxed text-body-text mb-8">
                 Scope: full interior build-out, MEP coordination, health department compliance, and opening-day delivery.

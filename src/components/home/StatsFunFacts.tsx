@@ -5,8 +5,8 @@ import { Building2, CalendarClock, LayoutGrid, Award } from "lucide-react";
 import CountUp from "@/components/home/CountUp";
 
 const STATS = [
-  { Icon: Building2, end: 634, suffix: "", label: "Projects Completed" },
-  { Icon: CalendarClock, end: 51, suffix: "", label: "Years of Experience" },
+  { Icon: Building2, end: 634, suffix: "", label: "Lifetime Completed" },
+  { Icon: CalendarClock, end: 51, suffix: "", label: "Years of Combined Partner Experience" },
   { Icon: LayoutGrid, end: 5, suffix: "", label: "Industries Served" },
   { Icon: Award, end: 2, suffix: "×", label: "Best Contractor Awards" },
 ];

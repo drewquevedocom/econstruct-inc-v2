@@ -105,8 +105,8 @@ export default function IndutriHero() {
             className="mt-14 flex flex-wrap gap-x-10 gap-y-5 border-t border-white/10 pt-7"
           >
             {[
-              { num: "634", label: "Projects Completed" },
-              { num: "51", label: "Years of Experience" },
+              { num: "634", label: "Lifetime Completed" },
+              { num: "51", label: "Years of Combined Partner Experience" },
               { num: ECONSTRUCT_INC.stats.license, label: "Licensed & Bonded" },
             ].map((stat) => (
               <div key={stat.label} className="flex flex-col">

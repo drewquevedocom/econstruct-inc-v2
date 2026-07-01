@@ -21,7 +21,7 @@ export default function FoodDistributionSpotlight() {
             <div className="mb-5 flex items-center gap-3">
               <span className="h-px w-10 bg-brand-red" />
               <span className="text-xs font-bold uppercase tracking-[0.28em] text-brand-gold">
-                New Division
+                Food &amp; Distribution
               </span>
             </div>
             <h2

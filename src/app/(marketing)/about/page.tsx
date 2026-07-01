@@ -23,7 +23,7 @@ import ConsultationCTA from "@/components/ConsultationCTA";
 export const metadata: Metadata = generatePageMetadata({
   title: "About econstruct - Building LA Since 2001",
   description:
-    "Meet the team behind econstruct. Building in Los Angeles since 2001, founded as econstruct in 2011, with 639 combined partner projects. CA Lic #964015.",
+    "Meet the team behind econstruct. Building in Los Angeles since 2001, founded as econstruct in 2011, with 634 combined partner projects. CA Lic #964015.",
   path: "/about",
 });
 
@@ -70,6 +70,11 @@ const credentials = [
     icon: Leaf,
     title: "USGBC Member",
     description: "U.S. Green Building Council — sustainable building practices",
+  },
+  {
+    icon: Building2,
+    title: "AGC Member",
+    description: "Associated General Contractors of America",
   },
 ];
 

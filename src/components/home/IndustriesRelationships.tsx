@@ -10,7 +10,7 @@ import SectionHeading from "@/components/home/SectionHeading";
 const POINTS = [
   "Single point of accountability from preconstruction to close-out",
   "Permit, plan-check and health-department expertise across LA",
-  "Self-performed millwork and trade coordination that protects your schedule",
+  "Expert coordination of custom millwork, specialty trades, and long-lead materials to keep projects on schedule",
 ];
 
 export default function IndustriesRelationships() {
