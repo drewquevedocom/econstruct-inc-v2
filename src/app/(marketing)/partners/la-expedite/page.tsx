@@ -110,7 +110,7 @@ export default function LAExpeditePartnerPage() {
                 Free Fire-Rebuild Consultation
               </span>
               <a
-                href={`tel:${COMPANY.phone.primary}`}
+                href={`tel:${COMPANY.phone.primaryHref}`}
                 className="flex items-center gap-2 rounded-full bg-accent-gold px-4 py-1.5 font-bold text-brand-dark transition-colors hover:bg-white"
               >
                 <Phone size={14} />
@@ -149,11 +149,11 @@ export default function LAExpeditePartnerPage() {
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>
                 <a
-                  href={`tel:${COMPANY.phone.primary}`}
+                  href={`tel:${COMPANY.phone.primaryHref}`}
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/30 px-7 py-4 text-base font-bold text-white backdrop-blur-md transition-colors hover:border-accent-gold hover:text-accent-gold"
                 >
                   <Phone size={16} />
-                  Call (310) 740-9999
+                  Call 310.740.9999
                 </a>
               </div>
             </div>
@@ -332,7 +332,7 @@ export default function LAExpeditePartnerPage() {
                 <div className="text-sm">
                   <p className="font-bold text-white">Prefer to call?</p>
                   <a
-                    href={`tel:${COMPANY.phone.primary}`}
+                    href={`tel:${COMPANY.phone.primaryHref}`}
                     className="text-accent-gold hover:underline"
                   >
                     {COMPANY.phone.display}
@@ -376,7 +376,7 @@ export default function LAExpeditePartnerPage() {
               Contact Us
             </p>
             <a
-              href={`tel:${COMPANY.phone.primary}`}
+              href={`tel:${COMPANY.phone.primaryHref}`}
               className="mt-2 block font-bold text-brand-dark hover:text-accent-gold"
             >
               {COMPANY.phone.display}

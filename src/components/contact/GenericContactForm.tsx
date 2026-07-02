@@ -213,7 +213,7 @@ export default function GenericContactForm() {
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>
         <a
-          href="tel:3107409999"
+          href="tel:+13107409999"
           className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-200 px-8 py-4 font-bold text-brand-dark transition-colors hover:border-accent-gold hover:text-accent-gold"
         >
           <Phone size={18} />

@@ -136,7 +136,11 @@ export default function Footer() {
               <ul className="mt-6 space-y-4 text-sm text-white/65">
                 <li className="flex gap-3">
                   <MapPin size={18} className="mt-0.5 shrink-0 text-brand-gold" />
-                  <span className="leading-relaxed">{ECONSTRUCT_INC.address.full}</span>
+                  <span className="leading-relaxed">
+                    {ECONSTRUCT_INC.address.line}<br />
+                    {ECONSTRUCT_INC.address.line2}<br />
+                    {ECONSTRUCT_INC.address.line3}
+                  </span>
                 </li>
                 <li className="flex gap-3">
                   <Phone size={18} className="shrink-0 text-brand-gold" />

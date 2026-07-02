@@ -190,29 +190,6 @@ export const projects: Project[] = [
 
   // ── Retail ───────────────────────────────────────────────────
   {
-    title: "8th Symphony",
-    slug: "8th-symphony",
-    category: "restaurant",
-    neighborhood: "Los Angeles",
-    tagline: "A polished coffee shop build-out with warm millwork and clean customer flow.",
-    description:
-      "Interior cafe build-out for 8th Symphony, centered on a refined coffee bar, warm wood detailing, polished surfaces, and a clean front-of-house layout. The project balances service efficiency with a comfortable neighborhood cafe atmosphere.",
-    heroImage: "/projects/01_8thSymphony.jpg",
-    images: [
-      "/projects/01_8thSymphony.jpg",
-      "/projects/02_8thSymphony.jpg",
-      "/projects/03_8thSymphony.jpg",
-      "/projects/04_8thSymphony.jpg",
-      "/projects/05_8thSymphony.jpg",
-      "/projects/06_8thSymphony.jpg",
-      "/projects/07_8thSymphony.jpg",
-      "/projects/08_8thSymphony.jpg",
-      "/projects/09_8thSymphony.jpg",
-      "/projects/10_8thSymphony.jpg",
-    ],
-    specs: { scope: "Cafe Build-Out" },
-  },
-  {
     title: "Rothy's",
     slug: "rothys",
     category: "retail",
@@ -308,7 +285,7 @@ export const projects: Project[] = [
     specs: { scope: "Ground-Up Construction" },
   },
   {
-    title: "8th & Symphony",
+    title: "8th Symphony",
     slug: "8th-symphony",
     category: "commercial",
     neighborhood: "Los Angeles",

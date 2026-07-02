@@ -184,7 +184,7 @@ export default function PrivacyPolicyPage() {
               <p>
                 Phone:{" "}
                 <a
-                  href={`tel:${COMPANY.phone.primary.replace(/-/g, "")}`}
+                  href={`tel:${COMPANY.phone.primaryHref}`}
                   className="text-accent-gold hover:underline"
                 >
                   {COMPANY.phone.display}

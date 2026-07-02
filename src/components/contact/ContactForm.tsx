@@ -410,10 +410,10 @@ export default function ContactForm() {
                 <p className="text-center text-xs text-gray-400 mt-2">
                   Or call us directly:{" "}
                   <a
-                    href="tel:+18182552210"
+                    href="tel:+13107409999"
                     className="text-accent-gold font-bold hover:underline"
                   >
-                    (818) 255-2210
+                    310.740.9999
                   </a>
                 </p>
               </motion.div>

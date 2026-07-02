@@ -188,7 +188,7 @@ export default function ForArchitectsPage() {
                 <Button href="/contact?source=architect" variant="primary" size="lg">
                   Start a Conversation
                 </Button>
-                <Button href={`tel:${COMPANY.phone.primary.replace(/-/g, "")}`} variant="secondary" size="lg">
+                <Button href={`tel:${COMPANY.phone.primaryHref}`} variant="secondary" size="lg">
                   Call {COMPANY.phone.display}
                 </Button>
               </div>

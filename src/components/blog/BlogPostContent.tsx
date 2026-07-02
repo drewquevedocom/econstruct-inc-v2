@@ -157,7 +157,8 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
                   width="1600"
                   height="900"
                   loading="eager"
-                  className="aspect-[16/9] w-full object-cover"
+                  className="w-full object-contain"
+                  style={{ maxHeight: "600px" }}
                 />
               </picture>
             </div>

@@ -66,18 +66,18 @@ const features = [
 ];
 
 const process = [
-  { step: "01", title: "Preconstruction & Scope", body: "We walk the space with you, review existing conditions, and produce a detailed scope with line-item pricing before any commitment." },
-  { step: "02", title: "Permit & Health Dept. Filing", body: "We file for building, electrical, plumbing, mechanical, and fire permits simultaneously — and manage LA County Health Department plan check in parallel." },
+  { step: "01", title: "Preconstruction & Scope", body: "We walk the space with you, review existing conditions, and produce a detailed scope with line-item pricing before contract signing." },
+  { step: "02", title: "Permit & Health Dept. Filing", body: "We assist in filing for building, electrical, plumbing, mechanical, and fire permits simultaneously — and manage LA County Health Department plan check in parallel." },
   { step: "03", title: "Demolition & Rough-In", body: "Demolition, framing, MEP rough-in, and underground work completed on a coordinated schedule that protects your opening date." },
   { step: "04", title: "Kitchen & Bar Installation", body: "Equipment pads, hoods, grease systems, bar plumbing, and all commercial-grade finishes installed per approved plans." },
-  { step: "05", title: "Inspections & Health Permit", body: "We schedule and manage every inspection, address corrections, and walk the final health department inspection with you." },
-  { step: "06", title: "Punch & Certificate of Occupancy", body: "Final punch list, CO obtained, keys turned over. We're not done until you're legally open to serve customers." },
+  { step: "05", title: "Inspections & Health Permit", body: "We schedule and manage every inspection, address corrections, and walk the final health department inspection at sign off." },
+  { step: "06", title: "Punch & Certificate of Occupancy", body: "Final punch list, Certificate of Occupancy obtained, keys turned over. We're not done until you're approved to open for business." },
 ];
 
 const faqs = [
   {
     q: "How long does a restaurant build-out take in Los Angeles?",
-    a: "A typical restaurant TI in an existing shell runs 60–120 days from permit approval, depending on scope. Ground-up builds with LA County Health and fire marshal approvals add 8–12 months. econstruct provides a milestone schedule before construction begins so you can plan your opening date with confidence.",
+    a: "A typical restaurant TI in an existing shell runs 60–120 days from permit approval, depending on scope. Ground-up builds with LA County Health and fire department approvals add 8–12 months. econstruct provides a milestone schedule before construction begins so you can plan your opening date with confidence.",
   },
   {
     q: "What permits are required for a restaurant in Los Angeles?",
@@ -85,7 +85,7 @@ const faqs = [
   },
   {
     q: "How much does restaurant construction cost per square foot in LA?",
-    a: "Restaurant construction in Los Angeles typically costs $250–$400+ per square foot depending on finish level, kitchen equipment complexity, and MEP scope. Fast-casual concepts run lower; full-service upscale restaurants trend higher. We provide detailed line-item estimates before you commit.",
+    a: "Restaurant construction in Los Angeles typically costs $250–$450+ per square foot depending on finish level, kitchen equipment complexity, and MEP scope. Fast-casual concepts run lower; full-service upscale restaurants trend higher. We provide detailed line-item estimates before you commit.",
   },
   {
     q: "Do you work with our architect, or do you provide design-build?",

@@ -145,7 +145,7 @@ export default function PrivateLotWalkForm() {
           Frank&apos;s team will review the property details and follow up directly to schedule the conversation.
         </p>
         <a
-          href="tel:3107409999"
+          href="tel:+13107409999"
           className="mt-7 inline-flex rounded-full bg-brand-dark px-7 py-3 text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-accent-gold"
         >
           Call direct now
@@ -270,7 +270,7 @@ export default function PrivateLotWalkForm() {
       </button>
 
       <p className="mt-4 text-center text-xs font-semibold leading-5 text-body-text">
-        Prefer direct? Call <a href="tel:3107409999" className="text-brand-dark underline decoration-accent-gold underline-offset-4">(310) 740-9999</a>.
+        Prefer direct? Call <a href="tel:+13107409999" className="text-brand-dark underline decoration-accent-gold underline-offset-4">310.740.9999</a>.
       </p>
     </form>
   );

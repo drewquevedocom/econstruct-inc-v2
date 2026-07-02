@@ -229,7 +229,7 @@ export default function ForInvestorsPage() {
                 <Button href="/contact?source=investor" variant="primary" size="lg">
                   Request Feasibility Package
                 </Button>
-                <Button href={`tel:${COMPANY.phone.primary.replace(/-/g, "")}`} variant="secondary" size="lg">
+                <Button href={`tel:${COMPANY.phone.primaryHref}`} variant="secondary" size="lg">
                   Call {COMPANY.phone.display}
                 </Button>
               </div>

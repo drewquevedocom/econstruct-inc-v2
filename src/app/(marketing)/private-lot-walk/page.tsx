@@ -87,7 +87,7 @@ export default function PrivateLotWalkPage() {
                   <ArrowRight className="h-5 w-5" />
                 </a>
                 <a
-                  href={`tel:${COMPANY.phone.primary}`}
+                  href={`tel:${COMPANY.phone.primaryHref}`}
                   className="inline-flex items-center justify-center gap-3 rounded-full border border-white/28 bg-white/8 px-7 py-4 text-sm font-black uppercase tracking-[0.16em] text-white transition hover:bg-white hover:text-brand-dark"
                 >
                   <Phone className="h-5 w-5" />

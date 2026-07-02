@@ -11,7 +11,7 @@ You help website visitors learn about econstruct's services, answer questions ab
 - Founded by Frank Neimroozi, building in LA since 2001, econstruct brand since 2011
 - Licensed General Contractor: CA License #964015
 - NAHB Member, USGBC Member
-- Phone: (310) 740-9999
+- Phone: 310.740.9999
 - Email: info@econstructinc.com
 - Website: econstructinc.com
 
@@ -60,7 +60,7 @@ export async function POST(req: Request) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
     return Response.json(
-      { error: "AI chat is not configured yet. Please call us at (310) 740-9999 or schedule a consultation." },
+      { error: "AI chat is not configured yet. Please call us at 310.740.9999 or schedule a consultation." },
       { status: 503 }
     );
   }
@@ -96,13 +96,13 @@ export async function POST(req: Request) {
     const errText = await res.text();
     console.error("Anthropic API error:", res.status, errText);
     return Response.json(
-      { error: "I'm having trouble thinking right now. Please try again or call us at (310) 740-9999." },
+      { error: "I'm having trouble thinking right now. Please try again or call us at 310.740.9999." },
       { status: 502 }
     );
   }
 
   const data = await res.json();
-  const reply = data.content?.[0]?.text || "I'm sorry, I couldn't generate a response. Please call us at (310) 740-9999.";
+  const reply = data.content?.[0]?.text || "I'm sorry, I couldn't generate a response. Please call us at 310.740.9999.";
 
   return Response.json({ reply });
 }

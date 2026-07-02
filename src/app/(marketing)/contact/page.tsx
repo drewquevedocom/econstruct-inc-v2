@@ -18,7 +18,7 @@ import GenericContactForm from "@/components/contact/GenericContactForm";
 export const metadata: Metadata = generatePageMetadata({
   title: "Contact econstruct",
   description:
-    "Contact econstruct with a general inquiry, vendor question, or project message. Call 888.990.0303 for direct support.",
+    "Contact econstruct with a general inquiry, vendor question, or project message. Call 310.740.9999 for direct support.",
   path: "/contact",
 });
 
@@ -39,7 +39,8 @@ const contactInfo = [
     icon: MapPin,
     label: "Office",
     value: `${ECONSTRUCT_INC.address.line}`,
-    secondary: `${ECONSTRUCT_INC.address.city}, ${ECONSTRUCT_INC.address.state} ${ECONSTRUCT_INC.address.zip}`,
+    line2: ECONSTRUCT_INC.address.line2,
+    secondary: `${ECONSTRUCT_INC.address.line3}`,
     href: `https://maps.google.com/?q=${encodeURIComponent(ECONSTRUCT_INC.address.full)}`,
   },
 ];

@@ -191,7 +191,7 @@ export default function ForInsuranceAdjustersPage() {
                 <Button href="/contact?source=insurance-adjuster" variant="primary" size="lg">
                   Partner With Us
                 </Button>
-                <Button href={`tel:${COMPANY.phone.primary.replace(/-/g, "")}`} variant="secondary" size="lg">
+                <Button href={`tel:${COMPANY.phone.primaryHref}`} variant="secondary" size="lg">
                   Call {COMPANY.phone.display}
                 </Button>
               </div>

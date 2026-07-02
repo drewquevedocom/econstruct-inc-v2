@@ -16,6 +16,5 @@ export const partners: string[] = [
   "The Dive Oyster Bar",
   "Paradisi Ice Cream",
   "Tomato Joe's Pizza",
-  "PanIQ Escape Room",
   "Hutchinson LA",
 ];

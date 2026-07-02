@@ -37,7 +37,7 @@ export default function FinalCTA() {
             </Link>
 
             <a
-              href={`tel:${COMPANY.phone.primary.replace(/[^0-9+]/g, "")}`}
+              href={`tel:${COMPANY.phone.primaryHref}`}
               className="group inline-flex items-center gap-3 bg-white text-brand-dark font-bold text-base px-8 py-4.5 rounded-full border border-gray-200 hover:border-accent-gold hover:text-accent-gold transition-all duration-300 shadow-md hover:shadow-lg"
             >
               <Phone size={16} className="group-hover:text-accent-gold transition-colors" />

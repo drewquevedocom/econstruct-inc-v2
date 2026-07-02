@@ -66,7 +66,7 @@ export default function FAQPage() {
                 <Button href="/contact" variant="primary" size="lg">
                   Contact Us
                 </Button>
-                <Button href={`tel:${COMPANY.phone.primary}`} variant="secondary" size="lg">
+                <Button href={`tel:${COMPANY.phone.primaryHref}`} variant="secondary" size="lg">
                   Call {COMPANY.phone.display}
                 </Button>
               </div>

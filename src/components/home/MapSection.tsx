@@ -40,7 +40,11 @@ export default function MapSection() {
           <ul className="relative space-y-5 text-white/80">
             <li className="flex gap-4">
               <MapPin size={20} className="mt-0.5 shrink-0 text-brand-gold" />
-              <span className="text-[15px] leading-relaxed">{ECONSTRUCT_INC.address.full}</span>
+              <span className="text-[15px] leading-relaxed">
+                {ECONSTRUCT_INC.address.line}<br />
+                {ECONSTRUCT_INC.address.line2}<br />
+                {ECONSTRUCT_INC.address.line3}
+              </span>
             </li>
             <li className="flex gap-4">
               <Phone size={20} className="mt-0.5 shrink-0 text-brand-gold" />
@@ -62,7 +66,7 @@ export default function MapSection() {
             </li>
             <li className="flex gap-4">
               <Clock size={20} className="mt-0.5 shrink-0 text-brand-gold" />
-              <span className="text-[15px] leading-relaxed">Mon–Fri · 8:00 AM – 5:00 PM</span>
+              <span className="text-[15px] leading-relaxed">Mon–Fri · 9:00 AM – 5:00 PM</span>
             </li>
           </ul>
 

@@ -64,7 +64,7 @@ export default function AliceChat() {
         {
           role: "assistant",
           content:
-            "I'm having trouble connecting. Please call us at (310) 740-9999 or try again.",
+            "I'm having trouble connecting. Please call us at 310.740.9999 or try again.",
         },
       ]);
     } finally {
@@ -180,8 +180,8 @@ export default function AliceChat() {
             </div>
             <p className="text-[10px] text-gray-400 text-center mt-2">
               Alice is an AI assistant. For urgent matters, call{" "}
-              <a href="tel:310-740-9999" className="text-[#B8963E]">
-                (310) 740-9999
+              <a href="tel:+13107409999" className="text-[#B8963E]">
+                310.740.9999
               </a>
             </p>
           </div>
