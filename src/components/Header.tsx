@@ -20,7 +20,7 @@ import { ECONSTRUCT_INC } from "@/lib/constants";
 
 const SERVICE_LINKS = [
   { label: "Restaurant & Bar Construction", href: "/services/restaurant-bar-construction" },
-  { label: "Retail & Tenant Improvement", href: "/services/retail-tenant-improvement" },
+  { label: "Retail Tenant Improvement", href: "/services/retail-tenant-improvement" },
   { label: "Office & Tenant Improvement", href: "/services/office-tenant-improvement" },
   { label: "Food Distribution & Cold Storage", href: "/food-distribution-construction" },
   { label: "Custom Homes & ADUs", href: "/services/custom-homes" },
