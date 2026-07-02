@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ConversionTracker from "@/components/ConversionTracker";
 import { generateOrganizationSchema } from "@/lib/blog/schema";
 import { generateLocalBusinessSchema, generateWebSiteSchema } from "@/lib/schema";
 
@@ -26,6 +27,7 @@ export default function MarketingLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
       />
+      <ConversionTracker />
       <Header />
       <main>{children}</main>
       <Footer />
