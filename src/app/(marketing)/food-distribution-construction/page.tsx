@@ -88,6 +88,57 @@ export default function FoodDistributionHub() {
         </div>
       </section>
 
+      {/* ── Why Occupied-Facility Work Is Different ── */}
+      <section className="bg-white py-20 md:py-28">
+        <div className="mx-auto max-w-[1500px] px-6 md:px-10">
+          <div className="grid gap-14 lg:grid-cols-2 lg:gap-20 items-start">
+            <div>
+              <div className="mb-5 flex items-center gap-3">
+                <span className="h-px w-10 bg-brand-red" />
+                <span className="text-xs font-bold uppercase tracking-[0.28em] text-brand-red">Why This Work Is Different</span>
+              </div>
+              <h2 className="font-display text-3xl font-extrabold text-brand-ink mb-6 md:text-[2.6rem] leading-[1.08]">
+                We Don&apos;t Just Build Food Facilities.<br />We Understand How They Run.
+              </h2>
+              <p className="text-[15px] leading-relaxed text-body-text mb-5">
+                Food facility construction is not the same as standard commercial TI. Every element of the construction schedule — phasing, utility shutdowns, equipment disconnects, temporary service paths — has to be designed around the client&apos;s operational calendar, not just the build sequence.
+              </p>
+              <p className="text-[15px] leading-relaxed text-body-text mb-5">
+                LA County Health Department inspections don&apos;t pause for construction. Cold chain integrity has to be maintained even when refrigeration systems are being upgraded. When a commissary supplies 40 restaurant locations, there is no acceptable downtime window — which means the GC has to phase work at a level of precision that most contractors simply aren&apos;t built for.
+              </p>
+              <p className="text-[15px] leading-relaxed text-body-text">
+                econstruct coordinates health department permitting, fire suppression compliance, utility shutdown sequences, and phased construction schedules as one integrated program — so the facility keeps running while we build around it. That capability is what separates a food facility specialist from a general contractor who has done a few kitchen jobs.
+              </p>
+            </div>
+            <div className="space-y-5">
+              {[
+                {
+                  title: "Health Department Permitting",
+                  body: "LA County Department of Public Health requirements are built into the construction schedule from day one — not filed after the build and hoped for. We coordinate pre-opening inspections, plan check submissions, and correction responses as part of the critical path.",
+                },
+                {
+                  title: "Operational Continuity Planning",
+                  body: "We phase construction around your production schedule. Utility shutdowns are sequenced with minimum operational impact, temporary service paths are planned in advance, and equipment disconnects are coordinated with your facilities team — not improvised in the field.",
+                },
+                {
+                  title: "Cold Chain Integrity",
+                  body: "Refrigeration system upgrades in active cold storage facilities require precise sequencing so product never leaves its required temperature range. We've done it. We know what a misstep costs an operation.",
+                },
+                {
+                  title: "Food-Grade Compliance From Day One",
+                  body: "HACCP-compliant finishes, NSF/ANSI surfaces, and food-safe drainage systems are specified in the scope documents — not added as corrections after the health inspector walks the space.",
+                },
+              ].map((item) => (
+                <div key={item.title} className="rounded-xl border border-brand-ink/8 bg-secondary p-6">
+                  <h3 className="font-display text-lg font-bold text-brand-ink mb-2">{item.title}</h3>
+                  <p className="text-sm leading-relaxed text-body-text">{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Capabilities ── */}
       <section className="bg-white py-20 md:py-24">
         <div className="mx-auto max-w-[1500px] px-6 md:px-10">
