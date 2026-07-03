@@ -12,7 +12,7 @@ const PORTFOLIO_IMAGES = [
   { src: "/projects/Backyard_infinity_pool_reflectin…_202606192224.jpeg", alt: "Mulholland Dr — infinity pool at dusk" },
   { src: "/projects/Primary_bedroom_suite_mansion_wi…_202606192224.jpeg",  alt: "Mulholland Dr — master suite" },
   { src: "/projects/Chef's_kitchen_Mediterranean_sty…_202606192224.jpeg",  alt: "Mulholland Dr — Mediterranean chef's kitchen" },
-  { src: "/projects/01_TheFix_web.jpg",                                     alt: "The Fix Wellness Lounge — Los Angeles" },
+  { src: "/projects/hutchinson11.jpg",                                      alt: "Hutchinson Cocktails & Grill — La Cienega, Los Angeles" },
   { src: "/projects/Tan_estate_with_tiled_roof_202606192224.jpeg",          alt: "Mulholland Dr — aerial estate view" },
   { src: "/projects/01_Starbucks.jpg",                                      alt: "SBUX Lancaster — ground-up construction" },
 ];
