@@ -1,20 +1,20 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
-import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { usePathname } from "next/navigation";
 
-/** Best portfolio shots — high-res, full-bleed impact */
+/** Newer project shots — dramatic tones, no bright whites that cause glow */
 const PORTFOLIO_IMAGES = [
-  { src: "/projects/hutchinson11.jpg",        alt: "Hutchinson Cocktails & Grill — La Cienega, Los Angeles" },
-  { src: "/projects/Hals_pv_12-scaled.jpg",   alt: "Hal's Bar and Grill — Playa Vista" },
-  { src: "/projects/800degrees_1.webp",        alt: "800 Degrees Woodfired Kitchen — Hollywood" },
-  { src: "/projects/Devista_1-scaled.webp",    alt: "Devista Project — Hollywood Hills" },
-  { src: "/projects/El_pollo_loco_3.webp",     alt: "El Pollo Loco — Delano, CA" },
-  { src: "/projects/Jersey_Mikes_LA_1-scaled.jpg", alt: "Jersey Mike's Subs — Southern California" },
-  { src: "/projects/Tan_estate_with_tiled_roof_202606192224.jpeg", alt: "Mulholland Dr Project — Los Angeles" },
+  { src: "/projects/Tan_mansion_with_glowing_lights_202606192224.jpeg",    alt: "Mulholland Dr — twilight estate exterior" },
+  { src: "/projects/Backyard_infinity_pool_reflectin…_202606192224.jpeg", alt: "Mulholland Dr — infinity pool at dusk" },
+  { src: "/projects/Primary_bedroom_suite_mansion_wi…_202606192224.jpeg",  alt: "Mulholland Dr — master suite" },
+  { src: "/projects/Chef's_kitchen_Mediterranean_sty…_202606192224.jpeg",  alt: "Mulholland Dr — Mediterranean chef's kitchen" },
+  { src: "/projects/01_TheFix_web.jpg",                                     alt: "The Fix Wellness Lounge — Los Angeles" },
+  { src: "/projects/Tan_estate_with_tiled_roof_202606192224.jpeg",          alt: "Mulholland Dr — aerial estate view" },
+  { src: "/projects/01_Starbucks.jpg",                                      alt: "SBUX Lancaster — ground-up construction" },
 ];
 
 const INTERVAL_MS = 5000; // 5 s per image
@@ -110,37 +110,37 @@ export default function GatekeeperCTA() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full overflow-hidden"
+      className="relative w-full overflow-hidden bg-black"
       style={{ height: "clamp(680px, 110vh, 1000px)" }}
     >
       {/* ── Parallax image stack ── */}
       <motion.div
-        className="absolute inset-0 will-change-transform"
+        className="absolute inset-0 bg-black will-change-transform"
         style={{ y: isReducedMotion ? "0%" : imageY, scale: 1.2 }}
       >
-        <AnimatePresence initial={false}>
-          {PORTFOLIO_IMAGES.map((img, i) =>
-            i === activeIndex ? (
-              <motion.div
-                key={img.src}
-                className="absolute inset-0"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 1.4, ease: "easeInOut" }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="absolute inset-0 h-full w-full object-cover"
-                  loading={i === 0 ? "eager" : "lazy"}
-                  decoding="async"
-                />
-              </motion.div>
-            ) : null
-          )}
-        </AnimatePresence>
+        {/*
+          Glow-free crossfade: old image stays at full opacity underneath
+          while the new one fades IN on top. No exit animation = no partial-
+          transparency moment where bright backgrounds show through.
+        */}
+        {PORTFOLIO_IMAGES.map((img, i) => (
+          <motion.div
+            key={img.src}
+            className="absolute inset-0"
+            initial={{ opacity: i === 0 ? 1 : 0 }}
+            animate={{ opacity: i === activeIndex ? 1 : 0 }}
+            transition={{ duration: 1.6, ease: "easeInOut" }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={img.src}
+              alt={img.alt}
+              className="absolute inset-0 h-full w-full object-cover"
+              loading={i === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </motion.div>
+        ))}
       </motion.div>
 
       {/* ── Overlays ── */}
