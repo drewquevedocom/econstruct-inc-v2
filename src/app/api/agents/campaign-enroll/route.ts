@@ -4,7 +4,10 @@ import { createServiceClient } from "@/lib/supabase/server";
 export const maxDuration = 60;
 
 const INSTANTLY_API = "https://api.instantly.ai/api/v2";
-const MIN_CAMPAIGN_LEAD_SCORE = Number(process.env.MIN_CAMPAIGN_LEAD_SCORE ?? 70);
+// Lowered from 70 → 60 to widen the eligible pool. Score ≥60 means the lead
+// has enough identity signal (owner name + email) to be worth a touch.
+// Set MIN_CAMPAIGN_LEAD_SCORE env var to override without a deploy.
+const MIN_CAMPAIGN_LEAD_SCORE = Number(process.env.MIN_CAMPAIGN_LEAD_SCORE ?? 60);
 
 async function enrollInInstantly(params: {
   email: string;
@@ -71,7 +74,7 @@ export async function POST(req: Request) {
       .not("email", "is", null)
       .or("dnc.is.null,dnc.eq.false")
       .order("lead_score", { ascending: false })
-      .limit(25);
+      .limit(50);
 
     if (error) throw new Error(`Fetch failed: ${error.message}`);
     if (!leads?.length) return { records_pulled: 0, records_updated: 0 };

@@ -9,15 +9,15 @@ const APOLLO_API_KEY = process.env.APOLLO_API_KEY;
 const PARTNER_REFRESH_CONFIGS = [
   {
     partnerType: "Realtor / Real Estate Agent",
-    weeklyTarget: 60,
-    personTitles: ["realtor", "broker", "real estate agent", "listing agent"],
-    personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager"],
-    qKeywords: "real estate",
-    organizationLocations: ["Los Angeles County", "Los Angeles"],
+    weeklyTarget: 100,
+    personTitles: ["realtor", "broker", "real estate agent", "listing agent", "buyer's agent", "associate broker"],
+    personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager", "senior"],
+    qKeywords: "real estate luxury residential",
+    organizationLocations: ["Los Angeles County", "Los Angeles", "Ventura County", "Orange County"],
   },
   {
     partnerType: "Real Estate Attorney",
-    weeklyTarget: 30,
+    weeklyTarget: 50,
     personTitles: ["real estate attorney", "property litigation attorney", "attorney"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director"],
     qKeywords: "real estate property litigation",
@@ -25,7 +25,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Architect",
-    weeklyTarget: 40,
+    weeklyTarget: 75,
     personTitles: ["principal", "founder", "architect"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director"],
     qKeywords: "architecture design",
@@ -33,7 +33,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Interior Designer",
-    weeklyTarget: 25,
+    weeklyTarget: 50,
     personTitles: ["principal designer", "founder", "interior designer"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director"],
     qKeywords: "design interior",
@@ -41,7 +41,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Insurance Agent / Adjuster",
-    weeklyTarget: 25,
+    weeklyTarget: 50,
     personTitles: ["adjuster", "claims", "insurance agent"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager"],
     qKeywords: "insurance claims",
@@ -49,7 +49,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Expediter / Permit Runner",
-    weeklyTarget: 15,
+    weeklyTarget: 30,
     personTitles: ["expediter", "permit runner", "permit expeditor"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager"],
     qKeywords: "LADBS permit",
@@ -57,7 +57,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "CPA / Wealth Advisor",
-    weeklyTarget: 25,
+    weeklyTarget: 50,
     personTitles: ["cpa", "wealth advisor", "financial advisor"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director"],
     qKeywords: "real estate",
@@ -65,7 +65,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Escrow Officer",
-    weeklyTarget: 20,
+    weeklyTarget: 40,
     personTitles: ["escrow officer"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager"],
     qKeywords: "real estate",
@@ -73,7 +73,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Structural / Geotech Engineer",
-    weeklyTarget: 20,
+    weeklyTarget: 40,
     personTitles: ["principal", "structural engineer", "geotechnical engineer", "geotech engineer"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director"],
     qKeywords: "structural",
@@ -81,7 +81,7 @@ const PARTNER_REFRESH_CONFIGS = [
   },
   {
     partnerType: "Fire / Water Restoration",
-    weeklyTarget: 15,
+    weeklyTarget: 30,
     personTitles: ["restoration", "fire damage", "water damage"],
     personSeniorities: ["owner", "founder", "partner", "vp", "director", "manager"],
     qKeywords: "restoration fire damage water damage",
