@@ -101,8 +101,8 @@ export default function ForArchitectsPage() {
             <AnimatedSection>
               <div className="relative rounded-3xl overflow-hidden aspect-[4/3] bg-gray-200">
                 <Image
-                  src="/projects/architectural-fidelity.jpg"
-                  alt="econstruct architectural fidelity — design intent preserved in construction"
+                  src="/blog/1-web-or-mls-APR00120.webp"
+                  alt="econstruct architectural fidelity — Thom Sweeney flagship built exactly to the architect's design intent"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

@@ -26,15 +26,15 @@ export const homeServices: HomeService[] = [
     title: "Retail Fit-Out",
     description:
       "Storefronts, custom millwork and brand-perfect finishes delivered on tight launch schedules.",
-    image: "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/10/Untitled-design-87.png",
+    image: "/projects/Untitled-design-84.webp",
     icon: "ShoppingBag",
     href: "/services/retail-tenant-improvement",
   },
   {
-    title: "Office & Tenant Improvement",
+    title: "Office Tenant Improvement",
     description:
       "Office, creative and workplace TI with permit support, MEP coordination and clean turnover.",
-    image: "/Photorealistic_cinematic_interior_202604121940.png",
+    image: "/projects/Office Tenant Improvements.jpeg",
     icon: "Building2",
     href: "/services/office-tenant-improvement",
   },
@@ -42,7 +42,7 @@ export const homeServices: HomeService[] = [
     title: "Food Distribution & Cold Storage",
     description:
       "Distribution centers, cold storage, commissary kitchens, ghost kitchens, food manufacturing — built to code and operational on day one.",
-    image: "https://i1.wp.com/econstructinc.com/wp-content/uploads/2023/09/2017-09-02.jpg",
+    image: "/projects/temp/cold-dry-storage-warehouse/01.jpeg",
     icon: "Warehouse",
     href: "/food-distribution-construction",
   },

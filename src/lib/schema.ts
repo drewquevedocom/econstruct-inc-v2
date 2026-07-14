@@ -1,4 +1,4 @@
-import { COMPANY, SITE_URL } from "./constants";
+import { COMPANY, ECONSTRUCT_INC, SITE_URL } from "./constants";
 
 export function generateLocalBusinessSchema() {
   const streetAddress = [COMPANY.address.street, COMPANY.address.suite]
@@ -11,7 +11,7 @@ export function generateLocalBusinessSchema() {
     "@type": ["GeneralContractor", "HomeAndConstructionBusiness"],
     name: COMPANY.name,
     legalName: COMPANY.name,
-    description: "Los Angeles' premier high-end residential contractor specializing in fire rebuilds, luxury modernization, and ground-up custom homes. 639 combined partner projects, with a commercial foundation before 2011 and a residential focus since 2011. CA License #964015.",
+    description: "Los Angeles' premier high-end residential contractor specializing in fire rebuilds, luxury modernization, and ground-up custom homes. 634 combined partner projects, with a commercial foundation before 2011 and a residential focus since 2011. CA License #964015.",
     url: SITE_URL,
     telephone: COMPANY.phone.primary,
     email: COMPANY.email,
@@ -49,7 +49,7 @@ export function generateLocalBusinessSchema() {
     priceRange: "$$$$",
     image: `${SITE_URL}/econstruct_logo.png`,
     logo: `${SITE_URL}/econstruct_logo.png`,
-    sameAs: Object.values(COMPANY.social),
+    sameAs: Object.values(ECONSTRUCT_INC.social),
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "California General Contractor License",

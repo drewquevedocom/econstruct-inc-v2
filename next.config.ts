@@ -38,12 +38,9 @@ const nextConfig: NextConfig = {
 
       // ── Old WordPress portfolio → /projects ──────────────────
       { source: "/construction-projects", destination: "/projects", permanent: true },
-      { source: "/construction-projects/", destination: "/projects", permanent: true },
       { source: "/construction-projects/page/:n", destination: "/projects", permanent: true },
       { source: "/portfolio", destination: "/projects", permanent: true },
-      { source: "/portfolio/", destination: "/projects", permanent: true },
       { source: "/case-studies", destination: "/projects", permanent: true },
-      { source: "/case-studies/", destination: "/projects", permanent: true },
       // Individual portfolio pages
       { source: "/portfolio/hutchinson-residence-a-stunning-transformation-by-econstruct", destination: "/projects/hutchinson-cocktails-and-grill", permanent: true },
       { source: "/portfolio/hals-bar-and-grill", destination: "/projects/hals-bar-and-grill", permanent: true },
@@ -101,18 +98,14 @@ const nextConfig: NextConfig = {
 
       // ── Site pages → equivalents ─────────────────────────────
       { source: "/about-us", destination: "/about", permanent: true },
-      { source: "/about-us/", destination: "/about", permanent: true },
       { source: "/contact-page-2", destination: "/contact", permanent: true },
       { source: "/blogs", destination: "/blog", permanent: true },
-      { source: "/blogs/", destination: "/blog", permanent: true },
       { source: "/video", destination: "/blog", permanent: true },
-      { source: "/video/", destination: "/blog", permanent: true },
       { source: "/econstruct-reviews", destination: "/reviews", permanent: true },
       { source: "/testimonials", destination: "/reviews", permanent: true },
       { source: "/newleadquestionnaire", destination: "/free-consultation", permanent: true },
       { source: "/new-lead-questionnaire", destination: "/free-consultation", permanent: true },
       { source: "/new-adu-lead", destination: "/free-consultation", permanent: true },
-      { source: "/careers", destination: "/careers", permanent: false },
       { source: "/sample", destination: "/", permanent: true },
       { source: "/slider", destination: "/", permanent: true },
       { source: "/thank-you", destination: "/", permanent: true },
@@ -172,10 +165,6 @@ const nextConfig: NextConfig = {
       { source: "/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct", destination: "/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct", permanent: true },
       { source: "/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels", destination: "/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels", permanent: true },
 
-      // ── WordPress trailing-slash variants (catch duplicates) ──
-      // Blog posts with trailing slash
-      { source: "/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct/", destination: "/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct", permanent: true },
-      { source: "/launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles/", destination: "/blog/launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles", permanent: true },
       // Catchall: any remaining /portfolio/slug → /projects
       { source: "/portfolio/:slug*", destination: "/projects", permanent: true },
       {

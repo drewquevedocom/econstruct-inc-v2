@@ -1,6 +1,6 @@
 import type { BlogAuthor } from "@/lib/blog/authors";
 import type { BlogFaqItem, BlogPost } from "@/lib/blog";
-import { COMPANY, SITE_URL } from "@/lib/constants";
+import { COMPANY, ECONSTRUCT_INC, SITE_URL } from "@/lib/constants";
 import { getLegacyBlogPostCanonicalUrl } from "@/lib/blog/paths";
 
 const baseUrl = SITE_URL;
@@ -89,7 +89,7 @@ export function generateOrganizationSchema() {
     name: COMPANY.name,
     url: baseUrl,
     logo: `${baseUrl}/econstruct_logo.png`,
-    sameAs: Object.values(COMPANY.social),
+    sameAs: Object.values(ECONSTRUCT_INC.social),
   };
 }
 
