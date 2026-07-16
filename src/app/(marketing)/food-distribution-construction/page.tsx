@@ -22,7 +22,7 @@ const ICONS = [Warehouse, Thermometer, ChefHat, Factory, Factory, Package];
 const LEAD_GEN = [
   { label: "Schedule a Consultation", href: "/free-consultation", primary: true },
   { label: "Request Budget Pricing", href: "/contact", primary: false },
-  { label: "Request a Site Walk", href: "/food-distribution-construction/site-walk", primary: false },
+  { label: "Request a Site Walk", href: "/contact", primary: false },
   { label: "Emergency Facility Improvements", href: "/contact", primary: false },
 ];
 
@@ -48,7 +48,7 @@ export default function FoodDistributionHub() {
             econstruct delivers construction, tenant improvements, and facility upgrades for food distribution, cold storage, commissary, and ghost kitchen operations across Southern California.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Link href="/food-distribution-construction/site-walk" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
+            <Link href="/contact" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
               Request a Site Walk
               <ArrowRight size={18} />
             </Link>
@@ -212,3 +212,4 @@ export default function FoodDistributionHub() {
     </div>
   );
 }
+
