@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import GenericContactForm from "@/components/contact/GenericContactForm";
 
@@ -19,10 +20,13 @@ export default function SiteWalkPage() {
             Request a Site Walk
           </h1>
           <p className="mt-4 text-lg text-gray-500">
-            Tell us about your facility and we'll schedule a walk within 24 hours — no obligation.
+            Tell us about your facility and {"we'll"} schedule a walk within 24 hours — no
+            obligation.
           </p>
         </div>
-        <GenericContactForm />
+        <Suspense fallback={null}>
+          <GenericContactForm />
+        </Suspense>
       </div>
     </main>
   );
