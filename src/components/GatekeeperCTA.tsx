@@ -42,7 +42,7 @@ const CTA_COPY = [
     title: ["Ready to Talk", "About Your Facility?"],
     body: "Tell us the scope, the timeline, and the operational constraints. We'll build around all three.",
     button: "Request a Site Walk",
-    href: "/contact",
+      href: "/food-distribution-construction/site-walk",
   },
   {
     match: (p: string) => p.startsWith("/services"),
