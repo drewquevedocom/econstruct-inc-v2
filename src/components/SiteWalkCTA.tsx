@@ -34,6 +34,7 @@ const walkTimings = [
   "This week",
   "Next 2 weeks",
   "Within 30 days",
+  "30-60 days",
   "Just exploring, no rush",
 ];
 
@@ -166,30 +167,7 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
   };
 
   return (
-    <section className="py-24 md:py-32 bg-[#F8F6F2] relative overflow-hidden">
-      <div className="container mx-auto px-6 max-w-4xl relative z-10">
-
-        <div className="text-center mb-16">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-dark tracking-tight mb-6"
-          >
-            Request a{" "}
-            <br className="hidden md:block" /> Site Walk
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-gray-500 font-medium text-lg"
-          >
-            Tell us about your facility so our team arrives prepared to talk scope, code compliance, and timeline.
-          </motion.p>
-        </div>
-
+    <div className="mx-auto max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -506,7 +484,6 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
             </AnimatePresence>
           </div>
         </motion.div>
-      </div>
-    </section>
+    </div>
   );
 }
