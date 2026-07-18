@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createServiceClient } from "@/lib/supabase/server";
+import { sendNotificationEmail } from "@/lib/email";
 
 export const maxDuration = 30;
 
@@ -50,8 +51,6 @@ async function sendWelcomeEmail(params: {
   partnerName: string;
   referralCode: string;
 }) {
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return;
   const from =
     process.env.DAILY_REPORT_FROM?.replace("CRM", "Partner Network") ||
     "Frank at econstruct <onboarding@resend.dev>";
@@ -87,21 +86,13 @@ async function sendWelcomeEmail(params: {
 </table>
 </div>`;
 
-  try {
-    await fetch("https://api.resend.com/emails", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        from,
-        to: params.toEmail,
-        reply_to: "frank@econstructinc.com",
-        subject: `You're in, ${firstName} -- your referral code + how to send your first lead`,
-        html,
-      }),
-    });
-  } catch (err) {
-    console.error("Welcome email send failed:", err);
-  }
+  await sendNotificationEmail({
+    from,
+    to: params.toEmail,
+    replyTo: "frank@econstructinc.com",
+    subject: `You're in, ${firstName} -- your referral code + how to send your first lead`,
+    html,
+  });
 }
 
 export async function POST(req: NextRequest) {

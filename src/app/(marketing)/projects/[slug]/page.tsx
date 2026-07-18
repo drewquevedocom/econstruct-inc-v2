@@ -9,6 +9,7 @@ import { ECONSTRUCT_INC, SITE_URL } from "@/lib/constants";
 import { getProjectBySlug, projects } from "@/lib/data/projects";
 import Container from "@/components/ui/Container";
 import AnimatedSection from "@/components/ui/AnimatedSection";
+import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import ConsultationCTA from "@/components/ConsultationCTA";
 
 const categoryLabels = {
@@ -79,7 +80,7 @@ export default async function ProjectPage({
 
   const specCards = [
     { label: "Category", value: categoryLabels[project.category], icon: Layers },
-    { label: "Neighborhood", value: project.neighborhood, icon: MapPin },
+    ...(project.neighborhood ? [{ label: "Neighborhood", value: project.neighborhood, icon: MapPin }] : []),
     ...(project.specs.scope ? [{ label: "Scope", value: project.specs.scope, icon: Ruler }] : []),
     ...(project.specs.sqft ? [{ label: "Size", value: `${project.specs.sqft} sq ft`, icon: Ruler }] : []),
     ...(project.specs.timeline ? [{ label: "Timeline", value: project.specs.timeline, icon: Clock }] : []),
@@ -123,10 +124,12 @@ export default async function ProjectPage({
             {project.title}
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-white/75">{project.tagline}</p>
-          <p className="mt-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.16em] text-brand-gold">
-            <MapPin size={14} />
-            {project.neighborhood}
-          </p>
+          {project.neighborhood && (
+            <p className="mt-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.16em] text-brand-gold">
+              <MapPin size={14} />
+              {project.neighborhood}
+            </p>
+          )}
         </div>
       </section>
 
@@ -248,6 +251,28 @@ export default async function ProjectPage({
         </section>
       )}
 
+      {/* During-construction photos, shown above the main gallery */}
+      {project.constructionImages && project.constructionImages.length > 0 && (
+        <section className="bg-secondary py-20 md:py-24">
+          <Container>
+            <AnimatedSection>
+              <div className="mb-12 text-center">
+                <div className="mb-3 flex items-center justify-center gap-3">
+                  <span className="h-px w-9 bg-brand-red" />
+                  <span className="text-xs font-bold uppercase tracking-[0.24em] text-brand-red">During Construction</span>
+                  <span className="h-px w-9 bg-brand-red" />
+                </div>
+                <h2 className="font-display text-2xl font-extrabold text-brand-ink md:text-3xl">Behind the Build</h2>
+              </div>
+            </AnimatedSection>
+            <GalleryLightbox
+              images={project.constructionImages.map((image) => ({ src: image, alt: `${project.title} during construction` }))}
+              gridClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            />
+          </Container>
+        </section>
+      )}
+
       {/* Multi-part projects: each scope gets its own labeled section */}
       {project.parts ? (
         project.parts.map((part, partIndex) => {
@@ -287,22 +312,11 @@ export default async function ProjectPage({
                   </AnimatedSection>
                 )}
 
-                <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                  {part.images.map((image, index) => (
-                    <AnimatedSection key={`${project.slug}-part${partIndex}-${index}`} delay={index * 0.04}>
-                      <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
-                        <div className="relative aspect-[4/3]">
-                          <img
-                            src={image}
-                            alt={`${part.title} photo ${index + 1}`}
-                            className="h-full w-full object-cover"
-                            loading={partIndex === 0 && index === 0 ? "eager" : "lazy"}
-                            decoding="async"
-                          />
-                        </div>
-                      </div>
-                    </AnimatedSection>
-                  ))}
+                <div className="mt-10">
+                  <GalleryLightbox
+                    images={part.images.map((image, index) => ({ src: image, alt: `${part.title} photo ${index + 1}` }))}
+                    gridClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+                  />
                 </div>
               </Container>
             </section>
@@ -323,23 +337,10 @@ export default async function ProjectPage({
                 </h2>
               </div>
             </AnimatedSection>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {project.images.map((image, index) => (
-                <AnimatedSection key={`${project.slug}-${index}`} delay={index * 0.04}>
-                  <div className="overflow-hidden rounded-2xl border border-black/8 bg-white shadow-sm">
-                    <div className="relative aspect-[4/3]">
-                      <img
-                        src={image}
-                        alt={`${project.title} photo ${index + 1}`}
-                        className="h-full w-full object-cover"
-                        loading={index === 0 ? "eager" : "lazy"}
-                        decoding="async"
-                      />
-                    </div>
-                  </div>
-                </AnimatedSection>
-              ))}
-            </div>
+            <GalleryLightbox
+              images={project.images.map((image, index) => ({ src: image, alt: `${project.title} photo ${index + 1}` }))}
+              gridClassName="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+            />
           </Container>
         </section>
       )}

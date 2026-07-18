@@ -112,6 +112,11 @@ export default function ContactPage() {
                             <p className="text-brand-dark font-bold group-hover:text-accent-gold transition-colors">
                               {item.value}
                             </p>
+                            {item.line2 && (
+                              <p className="text-gray-500 text-sm mt-0.5">
+                                {item.line2}
+                              </p>
+                            )}
                             {item.secondary && (
                               <p className="text-gray-500 text-sm mt-0.5">
                                 {item.secondary}
@@ -151,20 +156,6 @@ export default function ContactPage() {
                     {COMPANY.license.display} -- Fully licensed, bonded, and
                     insured General Contractor in the State of California.
                   </p>
-                </div>
-
-                {/* Office Map */}
-                <div className="rounded-2xl overflow-hidden aspect-[4/3] relative">
-                  <iframe
-                    src="https://www.google.com/maps?q=25350+Magic+Mountain+Pkwy,+Valencia,+CA+91355&output=embed"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="econstruct office location"
-                  />
                 </div>
               </div>
             </AnimatedSection>

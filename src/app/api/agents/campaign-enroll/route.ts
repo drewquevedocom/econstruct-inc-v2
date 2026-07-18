@@ -4,10 +4,32 @@ import { createServiceClient } from "@/lib/supabase/server";
 export const maxDuration = 60;
 
 const INSTANTLY_API = "https://api.instantly.ai/api/v2";
-// Lowered from 70 → 60 to widen the eligible pool. Score ≥60 means the lead
-// has enough identity signal (owner name + email) to be worth a touch.
-// Set MIN_CAMPAIGN_LEAD_SCORE env var to override without a deploy.
 const MIN_CAMPAIGN_LEAD_SCORE = Number(process.env.MIN_CAMPAIGN_LEAD_SCORE ?? 60);
+
+// Homeowner lead campaigns — pulled from Instantly 2026-07-07.
+// Routing priority: fire_damage_status → zip (Malibu) → default luxury.
+const CAMPAIGNS = {
+  fireRebuild:     process.env.INSTANTLY_CAMPAIGN_FIRE_REBUILD    || "2109b970-7baf-4770-b57b-cac95df91316",
+  malibuCoastal:   process.env.INSTANTLY_CAMPAIGN_MALIBU_COASTAL  || "ec77c781-3448-48d5-a919-9de65227f8f2",
+  brentwoodLuxury: process.env.INSTANTLY_CAMPAIGN_BRENTWOOD       || "e053a38e-fde2-47d7-9841-ed62e568a068",
+} as const;
+
+// Malibu zip codes: 90265. Broadened to cover coastal canyon adjacents.
+const MALIBU_ZIPS = new Set(["90265"]);
+
+function pickCampaign(lead: {
+  fire_damage_status: string | null;
+  zip_code: string | null;
+}): string {
+  if (lead.fire_damage_status && lead.fire_damage_status.trim() !== "") {
+    return CAMPAIGNS.fireRebuild;
+  }
+  const zip = (lead.zip_code || "").trim().slice(0, 5);
+  if (MALIBU_ZIPS.has(zip)) {
+    return CAMPAIGNS.malibuCoastal;
+  }
+  return CAMPAIGNS.brentwoodLuxury;
+}
 
 async function enrollInInstantly(params: {
   email: string;
@@ -52,15 +74,6 @@ export async function POST(req: Request) {
   }
 
   const result = await runAgent("campaign-enroll", async () => {
-    const campaignId = process.env.INSTANTLY_CAMPAIGN_ID;
-    if (!campaignId) {
-      return {
-        records_pulled: 0,
-        records_updated: 0,
-        metadata: { skipped: true, reason: "INSTANTLY_CAMPAIGN_ID not set" },
-      };
-    }
-
     const supabase = createServiceClient();
 
     const { data: leads, error } = await supabase
@@ -84,28 +97,26 @@ export async function POST(req: Request) {
       .select("lead_id")
       .eq("type", "campaign_enrolled")
       .eq("channel", "instantly")
-      .in(
-        "lead_id",
-        leads.map((lead) => lead.id)
-      );
+      .in("lead_id", leads.map((l) => l.id));
 
-    if (activityError) {
-      throw new Error(`Activity fetch failed: ${activityError.message}`);
-    }
+    if (activityError) throw new Error(`Activity fetch failed: ${activityError.message}`);
 
     const enrolledLeadIds = new Set(
-      existingActivities?.map((activity) => activity.lead_id) ?? []
+      existingActivities?.map((a) => a.lead_id) ?? []
     );
-    const eligibleLeads = leads.filter((lead) => !enrolledLeadIds.has(lead.id));
+    const eligibleLeads = leads.filter((l) => !enrolledLeadIds.has(l.id));
     if (!eligibleLeads.length) {
       return { records_pulled: leads.length, records_updated: 0 };
     }
 
     let enrolled = 0;
     const errors: string[] = [];
+    const enrolledByCampaign: Record<string, number> = {};
+    const nowIso = new Date().toISOString();
 
     for (const lead of eligibleLeads) {
       try {
+        const campaignId = pickCampaign(lead);
         const [firstName, lastName] = splitName(lead.name || lead.owner_name);
 
         await enrollInInstantly({
@@ -128,10 +139,10 @@ export async function POST(req: Request) {
           .update({
             lifecycle_stage: "contacted",
             outreach_status: "sent",
-            campaign_enrolled_at: new Date().toISOString(),
+            campaign_enrolled_at: nowIso,
             instantly_campaign_id: campaignId,
-            outreach_status_updated_at: new Date().toISOString(),
-            updated_at: new Date().toISOString(),
+            outreach_status_updated_at: nowIso,
+            updated_at: nowIso,
           })
           .eq("id", lead.id);
 
@@ -143,6 +154,7 @@ export async function POST(req: Request) {
         });
 
         enrolled++;
+        enrolledByCampaign[campaignId] = (enrolledByCampaign[campaignId] || 0) + 1;
       } catch (err: unknown) {
         const message = err instanceof Error ? err.message : String(err);
         errors.push(`lead ${lead.id}: ${message}`);
@@ -153,6 +165,7 @@ export async function POST(req: Request) {
       records_pulled: eligibleLeads.length,
       records_updated: enrolled,
       errors,
+      metadata: { enrolledByCampaign },
     };
   });
 

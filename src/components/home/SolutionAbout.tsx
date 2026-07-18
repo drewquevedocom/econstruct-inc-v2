@@ -46,7 +46,7 @@ export default function SolutionAbout() {
             <span className="text-sm font-semibold leading-tight text-white/90">
               Years of
               <br />
-              LA experience
+              Combined Partner Experience
             </span>
           </div>
           {/* Play button */}

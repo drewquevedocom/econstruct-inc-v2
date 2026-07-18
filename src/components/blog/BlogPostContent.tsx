@@ -1,4 +1,5 @@
 import type { BlogPost } from "@/lib/blog";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { CalendarDays, Clock3, FileText, CheckCircle2 } from "lucide-react";
@@ -19,6 +20,44 @@ import { getRelatedPosts } from "@/lib/blog";
 interface BlogPostContentProps {
   post: BlogPost;
   canonicalUrl: string;
+}
+
+/** Parses simple `[label](url)` markdown links inside an otherwise-plain-text string. */
+function renderWithLinks(text: string) {
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
+    }
+    const [, label, href] = match;
+    nodes.push(
+      href.startsWith("/") ? (
+        <Link key={key++} href={href} className="font-semibold text-accent-gold underline underline-offset-2">
+          {label}
+        </Link>
+      ) : (
+        <a
+          key={key++}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-accent-gold underline underline-offset-2"
+        >
+          {label}
+        </a>
+      )
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+  return nodes;
 }
 
 export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentProps) {
@@ -178,7 +217,7 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
                   {post.takeaways.map((takeaway) => (
                     <li key={takeaway} className="flex gap-3 text-base leading-relaxed text-body-text">
                       <CheckCircle2 className="mt-1 h-5 w-5 flex-shrink-0 text-accent-gold" />
-                      <span>{takeaway}</span>
+                      <span>{renderWithLinks(takeaway)}</span>
                     </li>
                   ))}
                 </ul>
@@ -317,7 +356,9 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
             </div>
 
             <aside className="space-y-8">
-              <TableOfContents sections={post.toc} />
+              <div className="hidden lg:block">
+                <TableOfContents sections={post.toc} />
+              </div>
               <ShareButtons title={post.title} url={canonicalUrl} />
             </aside>
           </div>

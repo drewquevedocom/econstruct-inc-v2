@@ -9,6 +9,7 @@ import PageHero from "@/components/ui/PageHero";
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 import AnimatedSection from "@/components/ui/AnimatedSection";
+import GalleryLightbox from "@/components/ui/GalleryLightbox";
 import ConsultationCTA from "@/components/ConsultationCTA";
 
 export async function generateStaticParams() {
@@ -234,28 +235,12 @@ export default async function TemporaryProjectPage({
 
       <section className="bg-[#F8F6F2] py-24 md:py-32">
         <Container>
-          <div className="grid gap-8 lg:grid-cols-3">
-            {project.gallery.map((image, index) => (
-              <AnimatedSection key={image.src} delay={index * 0.08}>
-                <div className="overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm">
-                  <div className="relative aspect-[4/3]">
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                      className="h-full w-full object-cover"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <p className="leading-relaxed text-body-text">
-                      {image.caption}
-                    </p>
-                  </div>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
+          <GalleryLightbox
+            images={project.gallery}
+            gridClassName="grid gap-8 lg:grid-cols-3"
+            cardClassName="rounded-3xl border border-gray-100 bg-white shadow-sm"
+            showCaptions
+          />
         </Container>
       </section>
 

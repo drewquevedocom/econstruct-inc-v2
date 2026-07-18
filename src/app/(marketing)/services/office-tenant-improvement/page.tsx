@@ -98,7 +98,7 @@ export default function OfficeTenantImprovementPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <PageHero
-        title="Office & Commercial Tenant Improvement"
+        title="Office Tenant Improvement"
         subtitle="Full-scope office TI, creative space build-outs, and commercial tenant improvements across Los Angeles — permitted, phased, and delivered on your lease date."
         breadcrumbs={[
           { label: "Services", href: "/services" },

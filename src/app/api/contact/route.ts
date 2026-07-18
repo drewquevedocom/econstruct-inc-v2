@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
 import { createClient } from "@supabase/supabase-js";
+import { sendNotificationEmail } from "@/lib/email";
 
-const NOTIFY_TO = "info@econstructinc.com";
+const NOTIFY_TO = ["info@econstructinc.com", "frank@econstructinc.com"];
 const NOTIFY_CC: string[] = [
   "robyn@econstructinc.com",
   "marketing@econstructinc.com",
@@ -70,19 +70,20 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Send email notification
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY);
+    // Send email notification (sendNotificationEmail logs failures and
+    // falls back to the Resend account owner's inbox if the domain send fails)
+    {
       const normalizedProjectType = projectType || "General Inquiry";
       const isConsultation = source === "consultation_cta" || source === "free_consultation";
       const subject = isConsultation
         ? `New Consultation Request - ${fullName}`
         : `New Contact Form Submission - ${fullName}`;
 
-      await resend.emails.send({
+      await sendNotificationEmail({
         from: "econstruct Website <no-reply@econstructinc.com>",
         to: NOTIFY_TO,
         cc: NOTIFY_CC,
+        replyTo: email,
         subject,
         html: `
           <div style="font-family:sans-serif;max-width:600px;margin:0 auto;color:#1a1a1a;">
@@ -105,9 +106,6 @@ export async function POST(req: NextRequest) {
             </div>
           </div>
         `,
-      }).catch((emailErr) => {
-        // Log but don't fail the request if email errors
-        console.error("Resend email error:", emailErr);
       });
     }
 

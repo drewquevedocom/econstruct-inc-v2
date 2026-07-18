@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle, Phone, ArrowLeft } from "lucide-react";
 import { foodSubPages } from "@/lib/data/food-distribution";
 import { ECONSTRUCT_INC } from "@/lib/constants";
+import GalleryLightbox from "@/components/ui/GalleryLightbox";
 
 export const dynamic = "force-static";
 
@@ -50,7 +51,7 @@ export default async function FoodSubPage({ params }: { params: Promise<{ slug: 
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/75">{page.subheadline}</p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <Link href="/contact" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
+            <Link href="/food-distribution-construction/site-walk" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
               Request a Site Walk <ArrowRight size={16} />
             </Link>
             <a href={`tel:${ECONSTRUCT_INC.phone.primaryHref}`} className="inline-flex items-center gap-3 rounded-sm border border-white/25 bg-white/5 px-7 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white backdrop-blur-md transition-all hover:border-brand-gold/50">
@@ -103,6 +104,23 @@ export default async function FoodSubPage({ params }: { params: Promise<{ slug: 
           </div>
         </div>
       </section>
+
+      {/* ── Concept gallery ── */}
+      {page.images && page.images.length > 0 && (
+        <section className="bg-secondary py-20 md:py-24">
+          <div className="mx-auto max-w-[1500px] px-6 md:px-10">
+            <div className="mb-10 flex items-center gap-3">
+              <span className="h-px w-10 bg-brand-red" />
+              <span className="text-xs font-bold uppercase tracking-[0.28em] text-brand-red">Concept Gallery</span>
+            </div>
+            <GalleryLightbox
+              images={page.images.map((src) => ({ src, alt: `${page.title} concept rendering` }))}
+              gridClassName="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4"
+              aspect="aspect-[4/3]"
+            />
+          </div>
+        </section>
+      )}
 
       {/* ── Why econstruct ── */}
       <section className="bg-brand-navy py-20 md:py-24 relative overflow-hidden">
@@ -157,7 +175,7 @@ export default async function FoodSubPage({ params }: { params: Promise<{ slug: 
             <p className="mt-2 text-white/80 text-[15px]">Call or request a site walk — we respond same business day.</p>
           </div>
           <div className="flex flex-wrap gap-4 shrink-0">
-            <Link href="/contact" className="rounded-sm bg-white px-7 py-4 text-sm font-bold uppercase tracking-[0.08em] text-brand-red transition-all hover:-translate-y-0.5 hover:bg-brand-ink hover:text-white">
+            <Link href="/food-distribution-construction/site-walk" className="rounded-sm bg-white px-7 py-4 text-sm font-bold uppercase tracking-[0.08em] text-brand-red transition-all hover:-translate-y-0.5 hover:bg-brand-ink hover:text-white">
               Request a Site Walk
             </Link>
             <a href={`tel:${ECONSTRUCT_INC.phone.primaryHref}`} className="rounded-sm border border-white/40 px-7 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white transition-all hover:bg-white/10">

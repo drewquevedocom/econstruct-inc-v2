@@ -15,11 +15,11 @@ export const COMPANY = {
   email: "info@econstructinc.com",
   address: {
     street: "25350 Magic Mountain Pkwy",
-    suite: "Ste. 300",
+    suite: "Suite 300",
     city: "Valencia",
     state: "CA",
     zip: "91355",
-    full: "25350 Magic Mountain Pkwy, Ste. 300, Valencia, CA 91355",
+    full: "25350 Magic Mountain Pkwy, Suite 300, Valencia, CA 91355",
   },
   license: {
     number: "964015",
@@ -63,12 +63,12 @@ export const ECONSTRUCT_INC = {
   email: "info@econstructinc.com",
   address: {
     line: "25350 Magic Mountain Pkwy,",
-    line2: "Ste. 300,",
+    line2: "Suite 300,",
     line3: "Valencia, CA 91355",
     city: "Valencia",
     state: "CA",
     zip: "91355",
-    full: "25350 Magic Mountain Pkwy, Ste. 300, Valencia, CA 91355",
+    full: "25350 Magic Mountain Pkwy, Suite 300, Valencia, CA 91355",
   },
   stats: {
     projects: 634,

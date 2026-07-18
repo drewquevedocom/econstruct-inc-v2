@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
+import { sendNotificationEmail } from "@/lib/email";
 
 const NOTIFY_TO = ["frank@econstructinc.com", "drewquevedo@gmail.com"];
 
@@ -20,11 +20,11 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Name, email, and feedback are required." }, { status: 400 });
     }
 
-    if (process.env.RESEND_API_KEY) {
-      const resend = new Resend(process.env.RESEND_API_KEY);
-      await resend.emails.send({
+    {
+      const result = await sendNotificationEmail({
         from: "econstruct Reviews <no-reply@econstructinc.com>",
         to: NOTIFY_TO,
+        replyTo: email,
         subject: `Private client feedback - ${esc(name)}`,
         html: `
           <div style="font-family:Arial,sans-serif;max-width:620px;margin:0 auto;color:#1a1a1a;">
@@ -43,6 +43,12 @@ export async function POST(req: NextRequest) {
           </div>
         `,
       });
+      if (!result.sent) {
+        return NextResponse.json(
+          { error: "Unable to send feedback." },
+          { status: 500 }
+        );
+      }
     }
 
     return NextResponse.json({ success: true });

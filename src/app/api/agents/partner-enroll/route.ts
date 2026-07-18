@@ -5,32 +5,20 @@ export const maxDuration = 60;
 
 const INSTANTLY_API = "https://api.instantly.ai/api/v2";
 
-// Each partner_type routes to its own segmented Instantly campaign so the
-// architect sequence goes to architects, adjuster sequence to adjusters, etc.
-// Cloudflare secrets hold the campaign UUIDs. INSTANTLY_PARTNER_CAMPAIGN_ID
-// is kept as a fallback for any partner_type that doesn't have a dedicated
-// secret set yet.
-// Fallback campaign IDs — used when a dedicated campaign isn't configured yet.
-// Routes types with similar decision-maker profiles to the closest match.
-// When proper campaigns are created in Instantly, set the env var to override.
-const FALLBACK_ARCHITECT = process.env.INSTANTLY_PARTNER_CAMPAIGN_ARCHITECT || "97f518ff-27a1-475e-a9a1-7ae74d2e6df3";
-const FALLBACK_REALTOR   = process.env.INSTANTLY_PARTNER_CAMPAIGN_REALTOR   || "ca4fbf88-6cb1-4eee-9aea-362b43465e76";
-const FALLBACK_ADJUSTER  = process.env.INSTANTLY_PARTNER_CAMPAIGN_ADJUSTER  || "be462f28-7c1c-441f-b31c-2c6bccb30899";
-
+// Campaign IDs pulled from Instantly on 2026-07-07. Each partner_type routes
+// to its own dedicated campaign. Env vars override hardcoded IDs if set.
 function campaignForType(type: string): string | undefined {
-  const map: Record<string, string | undefined> = {
-    // ── Primary campaigns (dedicated sequences) ──────────────────
-    "Architect":                    process.env.INSTANTLY_PARTNER_CAMPAIGN_ARCHITECT || "97f518ff-27a1-475e-a9a1-7ae74d2e6df3",
-    "Realtor / Real Estate Agent":  process.env.INSTANTLY_PARTNER_CAMPAIGN_REALTOR   || "ca4fbf88-6cb1-4eee-9aea-362b43465e76",
-    "Insurance Agent / Adjuster":   process.env.INSTANTLY_PARTNER_CAMPAIGN_ADJUSTER  || "be462f28-7c1c-441f-b31c-2c6bccb30899",
-    "Expediter / Permit Runner":    process.env.INSTANTLY_PARTNER_CAMPAIGN_EXPEDITER || "f413efe9-7a93-43ff-8286-e78bdff63d18",
-    // ── Secondary campaigns (dedicated if configured, else closest fallback) ──
-    "Interior Designer":            process.env.INSTANTLY_PARTNER_CAMPAIGN_DESIGNER  || FALLBACK_ARCHITECT,
-    "Real Estate Attorney":         process.env.INSTANTLY_PARTNER_CAMPAIGN_ATTORNEY  || FALLBACK_REALTOR,
-    "CPA / Wealth Advisor":         process.env.INSTANTLY_PARTNER_CAMPAIGN_CPA       || FALLBACK_REALTOR,
-    "Escrow Officer":               process.env.INSTANTLY_PARTNER_CAMPAIGN_ESCROW    || FALLBACK_REALTOR,
-    "Structural / Geotech Engineer":process.env.INSTANTLY_PARTNER_CAMPAIGN_ENGINEER  || FALLBACK_ARCHITECT,
-    "Fire / Water Restoration":     process.env.INSTANTLY_PARTNER_CAMPAIGN_RESTORATION || FALLBACK_ADJUSTER,
+  const map: Record<string, string> = {
+    "Architect":                     process.env.INSTANTLY_PARTNER_CAMPAIGN_ARCHITECT    || "97f518ff-27a1-475e-a9a1-7ae74d2e6df3",
+    "Realtor / Real Estate Agent":   process.env.INSTANTLY_PARTNER_CAMPAIGN_REALTOR      || "ca4fbf88-6cb1-4eee-9aea-362b43465e76",
+    "Insurance Agent / Adjuster":    process.env.INSTANTLY_PARTNER_CAMPAIGN_ADJUSTER     || "be462f28-7c1c-441f-b31c-2c6bccb30899",
+    "Expediter / Permit Runner":     process.env.INSTANTLY_PARTNER_CAMPAIGN_EXPEDITER    || "f413efe9-7a93-43ff-8286-e78bdff63d18",
+    "Interior Designer":             process.env.INSTANTLY_PARTNER_CAMPAIGN_DESIGNER     || "5a23a045-e7a0-44e1-a47c-f04fa3765142",
+    "Real Estate Attorney":          process.env.INSTANTLY_PARTNER_CAMPAIGN_ATTORNEY     || "ec973032-17b6-48a2-aa79-e229964fe215",
+    "CPA / Wealth Advisor":          process.env.INSTANTLY_PARTNER_CAMPAIGN_CPA          || "6fbbaeef-482c-40c2-897f-6b1227e42d79",
+    "Escrow Officer":                process.env.INSTANTLY_PARTNER_CAMPAIGN_ESCROW       || "0048f3ed-6928-4ecd-8ca6-83e82d16a8cf",
+    "Structural / Geotech Engineer": process.env.INSTANTLY_PARTNER_CAMPAIGN_ENGINEER     || "7ce7ec5b-0740-4488-88ed-a851cbbd05d1",
+    "Fire / Water Restoration":      process.env.INSTANTLY_PARTNER_CAMPAIGN_RESTORATION  || "5ee2e1b5-830e-4f30-9900-59f901b9ce6d",
   };
   return map[type];
 }

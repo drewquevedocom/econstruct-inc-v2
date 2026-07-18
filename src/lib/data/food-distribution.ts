@@ -8,6 +8,11 @@ export interface FoodSubPage {
   services: string[];
   seoTarget: string;
   imagePrompt: string;
+  images?: string[];
+}
+
+function conceptGallery(slug: string, count: number) {
+  return Array.from({ length: count }, (_, i) => `/projects/temp/${slug}/${String(i + 1).padStart(2, "0")}.jpeg`);
 }
 
 export const foodSubPages: FoodSubPage[] = [
@@ -32,6 +37,7 @@ export const foodSubPages: FoodSubPage[] = [
     services: ["Refrigeration infrastructure & cold chain systems", "Insulated panel installation", "Dock door & seal systems for temperature retention", "MEP coordination for refrigeration loads", "Moisture management & epoxy flooring", "Health department & USDA compliance", "Fast-track occupied renovations"],
     seoTarget: "Cold storage construction California",
     imagePrompt: "Interior of a modern refrigerated cold storage warehouse. Blue-tinted industrial lighting, tall insulated racking systems, clean concrete floors with moisture management, organized inventory. Wide shot, slightly elevated.",
+    images: conceptGallery("cold-dry-storage-warehouse", 6),
   },
   {
     title: "Commissary Kitchens",
@@ -65,6 +71,7 @@ export const foodSubPages: FoodSubPage[] = [
     services: ["Production line tenant improvements", "Food-grade epoxy & cleanroom finishes", "HACCP & FDA-compliant construction", "Mechanical & electrical for processing equipment", "Drainage & grease management systems", "ADA & code upgrades", "Structural modifications for heavy equipment"],
     seoTarget: "Food manufacturing construction Los Angeles",
     imagePrompt: "Interior of a modern food manufacturing and processing facility. Stainless steel production line equipment, food-grade epoxy floors, HVAC systems overhead, workers in white coats visible in the distance. Clean, industrial, regulated environment. Wide shot from production floor.",
+    images: conceptGallery("food-manufacturing-plant", 7),
   },
   {
     title: "Last-Mile Logistics & Fulfillment",

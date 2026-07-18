@@ -105,7 +105,7 @@ export default function ServicesPage() {
           <div className="grid gap-8 md:grid-cols-3">
             {[
               {
-                value: "639",
+                value: "634",
                 label: "Combined Partner Projects",
               },
               {

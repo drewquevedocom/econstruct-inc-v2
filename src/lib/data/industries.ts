@@ -21,7 +21,7 @@ export const industries: Industry[] = [
     strength: 92,
   },
   {
-    name: "Office & Tenant Improvement",
+    name: "Office Tenant Improvement",
     blurb: "Office, creative, and workplace TI with full permit support.",
     strength: 88,
   },

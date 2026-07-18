@@ -481,6 +481,80 @@ export const temporaryProjectPages: PromptProjectPage[] = [
       "Large-scale entertaining works best when the outdoor program is structured, not simply expansive.",
     ],
   },
+  {
+    slug: "amouage-flagship-boutique",
+    shortTitle: "Amouage Flagship Boutique",
+    title: "Amouage Flagship Boutique - Temporary Portfolio Review",
+    description:
+      "A ground-up luxury retail build-out for a flagship fragrance boutique, featuring a sculptural CNC-milled feature wall, mirrored paneling, a custom fragrance-tasting counter, and a full-height LED art installation delivered as a turnkey tenant improvement.",
+    image: "/projects/temp/amouage-flagship-boutique/01.jpeg",
+    gallery: [
+      {
+        src: "/projects/temp/amouage-flagship-boutique/01.jpeg",
+        alt: "Amouage flagship boutique storefront with sculpted red facade and radiating brass detailing",
+        caption: "Storefront elevation, a sculpted sunset-red facade with hand-finished brass linework and an oversized arched entry that sets the boutique apart on the block.",
+      },
+      {
+        src: "/projects/temp/amouage-flagship-boutique/02.jpeg",
+        alt: "Amouage boutique interior with CNC-carved sculptural wall and central tasting counter",
+        caption: "Main gallery wall, a floor-to-ceiling CNC-milled sculptural surface paired with mirrored paneling, framing a custom fragrance-tasting counter and bespoke display pedestal.",
+      },
+      {
+        src: "/projects/temp/amouage-flagship-boutique/03.jpeg",
+        alt: "Amouage boutique corridor with carved wall display and illuminated video panel",
+        caption: "Discovery corridor, a curved display wall integrates lit fragrance niches and a branded medallion, leading toward a vertical LED art panel at the rear of the space.",
+      },
+      {
+        src: "/projects/temp/amouage-flagship-boutique/04.jpeg",
+        alt: "Amouage boutique lounge nook with sculpted stone-form seating and vertical LED art wall",
+        caption: "Private tasting nook, a sculpted stone-form fixture and integrated seating sit beneath a full-height LED art wall, creating a quiet destination at the back of the boutique.",
+      },
+      {
+        src: "/projects/temp/amouage-flagship-boutique/07.jpeg",
+        alt: "Amouage boutique wall of illuminated display niches in stone finish",
+        caption: "Niche display wall, a grid of individually lit stone niches gives each product its own moment without competing for attention.",
+      },
+    ],
+    serviceSlug: "retail-tenant-improvement",
+    location: "Beverly Hills, CA",
+    neighborhood: "Beverly Hills",
+    scope: "Luxury Retail Tenant Improvement",
+    timeline: "7 months",
+    squareFootage: "1,900 sq ft",
+    completionDate: "2026",
+    category: "Retail Build-Out",
+    highlights: [
+      "Floor-to-ceiling CNC-milled sculptural feature wall with concealed lighting",
+      "Mirrored paneling used to expand depth in a compact retail footprint",
+      "Custom fragrance-tasting counter and stone-form display niches",
+      "Full-height LED art wall as the anchor feature at the rear of the boutique",
+      "Turnkey retail tenant improvement coordinated across millwork, glass, and AV trades",
+    ],
+    heroTitle: "Amouage Flagship Boutique",
+    heroSubtitle:
+      "A temporary review project built around a fully custom retail fit-out: sculptural millwork, mirrored surfaces, integrated lighting, and a fragrance-discovery experience designed for a flagship boutique location.",
+    challenge: [
+      "The brief called for a retail interior that felt more like an art installation than a typical storefront: a fully sculptural, CNC-milled wall system wrapping the main gallery, mirrored paneling to expand the sense of depth in a narrow footprint, and a full-height LED art wall as the anchor moment at the rear of the space.",
+      "Executing that vision inside a compact tenant space meant tight tolerances everywhere. Custom millwork panels had to align perfectly against mirrored surfaces, specialty lighting had to be threaded through a non-repeating carved wall profile, and every fixture, from the tasting counter to the stone-form display niches, was a one-off built for this space alone.",
+    ],
+    approach: [
+      "econstruct served as general contractor on the build-out, coordinating the specialty millwork fabricator, glass and mirror installers, and the lighting and AV integrator on a single compressed schedule so the CNC-carved wall panels, mirror runs, and LED art wall could be sequenced without conflicts.",
+      "Every custom element, including the tasting counter, the stone-form seating nook, and the illuminated niche wall, was shop-drawn and dry-fit before installation, which kept the tight reveals and mirror-to-millwork transitions clean in a space where any misalignment would be immediately visible.",
+    ],
+    build: [
+      "The sculptural feature wall was installed in sections and scribed in place against the mirrored paneling, with the lighting circuit routed inside the carved wall cavity so no fixtures or wiring are visible on the finished surface.",
+      "The rear LED art wall, tasting counter, and stone-form nook were sequenced last, once the millwork and mirror work were locked in, so the AV integrator and finish carpenters were not working around each other in the tightest part of the floor plan.",
+    ],
+    result: [
+      "The finished boutique delivers a fully immersive fragrance-discovery experience in a compact footprint, with the CNC-milled wall, mirrored surfaces, and LED art wall working together as one continuous installation rather than a collection of separate fixtures.",
+      "As a temporary portfolio review piece, it also demonstrates econstruct's range beyond residential construction, showing the same coordination discipline applied to a highly custom, design-forward retail build-out.",
+    ],
+    takeaways: [
+      "Highly sculptural retail interiors succeed or fail on tolerance: shop-drawing and dry-fitting every custom element before installation is what keeps mirror-to-millwork transitions invisible.",
+      "A compressed retail build-out schedule works when the trade sequence is locked before the first panel goes up, not figured out on site.",
+      "This project rounds out the temporary review set with a commercial retail build-out, broadening the portfolio beyond custom home construction.",
+    ],
+  },
 ];
 
 export const temporaryProjectSummaries = temporaryProjectPages.map((project) => ({

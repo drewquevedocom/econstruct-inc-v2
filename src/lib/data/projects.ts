@@ -21,6 +21,8 @@ export interface Project {
   video?: string;
   /** For multi-scope projects: render distinct sections instead of one flat gallery. */
   parts?: ProjectPart[];
+  /** Optional "during construction" photos, rendered in their own section above the main gallery. */
+  constructionImages?: string[];
   specs: {
     sqft?: string;
     timeline?: string;
@@ -113,7 +115,7 @@ export const projects: Project[] = [
     title: "800 Degrees Woodfired Kitchen",
     slug: "800-degrees-woodfired-kitchen",
     category: "restaurant",
-    neighborhood: "Hollywood",
+    neighborhood: "Los Angeles",
     tagline: "Wood-fired ovens and reclaimed whiskey-barrel oak, built with chef Anthony Carron.",
     description:
       "Collaboration with acclaimed chef Anthony Carron to construct an innovative woodfired restaurant featuring dual wood-burning ovens, charcoal grill, and rotisserie. Custom Douglas fir accents, reclaimed whiskey barrel oak counters and bar tops, and a state-of-the-art ventilation hood system throughout.",
@@ -275,23 +277,21 @@ export const projects: Project[] = [
       "/projects/02_Starbucks.jpg",
       "/projects/03_Starbucks.jpg",
       "/projects/04_Starbucks.jpg",
-      "/projects/05_Starbucks.jpg",
       "/projects/06_Starbucks.jpg",
       "/projects/07_Starbucks.jpg",
-      "/projects/08_Starbucks.jpg",
       "/projects/09_Starbucks.jpg",
-      "/projects/10_Starbucks.jpg",
     ],
+    video: "https://youtu.be/551zk0yzuo8",
     specs: { scope: "Ground-Up Construction" },
   },
   {
     title: "8th Symphony",
     slug: "8th-symphony",
     category: "commercial",
-    neighborhood: "Los Angeles",
-    tagline: "A landmark commercial build-out at 8th & Symphony in downtown Los Angeles.",
+    neighborhood: "Cerritos",
+    tagline: "A landmark commercial build-out at 8th & Symphony in Cerritos.",
     description:
-      "Full commercial tenant improvement build-out at 8th & Symphony in Los Angeles. econstruct delivered the complete interior scope — custom finishes, MEP coordination, millwork, and turn-key delivery on schedule.",
+      "Full commercial tenant improvement build-out at 8th & Symphony in Cerritos. econstruct delivered the complete interior scope — custom finishes, MEP coordination, millwork, and turn-key delivery on schedule.",
     heroImage: "/projects/01_8thSymphony.jpg",
     images: [
       "/projects/01_8thSymphony.jpg",
@@ -311,15 +311,19 @@ export const projects: Project[] = [
     title: "The Fix Wellness Lounge",
     slug: "the-fix-wellness-lounge",
     category: "commercial",
-    neighborhood: "Los Angeles",
+    neighborhood: "Hermosa Beach",
     tagline: "A premium wellness lounge build-out delivering a modern, high-end client experience.",
     description:
-      "Full tenant improvement build-out for The Fix Wellness Lounge in Los Angeles. Custom finishes, premium lighting coordination, millwork, and MEP work — delivered as a turn-key, client-ready wellness destination.",
+      "Full tenant improvement build-out for The Fix Wellness Lounge in Hermosa Beach. Custom finishes, premium lighting coordination, millwork, and MEP work — delivered as a turn-key, client-ready wellness destination.",
     heroImage: "/projects/01_TheFix.jpg",
+    constructionImages: [
+      "/projects/fix7_DSC07117.JPG",
+      "/projects/fix14_DSC07157.JPG",
+      "/projects/fix21_DSC07192.JPG",
+    ],
     images: [
       "/projects/01_TheFix.jpg",
       "/projects/02_TheFix.jpg",
-      "/projects/03_TheFix.jpg",
       "/projects/04_TheFix.jpg",
       "/projects/05_TheFix.jpg",
       "/projects/06_TheFix.jpg",
@@ -327,6 +331,7 @@ export const projects: Project[] = [
       "/projects/08_TheFix.jpg",
       "/projects/09_TheFix.jpg",
       "/projects/10_TheFix.jpg",
+      "/projects/11_TheFix_reception.jpg",
     ],
     specs: { scope: "Tenant Improvement" },
   },
@@ -434,6 +439,29 @@ export const projects: Project[] = [
       "/projects/JOETHEJUICE_7-scaled.webp",
     ],
     specs: { scope: "Multi-Location Build-Out" },
+  },
+  {
+    title: "Amouage Flagship Boutique",
+    slug: "amouage-flagship-boutique",
+    category: "retail",
+    neighborhood: "Beverly Hills",
+    tagline: "A sculptural flagship fragrance boutique build-out in Beverly Hills, completed 2026.",
+    description:
+      "A ground-up luxury retail build-out for a flagship fragrance boutique in Beverly Hills. Floor-to-ceiling CNC-milled sculptural feature wall, mirrored paneling, a custom fragrance-tasting counter, and a full-height LED art installation, delivered as a turnkey tenant improvement.",
+    heroImage: "/projects/temp/amouage-flagship-boutique/01.jpeg",
+    images: [
+      "/projects/temp/amouage-flagship-boutique/01.jpeg",
+      "/projects/temp/amouage-flagship-boutique/02.jpeg",
+      "/projects/temp/amouage-flagship-boutique/03.jpeg",
+      "/projects/temp/amouage-flagship-boutique/04.jpeg",
+      "/projects/temp/amouage-flagship-boutique/07.jpeg",
+    ],
+    constructionImages: [
+      "/projects/Amouage07-web.jpg",
+      "/projects/Amouage10-web.jpg",
+      "/projects/Amouage11-web.jpg",
+    ],
+    specs: { scope: "Luxury Retail Tenant Improvement", sqft: "1,900" },
   },
 
   // ── Residential ──────────────────────────────────────────────
@@ -556,7 +584,7 @@ export const projects: Project[] = [
     title: "Mulholland Dr Project",
     slug: "mulholland-drive-residence",
     category: "residential",
-    neighborhood: "Mulholland Drive, Los Angeles",
+    neighborhood: "Beverly Hills, CA",
     tagline: "A 1970s hillside home opened up to its panoramic views.",
     description:
       "A 1970s home on Mulholland Drive underwent a comprehensive remodel to modernize the space and enhance its connection to panoramic hillside views. Open-concept design achieved through partition removal, expansive glass walls, wide plank flooring, and coastal-inspired tile — plus a redesigned open kitchen with quartz island, spa-like master suite, resurfaced pool and deck, and an outdoor barbecue kitchen.",
@@ -573,13 +601,13 @@ export const projects: Project[] = [
       "/projects/Backyard_infinity_pool_reflectin…_202606192224.jpeg",
       "/projects/Backyard_stone_patio_outdoor_fur…_202606192224.jpeg",
     ],
-    specs: { scope: "Full Remodel" },
+    specs: { scope: "Full Remodel", sqft: "10,847" },
   },
   {
     title: "Newcomb Road",
     slug: "newcomb-road-residence",
     category: "residential",
-    neighborhood: "Newcomb Road, Los Angeles",
+    neighborhood: "",
     tagline: "A full transformation into a sleek, modern residential oasis.",
     description:
       "A full home transformation into a sleek, modern oasis — fresh exterior paint, new concrete patio, and custom wood fence outside; complete kitchen remodel with white cabinetry, marble countertops and high-end appliances inside; plus a master bath update with a freestanding tub and frameless glass shower, hardwood flooring, and custom built-ins throughout.",

@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Phone, CheckCircle, Warehouse, Thermometer, ChefHat, Truck, Factory, Package } from "lucide-react";
+import { ArrowRight, Phone, CheckCircle, Warehouse, Thermometer, ChefHat, Truck, Factory, Package, PlayCircle } from "lucide-react";
 import { foodSubPages, foodHubCapabilities, foodDecisionMakers } from "@/lib/data/food-distribution";
 import { generatePageMetadata } from "@/lib/metadata";
 import { ECONSTRUCT_INC } from "@/lib/constants";
+import GalleryLightbox from "@/components/ui/GalleryLightbox";
 
 export const dynamic = "force-static";
+
+const DISTRIBUTION_PROJECT_IMAGES = ["/projects/85c_Distribution_2.jpg"];
+const DISTRIBUTION_PROJECT_VIDEO_ID = "zHbxhNZdRT4";
 
 export const metadata: Metadata = generatePageMetadata({
   title: "Food Distribution & Commercial Kitchen Contractor | Los Angeles | econstruct",
@@ -22,7 +26,7 @@ const ICONS = [Warehouse, Thermometer, ChefHat, Factory, Factory, Package];
 const LEAD_GEN = [
   { label: "Schedule a Consultation", href: "/free-consultation", primary: true },
   { label: "Request Budget Pricing", href: "/contact", primary: false },
-  { label: "Request a Site Walk", href: "/contact", primary: false },
+  { label: "Request a Site Walk", href: "/food-distribution-construction/site-walk", primary: false },
   { label: "Emergency Facility Improvements", href: "/contact", primary: false },
 ];
 
@@ -48,7 +52,7 @@ export default function FoodDistributionHub() {
             econstruct delivers construction, tenant improvements, and facility upgrades for food distribution, cold storage, commissary, and ghost kitchen operations across Southern California.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Link href="/contact" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
+            <Link href="/food-distribution-construction/site-walk" className="inline-flex items-center gap-3 rounded-sm bg-brand-red px-8 py-4 text-sm font-bold uppercase tracking-[0.08em] text-white shadow-[0_18px_38px_rgba(225,20,44,0.3)] transition-all hover:-translate-y-1 hover:bg-brand-red-dark">
               Request a Site Walk
               <ArrowRight size={18} />
             </Link>
@@ -84,6 +88,74 @@ export default function FoodDistributionHub() {
                 </Link>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Featured Project: 85°C Distribution Center (real work) ── */}
+      <section className="bg-white py-20 md:py-28">
+        <div className="mx-auto max-w-[1500px] px-6 md:px-10">
+          <div className="grid gap-14 lg:grid-cols-2 lg:gap-16 items-center">
+            <div>
+              <div className="mb-5 flex items-center gap-3">
+                <span className="h-px w-10 bg-brand-red" />
+                <span className="text-xs font-bold uppercase tracking-[0.28em] text-brand-red">Real Project — Not a Concept</span>
+              </div>
+              <h2 className="font-display text-3xl font-extrabold text-brand-ink mb-6 md:text-4xl">
+                One Distribution Center Feeding Every 85°C Location in LA
+              </h2>
+              <p className="text-[15px] leading-relaxed text-body-text mb-5">
+                Eight bakery cafes across Los Angeles, all supplied from a single commercial distribution center and corporate office econstruct built in Buena Park. Production space, logistics flow, and administrative offices delivered as one coordinated commercial build — the operational backbone for the entire rollout.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="/projects/85c-bakery-cafe" className="inline-flex items-center gap-2 rounded-sm bg-brand-ink px-6 py-3.5 text-sm font-bold uppercase tracking-[0.08em] text-white transition-all hover:bg-brand-red">
+                  View Full Case Study <ArrowRight size={15} />
+                </Link>
+                <a
+                  href={`https://www.youtube.com/watch?v=${DISTRIBUTION_PROJECT_VIDEO_ID}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-sm border border-brand-ink/20 px-6 py-3.5 text-sm font-bold uppercase tracking-[0.08em] text-brand-ink transition-all hover:border-brand-red hover:text-brand-red"
+                >
+                  <PlayCircle size={16} className="text-brand-red" /> Watch the Facility Video
+                </a>
+              </div>
+            </div>
+            <GalleryLightbox
+              images={DISTRIBUTION_PROJECT_IMAGES.map((src) => ({ src, alt: "85°C distribution center in Buena Park, built by econstruct" }))}
+              gridClassName="grid grid-cols-1"
+              aspect="aspect-[4/3]"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ── Concept Projects: AI-rendered industrial concepts ── */}
+      <section className="bg-secondary py-20 md:py-28">
+        <div className="mx-auto max-w-[1500px] px-6 md:px-10">
+          <div className="mb-12 flex items-center gap-3">
+            <span className="h-px w-10 bg-brand-red" />
+            <span className="text-xs font-bold uppercase tracking-[0.28em] text-brand-red">Concept Projects</span>
+          </div>
+          <h2 className="font-display text-3xl font-extrabold text-brand-ink mb-12 md:text-4xl">What an industrial-scale build looks like</h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            {foodSubPages
+              .filter((p) => p.slug === "food-manufacturing" || p.slug === "cold-storage")
+              .map((p) => (
+                <Link key={p.slug} href={p.href} className="group block overflow-hidden rounded-md bg-white shadow-[0_18px_40px_rgba(12,15,26,0.06)] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_28px_60px_rgba(12,15,26,0.14)]">
+                  <div className="aspect-[16/10] overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={p.images?.[0]} alt={`${p.title} concept rendering`} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" loading="lazy" />
+                  </div>
+                  <div className="p-7">
+                    <h3 className="font-display text-xl font-bold text-brand-ink transition-colors group-hover:text-brand-red">{p.title}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-body-text">{p.subheadline}</p>
+                    <span className="mt-4 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.1em] text-brand-red">
+                      View Concept Gallery <ArrowRight size={14} />
+                    </span>
+                  </div>
+                </Link>
+              ))}
           </div>
         </div>
       </section>
@@ -181,7 +253,7 @@ export default function FoodDistributionHub() {
       </section>
 
       {/* ── Lead gen CTA boxes ── */}
-      <section className="bg-brand-ink py-20 md:py-24">
+      <section className="relative overflow-hidden bg-brand-ink py-20 md:py-24">
         <div className="brand-grid absolute inset-0 opacity-20" />
         <div className="relative mx-auto max-w-[1500px] px-6 md:px-10">
           <div className="mb-12 text-center">

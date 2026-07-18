@@ -28,6 +28,7 @@ const categoryColors: Record<string, string> = {
   "Custom Home Build": "bg-accent-gold/12 text-accent-gold",
   "Luxury Remodel": "bg-blue-500/10 text-blue-700",
   "Luxury New Build": "bg-emerald-500/10 text-emerald-700",
+  "Retail Build-Out": "bg-rose-500/10 text-rose-700",
 };
 
 export default function TemporaryProjectsPage() {
@@ -61,14 +62,14 @@ export default function TemporaryProjectsPage() {
 
       <PageHero
         title="Temporary Project Reviews"
-        subtitle="Five upcoming residential case studies kept off the main portfolio until they are approved."
+        subtitle="Six upcoming case studies, including custom homes and a flagship retail build-out, kept off the main portfolio until they are approved."
         breadcrumbs={[
           { label: "Projects", href: "/projects" },
           { label: "Temporary Projects" },
         ]}
         backgroundImage={featured.image}
         stats={[
-          { value: "5", label: "Pending Projects" },
+          { value: "6", label: "Pending Projects" },
           { value: "2021-2025", label: "Completion Span" },
           { value: "Private", label: "Review Only" },
         ]}

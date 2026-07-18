@@ -2,8 +2,10 @@ import Link from "next/link";
 import { MapPin, Phone, Mail, Clock, ArrowRight } from "lucide-react";
 import { ECONSTRUCT_INC } from "@/lib/constants";
 
-const MAP_SRC =
-  "https://www.google.com/maps?q=25350+Magic+Mountain+Pkwy+Suite+300+Valencia+CA+91355&output=embed";
+// Coordinate-based query (not a text address search) so Google renders a plain
+// pin without its own place-card info box overlapping the map — the address
+// is already shown in the contact panel beside it.
+const MAP_SRC = "https://www.google.com/maps?q=34.4233776,-118.5777160&z=15&output=embed";
 
 export default function MapSection() {
   return (

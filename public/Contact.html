@@ -44,7 +44,7 @@
         </div>
         <div class="cinfo">
           <div class="cinfo__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><h4>Headquarters</h4><p>25350 Magic Mountain Pkwy, Ste. 300<br>Valencia, CA 91355</p></div>
+          <div><h4>Headquarters</h4><p>25350 Magic Mountain Pkwy, Suite 300<br>Valencia, CA 91355</p></div>
         </div>
         <div class="cinfo">
           <div class="cinfo__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="9"/></svg></div>
@@ -127,8 +127,29 @@
       if (bad) ok = false;
     });
     if (!ok) return;
-    document.getElementById('formFields').style.display = 'none';
-    document.getElementById('formSuccess').classList.add('show');
+    var nameParts = (document.getElementById('name').value || '').trim().split(/\s+/);
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        firstName: nameParts[0] || '',
+        lastName: nameParts.slice(1).join(' ') || '-',
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        projectType: document.getElementById('type').value,
+        details: document.getElementById('message').value,
+        source: 'contact_form'
+      })
+    }).then(function (res) {
+      if (!res.ok) throw new Error('Request failed');
+      document.getElementById('formFields').style.display = 'none';
+      document.getElementById('formSuccess').classList.add('show');
+    }).catch(function () {
+      btn.disabled = false;
+      alert('Sorry, something went wrong sending your message. Please email info@econstructinc.com or call us directly.');
+    });
   });
   form.querySelectorAll('input, select, textarea').forEach(function (el) {
     el.addEventListener('input', function () { el.style.borderColor = ''; el.style.boxShadow = ''; });

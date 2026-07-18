@@ -88,7 +88,7 @@
         '<a href="mailto:' + EMAIL + '">' + I.mail + EMAIL + '</a>' +
       '</div>' +
       '<div class="util-right">' +
-        '<span class="u">' + I.pin + '25350 Magic Mountain Pkwy, Ste. 300, Valencia</span>' +
+        '<span class="u">' + I.pin + '25350 Magic Mountain Pkwy, Suite 300, Valencia</span>' +
         '<span class="u-sep"></span>' +
         '<a href="#">Careers</a>' +
       '</div>' +
@@ -169,7 +169,7 @@
           '<li><a href="#">Turn-Key Build Outs</a></li>' +
         '</ul></div>' +
         '<div class="footer__col"><h4>Get in touch</h4>' +
-          '<div class="footer__contact-item">' + I.pin + '<span>25350 Magic Mountain Pkwy, Ste. 300<br>Valencia, CA 91355</span></div>' +
+          '<div class="footer__contact-item">' + I.pin + '<span>25350 Magic Mountain Pkwy, Suite 300<br>Valencia, CA 91355</span></div>' +
           '<div class="footer__contact-item">' + I.phone + '<a href="tel:' + TEL + '">' + PHONE + '</a></div>' +
           '<div class="footer__contact-item">' + I.mail + '<a href="mailto:' + EMAIL + '">' + EMAIL + '</a></div>' +
           '<div class="footer__contact-item" style="margin-top:6px"><span style="color:var(--c-stone)">CA License #964015</span></div>' +
