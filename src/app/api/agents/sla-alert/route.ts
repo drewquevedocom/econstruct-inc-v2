@@ -7,7 +7,7 @@ export const maxDuration = 30;
 const ALERT_TO = process.env.FRANK_EMAIL || "frank@econstructinc.com";
 const ALERT_CC: string[] = [
   "marketing@econstructinc.com",
-  "robyn@econstructinc.com",
+  "katie@econstructinc.com",
 ];
 
 // SMS goes to Frank only

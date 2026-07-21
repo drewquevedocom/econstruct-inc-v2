@@ -4,7 +4,7 @@ import { sendNotificationEmail } from "@/lib/email";
 
 const NOTIFY_TO = ["info@econstructinc.com", "frank@econstructinc.com"];
 const NOTIFY_CC: string[] = [
-  "robyn@econstructinc.com",
+  "katie@econstructinc.com",
   "marketing@econstructinc.com",
 ];
 
