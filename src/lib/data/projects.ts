@@ -292,9 +292,8 @@ export const projects: Project[] = [
     tagline: "A landmark commercial build-out at 8th & Symphony in Cerritos.",
     description:
       "Full commercial tenant improvement build-out at 8th & Symphony in Cerritos. econstruct delivered the complete interior scope — custom finishes, MEP coordination, millwork, and turn-key delivery on schedule.",
-    heroImage: "/projects/01_8thSymphony.jpg",
+    heroImage: "/projects/02_8thSymphony.jpg",
     images: [
-      "/projects/01_8thSymphony.jpg",
       "/projects/02_8thSymphony.jpg",
       "/projects/03_8thSymphony.jpg",
       "/projects/04_8thSymphony.jpg",
