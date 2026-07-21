@@ -78,7 +78,7 @@ export const ECONSTRUCT_INC = {
   social: {
     facebook: "https://facebook.com/econstructinc",
     instagram: "https://instagram.com/econstructinc",
-    linkedin: "https://linkedin.com/company/econstruct-inc",
+    linkedin: "https://www.linkedin.com/company/econstruct-inc/",
     youtube: "https://youtube.com/@econstructinc",
     twitter: "https://x.com/econstructinc",
   },

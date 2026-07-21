@@ -27,7 +27,7 @@ export const blogAuthors: BlogAuthor[] = [
       "Restaurant, retail, office TI, and luxury residential specialist",
     ],
     image: "/frank_blog.png",
-    linkedin: "https://www.linkedin.com/company/econstruct-homes",
+    linkedin: "https://www.linkedin.com/company/econstruct-inc/",
   },
 ];
 
