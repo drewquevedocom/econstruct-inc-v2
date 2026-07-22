@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Calendar, Eye, Home, Inbox, Mail, MapPin, Send, Users } from "lucide-react";
+import { Calendar, Eye, Home, Inbox, Mail, MapPin, Send } from "lucide-react";
 import { createServiceClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
@@ -109,13 +109,10 @@ export default async function DashboardPage() {
   const supabase = createServiceClient();
   const now = new Date();
   const todayPT = ymdInPT(now);
-  const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 3600 * 1000).toISOString();
 
   const [
     sentTodayRes,
-    repliesWeekRes,
     partnersRes,
-    repliedPartnerIdsRes,
     eventsRes,
     newBuildsTotalRes,
     newBuildsMailReadyRes,
@@ -127,9 +124,7 @@ export default async function DashboardPage() {
     instantly,
   ] = await Promise.all([
     supabase.from("partner_leads").select("id", { count: "exact", head: true }).eq("last_contact_date", todayPT),
-    supabase.from("partner_tasks").select("id", { count: "exact", head: true }).like("title", "Review%reply%").gte("created_at", sevenDaysAgo),
     supabase.from("partner_leads").select("id, partner_name, company_firm, partner_type, status, contact_email, last_contact_date, updated_at").order("updated_at", { ascending: false }),
-    supabase.from("partner_tasks").select("partner_lead_id").like("title", "Review%reply%"),
     supabase.from("crm_events").select("id, title, event_date, location, host_org, event_url, audience, notes").eq("is_archived", false).or(`event_date.gte.${todayPT},event_date.is.null`).order("event_date", { ascending: true, nullsFirst: false }).limit(6),
     supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits"),
     supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").eq("owner_type", "entity").not("owner_mailing_address", "is", null),
@@ -142,7 +137,6 @@ export default async function DashboardPage() {
   ]);
 
   const sentToday        = sentTodayRes.count ?? 0;
-  const repliesWeek      = repliesWeekRes.count ?? 0;
   const partners         = (partnersRes.data ?? []) as PartnerRow[];
   const events           = (eventsRes.data ?? []) as EventRow[];
   const newBuildsTop     = (newBuildsTopRes.data ?? []) as NewBuildRow[];
@@ -153,12 +147,10 @@ export default async function DashboardPage() {
   const newBuildsIndividuals = newBuildsIndividualRes.count ?? 0;
   const newBuildsLuxury     = newBuildsLuxuryRes.count ?? 0;
 
-  const repliedIds   = new Set((repliedPartnerIdsRes.data ?? []).map((r) => r.partner_lead_id as string));
   const totalPartners = partners.length;
   const coldEmailed  = partners.filter((p) => ["Contacted","Replied","Agreement Sent","Active Partner"].includes(p.status)).length;
   const repliedCount = partners.filter((p) => p.status === "Replied").length;
   const signedPartners = partners.filter((p) => p.status === "Active Partner").length;
-  const partnerRepliesWeek = repliesWeek;
 
   const byType = new Map<string, number>();
   for (const p of partners) byType.set(p.partner_type, (byType.get(p.partner_type) ?? 0) + 1);
@@ -200,32 +192,9 @@ export default async function DashboardPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════
-          ROW 1 — Partner Pipeline (compact) | Engagement Signal
+          ROW 1 — Engagement Signal
       ══════════════════════════════════════════════════════════════ */}
-      <section className="grid grid-cols-1 gap-4 xl:grid-cols-[1fr_1fr]">
-        {/* Partner Pipeline */}
-        <div className="rounded-2xl border border-[#E8E4DC] bg-white p-4">
-          <div className="mb-3 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Users size={15} className="text-[#B8963E]" />
-              <h2 className="text-sm font-black uppercase tracking-wide text-[#1C1C1E]">Partner Pipeline</h2>
-            </div>
-            <Link href="/crm/partners" className="rounded-lg bg-[#1C1C1E] px-3 py-1 text-[11px] font-bold text-white hover:bg-[#B8963E]">Open</Link>
-          </div>
-          <div className="grid grid-cols-4 gap-2">
-            <MiniStat value={sentToday} label="Sent Today" accent="gold" />
-            <MiniStat value={partnerRepliesWeek} label="Replies 7d" accent="emerald" />
-            <MiniStat value={repliedCount} label="Need Action" accent="amber" />
-            <MiniStat value={signedPartners} label="Signed" accent="green" />
-          </div>
-          <div className="mt-3 grid grid-cols-4 gap-1 rounded-lg bg-[#FAF9F6] px-3 py-2 text-center text-[10px]">
-            <span className="font-black text-[#1C1C1E]">{totalPartners}<br/><span className="font-bold text-gray-400">Loaded</span></span>
-            <span className="font-black text-amber-700">{coldEmailed}<br/><span className="font-bold text-gray-400">Emailed</span></span>
-            <span className="font-black text-emerald-700">{repliedIds.size}<br/><span className="font-bold text-gray-400">Replied</span></span>
-            <span className="font-black text-[#B8963E]">{signedPartners}<br/><span className="font-bold text-gray-400">Signed</span></span>
-          </div>
-        </div>
-
+      <section className="grid grid-cols-1 gap-4">
         {/* Engagement Signal — Partner */}
         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1C1C1E] via-[#252527] to-[#1C1C1E] p-4 text-white">
           <div className="pointer-events-none absolute -right-8 -top-8 h-40 w-40 rounded-full bg-[#B8963E]/30 blur-3xl" />
