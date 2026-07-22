@@ -109,7 +109,9 @@ const loadAllBlogPosts = cache((): BlogPost[] => {
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
 });
 
-const loadBlogPosts = cache((): BlogPost[] => loadAllBlogPosts().filter((post) => !post.draft));
+const loadBlogPosts = cache((): BlogPost[] =>
+  loadAllBlogPosts().filter((post) => !post.draft && new Date(post.publishedAt) <= new Date())
+);
 
 export function getAllBlogPosts() { return loadBlogPosts(); }
 export function getBlogPostBySlug(slug: string): BlogPost | undefined { return loadBlogPosts().find(p => p.slug === slug); }
