@@ -175,13 +175,13 @@ export default async function DashboardPage() {
       </div>
 
       {/* ══════════════════════════════════════════════════════════════
-          ROW 0 — Homeowner Outreach Pipeline (new-build permits)
+          ROW 0 — New Construction Pipeline (new-build permits)
       ══════════════════════════════════════════════════════════════ */}
       <section className="rounded-2xl border border-[#E8E4DC] bg-white p-4">
         <div className="mb-3 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Home size={15} className="text-[#B8963E]" />
-            <h2 className="text-sm font-black uppercase tracking-wide text-[#1C1C1E]">Homeowner Outreach Pipeline</h2>
+            <h2 className="text-sm font-black uppercase tracking-wide text-[#1C1C1E]">New Construction Pipeline</h2>
           </div>
           <Link href="/crm/new-builds" className="rounded-lg bg-[#1C1C1E] px-3 py-1 text-[11px] font-bold text-white hover:bg-[#B8963E]">Open</Link>
         </div>
