@@ -120,6 +120,9 @@ export default async function DashboardPage() {
     newBuildsTotalRes,
     newBuildsMailReadyRes,
     newBuildsEnrichedRes,
+    newBuildsEntityRes,
+    newBuildsIndividualRes,
+    newBuildsLuxuryRes,
     newBuildsTopRes,
     instantly,
   ] = await Promise.all([
@@ -131,6 +134,9 @@ export default async function DashboardPage() {
     supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits"),
     supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").eq("owner_type", "entity").not("owner_mailing_address", "is", null),
     supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").not("owner_name", "is", null),
+    supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").eq("owner_type", "entity").not("owner_name", "is", null),
+    supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").eq("owner_type", "individual").not("owner_name", "is", null),
+    supabase.from("leads").select("id", { count: "exact", head: true }).eq("source", "ladbs_permits").gte("property_value", 1_000_000),
     supabase.from("leads").select("id, address, zip_code, owner_name, owner_mailing_address, owner_type, property_value, subsource").eq("source", "ladbs_permits").not("owner_name", "is", null).order("property_value", { ascending: false, nullsFirst: false }).limit(8),
     fetchInstantlyStats(),
   ]);
@@ -143,6 +149,9 @@ export default async function DashboardPage() {
   const newBuildsTotal   = newBuildsTotalRes.count ?? 0;
   const newBuildsMailReady = newBuildsMailReadyRes.count ?? 0;
   const newBuildsEnriched  = newBuildsEnrichedRes.count ?? 0;
+  const newBuildsEntities   = newBuildsEntityRes.count ?? 0;
+  const newBuildsIndividuals = newBuildsIndividualRes.count ?? 0;
+  const newBuildsLuxury     = newBuildsLuxuryRes.count ?? 0;
 
   const repliedIds   = new Set((repliedPartnerIdsRes.data ?? []).map((r) => r.partner_lead_id as string));
   const totalPartners = partners.length;
@@ -164,6 +173,31 @@ export default async function DashboardPage() {
         <p className="text-[11px] font-black uppercase tracking-[0.22em] text-[#1C1C1E]/40">CRM Command Center</p>
         <span className="text-xs text-gray-400 tabular-nums">{todayPT}</span>
       </div>
+
+      {/* ══════════════════════════════════════════════════════════════
+          ROW 0 — Homeowner Outreach Pipeline (new-build permits)
+      ══════════════════════════════════════════════════════════════ */}
+      <section className="rounded-2xl border border-[#E8E4DC] bg-white p-4">
+        <div className="mb-3 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Home size={15} className="text-[#B8963E]" />
+            <h2 className="text-sm font-black uppercase tracking-wide text-[#1C1C1E]">Homeowner Outreach Pipeline</h2>
+          </div>
+          <Link href="/crm/new-builds" className="rounded-lg bg-[#1C1C1E] px-3 py-1 text-[11px] font-bold text-white hover:bg-[#B8963E]">Open</Link>
+        </div>
+        <p className="mb-3 text-[11px] text-gray-500">
+          LADBS new-construction permits enriched with owner data. Outreach to homeowners is currently direct mail (below) —
+          no email channel is wired up for this audience yet.
+        </p>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+          <MiniStat value={newBuildsTotal} label="Total Permits" accent="blue" />
+          <MiniStat value={newBuildsLuxury} label="$1M+ Valuation" accent="gold" />
+          <MiniStat value={newBuildsEnriched} label="Owner Enriched" accent="sky" />
+          <MiniStat value={newBuildsMailReady} label="Mail-Ready" accent="amber" />
+          <MiniStat value={newBuildsEntities} label="Entity Owners" accent="emerald" />
+          <MiniStat value={newBuildsIndividuals} label="Individual Owners" accent="green" />
+        </div>
+      </section>
 
       {/* ══════════════════════════════════════════════════════════════
           ROW 1 — Partner Pipeline (compact) | Engagement Signal
