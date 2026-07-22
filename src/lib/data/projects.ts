@@ -159,6 +159,11 @@ export const projects: Project[] = [
     description:
       "Boba tea shop on the iconic 3rd Street Promenade, transforming a prime retail space under complex construction conditions. Navigated extended plan check delays and an accelerated finish timeline requiring extended work hours and coordinated manpower to hit opening day.",
     heroImage: "/projects/DSC00788-1-scaled.jpg",
+    constructionImages: [
+      "/projects/o1o_b4_1.jpg",
+      "/projects/o1o_b4_2.jpg",
+      "/projects/o1o_b4_3.jpg",
+    ],
     images: [
       "/projects/DSC00788-1-scaled.jpg",
       "/projects/o1o_1.jpg",
