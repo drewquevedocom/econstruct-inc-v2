@@ -30,6 +30,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "econstruct",
   },
+  other: {
+    "geo.region": "US-CA",
+    "geo.placename": "Los Angeles, California",
+    "geo.position": "34.0522;-118.2437",
+    ICBM: "34.0522, -118.2437",
+  },
 };
 
 export default function RootLayout({

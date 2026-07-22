@@ -48,6 +48,12 @@ export function generatePageMetadata({
       description,
       images: [ogImage],
     },
+    other: {
+      "geo.region": "US-CA",
+      "geo.placename": "Los Angeles, California",
+      "geo.position": "34.0522;-118.2437",
+      ICBM: "34.0522, -118.2437",
+    },
     ...(noIndex && { robots: { index: false, follow: true } }),
   };
 }
