@@ -91,12 +91,35 @@ export default function ServicesPage() {
     })),
   };
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What commercial construction services does econstruct offer?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "econstruct offers restaurant and bar construction, retail tenant improvement, office and tenant improvement, food distribution and cold storage construction, custom homes and ADUs, luxury modernization, and fire rebuild and restoration across Los Angeles and Southern California.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Does econstruct handle permits and inspections?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. Permit expediting, plan check coordination, and inspection scheduling are included in our project management process. CA Lic #964015.",
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([breadcrumbSchema, itemListSchema]),
+          __html: JSON.stringify([breadcrumbSchema, itemListSchema, faqSchema]),
         }}
       />
 

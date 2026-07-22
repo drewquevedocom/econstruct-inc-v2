@@ -30,9 +30,52 @@ const LEAD_GEN = [
   { label: "Emergency Facility Improvements", href: "/contact", primary: false },
 ];
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What types of food facilities does econstruct build?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "econstruct builds food distribution centers, cold storage warehouses, commissary kitchens, ghost kitchens, food manufacturing facilities, and last-mile logistics/fulfillment centers across Southern California.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is econstruct licensed for commercial construction in California?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. econstruct Inc. holds California General Contractor License #964015 and operates throughout Los Angeles, Orange County, and the greater Southern California region.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does econstruct handle health department permitting for food facilities?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Health department permitting is built into the construction schedule from day one. We coordinate LA County Department of Public Health plan check submissions, pre-opening inspections, and correction responses as part of the critical path — not as an afterthought.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can econstruct build cold storage while keeping our facility operational?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. We phase refrigeration upgrades and cold chain construction to maintain product temperature throughout. Utility shutdowns are sequenced with your operations team to minimize downtime.",
+      },
+    },
+  ],
+};
+
 export default function FoodDistributionHub() {
   return (
     <div className="flex flex-col min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
 
       {/* ── Hero ── */}
       <section className="relative flex min-h-[72vh] items-center overflow-hidden bg-brand-ink pt-32 pb-20">

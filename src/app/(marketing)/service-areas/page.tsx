@@ -95,11 +95,34 @@ export default function ServiceAreasPage() {
     { name: "Service Areas", url: "https://econstructinc.com/service-areas" },
   ]);
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What areas does econstruct serve?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "econstruct serves the greater Los Angeles area including Vernon, Commerce, City of Industry, Buena Park, Downtown LA, El Monte, Torrance, Long Beach, Inglewood, Hawthorne, Compton, Carson, Anaheim, Santa Ana, Pomona, Ontario, Fontana, and Riverside.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Does econstruct work outside of Los Angeles?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes. We serve commercial clients throughout Southern California including Orange County, the Inland Empire, and the greater LA metro region.",
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, faqSchema]) }}
       />
 
       <PageHero
