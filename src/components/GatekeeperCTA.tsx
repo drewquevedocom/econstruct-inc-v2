@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 const GENERAL_IMAGES = [
   { src: "/projects/hutchinson11.jpg",              alt: "Hutchinson Cocktails & Grill — La Cienega, Los Angeles" },
   { src: "/projects/01_Starbucks.jpg",               alt: "SBUX Lancaster — ground-up construction" },
-  { src: "/projects/01_TheFix.jpg",                  alt: "The Fix Wellness Lounge — Hermosa Beach" },
+  { src: "/projects/01_TheFix_web.jpg",               alt: "The Fix Wellness Lounge — Hermosa Beach" },
   { src: "/projects/JOETHEJUICE_1-scaled.webp",      alt: "Joe & The Juice — Southern California" },
   { src: "/projects/devista-hero.jpg",                alt: "Devista Project — custom home" },
   { src: "/projects/85c_Distribution_2.jpg",         alt: "85°C distribution center — Buena Park" },
