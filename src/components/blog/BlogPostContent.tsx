@@ -16,6 +16,8 @@ import {
   generateBlogFaqSchema,
 } from "@/lib/blog/schema";
 import { getRelatedPosts } from "@/lib/blog";
+import { addInternalLinks } from "@/lib/blog/content-links";
+import { getRelatedServiceLinks } from "@/lib/blog/related-services";
 
 interface BlogPostContentProps {
   post: BlogPost;
@@ -62,6 +64,8 @@ function renderWithLinks(text: string) {
 
 export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentProps) {
   const relatedPosts = getRelatedPosts(post.slug, post.categorySlug, post.tags);
+  const relatedServiceLinks = getRelatedServiceLinks(post.category);
+  const linkedHtml = addInternalLinks(post.html);
 
   const breadcrumbSchema = generateBlogBreadcrumbSchema([
     { name: "Home", url: "https://www.econstructinc.com" },
@@ -230,7 +234,7 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
               <div className="rounded-[2rem] border border-black/8 bg-white p-7 shadow-sm md:p-10">
                 <article
                   className="blog-prose min-w-0"
-                  dangerouslySetInnerHTML={{ __html: post.html }}
+                  dangerouslySetInnerHTML={{ __html: linkedHtml }}
                 />
               </div>
 
@@ -323,6 +327,26 @@ export default function BlogPostContent({ post, canonicalUrl }: BlogPostContentP
                       <h3 className="text-xl font-bold text-brand-dark">{item.question}</h3>
                       <p className="mt-3 text-base leading-relaxed text-body-text">{item.answer}</p>
                     </div>
+                  ))}
+                </div>
+              </section>
+
+              <section className="rounded-[2rem] bg-brand-dark px-8 py-10 text-white shadow-[0_24px_70px_rgba(0,0,0,0.14)] md:px-10">
+                <p className="text-xs font-bold uppercase tracking-[0.22em] text-accent-gold">
+                  Related Services
+                </p>
+                <h2 className="mt-3 text-3xl font-bold tracking-tight text-white">
+                  Explore What We Build
+                </h2>
+                <div className="mt-6 flex flex-wrap gap-4">
+                  {relatedServiceLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="rounded-full border border-white/14 px-6 py-3 text-sm font-bold text-white transition-colors hover:border-accent-gold hover:text-accent-gold"
+                    >
+                      {link.title}
+                    </Link>
                   ))}
                 </div>
               </section>
