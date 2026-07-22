@@ -161,6 +161,13 @@ export const projects: Project[] = [
     heroImage: "/projects/DSC00788-1-scaled.jpg",
     images: [
       "/projects/DSC00788-1-scaled.jpg",
+      "/projects/o1o_1.jpg",
+      "/projects/o1o_2.jpg",
+      "/projects/o1o_3.jpg",
+      "/projects/o1o_4.jpg",
+      "/projects/o1o_5.jpg",
+      "/projects/o1o_6.jpg",
+      "/projects/o1o_7.jpg",
       "/projects/o1o_b4_after.png",
     ],
     video: "https://www.youtube.com/watch?v=xSOv0Nafzr4",
