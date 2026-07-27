@@ -3,6 +3,9 @@
 import { useSearchParams } from "next/navigation";
 import { useState, type FormEvent } from "react";
 import { Loader2, CheckCircle2, Mail, Phone } from "lucide-react";
+import HoneypotField from "@/components/HoneypotField";
+import TurnstileWidget from "@/components/TurnstileWidget";
+import { HONEYPOT_FIELD } from "@/lib/spam-protection-shared";
 
 const inquiryTypes = [
   "General Inquiry",
@@ -23,6 +26,8 @@ export default function GenericContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [honeypot, setHoneypot] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -52,6 +57,8 @@ export default function GenericContactForm() {
           projectType: formData.inquiryType,
           details: formData.message,
           source: leadSource,
+          [HONEYPOT_FIELD]: honeypot,
+          turnstileToken,
         }),
       });
 
@@ -197,11 +204,15 @@ export default function GenericContactForm() {
         />
       </div>
 
+      <HoneypotField value={honeypot} onChange={setHoneypot} />
+
       {error && (
         <div className="mt-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-600">
           {error}
         </div>
       )}
+
+      <TurnstileWidget onVerify={setTurnstileToken} onExpire={() => setTurnstileToken("")} className="mt-5" />
 
       <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
         <button

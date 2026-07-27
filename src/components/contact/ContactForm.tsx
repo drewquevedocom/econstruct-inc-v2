@@ -10,6 +10,9 @@ import {
   CheckCircle2,
   Loader2,
 } from "lucide-react";
+import HoneypotField from "@/components/HoneypotField";
+import TurnstileWidget from "@/components/TurnstileWidget";
+import { HONEYPOT_FIELD } from "@/lib/spam-protection-shared";
 
 const contactSchema = z.object({
   projectType: z.string().min(1, "Select a project type"),
@@ -52,6 +55,8 @@ export default function ContactForm() {
   const [step, setStep] = useState(1);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [honeypot, setHoneypot] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
 
   const {
     register,
@@ -92,7 +97,12 @@ export default function ContactForm() {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, source: "contact_form" }),
+        body: JSON.stringify({
+          ...data,
+          source: "contact_form",
+          [HONEYPOT_FIELD]: honeypot,
+          turnstileToken,
+        }),
       });
 
       if (!res.ok) {
@@ -166,6 +176,7 @@ export default function ContactForm() {
       </div>
 
       <form id="contact-form-consultation" onSubmit={handleSubmit(onSubmit)}>
+        <HoneypotField value={honeypot} onChange={setHoneypot} />
         <div className="relative min-h-[380px]">
           <AnimatePresence mode="wait">
             {/* STEP 1: Project Type & Zip */}
@@ -380,6 +391,8 @@ export default function ContactForm() {
                     {submitError}
                   </div>
                 )}
+
+                <TurnstileWidget onVerify={setTurnstileToken} onExpire={() => setTurnstileToken("")} />
 
                 <div className="flex gap-4 mt-4">
                   <button

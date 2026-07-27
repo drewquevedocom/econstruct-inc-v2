@@ -2,6 +2,9 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, type FormEvent, type MouseEvent } from "react";
 import { ArrowRight, ArrowLeft, CheckCircle2, Loader2 } from "lucide-react";
+import HoneypotField from "@/components/HoneypotField";
+import TurnstileWidget from "@/components/TurnstileWidget";
+import { HONEYPOT_FIELD } from "@/lib/spam-protection-shared";
 
 const facilityTypes = [
   "Cold Storage / Refrigerated Warehouse",
@@ -52,6 +55,8 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+  const [honeypot, setHoneypot] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
 
   const [formData, setFormData] = useState({
     facilityType: "",
@@ -138,6 +143,8 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
           timeline: formData.walkTiming,
           details,
           source: leadSource,
+          [HONEYPOT_FIELD]: honeypot,
+          turnstileToken,
         }),
       });
 
@@ -168,6 +175,7 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
 
   return (
     <div className="mx-auto max-w-4xl">
+        <HoneypotField value={honeypot} onChange={setHoneypot} />
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -410,6 +418,8 @@ export default function SiteWalkCTA({ leadSource = "site_walk_request" }: SiteWa
                       {submitError}
                     </div>
                   )}
+
+                  <TurnstileWidget onVerify={setTurnstileToken} onExpire={() => setTurnstileToken("")} />
 
                   <div className="flex gap-4 mt-4">
                     <button

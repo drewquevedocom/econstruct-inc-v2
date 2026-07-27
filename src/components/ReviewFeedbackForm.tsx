@@ -1,15 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import TurnstileWidget from "@/components/TurnstileWidget";
+import { HONEYPOT_FIELD } from "@/lib/spam-protection-shared";
 
 const PROJECT_TYPES = ["ADU", "Commercial TI", "Restaurant Build-Out", "Fire Rebuild", "Other"];
 
 export default function ReviewFeedbackForm() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [turnstileToken, setTurnstileToken] = useState("");
 
   async function submit(formData: FormData) {
     setStatus("sending");
-    const payload = Object.fromEntries(formData.entries());
+    const payload = { ...Object.fromEntries(formData.entries()), turnstileToken };
     const res = await fetch("/api/review-feedback", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -20,6 +23,10 @@ export default function ReviewFeedbackForm() {
 
   return (
     <form action={submit} className="mt-4 grid gap-3">
+      <div style={{ display: "none" }} aria-hidden="true">
+        <label htmlFor={HONEYPOT_FIELD}>Company Website</label>
+        <input type="text" id={HONEYPOT_FIELD} name={HONEYPOT_FIELD} tabIndex={-1} autoComplete="off" />
+      </div>
       <div className="grid gap-3 md:grid-cols-2">
         <Field name="name" label="Name" required />
         <Field name="email" label="Email" type="email" required />
@@ -51,6 +58,8 @@ export default function ReviewFeedbackForm() {
           className="mt-1 w-full rounded-xl border border-[#E8E4DC] px-3 py-2 text-sm outline-none focus:border-[#B8963E]"
         />
       </label>
+      <TurnstileWidget onVerify={setTurnstileToken} onExpire={() => setTurnstileToken("")} />
+
       <button
         disabled={status === "sending"}
         className="h-11 rounded-xl bg-[#1C1C1E] px-5 text-sm font-bold text-white disabled:opacity-60"

@@ -1,6 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { sendNotificationEmail } from "@/lib/email";
+import {
+  checkRateLimit,
+  containsSolicitationKeywords,
+  getClientIp,
+  isDisposableEmail,
+  isHoneypotTripped,
+  verifyTurnstile,
+} from "@/lib/spam-protection";
 
 const NOTIFY_TO = ["info@econstructinc.com", "frank@econstructinc.com"];
 const NOTIFY_CC: string[] = [
@@ -25,12 +33,49 @@ export async function POST(req: NextRequest) {
       timeline,
       details,
       source, // optional: "contact_form" | "consultation_cta"
+      turnstileToken,
     } = body;
+
+    // Rate limit first — cheapest check, no DB/network cost.
+    const clientIp = getClientIp(req);
+    if (clientIp) {
+      const rl = checkRateLimit(`contact:${clientIp}`);
+      if (!rl.allowed) {
+        console.warn(`[spam-protection] contact route rate-limited: ${clientIp}`);
+        return NextResponse.json(
+          { error: "Too many submissions. Please try again in a bit." },
+          { status: 429 }
+        );
+      }
+    }
+
+    // Honeypot — bots that fill every field get a fake success, silently,
+    // with no save and no email. Logged so it's visible in server logs.
+    if (isHoneypotTripped(body)) {
+      console.warn("[spam-protection] contact route honeypot tripped, silently dropped");
+      return NextResponse.json({ success: true }, { status: 200 });
+    }
 
     // Basic validation
     if (!firstName || !lastName || !email) {
       return NextResponse.json(
         { error: "Missing required fields." },
+        { status: 400 }
+      );
+    }
+
+    const turnstileResult = await verifyTurnstile(turnstileToken, clientIp);
+    if (!turnstileResult.success) {
+      console.warn("[spam-protection] contact route Turnstile check failed:", turnstileResult.errorCodes);
+      return NextResponse.json(
+        { error: "Verification failed. Please refresh the page and try again." },
+        { status: 400 }
+      );
+    }
+
+    if (isDisposableEmail(email)) {
+      return NextResponse.json(
+        { error: "Please use a permanent email address rather than a disposable one." },
         { status: 400 }
       );
     }
@@ -75,9 +120,12 @@ export async function POST(req: NextRequest) {
     {
       const normalizedProjectType = projectType || "General Inquiry";
       const isConsultation = source === "consultation_cta" || source === "free_consultation";
-      const subject = isConsultation
+      const baseSubject = isConsultation
         ? `New Consultation Request - ${fullName}`
         : `New Contact Form Submission - ${fullName}`;
+      const subject = containsSolicitationKeywords(details)
+        ? `[Possible Solicitation] ${baseSubject}`
+        : baseSubject;
 
       await sendNotificationEmail({
         from: "econstruct Website <no-reply@econstructinc.com>",

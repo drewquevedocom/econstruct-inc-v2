@@ -6,6 +6,9 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
 import { z } from "zod";
+import HoneypotField from "@/components/HoneypotField";
+import TurnstileWidget from "@/components/TurnstileWidget";
+import { HONEYPOT_FIELD } from "@/lib/spam-protection-shared";
 
 const lotWalkSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
@@ -49,6 +52,8 @@ export default function PrivateLotWalkForm() {
   const searchParams = useSearchParams();
   const [submitted, setSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [honeypot, setHoneypot] = useState("");
+  const [turnstileToken, setTurnstileToken] = useState("");
 
   const campaignSource = useMemo(() => {
     const source = searchParams.get("utm_source") || searchParams.get("source") || "postcard";
@@ -102,6 +107,8 @@ export default function PrivateLotWalkForm() {
           ...data,
           details,
           source: campaignSource,
+          [HONEYPOT_FIELD]: honeypot,
+          turnstileToken,
         }),
       });
 
@@ -245,11 +252,15 @@ export default function PrivateLotWalkForm() {
         />
       </div>
 
+      <HoneypotField value={honeypot} onChange={setHoneypot} />
+
       {submitError && (
         <div className="mt-5 rounded-2xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
           {submitError}
         </div>
       )}
+
+      <TurnstileWidget onVerify={setTurnstileToken} onExpire={() => setTurnstileToken("")} className="mt-5" />
 
       <button
         type="submit"
