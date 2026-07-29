@@ -44,7 +44,7 @@ faq:
   - question: "What electrical service does a ghost kitchen require?"
     answer: "Most commercial cooking operations require 400–800 amp three-phase electrical service. Many warehouse and light industrial spaces have insufficient service and require a utility upgrade — a process that can take 8–14 weeks with SCE or LADWP and should be initiated immediately when a site is selected."
 relatedSlugs:
-  - "cold-storage-construction-california"
+  - "food-distribution-cold-storage-facility-construction-southern-california"
   - "food-distribution-center-construction-los-angeles"
 localAreas:
   - "Los Angeles"

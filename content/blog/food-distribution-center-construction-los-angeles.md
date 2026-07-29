@@ -44,7 +44,7 @@ faq:
   - question: "What fire code requirements apply to food distribution centers?"
     answer: "High-piled storage (over 12 feet) in food distribution facilities triggers California Fire Code Chapter 32 requirements, which may include ESFR sprinkler systems rated for the product storage configuration. The LAFD reviews high-piled storage plans as part of the building permit process."
 relatedSlugs:
-  - "cold-storage-construction-california"
+  - "food-distribution-cold-storage-facility-construction-southern-california"
   - "ghost-kitchen-construction-los-angeles"
 localAreas:
   - "Vernon"

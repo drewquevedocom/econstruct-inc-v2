@@ -33,7 +33,7 @@ export default function SolutionAbout() {
         >
           <div className="relative aspect-[4/5] overflow-hidden rounded-md shadow-2xl">
             <Image
-              src="/Photorealistic_cinematic_interior_202604121940.png"
+              src="/Photorealistic_cinematic_interior_202604121940_web.jpg"
               alt="econstruct commercial build-out in Los Angeles"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

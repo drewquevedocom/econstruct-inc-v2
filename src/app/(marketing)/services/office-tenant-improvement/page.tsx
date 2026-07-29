@@ -19,7 +19,7 @@ export const metadata: Metadata = generatePageMetadata({
   description:
     "econstruct delivers office TI, creative space build-outs, and commercial tenant improvements across Los Angeles — permitted, phased, and on schedule. CA Lic #964015.",
   path: "/services/office-tenant-improvement",
-  image: "/Photorealistic_cinematic_interior_202604121940.png",
+  image: "/Photorealistic_cinematic_interior_202604121940_web.jpg",
   imageAlt: "Office tenant improvement Los Angeles by econstruct",
   openGraphTitle: "Office Tenant Improvement Contractor Los Angeles | econstruct",
   twitterTitle: "Office TI Contractor Los Angeles | econstruct",

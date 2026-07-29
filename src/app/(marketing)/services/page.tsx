@@ -29,7 +29,7 @@ const SERVICES = [
     href: "/services/office-tenant-improvement",
     label: "Commercial",
     title: "Office & Tenant Improvement",
-    image: "/Photorealistic_cinematic_interior_202604121940.png",
+    image: "/Photorealistic_cinematic_interior_202604121940_web.jpg",
     blurb:
       "Creative office, medical, and professional space build-outs — from test-fit through turnover — coordinated tightly with property management and inspectors.",
   },

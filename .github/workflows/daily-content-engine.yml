@@ -1,8 +1,15 @@
 name: Daily Content Engine
 
+# PAUSED (2026-07-28): autonomous daily topic self-selection is paused
+# while the approved Aug-Sep 2026 batch (13 posts) publishes on its own
+# schedule via the publishedAt date-gating in src/lib/blog/index.ts
+# (loadBlogPosts filters out posts whose publishedAt is still in the
+# future - no separate workflow needed for the scheduled release here).
+# The `schedule:` trigger below is intentionally removed, not the
+# workflow -- run manually via workflow_dispatch if a one-off
+# self-selected post is needed. Restore the `schedule:` block to resume
+# autonomous selection.
 on:
-  schedule:
-    - cron: "30 13 * * *"
   workflow_dispatch:
 
 jobs:

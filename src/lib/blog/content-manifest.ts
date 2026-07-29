@@ -2,75 +2,87 @@
 // Do not edit manually.
 
 import post0 from "../../../content/blog/7-essentials-for-choosing-the-perfect-restaurant-location.md?raw";
-import post1 from "../../../content/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels.md?raw";
-import post2 from "../../../content/blog/altadena-fire-rebuild-permits-costs-2026.md?raw";
-import post3 from "../../../content/blog/architect-designer-contractor-collaboration-the-key-to-successful-construction-projects.md?raw";
-import post4 from "../../../content/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024.md?raw";
-import post5 from "../../../content/blog/blueprint-for-success-why-you-need-the-right-residential-contractors-in-los-angeles-for-your-home-renovation.md?raw";
-import post6 from "../../../content/blog/brentwood-luxury-home-modernization-cost-2026.md?raw";
-import post7 from "../../../content/blog/build-an-adu-in-los-angeles-2024-cost-breakdown-expert-guide.md?raw";
-import post8 from "../../../content/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct.md?raw";
-import post9 from "../../../content/blog/chapter-7a-wui-compliance-homeowner-guide.md?raw";
-import post10 from "../../../content/blog/choosing-skilled-restaurant-contractors-in-los-angeles-an-essential-guide-for-food-service-projects.md?raw";
-import post11 from "../../../content/blog/cold-storage-construction-california.md?raw";
-import post12 from "../../../content/blog/custom-home-builder-in-los-angeles-transform-your-home-with-econstruct.md?raw";
-import post13 from "../../../content/blog/custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs.md?raw";
-import post14 from "../../../content/blog/custom-home-builders-bel-air-los-angeles.md?raw";
-import post15 from "../../../content/blog/custom-home-builders-hidden-hills.md?raw";
-import post16 from "../../../content/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles.md?raw";
-import post17 from "../../../content/blog/design-build-company-los-angeles-streamline-your-construction-with-econstruct.md?raw";
-import post18 from "../../../content/blog/eco-smart-home-upgrades-build-a-greener-future-with-econstruct.md?raw";
-import post19 from "../../../content/blog/econstruct-named-a-top-restaurant-contractor-in-santa-monica-for-2024.md?raw";
-import post20 from "../../../content/blog/econstructs-insight-into-2024-luxury-homeowner-trends-in-los-angeles.md?raw";
-import post21 from "../../../content/blog/elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles.md?raw";
-import post22 from "../../../content/blog/essential-elements-of-construction-blueprints-a-comprehensive-guide.md?raw";
-import post23 from "../../../content/blog/fire-insurance-gap-palisades-rebuild.md?raw";
-import post24 from "../../../content/blog/food-distribution-center-construction-los-angeles.md?raw";
-import post25 from "../../../content/blog/food-specialty-construction-los-angeles-expert-builders-for-your-restaurant.md?raw";
-import post26 from "../../../content/blog/ghost-kitchen-construction-los-angeles.md?raw";
-import post27 from "../../../content/blog/green-innovations-for-your-dream-home-a-guide-by-custom-homebuilders-in-los-angeles.md?raw";
-import post28 from "../../../content/blog/hire-a-top-notch-restaurant-architect-in-los-angeles-the-ultimate-guide.md?raw";
-import post29 from "../../../content/blog/homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles.md?raw";
-import post30 from "../../../content/blog/how-to-engage-with-mep-engineers-for-your-projects.md?raw";
-import post31 from "../../../content/blog/how-to-vet-fire-rebuild-contractor-la.md?raw";
-import post32 from "../../../content/blog/launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles.md?raw";
-import post33 from "../../../content/blog/los-angeles-bar-construction-a-step-by-step-guide-to-success-in-the-city-of-angels.md?raw";
-import post34 from "../../../content/blog/los-angeles-residential-contractors-econstruct-builds-dreams.md?raw";
-import post35 from "../../../content/blog/luxury-home-automation-control4-crestron-savant.md?raw";
-import post36 from "../../../content/blog/luxury-home-builders-beverly-hills.md?raw";
-import post37 from "../../../content/blog/luxury-home-builders-calabasas.md?raw";
-import post38 from "../../../content/blog/luxury-home-builders-in-los-angeles-where-dreams-meet-reality.md?raw";
-import post39 from "../../../content/blog/luxury-home-builders-malibu.md?raw";
-import post40 from "../../../content/blog/luxury-home-builders-pacific-palisades.md?raw";
-import post41 from "../../../content/blog/luxury-home-builders-platinum-triangle-bel-air-holmby-hills-beverly-hills.md?raw";
-import post42 from "../../../content/blog/luxury-remodels-la-style-why-econstruct-is-the-custom-home-builder-los-angeles-trusts.md?raw";
-import post43 from "../../../content/blog/navigating-the-world-of-general-contracting-a-comprehensive-guide-to-hiring-the-right-professional.md?raw";
-import post44 from "../../../content/blog/new-home-construction-in-los-angeles-expert-builders-at-econstruct.md?raw";
-import post45 from "../../../content/blog/new-home-construction-los-angeles.md?raw";
-import post46 from "../../../content/blog/newcomb-road-remodel-a-residential-construction-service-success-story.md?raw";
-import post47 from "../../../content/blog/pacific-palisades-fire-rebuild-guide-2026.md?raw";
-import post48 from "../../../content/blog/partner-with-top-office-building-ti-contractors-los-angeles-to-design-the-workplace-of-the-future.md?raw";
-import post49 from "../../../content/blog/plan-check-los-angeles-streamline-your-construction-approval-with-econstruct.md?raw";
-import post50 from "../../../content/blog/residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces.md?raw";
-import post51 from "../../../content/blog/residential-contractor-in-los-angeles-expert-home-builders-at-econstruct.md?raw";
-import post52 from "../../../content/blog/restaurant-construction-in-los-angeles-a-comprehensive-guide-to-project-design-plans-part-2.md?raw";
-import post53 from "../../../content/blog/restaurant-construction-in-los-angeles-expert-design-and-build-services.md?raw";
-import post54 from "../../../content/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct.md?raw";
-import post55 from "../../../content/blog/restaurant-construction-los-angeles-build-your-dream-eatery-with-econstruct.md?raw";
-import post56 from "../../../content/blog/restaurant-construction-los-angeles-expert-design-build-with-econstruct.md?raw";
-import post57 from "../../../content/blog/restaurant-construction-project-design-plans-a-comprehensive-guide.md?raw";
-import post58 from "../../../content/blog/restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction.md?raw";
-import post59 from "../../../content/blog/santa-monica-hillside-construction-geotechnical.md?raw";
-import post60 from "../../../content/blog/the-iron-triangle-of-construction-balancing-quality-speed-and-cost.md?raw";
-import post61 from "../../../content/blog/tiny-home-builders-los-angeles-build-your-dream-tiny-home-with-econstruct.md?raw";
-import post62 from "../../../content/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct.md?raw";
-import post63 from "../../../content/blog/top-10-residential-contractors-in-los-angeles-for-2024-your-ultimate-guide.md?raw";
-import post64 from "../../../content/blog/top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles.md?raw";
-import post65 from "../../../content/blog/top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space.md?raw";
-import post66 from "../../../content/blog/top-restaurant-contractor-in-los-angeles-launch-your-dream-restaurant-with-econstruct.md?raw";
-import post67 from "../../../content/blog/what-is-a-conditional-use-permit.md?raw";
-import post68 from "../../../content/blog/what-is-the-ideal-restaurant-construction-timeline.md?raw";
-import post69 from "../../../content/blog/your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles.md?raw";
+import post1 from "../../../content/blog/ada-compliance-commercial-construction.md?raw";
+import post2 from "../../../content/blog/adu-permit-los-angeles-your-path-to-building-an-adu-in-the-city-of-angels.md?raw";
+import post3 from "../../../content/blog/altadena-fire-rebuild-permits-costs-2026.md?raw";
+import post4 from "../../../content/blog/architect-designer-contractor-collaboration-the-key-to-successful-construction-projects.md?raw";
+import post5 from "../../../content/blog/are-tiny-homes-legal-in-los-angeles-everything-you-need-to-know-in-2024.md?raw";
+import post6 from "../../../content/blog/biggest-mistakes-out-of-state-developers-building-california.md?raw";
+import post7 from "../../../content/blog/blueprint-for-success-why-you-need-the-right-residential-contractors-in-los-angeles-for-your-home-renovation.md?raw";
+import post8 from "../../../content/blog/brentwood-luxury-home-modernization-cost-2026.md?raw";
+import post9 from "../../../content/blog/build-an-adu-in-los-angeles-2024-cost-breakdown-expert-guide.md?raw";
+import post10 from "../../../content/blog/build-an-adu-in-los-angeles-your-comprehensive-guide-econstruct.md?raw";
+import post11 from "../../../content/blog/chapter-7a-wui-compliance-homeowner-guide.md?raw";
+import post12 from "../../../content/blog/choosing-skilled-restaurant-contractors-in-los-angeles-an-essential-guide-for-food-service-projects.md?raw";
+import post13 from "../../../content/blog/commercial-construction-permit-timelines-los-angeles-2026.md?raw";
+import post14 from "../../../content/blog/commercial-kitchen-hood-systems-food-manufacturing-facilities.md?raw";
+import post15 from "../../../content/blog/commercial-permitting-plan-check-los-angeles-entitlement-preconstruction.md?raw";
+import post16 from "../../../content/blog/custom-home-builder-in-los-angeles-transform-your-home-with-econstruct.md?raw";
+import post17 from "../../../content/blog/custom-home-builder-los-angeles-design-and-innovation-tailored-to-your-needs.md?raw";
+import post18 from "../../../content/blog/custom-home-builders-bel-air-los-angeles.md?raw";
+import post19 from "../../../content/blog/custom-home-builders-hidden-hills.md?raw";
+import post20 from "../../../content/blog/decoding-the-permit-and-inspection-process-in-the-city-of-los-angeles.md?raw";
+import post21 from "../../../content/blog/design-build-company-los-angeles-streamline-your-construction-with-econstruct.md?raw";
+import post22 from "../../../content/blog/eco-smart-home-upgrades-build-a-greener-future-with-econstruct.md?raw";
+import post23 from "../../../content/blog/econstruct-named-a-top-restaurant-contractor-in-santa-monica-for-2024.md?raw";
+import post24 from "../../../content/blog/econstructs-insight-into-2024-luxury-homeowner-trends-in-los-angeles.md?raw";
+import post25 from "../../../content/blog/elevating-your-hillside-home-finding-the-perfect-hillside-residential-lift-contractor-in-los-angeles.md?raw";
+import post26 from "../../../content/blog/essential-elements-of-construction-blueprints-a-comprehensive-guide.md?raw";
+import post27 from "../../../content/blog/fire-insurance-gap-palisades-rebuild.md?raw";
+import post28 from "../../../content/blog/food-distribution-center-construction-los-angeles.md?raw";
+import post29 from "../../../content/blog/food-distribution-cold-storage-facility-construction-southern-california.md?raw";
+import post30 from "../../../content/blog/food-production-processing-facility-construction-southern-california.md?raw";
+import post31 from "../../../content/blog/food-specialty-construction-los-angeles-expert-builders-for-your-restaurant.md?raw";
+import post32 from "../../../content/blog/ghost-kitchen-construction-los-angeles.md?raw";
+import post33 from "../../../content/blog/green-innovations-for-your-dream-home-a-guide-by-custom-homebuilders-in-los-angeles.md?raw";
+import post34 from "../../../content/blog/hire-a-top-notch-restaurant-architect-in-los-angeles-the-ultimate-guide.md?raw";
+import post35 from "../../../content/blog/homeowners-guide-to-asbestos-and-renovations-essential-information-from-residential-contractors-in-los-angeles.md?raw";
+import post36 from "../../../content/blog/how-to-engage-with-mep-engineers-for-your-projects.md?raw";
+import post37 from "../../../content/blog/how-to-vet-fire-rebuild-contractor-la.md?raw";
+import post38 from "../../../content/blog/launching-your-dream-restaurant-insights-from-top-restaurant-contractor-in-los-angeles.md?raw";
+import post39 from "../../../content/blog/los-angeles-bar-construction-a-step-by-step-guide-to-success-in-the-city-of-angels.md?raw";
+import post40 from "../../../content/blog/los-angeles-residential-contractors-econstruct-builds-dreams.md?raw";
+import post41 from "../../../content/blog/luxury-home-automation-control4-crestron-savant.md?raw";
+import post42 from "../../../content/blog/luxury-home-builders-beverly-hills.md?raw";
+import post43 from "../../../content/blog/luxury-home-builders-calabasas.md?raw";
+import post44 from "../../../content/blog/luxury-home-builders-in-los-angeles-where-dreams-meet-reality.md?raw";
+import post45 from "../../../content/blog/luxury-home-builders-malibu.md?raw";
+import post46 from "../../../content/blog/luxury-home-builders-pacific-palisades.md?raw";
+import post47 from "../../../content/blog/luxury-home-builders-platinum-triangle-bel-air-holmby-hills-beverly-hills.md?raw";
+import post48 from "../../../content/blog/luxury-remodels-la-style-why-econstruct-is-the-custom-home-builder-los-angeles-trusts.md?raw";
+import post49 from "../../../content/blog/luxury-retail-flagship-store-construction-los-angeles.md?raw";
+import post50 from "../../../content/blog/navigating-the-world-of-general-contracting-a-comprehensive-guide-to-hiring-the-right-professional.md?raw";
+import post51 from "../../../content/blog/new-home-construction-in-los-angeles-expert-builders-at-econstruct.md?raw";
+import post52 from "../../../content/blog/new-home-construction-los-angeles.md?raw";
+import post53 from "../../../content/blog/newcomb-road-remodel-a-residential-construction-service-success-story.md?raw";
+import post54 from "../../../content/blog/office-tenant-improvements-what-to-expect.md?raw";
+import post55 from "../../../content/blog/pacific-palisades-fire-rebuild-guide-2026.md?raw";
+import post56 from "../../../content/blog/partner-with-top-office-building-ti-contractors-los-angeles-to-design-the-workplace-of-the-future.md?raw";
+import post57 from "../../../content/blog/plan-check-los-angeles-streamline-your-construction-approval-with-econstruct.md?raw";
+import post58 from "../../../content/blog/residential-construction-los-angeles-transforming-outdated-homes-into-modern-masterpieces.md?raw";
+import post59 from "../../../content/blog/residential-contractor-in-los-angeles-expert-home-builders-at-econstruct.md?raw";
+import post60 from "../../../content/blog/restaurant-construction-in-los-angeles-a-comprehensive-guide-to-project-design-plans-part-2.md?raw";
+import post61 from "../../../content/blog/restaurant-construction-in-los-angeles-expert-design-and-build-services.md?raw";
+import post62 from "../../../content/blog/restaurant-construction-los-angeles-800-degrees-pizzeria-case-study-by-econstruct.md?raw";
+import post63 from "../../../content/blog/restaurant-construction-los-angeles-build-your-dream-eatery-with-econstruct.md?raw";
+import post64 from "../../../content/blog/restaurant-construction-los-angeles-expert-design-build-with-econstruct.md?raw";
+import post65 from "../../../content/blog/restaurant-construction-project-design-plans-a-comprehensive-guide.md?raw";
+import post66 from "../../../content/blog/restaurant-kitchens-in-los-angeles-with-econstruct-inc-innovations-in-restaurant-construction.md?raw";
+import post67 from "../../../content/blog/retail-build-outs-los-angeles-landlord-requirements-permits.md?raw";
+import post68 from "../../../content/blog/santa-monica-hillside-construction-geotechnical.md?raw";
+import post69 from "../../../content/blog/the-iron-triangle-of-construction-balancing-quality-speed-and-cost.md?raw";
+import post70 from "../../../content/blog/tiny-home-builders-los-angeles-build-your-dream-tiny-home-with-econstruct.md?raw";
+import post71 from "../../../content/blog/tips-for-navigating-office-renovations-in-los-angeles-with-econstruct.md?raw";
+import post72 from "../../../content/blog/top-10-residential-contractors-in-los-angeles-for-2024-your-ultimate-guide.md?raw";
+import post73 from "../../../content/blog/top-5-mistakes-to-avoid-when-hiring-a-residential-contractor-in-los-angeles.md?raw";
+import post74 from "../../../content/blog/top-office-tenant-improvement-contractors-in-los-angeles-transforming-your-space.md?raw";
+import post75 from "../../../content/blog/top-restaurant-contractor-in-los-angeles-launch-your-dream-restaurant-with-econstruct.md?raw";
+import post76 from "../../../content/blog/utility-coordination-commercial-construction-delays.md?raw";
+import post77 from "../../../content/blog/what-is-a-conditional-use-permit.md?raw";
+import post78 from "../../../content/blog/what-is-the-ideal-restaurant-construction-timeline.md?raw";
+import post79 from "../../../content/blog/why-commercial-projects-get-delayed-before-construction-begins.md?raw";
+import post80 from "../../../content/blog/why-local-experience-matters-california-commercial-construction.md?raw";
+import post81 from "../../../content/blog/your-dream-home-starts-here-site-planning-with-top-residential-contractors-in-los-angeles.md?raw";
 
 export const rawBlogPosts = [
   post0,
@@ -143,4 +155,16 @@ export const rawBlogPosts = [
   post67,
   post68,
   post69,
+  post70,
+  post71,
+  post72,
+  post73,
+  post74,
+  post75,
+  post76,
+  post77,
+  post78,
+  post79,
+  post80,
+  post81,
 ];
