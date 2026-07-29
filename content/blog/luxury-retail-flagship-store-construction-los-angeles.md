@@ -19,6 +19,7 @@ heroImageAlt: "Luxury retail and flagship store construction for major fashion a
 ogImage: "/projects/Untitled-design-87-600x600.png"
 excerpt: "A flagship store is a marketing asset built out of drywall and millwork. The construction discipline required to deliver one on brand and on the launch date is different from standard retail tenant improvement."
 targetKeyword: "flagship store construction Los Angeles"
+draft: true
 takeaways:
   - "A flagship store is the physical embodiment of a brand at scale; the contractor's job is to execute brand headquarters design intent exactly, not interpret it locally."
   - "Premium centers and streets in Los Angeles add a landlord and center design review layer beyond standard permitting, with its own approval timeline and criteria."

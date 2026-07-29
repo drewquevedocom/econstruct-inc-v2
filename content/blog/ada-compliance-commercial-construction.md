@@ -19,6 +19,7 @@ heroImageAlt: "ADA-compliant accessible entrance and path of travel on a commerc
 ogImage: "/projects/Hals_pv_12-scaled.jpg"
 excerpt: "ADA and Title 24 accessibility requirements touch nearly every element of a commercial project, from the path of travel to restroom clearances, and non-compliance is one of the most common and expensive inspection failures. Here is what actually has to be built in from the start."
 targetKeyword: "ADA compliance commercial construction California"
+draft: true
 takeaways:
   - "California enforces accessibility through Title 24, which is generally stricter than the federal ADA baseline in areas like path of travel and restroom clearances."
   - "Any tenant improvement or renovation project can trigger a requirement to upgrade the accessible path of travel to the space, not just the space itself."

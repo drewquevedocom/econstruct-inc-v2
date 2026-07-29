@@ -19,6 +19,7 @@ heroImageAlt: "Commercial kitchen hood and fire suppression system installation 
 ogImage: "/projects/85c_Distribution_2.jpg"
 excerpt: "Type 1 hood, exhaust, and fire suppression systems are the most heavily code-regulated element of any food manufacturing build-out, and the most common source of plan check corrections. Here is what the system actually requires."
 targetKeyword: "Type 1 hood installation food manufacturing"
+draft: true
 takeaways:
   - "Type 1 hoods are required over any cooking equipment producing grease-laden vapor, including production-scale fryers, griddles, and ovens in a manufacturing setting."
   - "Fire suppression, make-up air, and exhaust duct clearances are governed by NFPA 96 and enforced through both LA Fire Department and building plan check."

@@ -19,6 +19,7 @@ heroImageAlt: "Commercial construction project for an out-of-state developer bui
 ogImage: "/projects/hutchinson11.jpg"
 excerpt: "California's entitlement process, Title 24 code requirements, and jurisdiction-by-jurisdiction plan check practice catch out-of-state developers off guard more often than any other part of a project. Here are the mistakes that cost the most time and money."
 targetKeyword: "out-of-state developer mistakes California construction"
+draft: true
 takeaways:
   - "Underestimating California entitlement and CEQA review timelines is the single most expensive mistake out-of-state developers make."
   - "Title 24 accessibility and energy code requirements are frequently stricter than what developers have budgeted for based on other states' codes."

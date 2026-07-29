@@ -19,6 +19,7 @@ heroImageAlt: "Commercial building plan check and entitlement documents for a Lo
 ogImage: "/projects/01_Starbucks.jpg"
 excerpt: "Permitting is not a single step at the end of design — it is a strategy that should be built into a commercial project from entitlement through preconstruction. Here is how that strategy actually works in Los Angeles."
 targetKeyword: "commercial permit entitlement strategy Los Angeles"
+draft: true
 takeaways:
   - "Entitlement (zoning, use permits, discretionary approvals) and plan check (building code review) are two different processes and often run through different city departments and timelines."
   - "The most expensive permitting mistakes happen at entitlement, when a project is designed before confirming what the site's zoning and use permits actually allow."

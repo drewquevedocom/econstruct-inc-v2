@@ -19,6 +19,7 @@ heroImageAlt: "Commercial construction project moving through permit review in L
 ogImage: "/projects/02_8thSymphony_web.jpg"
 excerpt: "Every agency that touches a commercial permit in Los Angeles runs on its own timeline. This is a 2026 reference for how long each one typically takes, and how to sequence submittals so they overlap instead of stacking end to end."
 targetKeyword: "commercial construction permit timelines Los Angeles 2026"
+draft: true
 takeaways:
   - "Building plan check, fire department review, health department review, and utility coordination each run on separate timelines that need to be tracked in parallel, not sequentially."
   - "Standard LADBS plan check for a commercial tenant improvement typically runs several weeks to a few months depending on complexity and jurisdiction backlog."

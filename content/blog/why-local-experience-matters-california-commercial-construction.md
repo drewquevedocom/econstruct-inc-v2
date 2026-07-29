@@ -19,6 +19,7 @@ heroImageAlt: "Commercial construction project managed by a locally experienced 
 ogImage: "/projects/hutchinson11.jpg"
 excerpt: "California commercial construction is governed by a dense, jurisdiction-specific layer of code, permitting, and inspection practice that a contractor either knows from experience or learns at the client's expense. Here is what local experience actually buys."
 targetKeyword: "local experience commercial contractor California"
+draft: true
 takeaways:
   - "California building code is a state baseline, but enforcement, interpretation, and plan check process vary significantly by city and even by individual plan checker."
   - "A contractor with local relationships and track record can often anticipate plan check corrections and inspection expectations before submittal."

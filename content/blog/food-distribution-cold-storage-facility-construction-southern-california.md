@@ -19,6 +19,7 @@ heroImageAlt: "Food distribution and cold storage facility construction across S
 ogImage: "/projects/85c_Distribution_2.jpg"
 excerpt: "Before dock configuration or refrigeration engineering, a food distribution or cold storage project starts with two decisions: which Southern California submarket, and what mix of ambient, refrigerated, and frozen space. Get those wrong and no amount of good construction fixes it."
 targetKeyword: "food distribution cold storage facility Southern California"
+draft: true
 takeaways:
   - "Southern California food distribution submarkets, including Vernon, the Inland Empire, Long Beach and San Pedro, and Santa Fe Springs, differ meaningfully in utility capacity, permitting speed, and labor access, not just rent per square foot."
   - "The ambient-versus-refrigerated-versus-frozen mix should be decided before space planning begins; retrofitting cold storage into a facility designed for ambient distribution is far more expensive than designing for it from day one."

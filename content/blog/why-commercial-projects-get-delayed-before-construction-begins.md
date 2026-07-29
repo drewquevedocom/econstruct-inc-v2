@@ -18,6 +18,7 @@ heroImageAlt: "Commercial construction preconstruction planning to avoid project
 ogImage: "/projects/02_8thSymphony_web.jpg"
 excerpt: "Most commercial construction delays are decided before the first permit is issued. The causes are predictable, and every one of them is avoidable with the right preconstruction process."
 targetKeyword: "commercial construction delays Los Angeles"
+draft: true
 takeaways:
   - "Most commercial construction delays are decided during preconstruction, not during the build; by the time framing starts, the schedule risk is already baked in."
   - "Incomplete scope definition, late utility coordination, and underestimated plan check timelines are the three most common preconstruction failures."

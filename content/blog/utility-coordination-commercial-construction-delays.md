@@ -19,6 +19,7 @@ heroImageAlt: "Utility coordination and infrastructure work on a commercial cons
 ogImage: "/projects/01_Starbucks.jpg"
 excerpt: "Utility coordination rarely gets the attention it deserves in preconstruction, and it is one of the most common reasons a fully permitted commercial project still sits idle. Here is why utilities cause so many delays, and how to plan around them."
 targetKeyword: "utility coordination commercial construction delays"
+draft: true
 takeaways:
   - "Utility providers operate on their own timelines, independent of the city permit process, and those timelines are not shortened by an issued building permit."
   - "Electrical service upgrades in particular can take months to schedule with the local utility, and often need to be requested before design is even finalized."

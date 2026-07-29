@@ -19,6 +19,7 @@ heroImageAlt: "Office tenant improvement construction in a Los Angeles commercia
 ogImage: "/Photorealistic_cinematic_interior_202604121940_web.jpg"
 excerpt: "Office tenant improvements involve a building owner, a tenant, and a construction team, and each has a different set of expectations that need to be aligned before the first wall comes down. Here is what a realistic TI process actually looks like."
 targetKeyword: "office tenant improvement process expectations"
+draft: true
 takeaways:
   - "A tenant improvement allowance sets the budget ceiling, and TI scope has to be designed against that number early, not after drawings are finished."
   - "Building owners and tenants often have different priorities in the same TI project, and misaligned expectations are a common source of disputes."

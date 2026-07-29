@@ -19,6 +19,7 @@ heroImageAlt: "Food production and processing facility construction in Southern 
 ogImage: "/projects/85c_Distribution_2.jpg"
 excerpt: "Food production and processing facilities carry construction requirements beyond a standard industrial building — sanitary materials, health department approval, and tight coordination with process equipment. Here is what the build actually involves."
 targetKeyword: "food production facility construction Southern California"
+draft: true
 takeaways:
   - "Food production facilities require sanitary finish materials — coved bases, non-porous walls, and washable ceilings — that a standard industrial build-out does not include by default."
   - "Health department approval runs alongside standard building plan check and can review layout, drainage, and equipment clearances independently."

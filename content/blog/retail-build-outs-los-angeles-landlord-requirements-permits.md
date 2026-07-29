@@ -19,6 +19,7 @@ heroImageAlt: "Retail build-out construction in a Los Angeles shopping center"
 ogImage: "/projects/Untitled-design-87-600x600.png"
 excerpt: "Every retail build-out has to satisfy three overlapping requirements at once: the landlord's design criteria, the city's permit process, and the operator's opening date. Here is how to manage all three without one derailing the others."
 targetKeyword: "retail build-out landlord requirements Los Angeles"
+draft: true
 takeaways:
   - "Landlord design criteria manuals govern storefront appearance, signage, and construction methods, and they are enforced independently of city permit review."
   - "Most shopping centers require landlord approval of construction drawings before a permit set can even be submitted to the city."
