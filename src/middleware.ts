@@ -29,9 +29,19 @@ async function verifyHmac(value: string, secret: string): Promise<boolean> {
   }
 }
 
+// Legacy spam-injection URL patterns from a pre-2023 hack on the old hosting
+// stack (unrelated to this Next.js app). Google still has ~4M of these queued
+// in its crawl backlog; a 410 tells it to drop them for good instead of
+// re-checking a 404 indefinitely, freeing crawl budget for the real site.
+const GONE_PATTERNS = [/^\/85c_distribution_/, /^\/ctg\//];
+
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const host = req.headers.get("host");
+
+  if (GONE_PATTERNS.some((pattern) => pattern.test(pathname))) {
+    return new NextResponse("Gone", { status: 410 });
+  }
 
   if (host === "www.econstructhomes.com") {
     const url = req.nextUrl.clone();
